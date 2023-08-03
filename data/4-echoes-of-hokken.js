@@ -112,7 +112,7 @@ export const cardData = [
     number: "009/136",
   },
   {
-    image: "images/Hokken/Beastking_sAwakening.webp",
+    image: "images/Hokken/BeastkingsAwakening.webp",
     element: "Air",
     cost: 3,
     name: "Beastking's Awakening",
@@ -469,7 +469,7 @@ export const cardData = [
     number: "037/136",
   },
   {
-    image: "images/Hokken/EvvieMelanite_sArchmagus.webp",
+    image: "images/Hokken/EvvieMelanitesArchmagus.webp",
     element: "Dark",
     cost: 3,
     power: 1500,
@@ -556,7 +556,7 @@ export const cardData = [
     number: "044/136",
   },
   {
-    image: "images/Hokken/Herdmother_sFormation.webp",
+    image: "images/Hokken/HerdmothersFormation.webp",
     element: "Fire",
     cost: 3,
     name: "Herdmother's Formation",
@@ -789,7 +789,7 @@ export const cardData = [
     number: "063/136",
   },
   {
-    image: "images/Hokken/Kumakori_sTotem.webp",
+    image: "images/Hokken/KumakorisTotem.webp",
     element: "Water",
     cost: 1,
     name: "Kumakori's Totem",
@@ -853,7 +853,7 @@ export const cardData = [
     number: "068/136",
   },
   {
-    image: "images/Hokken/Melanite_sEnvoy.webp",
+    image: "images/Hokken/MelanitesEnvoy.webp",
     element: "Dark",
     cost: 2,
     power: 1000,
@@ -866,10 +866,10 @@ export const cardData = [
     number: "069/136",
   },
   {
-    image: "images/Hokken/Melanite_sGaze.webp",
+    image: "images/Hokken/MelantiesGaze.webp",
     element: "Dark",
     cost: 1,
-    name: "Melanite's Gaze",
+    name: "Melantie's Gaze",
     type: "Spell",
     subtype: "",
     effect:
@@ -878,7 +878,7 @@ export const cardData = [
     number: "070/136",
   },
   {
-    image: "images/Hokken/Melanite_sManipulation.webp",
+    image: "images/Hokken/MelanitesManipulation.webp",
     element: "Dark",
     cost: 5,
     name: "Melanite's Manipulation",
@@ -952,7 +952,7 @@ export const cardData = [
     number: "076/136",
   },
   {
-    image: "images/Hokken/NeferiaTheQueen_sAssassin.webp",
+    image: "images/Hokken/NeferiaTheQueensAssassin.webp",
     element: "Dark",
     name: "Neferia, the Queen's Assassin",
     type: "Champion",
@@ -1076,7 +1076,7 @@ export const cardData = [
     number: "086/136",
   },
   {
-    image: "images/Hokken/Pengiro_sDecree.webp",
+    image: "images/Hokken/PengirosDecree.webp",
     element: "Water",
     cost: 3,
     name: "Pengiro's Decree",
