@@ -1248,7 +1248,7 @@ export const ascension = [
     name: "Azure Seer",
     type: "Unit",
     effect:
-      '\u03A9 (Place on one or more of your Water units.)\nWater spells cost you (1) less to play for each unit under this card.\nWhenever you would draw a card, you may put a unit under this card into the discard zone instead. If you do, search your deck for a Witch unit or a "Phantasmal" card and add it to your hand.',
+      "Arrive - Look at the top card of your deck and place it back at the top or bottom of your deck.",
     rarity: "Common",
     number: "104/103",
   },
@@ -1261,7 +1261,7 @@ export const ascension = [
     type: "Unit",
     subtype: "Knight",
     effect:
-      '\u03A9 (Place on one or more of your Water units.)\nWater spells cost you (1) less to play for each unit under this card.\nWhenever you would draw a card, you may put a unit under this card into the discard zone instead. If you do, search your deck for a Witch unit or a "Phantasmal" card and add it to your hand.',
+      'Ruined - Add one "Gear" with cost (1) or less from your deck to your hand.',
     rarity: "Common",
     number: "105/103",
   },
@@ -1273,19 +1273,18 @@ export const ascension = [
     name: "Deranged Dragon",
     type: "Unit",
     subtype: "Dragon",
-    effect:
-      '\u03A9 (Place on one or more of your Water units.)\nWater spells cost you (1) less to play for each unit under this card.\nWhenever you would draw a card, you may put a unit under this card into the discard zone instead. If you do, search your deck for a Witch unit or a "Phantasmal" card and add it to your hand.',
+    effect: "This unit must attack each turn if able.",
     rarity: "Common",
     number: "106/103",
   },
   {
-    image: "images/Ascension/DustStrike.webp",
+    image: "images/Ascension/DuskStrike.webp",
     element: "Dark",
     cost: 2,
-    name: "Dust Strike",
+    name: "Dusk Strike",
     type: "Spell",
     effect:
-      "Destroy one of your towers ignoring its effects, and if you do, reveal the top three cards of your deck. You may add a card among them to your hand. Place the rest on the bottom of your deck in any order.",
+      "Instacast You can play this card only if you control a Dark unit. Target unit gets -2500 this turn.",
     rarity: "Common",
     number: "107/103",
   },
@@ -1298,7 +1297,7 @@ export const ascension = [
     type: "Unit",
     subtype: "Golem",
     effect:
-      '\u03A9 (Place on one or more of your Water units.)\nWater spells cost you (1) less to play for each unit under this card.\nWhenever you would draw a card, you may put a unit under this card into the discard zone instead. If you do, search your deck for a Witch unit or a "Phantasmal" card and add it to your hand.',
+      "Arrive - Take control of target unit with cost (1) or less. It cannot attack this turn.",
     rarity: "Common",
     number: "108/103",
   },
@@ -1311,7 +1310,7 @@ export const ascension = [
     type: "Unit",
     subtype: "Fish",
     effect:
-      '\u03A9 (Place on one or more of your Water units.)\nWater spells cost you (1) less to play for each unit under this card.\nWhenever you would draw a card, you may put a unit under this card into the discard zone instead. If you do, search your deck for a Witch unit or a "Phantasmal" card and add it to your hand.',
+      "Arrive - Exhaust target unit.\nRuined - Return target unit to the top of its owner's",
     rarity: "Common",
     number: "109/103",
   },
@@ -1324,7 +1323,7 @@ export const ascension = [
     type: "Unit",
     subtype: "Dragon",
     effect:
-      '\u03A9 (Place on one or more of your Water units.)\nWater spells cost you (1) less to play for each unit under this card.\nWhenever you would draw a card, you may put a unit under this card into the discard zone instead. If you do, search your deck for a Witch unit or a "Phantasmal" card and add it to your hand.',
+      "While you control two or more other Dragon units, this card has Quickness.",
     rarity: "Common",
     number: "110/103",
   },
@@ -1337,7 +1336,7 @@ export const ascension = [
     type: "Unit",
     subtype: "Skyraider",
     effect:
-      '\u03A9 (Place on one or more of your Water units.)\nWater spells cost you (1) less to play for each unit under this card.\nWhenever you would draw a card, you may put a unit under this card into the discard zone instead. If you do, search your deck for a Witch unit or a "Phantasmal" card and add it to your hand.',
+      "Exhaust: Return this card to its owner's hand, and, if you do, your Airship units cost (1) less to play this turn.",
     rarity: "Common",
     number: "111/103",
   },
@@ -1350,7 +1349,7 @@ export const ascension = [
     type: "Unit",
     subtype: "Airship",
     effect:
-      '\u03A9 (Place on one or more of your Water units.)\nWater spells cost you (1) less to play for each unit under this card.\nWhenever you would draw a card, you may put a unit under this card into the discard zone instead. If you do, search your deck for a Witch unit or a "Phantasmal" card and add it to your hand.',
+      "Arrive - Exhaust target unit.\nRuined - You can put target Skyraider unit with cost (2) or less from your discard zone into play.",
     rarity: "Common",
     number: "112/103",
   },
@@ -1361,8 +1360,7 @@ export const ascension = [
     name: "Standard Shardsword",
     type: "Augment",
     subtype: "Gear",
-    effect:
-      "Equip to target unit.\nWhenever the equipped unit attacks - Draw a card, then discard a card.",
+    effect: "Equip to target unit.\nIt gets +500 and Target Attack.s",
     rarity: "Common",
     number: "113/103",
   },
