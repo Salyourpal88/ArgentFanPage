@@ -1,10 +1,11 @@
 import { cardData } from "../data/4-echoes-of-hokken.js";
+import { ascension } from "../data/3-ascension.js";
 
 let imageString = "";
 
-let filteredList = cardData.slice();
+let filteredList = ascension.slice();
 
-cardData.forEach((value) => {
+ascension.forEach((value) => {
   imageString += `<div class='image-formating'><img src="${value.image}" /></div>`;
 });
 document.querySelector(".first").innerHTML = imageString;
@@ -29,7 +30,7 @@ document.querySelector(".filter-button").addEventListener("click", () => {
 
   let displayWord = "";
   filteredList.forEach((value) => {
-    displayWord += `<img src="${value.image}" />`;
+    displayWord += `<div class='image-formating'><img src="${value.image}" /></div>`;
   });
   document.querySelector(".first").innerHTML = displayWord;
 
@@ -42,7 +43,7 @@ document.querySelector(".filter-button").addEventListener("click", () => {
   document.querySelector(".effect-filter").value = "";
   document.querySelector(".rarity-filter").value = "";
 
-  filteredList = cardData;
+  filteredList = ascension;
 });
 
 function filtered(word) {
@@ -79,7 +80,10 @@ function filterType(type) {
 
 function filterSubtype(subtype) {
   filteredList = filteredList.filter((value) => {
-    return value?.subtype
+    if (value.subtype === undefined) {
+      return false;
+    }
+    return value.subtype
       .toLocaleUpperCase()
       .includes(subtype.toLocaleUpperCase());
   });
@@ -87,6 +91,9 @@ function filterSubtype(subtype) {
 
 function filterEffect(effect) {
   filteredList = filteredList.filter((value) => {
+    if (value.effect === undefined) {
+      return false;
+    }
     return value.effect
       .toLocaleUpperCase()
       .includes(effect.toLocaleUpperCase());
