@@ -1,11 +1,12 @@
 import { cardData } from "../data/4-echoes-of-hokken.js";
 import { ascension } from "../data/3-ascension.js";
+import { revelations } from "../data/2-revelations.js";
 
 let imageString = "";
 
-let filteredList = ascension.slice();
+let filteredList = revelations.slice();
 
-ascension.forEach((value) => {
+revelations.forEach((value) => {
   imageString += `<div class='image-formating'><img src="${value.image}" /></div>`;
 });
 document.querySelector(".first").innerHTML = imageString;
@@ -43,7 +44,7 @@ document.querySelector(".filter-button").addEventListener("click", () => {
   document.querySelector(".effect-filter").value = "";
   document.querySelector(".rarity-filter").value = "";
 
-  filteredList = ascension;
+  filteredList = revelations;
 });
 
 function filtered(word) {
