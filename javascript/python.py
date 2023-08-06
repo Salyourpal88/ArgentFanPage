@@ -89,10 +89,14 @@ sal = [
   'vehemont-crimson-guardian',
   'vengeful-dragon',
   'vi-giver-of-light',
-  'argent-shard'
+  'argent-shard-air',
+  'argent-shard-dark',
+  'argent-shard-fire',
+  'argent-shard-light',
+  'argent-shard-water'
 ]
-path = r"C:\Users\salva\OneDrive\Documents\AS_Database\images\Intro-Deck-2019\*"
-folder = r"C:\Users\salva\OneDrive\Documents\AS_Database\images\Intro-Deck-2019"
+path = r"C:\Users\salva\OneDrive\Documents\AS_Database\images\Alpha-Demo-Decks\*"
+folder = r"C:\Users\salva\OneDrive\Documents\AS_Database\images\Alpha-Demo-Decks"
 filelist = glob.glob(path)
 for infile, i in enumerate(sorted(filelist)): 
   #do some fancy stuff
