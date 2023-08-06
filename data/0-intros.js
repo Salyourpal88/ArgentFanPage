@@ -1,0 +1,1076 @@
+export const intros = [
+  {
+    image: "images/Intro-Deck-2019/ariana-young-prodigy.webp",
+    element: "air",
+    cost: 3,
+    power: 1500,
+    name: "Ariana, Young Prodigy",
+    type: "Unit",
+    rarity: "Intro Deck",
+    number: "01/86",
+    effect:
+      'Arrive (When this card enters the field zone.) - Search your deck for a card with "Kala" in its name and add it to your hand.\n' +
+      "Pay 1: Return this card to its owner's hand.",
+  },
+  {
+    image: "images/Intro-Deck-2019/azure-guardian.webp",
+    element: "water",
+    cost: 2,
+    power: 2000,
+    name: "Azure Guardian",
+    type: "Unit",
+    rarity: "Intro Deck",
+    number: "02/86",
+    effect:
+      "Guardian (Exhaust this card to make an attacking Unit attack this one instead.)\n" +
+      "This Unit cannot attack.",
+  },
+  {
+    image: "images/Intro-Deck-2019/azure-seer.webp",
+    element: "water",
+    cost: 1,
+    power: 1000,
+    name: "Azure Seer",
+    type: "Unit",
+    rarity: "Intro Deck",
+    number: "03/86",
+    effect:
+      "Arrive - Look at the top card of your deck and place it back at the top or bottom of your deck.",
+  },
+  {
+    image: "images/Intro-Deck-2019/booster-dragon.webp",
+    element: "fire",
+    cost: 2,
+    power: 1500,
+    name: "Booster Dragon",
+    type: "Unit",
+    subtype: "dragon",
+    rarity: "Intro Deck",
+    number: "04/86",
+    effect: "Arrive – Target Dragon Unit gets +1000 this turn.",
+  },
+  {
+    image: "images/Intro-Deck-2019/corona-the-fire-spirit.webp",
+    element: "fire",
+    affinity: 8,
+    name: "Corona, the Fire Spirit",
+    type: "Spirit",
+    rarity: "Intro Deck",
+    number: "05/86",
+    effect:
+      "Once per turn, during your turn, discard one Fire unit from your hand: Deal 500 to target unit.\n" +
+      "During your turn, Soulburst: Target unit gains Quickness this turn.",
+  },
+  {
+    image: "images/Intro-Deck-2019/corum-assassin.webp",
+    element: "light",
+    cost: 4,
+    power: 2000,
+    name: "Corum Assassin",
+    type: "Unit",
+    rarity: "Intro Deck",
+    number: "06/86",
+    effect:
+      "Quickness (This Unit can attack or activate Exhaust abilities the turn it is played.)\n" +
+      "Arrive (When this card enters the field zone.) - You can sacrifice a Gear you control to destroy target Unit your opponent controls.",
+  },
+  {
+    image: "images/Intro-Deck-2019/corum-blademaster.webp",
+    element: "light",
+    cost: 4,
+    power: 2500,
+    name: "Corum Blademaster",
+    type: "Unit",
+    subtype: "knight",
+    rarity: "Intro Deck",
+    number: "07/86",
+    effect:
+      " Arrive (When this card enters the field zone.) - Target one Gear in your discard zone and equip it to this card.",
+  },
+  {
+    image: "images/Intro-Deck-2019/corum-craftsman.webp",
+    element: "light",
+    cost: 3,
+    power: 1500,
+    name: "Corum Craftsman",
+    type: "Unit",
+    rarity: "Intro Deck",
+    number: "08/86",
+    effect:
+      "Arrive (When this card enters the field zone.) - You can add one Gear from your deck to your hand.",
+  },
+  {
+    image: "images/Intro-Deck-2019/corum-lancer.webp",
+    element: "light",
+    cost: 2,
+    power: 1000,
+    name: "Corum Lancer",
+    type: "Unit",
+    subtype: "knight",
+    rarity: "Intro Deck",
+    number: "09/86",
+    effect:
+      "Target Attack (This Unit can attack any Unit.) When this card attacks a Unit - Give this card +500 until end of turn.",
+  },
+  {
+    image: "images/Intro-Deck-2019/corum-phalanx.webp",
+    element: "light",
+    cost: 2,
+    power: 1500,
+    name: "Corum Phalanx",
+    type: "Unit",
+    subtype: "knight",
+    rarity: "Intro Deck",
+    number: "10/86",
+    effect:
+      " Guardian (Exhaust this card to make an attacking Unit attack this one instead.)",
+  },
+  {
+    image: "images/Intro-Deck-2019/corum-rampart.webp",
+    element: "light",
+    cost: 2,
+    power: 1000,
+    name: "Corum Rampart",
+    type: "Unit",
+    subtype: "knight",
+    rarity: "Intro Deck",
+    number: "11/86",
+    effect: "This Unit gets +500 for each Gear equipped to it.",
+  },
+  {
+    image: "images/Intro-Deck-2019/corum-squire.webp",
+    element: "light",
+    cost: 1,
+    power: 1000,
+    name: "Corum Squire",
+    type: "Unit",
+    subtype: "knight",
+    rarity: "Intro Deck",
+    number: "12/86",
+    effect:
+      'Ruined - Add one "Gear" with cost (1) or less from your deck to your hand.',
+  },
+  {
+    image: "images/Intro-Deck-2019/cryptic-deflection.webp",
+    element: "water",
+    cost: 3,
+    name: "Cryptic Deflection",
+    type: "Spell",
+    rarity: "Intro Deck",
+    number: "13/86",
+    effect:
+      " Instacast\n" +
+      `If your Champion is "Jemial, Cryptic Caster", you can remove four counters from that card instead of paying this card's cost. Target Unit cannot be targeted by Spells or Abilities this turn.`,
+  },
+  {
+    image: "images/Intro-Deck-2019/deranged-dragon.webp",
+    element: "fire",
+    cost: 1,
+    power: 1000,
+    name: "Deranged Dragon",
+    type: "Unit",
+    subtype: "dragon",
+    rarity: "Intro Deck",
+    number: "14/86",
+    effect: "This unit must attack each turn if able.",
+  },
+  {
+    image: "images/Intro-Deck-2019/dragonholt-the-dracoborg.webp",
+    element: "fire",
+    name: "Dragonholt, the Dracoborg",
+    type: "Champion",
+    rarity: "Intro Deck",
+    number: "15/86",
+    effect:
+      "Exhaust, pay 1, discard one Fire Unit from your hand: Add one non-Legendary Dragon Unit from your deck to your hand.",
+  },
+  {
+    image: "images/Intro-Deck-2019/dragonic-blast.webp",
+    element: "fire",
+    cost: 2,
+    name: "Dragonic Blast",
+    type: "Spell",
+    rarity: "Intro Deck",
+    number: "16/86",
+    effect:
+      "Instacast (You can play this card any time you have priority.)\n" +
+      "As an additional cost to play this card, Exhaust any number of Dragon Units you control. Deal X000 to up to two target Units (X is the number of Dragons you Exhausted).",
+  },
+  {
+    image: "images/Intro-Deck-2019/dragonic-destroyer.webp",
+    element: "fire",
+    cost: 6,
+    power: 4000,
+    name: "Dragonic Destroyer",
+    type: "Unit",
+    subtype: "dragon",
+    rarity: "Intro Deck",
+    number: "17/86",
+    effect:
+      "Destroyer (When this card attacks a Tower, it attacks two Towers instead.\n" +
+      "Arrive (When this card enters the field zone.) - Sacrifice another Dragon Unit: Deal X to all Units your opponent controls (X is the sacrificed Unit's power).",
+  },
+  {
+    image: "images/Intro-Deck-2019/dragonic-summoner.webp",
+    element: "fire",
+    cost: 3,
+    power: 2000,
+    name: "Dragonic Summoner",
+    type: "Unit",
+    subtype: "dragon",
+    rarity: "Intro Deck",
+    number: "18/86",
+    effect:
+      " Arrive (When this card enters the field zone.) - Put one Dragon Unit with cost 2 or less from your hand into play.",
+  },
+  {
+    image: "images/Intro-Deck-2019/dusk-strike.webp",
+    element: "dark",
+    cost: 2,
+    name: "Dusk Strike",
+    type: "Spell",
+    rarity: "Intro Deck",
+    number: "19/86",
+    effect:
+      "Instacast\n" +
+      "You can play this card only if you control a Dark unit.\n" +
+      "Target unit gets -2500 this turn.",
+  },
+  {
+    image: "images/Intro-Deck-2019/eitan-exiled-prince.webp",
+    element: "air",
+    name: "Eitan, Exiled Prince",
+    type: "Champion",
+    rarity: "Intro Deck",
+    number: "20/86",
+    effect:
+      "Once per turn, pay 1 and sacrifice a Unit you control: Put into play one Air Unit from your hand whose cost is 1 greater than the sacrificed Unit.",
+  },
+  {
+    image: "images/Intro-Deck-2019/enraged-dragon.webp",
+    element: "fire",
+    cost: 4,
+    power: 2500,
+    name: "Enraged Dragon",
+    type: "Unit",
+    subtype: "dragon",
+    rarity: "Intro Deck",
+    number: "21/86",
+    effect:
+      "Arrive (When this card enters the field zone.) - Deal 1000 to target Unit.",
+  },
+  {
+    image: "images/Intro-Deck-2019/exploding-dragon.webp",
+    element: "fire",
+    cost: 2,
+    power: 1500,
+    name: "Exploding Dragon",
+    type: "Unit",
+    subtype: "dragon",
+    rarity: "Intro Deck",
+    number: "22/86",
+    effect:
+      "Ruined (When this card is destroyed or sacrificed.) - Deal 1000 to target Unit.",
+  },
+  {
+    image: "images/Intro-Deck-2019/failed-golem-1.webp",
+    element: "dark",
+    cost: 1,
+    power: 1000,
+    name: "Failed Golem #1",
+    type: "Unit",
+    subtype: "golem",
+    rarity: "Intro Deck",
+    number: "23/86",
+    effect:
+      "Ruined (When this card is destroyed or sacrificed.) You can send one Golem Unit from your deck to the discard zone.",
+  },
+  {
+    image: "images/Intro-Deck-2019/failed-golem-2.webp",
+    element: "dark",
+    cost: 1,
+    power: 500,
+    name: "Failed Golem #2",
+    type: "Unit",
+    subtype: "golem",
+    rarity: "Intro Deck",
+    number: "24/86",
+    effect:
+      'Arrive (When this card enters the field zone.) - Place one counter on your Champion if it is "Hoenna, Immoral Conjurer".',
+  },
+  {
+    image: "images/Intro-Deck-2019/fizzy-the-water-spirit.webp",
+    element: "water",
+    affinity: 8,
+    name: "Fizzy, the Water Spirit",
+    type: "Spirit",
+    rarity: "Intro Deck",
+    number: "25/86",
+    effect:
+      "Once per turn, during your turn, Shard Drain 1: Draw one card.\n" +
+      "During your turn, Soulburst: Draw one card.",
+  },
+  {
+    image: "images/Intro-Deck-2019/force-blast.webp",
+    element: "water",
+    cost: 2,
+    name: "Force Blast",
+    type: "Spell",
+    rarity: "Intro Deck",
+    number: "26/86",
+    effect:
+      "Instacast (You can play this card anytime you have priority.)\n" +
+      "Return target Unit with cost 2 or less to its owner's hand.",
+  },
+  {
+    image: "images/Intro-Deck-2019/golem-of-allurement.webp",
+    element: "dark",
+    cost: 3,
+    power: 1500,
+    name: "Golem Of Allurement",
+    type: "Unit",
+    subtype: "golem",
+    rarity: "Intro Deck",
+    number: "27/86",
+    effect:
+      "Arrive - Take control of target unit with cost (1) or less. It cannot attack this turn.",
+  },
+  {
+    image: "images/Intro-Deck-2019/golem-of-arrogance.webp",
+    element: "dark",
+    cost: 5,
+    power: 2500,
+    name: "Golem Of Arrogance",
+    type: "Unit",
+    subtype: "golem",
+    rarity: "Intro Deck",
+    number: "28/86",
+    effect:
+      "Arrive (When this card enters the field zone.) - If you control another Golem Unit, your opponent sacrifices a Unit. Then, if they have more cards in their hand than you, they discard one card.",
+  },
+  {
+    image: "images/Intro-Deck-2019/golem-of-avarice.webp",
+    element: "dark",
+    cost: 3,
+    power: 2000,
+    name: "Golem Of Avarice",
+    type: "Unit",
+    subtype: "golem",
+    rarity: "Intro Deck",
+    number: "29/86",
+    effect:
+      "Arrive (When this card enters the field zone.) - If you control another Golem Unit, discard one random card from your opponent's hand.",
+  },
+  {
+    image: "images/Intro-Deck-2019/golem-of-devourment.webp",
+    element: "dark",
+    cost: 2,
+    power: 1000,
+    name: "Golem Of Devourment",
+    type: "Unit",
+    subtype: "golem",
+    rarity: "Intro Deck",
+    number: "30/86",
+    effect:
+      "Guardian\n" +
+      "This card cannot deal damage.\n" +
+      'Ruined - Put a "Golem of Devourment" from your deck into play.',
+  },
+  {
+    image: "images/Intro-Deck-2019/golem-of-indolence.webp",
+    element: "dark",
+    cost: 4,
+    power: 2500,
+    name: "Golem Of Indolence",
+    type: "Unit",
+    subtype: "golem",
+    rarity: "Intro Deck",
+    number: "31/86",
+    effect:
+      "Target Attack (This Unit can attack any Unit.) This card only attack Units.\n" +
+      "Arrive (When this card enters the field zone.) - You can discard one card. If you do, this turn this card gains +1000 and Quickness (This Unit can attack or activate Exhaust abilities the turn it is played).",
+  },
+  {
+    image: "images/Intro-Deck-2019/golem-of-jealousy.webp",
+    element: "dark",
+    cost: 2,
+    power: 1000,
+    name: "Golem Of Jealousy",
+    type: "Unit",
+    subtype: "golem",
+    rarity: "Intro Deck",
+    number: "32/86",
+    effect:
+      "Arrive (When this card enters the field zone.) - If you control another Golem Unit, draw one card.",
+  },
+  {
+    image: "images/Intro-Deck-2019/golem-of-vengeance.webp",
+    element: "dark",
+    cost: 6,
+    power: 4000,
+    name: "Golem Of Vengeance",
+    type: "Unit",
+    subtype: "golem",
+    rarity: "Intro Deck",
+    number: "33/86",
+    effect:
+      "Destroyer (When this card attacks a Tower, it attacks two Towers instead.)\n" +
+      "Arrive - Look at your opponent's hand and select one card, then your opponent discards that card. If you control two or more other Golem Units, select two cards instead.",
+  },
+  {
+    image: "images/Intro-Deck-2019/great-stormfish.webp",
+    element: "water",
+    cost: 3,
+    power: 1500,
+    name: "Great Stormfish",
+    type: "Unit",
+    subtype: "fish",
+    rarity: "Intro Deck",
+    number: "34/86",
+    effect:
+      "Arrive - Exhaust target unit.\n" +
+      "Ruined - Return target unit to the top of its owner's",
+  },
+  {
+    image: "images/Intro-Deck-2019/greathawk-of-cloudsea.webp",
+    element: "air",
+    cost: 3,
+    power: 1500,
+    name: "Greathawk of Cloudsea",
+    type: "Unit",
+    subtype: "beast",
+    rarity: "Intro Deck",
+    number: "35/86",
+    effect:
+      "Arrive - If there is a destroyed Air tower, you can exhaust target unit and return another target unit to its owner's hand.",
+  },
+  {
+    image: "images/Intro-Deck-2019/hellish-guardhound.webp",
+    element: "dark",
+    cost: 3,
+    power: 2000,
+    name: "Hellish Guardhound",
+    type: "Unit",
+    subtype: "beast",
+    rarity: "Intro Deck",
+    number: "36/86",
+    effect:
+      "Guardian (Exhaust this card to make an attacking Unit attack this one instead.)\n" +
+      "Arrive (When this card enters the field zone.) - Target Unit cannot attack next turn.",
+  },
+  {
+    image: "images/Intro-Deck-2019/hoenna-immoral-conjurer.webp",
+    element: "dark",
+    name: "Hoenna, Immoral Conjurer",
+    type: "Champion",
+    rarity: "Intro Deck",
+    number: "37/86",
+    effect:
+      "When you destroy a Tower or Unit in battle - Place one counter on this card.\n" +
+      "Remove three counters from this card: Put into play a Golem Token Unit (Unit * Golem/Dark/1500).",
+  },
+  {
+    image: "images/Intro-Deck-2019/holy-slash.webp",
+    element: "light",
+    cost: 2,
+    name: "Holy Slash",
+    type: "Spell",
+    rarity: "Intro Deck",
+    number: "38/86",
+    effect:
+      "Instacast (You can play this card any time you have priority.)\n" +
+      "Destroy target attacking Unit.",
+  },
+  {
+    image: "images/Intro-Deck-2019/hurricane-shot.webp",
+    element: "air",
+    cost: 2,
+    name: "Hurricane Shot",
+    type: "Spell",
+    rarity: "Intro Deck",
+    number: "39/86",
+    effect:
+      "Instacast (You can play this card any time you have priority.)\n" +
+      "As an additional cost to play this card, return an Air Unit from your field to its owner's hand. Destroy target Unit with cost 4 or less.",
+  },
+  {
+    image: "images/Intro-Deck-2019/iakuma-mistmage.webp",
+    element: "water",
+    cost: 5,
+    power: 3000,
+    name: "Iakuma Mistmage",
+    type: "Unit",
+    rarity: "Intro Deck",
+    number: "40/86",
+    effect:
+      "Arrive (When this card enters the field zone.) - Reveal the top three cards of your deck. Add two of those cards to your hand and send the other to your discard zone.",
+  },
+  {
+    image: "images/Intro-Deck-2019/iakuma-silencer.webp",
+    element: "water",
+    cost: 4,
+    power: 2500,
+    name: "Iakuma Silencer",
+    type: "Unit",
+
+    rarity: "Intro Deck",
+    number: "41/86",
+    effect:
+      "Shard Drain 1 (Return one of your Shards to the bottom of your Shard Deck.): target Unit or Augment loses all abilities this turn.",
+  },
+  {
+    image: "images/Intro-Deck-2019/iakuma-stormknight.webp",
+    element: "water",
+    cost: 4,
+    power: 2500,
+    name: "Iakuma Stormknight",
+    type: "Unit",
+    rarity: "Intro Deck",
+    number: "42/86",
+    effect:
+      "Arrive (When this card enters the field zone.) - If you have more destroyed Towers than your opponent, return target Unit to the top or bottom of its owner's deck.",
+  },
+  {
+    image: "images/Intro-Deck-2019/imbued-by-fire.webp",
+    element: "fire",
+    cost: 1,
+    name: "Imbued by Fire",
+    type: "Spell",
+    rarity: "Intro Deck",
+    number: "43/86",
+    effect:
+      " Instacast (You can play this card any time you have priority.)\n" +
+      "Target Fire Unit gets +2000 this turn.",
+  },
+  {
+    image: "images/Intro-Deck-2019/jemial-cryptic-caster.webp",
+    element: "water",
+    name: "Jemial, Cryptic Caster",
+    type: "Champion",
+    rarity: "Intro Deck",
+    number: "44/86",
+    effect:
+      "Place one counter on this card for each Water Unit that comes into play on your field.\n" +
+      "Remove three counters from this card: Draw two cards then discard one card.",
+  },
+  {
+    image: "images/Intro-Deck-2019/juvenile-dragon.webp",
+    element: "fire",
+    cost: 1,
+    power: 1000,
+    name: "Juvenile Dragon",
+    type: "Unit",
+    subtype: "dragon",
+    rarity: "Intro Deck",
+    number: "45/86",
+    effect:
+      "While you control two or more other Dragon units, this card has Quickness.",
+  },
+  {
+    image: "images/Intro-Deck-2019/kala-trusty-companion.webp",
+    element: "air",
+    cost: 2,
+    power: 1000,
+    name: "Kala, Trusty Companion",
+    type: "Unit",
+    subtype: "beast",
+    rarity: "Intro Deck",
+    number: "46/86",
+    effect:
+      'If you control an "Ariana" Unit, this card costs 1 less to play.\n' +
+      'If an "Ariana" Unit would be destroyed, you can destroy this card instead.',
+  },
+  {
+    image: "images/Intro-Deck-2019/kyte-the-air-spirit.webp",
+    element: "air",
+    affinity: 8,
+    name: "Kyte, the Air Spirit",
+    type: "Spirit",
+    rarity: "Intro Deck",
+    number: "47/86",
+    effect:
+      "Once per turn, during your turn, discard one card: Return target Air unit you control to its owner's hand and, if you do, switch one of your exhausted shards to active.\n" +
+      "Soulburst: Return target unit with cost (3) or less to its owner's hand.",
+  },
+  {
+    image: "images/Intro-Deck-2019/liam-traitor-of-knights.webp",
+    element: "light",
+    name: "Liam, Traitor of Knights",
+    type: "Champion",
+    rarity: "Intro Deck",
+    number: "48/86",
+    effect:
+      "When you destroy an opponent's Tower - You can add one Gear from your deck to your hand.\n" +
+      "Once per turn, discard one Gear from your hand: target Unit gets +500 this turn.",
+  },
+  {
+    image: "images/Intro-Deck-2019/locke-knight-of-fury.webp",
+    element: "light",
+    cost: 5,
+    power: 2500,
+    name: "Locke, Knight of Fury",
+    type: "Unit",
+    subtype: "knight",
+    rarity: "Intro Deck",
+    number: "49/86",
+    effect:
+      "Quickness (This Unit can attack or activate Exhaust abilities the turn it is played.)\n" +
+      "When this card attacks - You can equip a Gear from your hand to this card.",
+  },
+  {
+    image: "images/Intro-Deck-2019/lucient-guardian-of-vigilance.webp",
+    element: "light",
+    cost: 5,
+    power: 3000,
+    name: "Lucient, Guardian of Vigilance",
+    type: "Unit",
+
+    rarity: "Intro Deck",
+    number: "50/86",
+    effect:
+      "Guardian\n" +
+      "Arrive - If there is a destroyed Light tower, switch up to two target exhausted Light units to active.",
+  },
+  {
+    image: "images/Intro-Deck-2019/luna-the-dark-spirit.webp",
+    element: "dark",
+    affinity: 8,
+    name: "Luna, the Dark Spirit",
+    type: "Spirit",
+    rarity: "Intro Deck",
+    number: "51/86",
+    effect:
+      "When you destroy a tower or unit in battle - Place one counter on this card.\n" +
+      "During your turn, remove three counters from this card: Your opponent discards one card.\n" +
+      "During your turn, Soulburst: Your opponent discards one card.",
+  },
+  {
+    image: "images/Intro-Deck-2019/mechdragons-flame.webp",
+    element: "fire",
+    cost: 2,
+    name: "Mechdragon's Flame",
+    type: "Spell",
+    rarity: "Intro Deck",
+    number: "52/86",
+    effect:
+      "Expel target Unit if its power is less than the highest power of a Dragon Unit you control.",
+  },
+  {
+    image: "images/Intro-Deck-2019/mei-yus-assistant.webp",
+    element: "water",
+    cost: 3,
+    power: 2000,
+    name: "Mei-Yu's Assistant",
+    type: "Unit",
+    rarity: "Intro Deck",
+    number: "53/86",
+    effect: "Your Water Spell cards cost 1 less to play.",
+  },
+  {
+    image: "images/Intro-Deck-2019/nobe-the-shadow-guardian.webp",
+    element: "dark",
+    cost: 4,
+    power: 2500,
+    name: "Nobe the Shadow Guardian",
+    type: "Unit",
+    subtype: "gargoyle",
+    rarity: "Intro Deck",
+    number: "54/86",
+    effect:
+      "Guardian\n" +
+      "Arrive - If there is a destroyed Dark tower, target unit gets -2000 this turn.",
+  },
+  {
+    image: "images/Intro-Deck-2019/phantasmal-guards.webp",
+    element: "water",
+    cost: 1,
+    name: "Phantasmal Guards",
+    type: "Spell",
+    rarity: "Intro Deck",
+    number: "55/86",
+    effect:
+      "Put two Illusion Unit Tokens into play with Guardian (Unit * Illusion/Water/500). These Tokens cannot attack.",
+  },
+  {
+    image: "images/Intro-Deck-2019/rao-dragon-tamer.webp",
+    element: "fire",
+    cost: 3,
+    power: 1500,
+    name: "Rao Dragon Tamer",
+    type: "Unit",
+    rarity: "Intro Deck",
+    number: "56/86",
+    effect:
+      "Arrive (When this card enters the field zone.) - Switch target Exhausted Dragon Unit to Active.",
+  },
+  {
+    image: "images/Intro-Deck-2019/royal-reflection.webp",
+    element: "air",
+    cost: 2,
+    name: "Royal Reflection",
+    type: "Spell",
+    rarity: "Intro Deck",
+    number: "57/86",
+    effect:
+      "Instacast (You can play this card any time you have priority.)\n" +
+      "Change the target of a Spell or Ability to another legal target.",
+  },
+  {
+    image: "images/Intro-Deck-2019/shard-hoarder.webp",
+    element: "water",
+    cost: 2,
+    power: 1000,
+    name: "Shard Hoarder",
+    type: "Unit",
+    rarity: "Intro Deck",
+    number: "58/86",
+    effect:
+      "Arrive (When this card enters the field zone.) - Draw one card.\n" +
+      "Ruined (When this card is destroyed or sacrificed.) - Discard one card.",
+  },
+  {
+    image: "images/Intro-Deck-2019/shards-of-winter.webp",
+    element: "water",
+    cost: 4,
+    name: "Shards of Winter",
+    type: "Spell",
+    rarity: "Intro Deck",
+    number: "59/86",
+    effect:
+      "Instacast (You can play this card anytime you have priority.)\n" +
+      "Exhaust all Units your opponent controls.",
+  },
+  {
+    image: "images/Intro-Deck-2019/sky-recruit.webp",
+    element: "air",
+    cost: 1,
+    power: 500,
+    name: "Sky Recruit",
+    type: "Unit",
+    subtype: "skyraider",
+    rarity: "Intro Deck",
+    number: "60/86",
+    effect:
+      'Arrive (When this card enters the field zone.) - Add a "Sky Recruit" from your deck to your hand.',
+  },
+  {
+    image: "images/Intro-Deck-2019/skyship-engineer.webp",
+    element: "air",
+    cost: 1,
+    power: 1000,
+    name: "Skyship Engineer",
+    type: "Unit",
+    subtype: "skyraider",
+    rarity: "Intro Deck",
+    number: "61/86",
+    effect:
+      "Exhaust: Return this card to its owner's hand, and, if you do, your Airship units cost (1) less to play this turn.",
+  },
+  {
+    image: "images/Intro-Deck-2019/skytree-aviator.webp",
+    element: "air",
+    cost: 2,
+    power: 1000,
+    name: "Skytree Aviator",
+    type: "Unit",
+    subtype: "skyraider",
+    rarity: "Intro Deck",
+    number: "62/86",
+    effect:
+      "Exhaust: Return this Unit to its owner's hand, and, if you do, Airship Units you control gain +1000 this turn.",
+  },
+  {
+    image: "images/Intro-Deck-2019/skytree-battle-cruiser.webp",
+    element: "air",
+    cost: 5,
+    power: 2500,
+    name: "Skytree Battle Cruiser",
+    type: "Unit",
+    subtype: "airship",
+    rarity: "Intro Deck",
+    number: "63/86",
+    effect:
+      "This card cannot be targeted by Spells.\n" +
+      "Ruined (When this Unit is destroyed or sacrificed.) - You can put target Skyraider Unit with cost 3 or less from your discard zone into play.",
+  },
+  {
+    image: "images/Intro-Deck-2019/skytree-blockadeship.webp",
+    element: "air",
+    cost: 4,
+    power: 2500,
+    name: "Skytree Blockadeship",
+    type: "Unit",
+    subtype: "airship",
+    rarity: "Intro Deck",
+    number: "64/86",
+    effect:
+      "Guardian (Exhaust this card to make an attacking Unit attack this one instead.)\n" +
+      "Units in front of this card cannot attack.",
+  },
+  {
+    image: "images/Intro-Deck-2019/skytree-dragon.webp",
+    element: "air",
+    cost: 3,
+    power: 2000,
+    name: "Skytree Dragon",
+    type: "Unit",
+    subtype: "dragon",
+    rarity: "Intro Deck",
+    number: "65/86",
+    effect:
+      " Arrive (When this card enters the field zone.) - If two or more of your Air Units have returned to your hand this turn from the field, return target Unit to its owner's hand.\n" +
+      "When this card attacks - target Unit cannot use Guardian this turn.",
+  },
+  {
+    image: "images/Intro-Deck-2019/skytree-sandship.webp",
+    element: "air",
+    cost: 4,
+    power: 2000,
+    name: "Skytree Sandship",
+    type: "Unit",
+    subtype: "airship",
+    rarity: "Intro Deck",
+    number: "66/86",
+    effect:
+      "Arrive - Exhaust target unit.\n" +
+      "Ruined - You can put target Skyraider unit with cost (2) or less from your discard zone into play.",
+  },
+  {
+    image: "images/Intro-Deck-2019/skytree-warship.webp",
+    element: "air",
+    cost: 6,
+    power: 3000,
+    name: "Skytree Warship",
+    type: "Unit",
+    subtype: "airship",
+    rarity: "Intro Deck",
+    number: "67/86",
+    effect:
+      "Destroyer\n" +
+      "Arrive - Destroy target Unit with cost 4 or less.\n" +
+      "Ruined - You can put target Skyraider Unit or Airship Unit with cost 4 or less from your discard zone into play.",
+  },
+  {
+    image: "images/Intro-Deck-2019/sola-the-light-spirit.webp",
+    element: "light",
+    affinity: 8,
+    name: "Sola, the Light Spirit",
+    type: "Spirit",
+    rarity: "Intro Deck",
+    number: "68/86",
+    effect:
+      "At the end of your turn - You can switch one of your exhausted units to active.\n" +
+      "Soulburst: Put into play a Knight unit token with Guardian (Unit * Knight/Light/2000).",
+  },
+  {
+    image: "images/Intro-Deck-2019/soulfire-dragon.webp",
+    element: "fire",
+    cost: 4,
+    power: 2500,
+    name: "Soulfire Dragon",
+    type: "Unit",
+    subtype: "dragon",
+    rarity: "Intro Deck",
+    number: "69/86",
+    effect:
+      "Ruined (When this card is destroyed or sacrificed.) - Search your deck for a Dragon Unit with cost of 1 and put it into play.",
+  },
+  {
+    image: "images/Intro-Deck-2019/standard-shardarmor.webp",
+    element: "light",
+    cost: 1,
+    name: "Standard Shardarmor",
+    type: "Augment",
+    subtype: "gear",
+    rarity: "Intro Deck",
+    number: "70/86",
+    effect:
+      "Equip to target Unit.\n" +
+      "If it would take damage, you can sacrifice this card and prevent that damage instead.",
+  },
+  {
+    image: "images/Intro-Deck-2019/standard-shardshield.webp",
+    element: "light",
+    cost: 1,
+    name: "Standard Shardshield",
+    type: "Augment",
+    subtype: "gear",
+    rarity: "Intro Deck",
+    number: "71/86",
+    effect:
+      "Equip to target Unit.\n" +
+      "It gains Guardian (Exhaust this card to make an attacking Unit attack this one instead.).\n" +
+      "When the equipped Unit uses Guardian - It gets +1000 this turn.",
+  },
+  {
+    image: "images/Intro-Deck-2019/standard-shardsword.webp",
+    element: "light",
+    cost: 1,
+    name: "Standard Shardsword",
+    type: "Augment",
+    subtype: "gear",
+    rarity: "Intro Deck",
+    number: "72/86",
+    effect: "Equip to target unit.\nIt gets +500 and Target Attack.",
+  },
+  {
+    image: "images/Intro-Deck-2019/stormcaster-of-azure-tower.webp",
+    element: "water",
+    cost: 6,
+    power: 4000,
+    name: "Stormcaster of Azure Tower",
+    type: "Unit",
+    rarity: "Intro Deck",
+    number: "73/86",
+    effect:
+      "Destroyer\n" +
+      "Arrive - If there is a destroyed Water Tower, return up to two target Units your opponent controls to the bottom of their owner's deck in any order.",
+  },
+  {
+    image: "images/Intro-Deck-2019/stormfish.webp",
+    element: "water",
+    cost: 2,
+    power: 1000,
+    name: "Stormfish",
+    type: "Unit",
+    subtype: "fish",
+    rarity: "Intro Deck",
+    number: "74/86",
+    effect:
+      "Ruined (When this card is destroyed or sacrificed.) - Return target Unit to its owner's hand.",
+  },
+  {
+    image: "images/Intro-Deck-2019/strike-of-the-golems.webp",
+    element: "dark",
+    cost: 5,
+    name: "Strike of the Golems",
+    type: "Spell",
+    rarity: "Intro Deck",
+    number: "75/86",
+    effect:
+      "Put into play up to two target Golem Units from your discard zone with combined cost of 5 or less.",
+  },
+  {
+    image: "images/Intro-Deck-2019/tornado-shot.webp",
+    element: "air",
+    cost: 1,
+    name: "Tornado Shot",
+    type: "Spell",
+    rarity: "Intro Deck",
+    number: "76/86",
+    effect:
+      "Instacast (You can play this card any time you have priority.)\n" +
+      "Play only if an Air Unit returned to your hand from the field thisturn.\n" +
+      "Deal 2000 to target Unit.",
+  },
+  {
+    image: "images/Intro-Deck-2019/tower-of-air.webp",
+    element: "air",
+    defense: 1000,
+    name: "Tower of Air",
+    type: "Tower",
+    rarity: "Intro Deck",
+    number: "77/86",
+    effect:
+      "When this card is destroyed, you can return up to two Units from the field to their owner's hand.",
+  },
+  {
+    image: "images/Intro-Deck-2019/tower-of-darkness.webp",
+    element: "dark",
+    defense: 1500,
+    name: "Tower of Darkness",
+    type: "Tower",
+    rarity: "Intro Deck",
+    number: "78/86",
+    effect:
+      "When this card is destroyed, you can look at your opponent's hand and select one card, then your opponent discards that card.",
+  },
+  {
+    image: "images/Intro-Deck-2019/tower-of-fire.webp",
+    element: "fire",
+    defense: 1000,
+    name: "Tower of Fire",
+    type: "Tower",
+    rarity: "Intro Deck",
+    number: "79/86",
+    effect: "When this card is destroyed, you can destroy a Unit.",
+  },
+  {
+    image: "images/Intro-Deck-2019/tower-of-light.webp",
+    element: "light",
+    defense: 1500,
+    name: "Tower of Light",
+    type: "Tower",
+    rarity: "Intro Deck",
+    number: "80/86",
+    effect:
+      "When this card is destroyed, you can put into play a Knight Unit Token with Guardian (Unit * Knight/Light/2000).",
+  },
+  {
+    image: "images/Intro-Deck-2019/tower-of-water.webp",
+    element: "water",
+    defense: 1500,
+    name: "Tower of Water",
+    type: "Tower",
+    rarity: "Intro Deck",
+    number: "81/86",
+    effect: "When this card is destroyed, you can draw two cards.",
+  },
+  {
+    image: "images/Intro-Deck-2019/uncertain-experiment.webp",
+    element: "dark",
+    cost: 1,
+    name: "Uncertain Experiment",
+    type: "Spell",
+    rarity: "Intro Deck",
+    number: "82/86",
+    effect:
+      "Look at the top four cards of your deck. You can reveal one Golem Unit among them and add it to your hand. Place the rest of the cards on the bottom of your deck in any order.",
+  },
+  {
+    image: "images/Intro-Deck-2019/vehemont-crimson-guardian.webp",
+    element: "fire",
+    cost: 5,
+    power: 3000,
+    name: "Vehemont, Crimson Guardian",
+    type: "Unit",
+    subtype: "dragon",
+    rarity: "Intro Deck",
+    number: "83/86",
+    effect: "Arrive - If there is a destroyed Fire tower, destroy target unit.",
+  },
+  {
+    image: "images/Intro-Deck-2019/vengeful-dragon.webp",
+    element: "fire",
+    cost: 5,
+    power: 3500,
+    name: "Vengeful Dragon",
+    type: "Unit",
+    subtype: "dragon",
+    rarity: "Intro Deck",
+    number: "84/86",
+    effect:
+      "This Unit costs 2 less to play if a Dragon Unit was destroyed this turn.",
+  },
+  {
+    image: "images/Intro-Deck-2019/vi-giver-of-light.webp",
+    element: "light",
+    cost: 1,
+    power: 500,
+    name: "Vi, Giver of Light",
+    type: "Unit",
+    rarity: "Intro Deck",
+    number: "85/86",
+    effect:
+      "Arrive - Send one Gear from your deck to the discard zone.\n" +
+      "Sacrifice this card: Target Light Unit gets +500 this turn.",
+  },
+  {
+    image: "images/Intro-Deck-2019/argent-shard.webp",
+    name: "Argent Shard",
+    type: "Basic Shard",
+    rarity: "Intro Deck",
+    number: "86/86",
+    effect: "Exhaust: Produce 1.",
+  },
+];
