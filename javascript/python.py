@@ -4,34 +4,34 @@ import glob
 # Function to rename multiple files
 
 sal = [
-  'beckoner-of-dreams',
-  'black-rose-knight',
-  'ella-the-sky-huntress',
-  'harbinger-of-vabriel',
-  'melody-of-ages',
-  'return-to-slumber',
-  'serena-witch-of-sealing',
-  'sigil-of-exile',
-  'sigil-of-loss',
-  'sigil-of-renewal',
-  'slate-gargoyle',
-  'songstress-of-the-cloudsea',
-  'spawn-of-bahamute',
-  'taphael-fallen-celestial-of-rottar',
-  'the-greatest-heist',
-  'thief-of-valoi',
-  'tower-of-surging-flames',
-  'tower-of-surging-gales',
-  'tower-of-surging-radiance',
-  'tower-of-surging-shadows',
-  'tower-of-surging-torrents',
-  'voidfire-desolation',
-  'voidfire-dragon',
-  'vrscika-the-scorpion-hammer',
-  'warden-of-vrscika'
+  'arianas-resolve',
+  'ashborn-conjurer',
+  'ashborn-shaman',
+  'battle-angel-of-dominion',
+  'commander-of-light',
+  'dance-of-blades',
+  'deathwhisperer',
+  'delayed-poison',
+  'expanding-elemental',
+  'grove-elemental',
+  'isa-the-cloudmender',
+  'jacobi-the-vampire-king',
+  'lloyd-cosmic-enigma',
+  'longinus-mythical-shardlance',
+  'maiden-of-leviathan',
+  'rao-wyvern-rider',
+  'ready-for-war',
+  'shadow-liger',
+  'shard-spider',
+  'skytree-command-center',
+  'tempest-punch',
+  'tidal-rush',
+  'true-kings-greatsword',
+  'vi-matron-of-miracles',
+  'yurei-dire-wolf-of-the-garden'
 ]
-path = r"C:\Users\salva\OneDrive\Documents\AS_Database\images\Expansion-Pack-Genesis\*"
-folder = r"C:\Users\salva\OneDrive\Documents\AS_Database\images\Expansion-Pack-Genesis"
+path = r"C:\Users\salva\OneDrive\Documents\AS_Database\images\Expansion-Pack-Conviction\*"
+folder = r"C:\Users\salva\OneDrive\Documents\AS_Database\images\Expansion-Pack-Conviction"
 filelist = glob.glob(path)
 for infile, i in enumerate(sorted(filelist)): 
   #do some fancy stuff

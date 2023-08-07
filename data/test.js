@@ -222,7 +222,6 @@ const generations2 = [
     name: "",
     type: "",
     subtype: "",
-    rarity: "",
     number: "",
   },
   {
@@ -232,7 +231,6 @@ const generations2 = [
     name: "",
     type: "",
     subtype: "",
-    rarity: "",
     number: "",
   },
   {
@@ -242,7 +240,6 @@ const generations2 = [
     name: "",
     type: "",
     subtype: "",
-    rarity: "",
     number: "",
   },
   {
@@ -252,7 +249,6 @@ const generations2 = [
     name: "",
     type: "",
     subtype: "",
-    rarity: "",
     number: "",
   },
   {
@@ -262,7 +258,6 @@ const generations2 = [
     name: "",
     type: "",
     subtype: "",
-    rarity: "",
     number: "",
   },
   {
@@ -272,7 +267,6 @@ const generations2 = [
     name: "",
     type: "",
     subtype: "",
-    rarity: "",
     number: "",
   },
   {
@@ -282,7 +276,6 @@ const generations2 = [
     name: "",
     type: "",
     subtype: "",
-    rarity: "",
     number: "",
   },
   {
@@ -292,7 +285,6 @@ const generations2 = [
     name: "",
     type: "",
     subtype: "",
-    rarity: "",
     number: "",
   },
   {
@@ -302,7 +294,6 @@ const generations2 = [
     name: "",
     type: "",
     subtype: "",
-    rarity: "",
     number: "",
   },
   {
@@ -312,7 +303,6 @@ const generations2 = [
     name: "",
     type: "",
     subtype: "",
-    rarity: "",
     number: "",
   },
   {
@@ -322,7 +312,7 @@ const generations2 = [
     name: "",
     type: "",
     subtype: "",
-    rarity: "",
+
     number: "",
   },
   {
@@ -332,7 +322,6 @@ const generations2 = [
     name: "",
     type: "",
     subtype: "",
-    rarity: "",
     number: "",
   },
   {
@@ -342,7 +331,6 @@ const generations2 = [
     name: "",
     type: "",
     subtype: "",
-    rarity: "",
     number: "",
   },
   {
@@ -352,7 +340,6 @@ const generations2 = [
     name: "",
     type: "",
     subtype: "",
-    rarity: "",
     number: "",
   },
   {
@@ -362,7 +349,6 @@ const generations2 = [
     name: "",
     type: "",
     subtype: "",
-    rarity: "",
     number: "",
   },
   {
@@ -372,7 +358,6 @@ const generations2 = [
     name: "",
     type: "",
     subtype: "",
-    rarity: "",
     number: "",
   },
   {
@@ -382,7 +367,6 @@ const generations2 = [
     name: "",
     type: "",
     subtype: "",
-    rarity: "",
     number: "",
   },
   {
@@ -392,7 +376,6 @@ const generations2 = [
     name: "",
     type: "",
     subtype: "",
-    rarity: "",
     number: "",
   },
   {
@@ -402,7 +385,6 @@ const generations2 = [
     name: "",
     type: "",
     subtype: "",
-    rarity: "",
     number: "",
   },
   {
@@ -412,7 +394,6 @@ const generations2 = [
     name: "",
     type: "",
     subtype: "",
-    rarity: "",
     number: "",
   },
   {
@@ -422,7 +403,6 @@ const generations2 = [
     name: "",
     type: "",
     subtype: "",
-    rarity: "",
     number: "",
   },
   {
@@ -432,7 +412,6 @@ const generations2 = [
     name: "",
     type: "",
     subtype: "",
-    rarity: "",
     number: "",
   },
   {
@@ -442,7 +421,6 @@ const generations2 = [
     name: "",
     type: "",
     subtype: "",
-    rarity: "",
     number: "",
   },
   {
@@ -452,7 +430,6 @@ const generations2 = [
     name: "",
     type: "",
     subtype: "",
-    rarity: "",
     number: "",
   },
   {
@@ -462,7 +439,6 @@ const generations2 = [
     name: "",
     type: "",
     subtype: "",
-    rarity: "",
     number: "",
   },
 ];

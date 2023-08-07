@@ -4,13 +4,13 @@ import { revelations } from "../data/2-revelations.js";
 import { betrayal } from "../data/1-betrayal.js";
 import { intros } from "../data/0-intros.js";
 import { alphaIntros } from "../data/alpha-intros.js";
-import { generations, genesis } from "../data/expansion-packs.js";
+import { generations, genesis, conviction } from "../data/expansion-packs.js";
 
 let imageString = "";
 
-let filteredList = genesis.slice();
+let filteredList = conviction.slice();
 
-genesis.forEach((value) => {
+conviction.forEach((value) => {
   imageString += `<div class='image-formating'><img src="${value.image}" /></div>`;
 });
 document.querySelector(".first").innerHTML = imageString;
@@ -48,7 +48,7 @@ document.querySelector(".filter-button").addEventListener("click", () => {
   document.querySelector(".effect-filter").value = "";
   document.querySelector(".rarity-filter").value = "";
 
-  filteredList = genesis;
+  filteredList = conviction;
 });
 
 function filtered(word) {

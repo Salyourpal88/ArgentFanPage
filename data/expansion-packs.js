@@ -580,3 +580,308 @@ export const genesis = [
       'Arrive - If there is a destroyed Light tower, search your deck for "Vrscika, the Scorpion Hammer" and equip it to this card.',
   },
 ];
+
+export const conviction = [
+  {
+    image: "images/Expansion-Pack-Conviction/arianas-resolve.webp",
+    element: "air",
+    cost: 2,
+    name: "Ariana's Resolve",
+    type: "Spell",
+    number: "01/25",
+    effect:
+      'Choose one. If your champion has "Ariana" in its name, you may choose both.\n' +
+      '* Search your deck for an "Ariana" or "AIRA" unit and add it to your hand.\n' +
+      `* Put target "Kala" unit and/or "Ariana's Amulet" from your discard zone into play.`,
+  },
+  {
+    image: "images/Expansion-Pack-Conviction/ashborn-conjurer.webp",
+    element: "fire",
+    cost: 3,
+    power: 1500,
+    name: "Ashborn Conjurer",
+    type: "Unit",
+    subtype: "mystic",
+    number: "02/25",
+    effect:
+      'Whenever your opponent plays a spell or uses an activated ability - You may put into play a Fire Elemental token (Unit * Elemental/Fire/1000) with "Ruined: Deal 500 to target unit."',
+  },
+  {
+    image: "images/Expansion-Pack-Conviction/ashborn-shaman.webp",
+    element: "fire",
+    cost: 2,
+    power: 1000,
+    name: "Ashborn Shaman",
+    type: "Unit",
+    subtype: "mystic",
+    number: "03/25",
+    effect:
+      "Whenever your opponent plays a spell or uses an activated ability - You may search your deck for a Fire spell with cost (1) or less and add it to your hand.",
+  },
+  {
+    image: "images/Expansion-Pack-Conviction/battle-angel-of-dominion.webp",
+    element: "argent",
+    cost: 5,
+    power: 2500,
+    name: "Battle Angel of Dominion",
+    type: "Unit",
+    subtype: "angel",
+    number: "04/25",
+    effect:
+      "Arrive - You may reveal an Argent unit from your hand: If you do, destroy target unit.",
+  },
+  {
+    image: "images/Expansion-Pack-Conviction/commander-of-light.webp",
+    element: "light",
+    cost: 3,
+    power: 1500,
+    name: "Commander of Light",
+    type: "Unit",
+    subtype: "knight",
+    number: "05/25",
+    effect:
+      "Exhaust: Recover all units adjacent to this card. They cannot deal damage until the end of the turn.",
+  },
+  {
+    image: "images/Expansion-Pack-Conviction/dance-of-blades.webp",
+    element: "light",
+    cost: 1,
+    name: "Dance of Blades",
+    type: "Spell",
+    number: "06/25",
+    effect:
+      " Instacast Deal 500 to target unit. If this destroys the unit, put a Knight token (Unit * Knight/Light/1500) into play.",
+  },
+  {
+    image: "images/Expansion-Pack-Conviction/deathwhisperer.webp",
+    element: "dark",
+    cost: 4,
+    power: 2500,
+    name: "Deathwhisperer",
+    type: "Unit",
+    subtype: "demon",
+    number: "07/25",
+    effect:
+      " Arrive - You may sacrifice a unit you control with Ruined. If you do, its Ruined ability triggers twice.",
+  },
+  {
+    image: "images/Expansion-Pack-Conviction/delayed-poison.webp",
+    element: "dark",
+    cost: 1,
+    name: "Delayed Poison",
+    type: "Augment",
+    number: "08/25",
+    effect:
+      "Equip to target unit.\n" +
+      "At the start of your next turn - Destroy the equipped Unit.",
+  },
+  {
+    image: "images/Expansion-Pack-Conviction/expanding-elemental.webp",
+    element: "water",
+    cost: 2,
+    power: 1000,
+    name: "Expanding Elemental",
+    type: "Unit",
+    subtype: "elemental",
+    number: "09/25",
+    effect:
+      'Arrive - You may Shard Drain 1: If you do, search your deck for an "Expanding Elemental" and put it into play.',
+  },
+  {
+    image: "images/Expansion-Pack-Conviction/grove-elemental.webp",
+    element: "air",
+    cost: 2,
+    power: 2000,
+    name: "Grove Elemental",
+    type: "Unit",
+    subtype: "elemental",
+    number: "10/25",
+    effect:
+      "Arrive - If you've played at least two other cards this turn, put the top card of your shard deck into play.\n" +
+      "Whenever this card leaves the field - Your opponent may destroy one of your shards.",
+  },
+  {
+    image: "images/Expansion-Pack-Conviction/isa-the-cloudmender.webp",
+    element: "air",
+    cost: 2,
+    power: 1000,
+    name: "Isa, the Cloudmender",
+    type: "Unit",
+    subtype: "mystic",
+    number: "11/25",
+    effect:
+      "Ruined - You may equip this card to target unit you control (While equipped to another unit, treat this card as an augment, not a unit). If a unit equipped with this card would be destroyed, you may remove all damage from that unit, and destroy this card instead.",
+  },
+  {
+    image: "images/Expansion-Pack-Conviction/jacobi-the-vampire-king.webp",
+    element: "dark",
+    cost: 4,
+    power: 2500,
+    name: "Jacobi, the Vampire King",
+    type: "Unit",
+    subtype: "vampire",
+    number: "12/25",
+    effect:
+      "Sacrifice this card: Put target unit from your opponent's discard zone that was put there from the field this turn into play under your control.",
+  },
+  {
+    image: "images/Expansion-Pack-Conviction/lloyd-cosmic-enigma.webp",
+    element: "argent",
+    cost: 4,
+    power: 2000,
+    name: "Lloyd, Cosmic Enigma",
+    type: "Unit",
+    subtype: "???",
+    number: "13/25",
+    effect:
+      "Arrive - Choose an element, and choose one of the following.\n" +
+      "* This card cannot be targeted by spells or abilities of the declared element.\n" +
+      "* Ignore the effects of all towers with the declared element as long as this card is on the field.",
+  },
+  {
+    image: "images/Expansion-Pack-Conviction/longinus-mythical-shardlance.webp",
+    element: "light",
+    cost: 2,
+    name: "Longinus, Mythical Shardlance",
+    type: "Augment",
+    subtype: "gear",
+    number: "14/25",
+    effect:
+      "Equip to target Unit.\n" +
+      "It gets +1000.\n" +
+      "Sacrifice this card: Deal 1500 to target Unit.\n" +
+      'You can only control one "Longinus, Mythical Shardlance".',
+  },
+  {
+    image: "images/Expansion-Pack-Conviction/maiden-of-leviathan.webp",
+    element: "water",
+    cost: 2,
+    power: 1500,
+    name: "Maiden of Leviathan",
+    type: "Unit",
+    number: "15/25",
+    effect:
+      "Arrive - You may flip one of your towers face-up. Then if you have two or more face-up towers, draw a card.",
+  },
+  {
+    image: "images/Expansion-Pack-Conviction/rao-wyvern-rider.webp",
+    element: "fire",
+    cost: 4,
+    power: 1500,
+    name: "Rao Wyvern Rider",
+    type: "Unit",
+    subtype: "dragon",
+    number: "16/25",
+    effect:
+      "Quickness\nRuined - Put a Rao Unit Token into play (Unit * Fire/1000).",
+  },
+  {
+    image: "images/Expansion-Pack-Conviction/ready-for-war.webp",
+    element: "fire",
+    cost: 6,
+    name: "Ready for War",
+    type: "Spell",
+    number: "17/25",
+    effect:
+      " Instacast\n" +
+      "Reveal the top five cards of your deck. Put into play as many revealed Fire units as possible with cost (3) or less. Send the rest to the discard zone.",
+  },
+  {
+    image: "images/Expansion-Pack-Conviction/shadow-liger.webp",
+    element: "dark",
+    cost: 1,
+    power: 1000,
+    name: "Shadow Liger",
+    type: "Unit",
+    subtype: "beast",
+    number: "18/25",
+    effect:
+      "Whenever this card attacks or is attacked - Send the top two cards of your deck to the discard zone.",
+  },
+  {
+    image: "images/Expansion-Pack-Conviction/shard-spider.webp",
+    element: "argent",
+    cost: 3,
+    power: 1500,
+    name: "Shard Spider",
+    type: "Unit",
+    subtype: "beast",
+    number: "19/25",
+    effect:
+      "If you have more destroyed towers than your opponent, and they control more units than you, this card cost (3) less to play.\n" +
+      "Arrive - Exhaust target unit your opponent controls. It does not recover during your opponent's next charge phase.",
+  },
+  {
+    image: "images/Expansion-Pack-Conviction/skytree-command-center.webp",
+    element: "air",
+    cost: 1,
+    name: "Skytree Command Center",
+    type: "Augment",
+    number: "20/25",
+    effect:
+      "When a unit is returned to your hand from the field - Place one counter on this card for each.\n" +
+      "Exhaust, remove any number of counters from this card: Put into play one unit from your hand with cost equal to the number of counters removed.",
+  },
+  {
+    image: "images/Expansion-Pack-Conviction/tempest-punch.webp",
+    element: "air",
+    cost: 1,
+    name: "Tempest Punch",
+    type: "Spell",
+    number: "21/25",
+    effect:
+      "Instacast\n" +
+      `Target attacking unit you control gets +2000, and return it to its owner's hand at the end of the turn. If your champion has "Ariana" in its name, that unit also cannot be targeted by your opponent's spells or abilities this turn.`,
+  },
+  {
+    image: "images/Expansion-Pack-Conviction/tidal-rush.webp",
+    element: "water",
+    cost: 3,
+    name: "Tidal Rush",
+    type: "Spell",
+    number: "22/25",
+    effect:
+      "Instacast\n" +
+      "As an additional cost to play this card, you may Shard Drain 1. If you do, return target unit to its owner's hand.\n" +
+      "Return target unit to its owner's hand, then draw one card.",
+  },
+  {
+    image: "images/Expansion-Pack-Conviction/true-kings-greatsword.webp",
+    element: "argent",
+    cost: 4,
+    name: "True King's Greatsword",
+    type: "Augment",
+    subtype: "legendary gear",
+    number: "23/25",
+    effect:
+      "Equip to target unit. The equipped unit gets +500. Whenever the equipped card destroys a unit in battle - Place two counters on this card.\n" +
+      "Remove a counter from this card: Deal 1000 to target unit.\n" +
+      "Remove two counters from this card: Deal 1000 to target face-up tower.",
+  },
+  {
+    image: "images/Expansion-Pack-Conviction/vi-matron-of-miracles.webp",
+    element: "light",
+    cost: 3,
+    power: 1500,
+    name: "Vi, Matron of Miracles",
+    type: "Unit",
+    subtype: "mystic",
+    number: "24/25",
+    effect:
+      "Expel any number of Gear from your discard zone: Target unit you control with cost (X) or less cannot be targeted by spells or abilities this turn. If it's exhausted, recover it. (X equals the total cost of Gear you expelled.)",
+  },
+  {
+    image:
+      "images/Expansion-Pack-Conviction/yurei-dire-wolf-of-the-garden.webp",
+    element: "argent",
+    cost: 4,
+    power: 2500,
+    name: "Yurei, Dire Wolf of the Garden",
+    type: "Unit",
+    subtype: "legendary beast",
+    number: "25/25",
+    effect:
+      "Brawler\n" +
+      `Arrive - If you destroyed an opponent's tower this turn, search your deck or discard zone for "True King's Greatsword" and equip it to this card.`,
+  },
+];
