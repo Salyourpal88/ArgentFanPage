@@ -1,213 +1,216 @@
-generations = [
+const generations = [
   {
-    searchable: "amateur-witch",
-    name: "Amateur Witch",
+    searchable: "beckoner-of-dreams",
+    name: "Beckoner of Dreams",
+    type: "mystic",
     element: "water",
-    url: "https://argent-saga-card-bucket.s3.amazonaws.com/amateur-witch.jpg",
-    effect: "",
-  },
-  {
-    searchable: "arbor-carbuncle",
-    name: "Arbor Carbuncle",
-    type: "beast",
-    element: "air",
-    url: "https://argent-saga-card-bucket.s3.amazonaws.com/arbor-carbuncle.jpg",
+    url: "https://argent-saga-card-bucket.s3.amazonaws.com/beckoner-of-dreams.png",
     effect:
-      'When this card is returned to your hand from the field - You may search your deck for an "Arbor Carbuncle" and add it to your hand.\nDuring your turn, expel this card and two other "Arbor Carbuncle" from your hand: Draw two cards and switch up to two of your shards to active.',
+      "Arrive - Expel any number of spells with Shard Drain from your discard zone: Take control of target unit with cost equal to the number of cards you expelled.",
   },
   {
-    searchable: "ariana-adventurer-of-argos",
-    name: "Ariana, Adventurer of Argos",
-    element: "air",
-    url: "https://argent-saga-card-bucket.s3.amazonaws.com/ariana-adventurer-of-argos.jpg",
-    effect:
-      'At the start of the game (after mulligans) you may add one "Kala, Trusty Companion" and/or one "Ariana\'s Amulet" from your deck to your hand.',
-  },
-  {
-    searchable: "auron-the-golden-rose",
-    name: "Auron, the Golden Rose",
+    searchable: "black-rose-knight",
+    name: "Black Rose Knight",
+    type: "rose knight",
     element: "light",
-    url: "https://argent-saga-card-bucket.s3.amazonaws.com/auron-the-golden-rose.jpg",
+    url: "https://argent-saga-card-bucket.s3.amazonaws.com/black-rose-knight.jpg",
     effect:
-      "Exhaust, Discard one Knight or Gear from your hand: Exhaust target unit.",
+      "Brawler\nArrive - You may equip target Gear from a unit you control to this card.\nWhile this card is equipped with a Gear, when this card or a unit adjacent to this card attacks - You may draw one card then discard one card.",
   },
   {
-    searchable: "burning-blitzer",
-    name: "Burning Blitzer",
-    element: "fire",
-    url: "https://argent-saga-card-bucket.s3.amazonaws.com/burning-blitzer.jpg",
-    effect:
-      "Quickness, Destroyer\nThis card cannot attack unless you've attacked with at least two units this turn.",
-  },
-  {
-    searchable: "catastrophe-demon",
-    name: "Catastrophe Demon",
-    type: "demon",
-    element: "dark",
-    url: "https://argent-saga-card-bucket.s3.amazonaws.com/catastrophe-demon.jpg",
-    effect:
-      "Destroyer\nYour opponent's units and shards come into play exhausted.",
-  },
-  {
-    searchable: "corona-the-spirit-ruby",
-    name: "Corona, the Spirit Ruby",
-    type: "legendary shard",
-    element: "argent",
-    url: "https://argent-saga-card-bucket.s3.amazonaws.com/corona-the-spirit-ruby.jpg",
-    effect:
-      "If you control another legendary shard send this card to the discard zone.\nExhaust: Produce (1).\nExhaust, flip your spirit face-down: Destroy target unit.",
-  },
-  {
-    searchable: "crystal-dimensional-dragon",
-    name: "Crystal Dimensional Dragon",
-    type: "dragon",
-    element: "water",
-    url: "https://argent-saga-card-bucket.s3.amazonaws.com/crystal-dimensional-dragon.jpg",
-    effect:
-      "If you've played five or more Water spells this turn, this card costs (0) to play.\nArrive - If you played this card from your hand, your opponent cannot put units into play or play spells on their next turn.",
-  },
-  {
-    searchable: "ergon-the-tragic-gargoyle",
-    name: "Ergon, the Tragic Gargoyle",
-    element: "dark",
-    url: "https://argent-saga-card-bucket.s3.amazonaws.com/ergon-the-tragic-gargoyle.jpg",
-    effect:
-      "Exhaust: Send the top two cards of your deck to the discard zone.\nExhaust, Pay (1): Put target unit from your discard zone on top of your deck.",
-  },
-  {
-    searchable: "failed-golem-3",
-    name: "Failed Golem #3",
-    type: "golem",
-    element: "dark",
-    url: "https://argent-saga-card-bucket.s3.amazonaws.com/failed-golem-3.jpg",
-    effect: "",
-  },
-  {
-    searchable: "fizzy-the-spirit-sapphire",
-    name: "Fizzy, the Spirit Sapphire",
-    type: "legendary shard",
-    element: "argent",
-    url: "https://argent-saga-card-bucket.s3.amazonaws.com/fizzy-the-spirit-sapphire.jpg",
-    effect:
-      "If you control another legendary shard send this card to the discard zone.\nExhaust: Produce (1).\nExhaust, flip your spirit face-down: Draw two cards.",
-  },
-  {
-    searchable: "gillian-the-witch-queen",
-    name: "Gillian, the Witch Queen",
-    element: "water",
-    url: "https://argent-saga-card-bucket.s3.amazonaws.com/gillian-the-witch-queen.jpg",
-    effect:
-      "Exhaust, Reveal any number of spells from your hand: Reveal the top card of your deck. If it's a spell with cost equal to or less than the number of cards revealed from your hand, add it to your hand.",
-  },
-  {
-    searchable: "greathawk-of-cloudsea",
-    name: "Greathawk of Cloudsea",
-    type: "beast",
-    element: "air",
-    url: "https://argent-saga-card-bucket.s3.amazonaws.com/greathawk-of-cloudsea.jpg",
-    effect:
-      "Arrive - If there is a destroyed Air tower, you can exhaust target unit and return another target unit to its owner's hand.",
-  },
-  {
-    searchable: "igneous-dragon",
-    name: "Igneous Dragon",
-    type: "dragon",
-    element: "fire",
-    url: "https://argent-saga-card-bucket.s3.amazonaws.com/igneous-dragon.jpg",
-    effect: "",
-  },
-  {
-    searchable: "kite-kyte-the-spirit-emerald",
-    name: "Kite, the Spirit Emerald",
-    type: "legendary shard",
-    element: "argent",
-    url: "https://argent-saga-card-bucket.s3.amazonaws.com/kite-the-spirit-emerald.jpg",
-    effect:
-      "If you control another legendary shard send this card to the discard zone.\nExhaust: Produce (1).\nExhaust, flip your spirit face-down: Switch up to two of your shards to active.",
-  },
-  {
-    searchable: "lucient-guardian-of-vigilance",
-    name: "Lucient, Guardian of Vigilance",
-    element: "light",
-    url: "https://argent-saga-card-bucket.s3.amazonaws.com/lucient-guardian-of-vigilance.jpg",
-    effect:
-      "Guardian\nArrive - If there is a destroyed Light tower, switch up to two target exhausted Light units to active.",
-  },
-  {
-    searchable: "metaial-the-sealed-celestial",
-    name: "Metaial, the Sealed Celestial",
-    type: "legendary entity",
-    element: "argent",
-    url: "https://argent-saga-card-bucket.s3.amazonaws.com/metaial-the-sealed-celestial.jpg",
-    effect:
-      "Destroyer\nThis card cannot be targeted by unit abilities. Flip your champion and spirit face-down: Destroy all units and augments your opponent controls.",
-  },
-  {
-    searchable: "nobe-the-shadow-guardian",
-    name: "Nobe the Shadow Guardian",
-    type: "gargoyle",
-    element: "dark",
-    url: "https://argent-saga-card-bucket.s3.amazonaws.com/nobe-the-shadow-guardian.jpg",
-    effect:
-      "Guardian\nArrive - If there is a destroyed Dark tower, target unit gets -2000 this turn.",
-  },
-  {
-    searchable: "raging-shardbeast",
-    name: "Raging Shardbeast",
-    type: "beast",
-    element: "argent",
-    url: "https://argent-saga-card-bucket.s3.amazonaws.com/raging-shardbeast.jpg",
-    faq: "FAQ: This card checks printed costs of cards, so cost reductions will not slip past this static effect. Cards of cost X are treated as 0. Cards may also be *put into* play even if their cost is too high.",
-    effect: " You cannot play cards with cost (3) or more.",
-  },
-  {
-    searchable: "rainbow-knight",
-    name: "Rainbow Knight",
-    type: "knight",
-    element: "light",
-    url: "https://argent-saga-card-bucket.s3.amazonaws.com/rainbow-knight.jpg",
-    effect: "",
-  },
-  {
-    searchable: "raine-mournful-commander",
-    name: "Raine, Mournful Commander",
-    element: "fire",
-    url: "https://argent-saga-card-bucket.s3.amazonaws.com/raine-mournful-commander.jpg",
-    effect:
-      "Exhaust, Expel up to two units from your hand: Deal damage to target unit equal to the number of cards expelled x500.",
-  },
-  {
-    searchable: "saint-of-sacred-regalia",
-    name: "Saint of Sacred Regalia",
-    element: "light",
-    url: "https://argent-saga-card-bucket.s3.amazonaws.com/saint-of-sacred-regalia.jpg",
-    effect:
-      "Arrive - If you control less units than your opponent, you may discard a card. If you do, search your deck for a Gear with cost (1) or less and equip it to this card.",
-  },
-  {
-    searchable: "skytree-initiate",
-    name: "Skytree Initiate",
+    searchable: "ella-the-sky-huntress",
+    name: "Ella, the Sky Huntress",
     type: "skyraider",
     element: "air",
-    url: "https://argent-saga-card-bucket.s3.amazonaws.com/skytree-initiate.jpg",
-    effect: "",
-  },
-  {
-    searchable: "stormcaster-of-azure-tower",
-    name: "Stormcaster of Azure Tower",
-    element: "water",
-    url: "https://argent-saga-card-bucket.s3.amazonaws.com/stormcaster-of-azure-tower.jpg",
+    url: "https://argent-saga-card-bucket.s3.amazonaws.com/ella-the-sky-huntress.jpg",
     effect:
-      "Destroyer\nArrive - If there is a destroyed Water Tower, return up to two target Units your opponent controls to the bottom of their owner's deck in any order.",
-    special: "This is based on Matt Kozmor!",
+      "Arrive - You may discard one Skyraider unit or Airship unit from your hand: If you do, target unit loses all abilities and cannot attack as long as you control this card.",
   },
   {
-    searchable: "vehemont-crimson-guardian",
-    name: "Vehemont, Crimson Guardian",
+    searchable: "harbinger-of-vabriel",
+    name: "Harbinger of Vabriel",
+    type: "legendary entity",
+    element: "argent",
+    url: "https://argent-saga-card-bucket.s3.amazonaws.com/harbinger-of-vabriel.png",
+    effect:
+      "Guardian\nThis card cannot be targeted by spells.\nFlip your champion or your spirit face-down: Restore one of your destroyed towers with the same element as the card you flipped face-down.",
+  },
+  {
+    searchable: "melody-of-ages",
+    name: "Melody of Ages",
+    element: "air",
+    url: "https://argent-saga-card-bucket.s3.amazonaws.com/melody-of-ages.png",
+    effect:
+      "Target unit or augment loses all abilities. Then, if there is a destroyed Air tower, destroy that card.",
+  },
+  {
+    searchable: "return-to-slumber",
+    name: "Return to Slumber",
+    element: "water",
+    url: "https://argent-saga-card-bucket.s3.amazonaws.com/return-to-slumber.png",
+    effect:
+      "Instacast\nReturn up to X+1 target units to the top of their owner's deck in any order. (X equals the number of destroyed Water towers.)",
+  },
+  {
+    searchable: "serena-witch-of-sealing",
+    name: "Serena, Witch of Sealing",
+    type: "witch",
+    element: "water",
+    url: "https://argent-saga-card-bucket.s3.amazonaws.com/serena-witch-of-sealing.jpg",
+    effect:
+      "Arrive - You may reveal two different spells from your hand: If you do, target unit your opponent controls cannot use Guardian this turn.",
+  },
+  {
+    searchable: "sigil-of-exile",
+    name: "Sigil of Exile",
+    element: "argent",
+    url: "https://argent-saga-card-bucket.s3.amazonaws.com/sigil-of-exile.jpg",
+    effect:
+      "Exhaust, Pay (1): Put a counter on this card.\nExhaust, Sacrifice this card: Expel target unit your opponent controls with cost X. (X equals the number of counters this card had.)",
+  },
+  {
+    searchable: "sigil-of-loss",
+    name: "Sigil of Loss",
+    element: "argent",
+    url: "https://argent-saga-card-bucket.s3.amazonaws.com/sigil-of-loss.jpg",
+    effect:
+      "Exhaust, Pay (1): Put a counter on this card.\nExhaust, Sacrifice this card: Expel X target cards in your opponent's discard zone. (X equals the number of counters this card had.)",
+  },
+  {
+    searchable: "sigil-of-renewal",
+    name: "Sigil of Renewal",
+    element: "argent",
+    url: "https://argent-saga-card-bucket.s3.amazonaws.com/sigil-of-renewal.jpg",
+    effect:
+      "Exhaust, Pay (1): Put a counter on this card.\nExhaust, Sacrifice this card: Add target card with cost X from your discard zone to your hand. (X equals the number of counters this card had.)",
+  },
+  {
+    searchable: "slate-gargoyle",
+    name: "Slate Gargoyle",
+    type: "gargoyle",
+    element: "dark",
+    url: "https://argent-saga-card-bucket.s3.amazonaws.com/slate-gargoyle.jpg",
+    effect:
+      "When this card attacks - Add a unit with cost (5) from your deck to your hand.\nRuined - You may Offering 5 (Expel five units from your discard zone.): If you do, put one unit with cost (5) from your hand into play.",
+  },
+  {
+    searchable: "songstress-of-the-cloudsea",
+    name: "Songstress of the Cloudsea",
+    type: "mystic",
+    element: "air",
+    url: "https://argent-saga-card-bucket.s3.amazonaws.com/songstress-of-the-cloudsea.png",
+    effect:
+      "Exhaust: Reveal the top three cards of your deck. You may add a unit among them to your hand. If two or more units have returned to your hand from the field this turn, you may put that unit into play instead. Put the rest into your discard zone.",
+  },
+  {
+    searchable: "spawn-of-bahamute",
+    name: "Spawn of Bahamute",
     type: "dragon",
     element: "fire",
-    url: "https://argent-saga-card-bucket.s3.amazonaws.com/vehemont-crimson-guardian.jpg",
-    effect: "Arrive - If there is a destroyed Fire tower, destroy target unit.",
+    url: "https://argent-saga-card-bucket.s3.amazonaws.com/spawn-of-bahamute.jpg",
+    effect:
+      'Arrive - You may reveal two Dragon units from your hand: If you do, search your deck for one "Altar of the Dragon God" and add it to your hand.',
+  },
+  {
+    searchable: "taphael-fallen-celestial-of-rottar",
+    name: "Taphael, Fallen Celestial of Rottar",
+    type: "legendary entity",
+    element: "argent",
+    url: "https://argent-saga-card-bucket.s3.amazonaws.com/taphael-fallen-celestial-of-rottar.png",
+    effect:
+      "Brawler (This card may attack active and exhausted units the turn it comes into play.)\nArrive - Choose one.\n* Flip your champion face-down: Put a unit from your hand into play.\n* Flip your spirit face-down: Put target unit from your discard zone into play.",
+  },
+  {
+    searchable: "the-greatest-heist",
+    name: "The Greatest Heist",
+    element: "dark",
+    url: "https://argent-saga-card-bucket.s3.amazonaws.com/the-greatest-heist.png",
+    effect:
+      "Arrive - Expel up to X+1 target cards from your opponent's discard zone. (X equals the number of destroyed Dark towers.)\nWhile this card is on the field, you may play cards expelled by this effect as if they were in your hand.",
+  },
+  {
+    searchable: "thief-of-valoi",
+    name: "Thief of Valoi",
+    type: "thief",
+    element: "dark",
+    url: "https://argent-saga-card-bucket.s3.amazonaws.com/thief-of-valoi.png",
+    effect:
+      "Exhaust, Offering 3 (Expel three units from your discard zone.): Expel target unit from your opponent's discard zone. This turn you may play that card as if it was in your hand.",
+  },
+  {
+    searchable: "tower-of-surging-flames",
+    name: "Tower of Surging Flames",
+    element: "fire",
+    url: "https://argent-saga-card-bucket.s3.amazonaws.com/tower-of-surging-flames.jpg",
+    effect:
+      "Use only if your spirit or champion is Fire.\nWhen this card is destroyed: You may deal 1500 to all units your opponent controls. Use this effect only if you have more destroyed towers than your opponent.",
+  },
+  {
+    searchable: "tower-of-surging-gales",
+    name: "Tower of Surging Gales",
+    element: "air",
+    url: "https://argent-saga-card-bucket.s3.amazonaws.com/tower-of-surging-gales.jpg",
+    effect:
+      "Use only if your spirit or champion is Air.\nWhen this card is destroyed: You may put the top card of your shard deck into play. Use this effect only if you have more destroyed towers than your opponent.",
+  },
+  {
+    searchable: "tower-of-surging-radiance",
+    name: "Tower of Surging Radiance",
+    element: "light",
+    url: "https://argent-saga-card-bucket.s3.amazonaws.com/tower-of-surging-radiance.jpg",
+    effect:
+      "Use only if your spirit or champion is Light.\nWhen this card is destroyed: You may put a unit with cost (3) or less from your hand into play. Use this effect only if you have more destroyed towers than your opponent.",
+  },
+  {
+    searchable: "tower-of-surging-shadows",
+    name: "Tower of Surging Shadows",
+    element: "dark",
+    url: "https://argent-saga-card-bucket.s3.amazonaws.com/tower-of-surging-shadows.jpg",
+    effect:
+      "Use only if your spirit or champion is Dark.\nWhen this tower is destroyed: You may return a unit with cost (3) or less from your discard zone to the field. Use this effect only if you have more destroyed towers than your opponent.",
+  },
+  {
+    searchable: "tower-of-surging-torrents",
+    name: "Tower of Surging Torrents",
+    element: "water",
+    url: "https://argent-saga-card-bucket.s3.amazonaws.com/tower-of-surging-torrents.jpg",
+    effect:
+      "Use only if your spirit or champion is Water.\nWhen this card is destroyed: You may search your deck for a spell and add it to your hand. Use this effect only if you have more destroyed towers than your opponent.",
+  },
+  {
+    searchable: "voidfire-desolation",
+    name: "Voidfire Desolation",
+    element: "fire",
+    url: "https://argent-saga-card-bucket.s3.amazonaws.com/voidfire-desolation.png",
+    effect:
+      "Destroy up to one of each.\n* Target unit.\n* Target augment.\n* Target shard.\n* Target tower.",
+  },
+  {
+    searchable: "voidfire-dragon",
+    name: "Voidfire Dragon",
+    type: "dragon",
+    element: "fire",
+    url: "https://argent-saga-card-bucket.s3.amazonaws.com/voidfire-dragon.jpg",
+    effect:
+      'While there is a destroyed Fire tower, expel two or more Fire units from your hand whose combined cost is at least 6: Put this card from your discard zone into play. Expel it when it leaves the field.\nRuined - Add target expelled Fire unit you own, except "Voidfire Dragon", to your hand.',
+  },
+  {
+    searchable: "vrscika-the-scorpion-hammer",
+    name: "Vrscika, the Scorpion Hammer",
+    type: "gear",
+    element: "light",
+    url: "https://argent-saga-card-bucket.s3.amazonaws.com/vrscika-the-scorpion-hammer.png",
+    effect:
+      " Equip to target unit.\nIt gets +1000.\nIf the equipped unit destroys a unit with Guardian in battle - You may switch the equipped unit to active.",
+  },
+  {
+    searchable: "warden-of-vrscika",
+    name: "Warden of Vrscika",
+    type: "knight",
+    element: "light",
+    url: "https://argent-saga-card-bucket.s3.amazonaws.com/warden-of-vrscika.png",
+    effect:
+      'Brawler (This card may attack active and exhausted units the turn it comes into play.)\nArrive - If there is a destroyed Light tower, search your deck for "Vrscika, the Scorpion Hammer" and equip it to this card.',
   },
 ];
 

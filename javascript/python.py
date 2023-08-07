@@ -4,34 +4,34 @@ import glob
 # Function to rename multiple files
 
 sal = [
-  'amateur-witch',
-  'arbor-carbuncle',
-  'ariana-adventurer-of-argos',
-  'auron-the-golden-rose',
-  'burning-blitzer',
-  'catastrophe-demon',
-  'corona-the-spirit-ruby',
-  'crystal-dimensional-dragon',
-  'ergon-the-tragic-gargoyle',
-  'failed-golem-3',
-  'fizzy-the-spirit-sapphire',
-  'gillian-the-witch-queen',
-  'greathawk-of-cloudsea',
-  'igneous-dragon',
-  'kite-kyte-the-spirit-emerald',
-  'lucient-guardian-of-vigilance',
-  'metaial-the-sealed-celestial',
-  'nobe-the-shadow-guardian',
-  'raging-shardbeast',
-  'rainbow-knight',
-  'raine-mournful-commander',
-  'saint-of-sacred-regalia',
-  'skytree-initiate',
-  'stormcaster-of-azure-tower',
-  'vehemont-crimson-guardian'
+  'beckoner-of-dreams',
+  'black-rose-knight',
+  'ella-the-sky-huntress',
+  'harbinger-of-vabriel',
+  'melody-of-ages',
+  'return-to-slumber',
+  'serena-witch-of-sealing',
+  'sigil-of-exile',
+  'sigil-of-loss',
+  'sigil-of-renewal',
+  'slate-gargoyle',
+  'songstress-of-the-cloudsea',
+  'spawn-of-bahamute',
+  'taphael-fallen-celestial-of-rottar',
+  'the-greatest-heist',
+  'thief-of-valoi',
+  'tower-of-surging-flames',
+  'tower-of-surging-gales',
+  'tower-of-surging-radiance',
+  'tower-of-surging-shadows',
+  'tower-of-surging-torrents',
+  'voidfire-desolation',
+  'voidfire-dragon',
+  'vrscika-the-scorpion-hammer',
+  'warden-of-vrscika'
 ]
-path = r"C:\Users\salva\OneDrive\Documents\AS_Database\images\Expansion-Pack-Generations\*"
-folder = r"C:\Users\salva\OneDrive\Documents\AS_Database\images\Expansion-Pack-Generations"
+path = r"C:\Users\salva\OneDrive\Documents\AS_Database\images\Expansion-Pack-Genesis\*"
+folder = r"C:\Users\salva\OneDrive\Documents\AS_Database\images\Expansion-Pack-Genesis"
 filelist = glob.glob(path)
 for infile, i in enumerate(sorted(filelist)): 
   #do some fancy stuff
