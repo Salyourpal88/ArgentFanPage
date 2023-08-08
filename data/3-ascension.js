@@ -1046,8 +1046,8 @@ export const ascension = [
     cost: 1,
     power: 500,
     name: "Silver King's Pawn",
-    type: "",
-    subtype: "",
+    type: "Unit",
+    subtype: "Silver Army",
     effect:
       "You may have any number of copies of this card in your deck.Exhaust two Silver Army units you control: Add target Argent unit from your discard zone to your hand.",
     rarity: "Common",
