@@ -1125,7 +1125,6 @@ export const ascension = [
     image: "images/Ascension/TheGreatMagimaze.webp",
     element: "Argent",
     cost: 3,
-    power: 0,
     name: "The Great Magimaze",
     type: "Augment",
     effect:

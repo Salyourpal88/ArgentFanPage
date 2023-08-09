@@ -5,12 +5,12 @@ import { betrayal } from "../data/1-betrayal.js";
 import { intros } from "../data/0-intros.js";
 import { alphaIntros } from "../data/alpha-intros.js";
 import { generations, genesis, conviction } from "../data/expansion-packs.js";
-
+import { promos } from "../data/promo.js";
 let imageString = "";
 
-let filteredList = conviction.slice();
+let filteredList = promos.slice();
 
-conviction.forEach((value) => {
+promos.forEach((value) => {
   imageString += `<div class='image-formating'><img src="${value.image}" /></div>`;
 });
 document.querySelector(".first").innerHTML = imageString;
@@ -48,7 +48,7 @@ document.querySelector(".filter-button").addEventListener("click", () => {
   document.querySelector(".effect-filter").value = "";
   document.querySelector(".rarity-filter").value = "";
 
-  filteredList = conviction;
+  filteredList = promos;
 });
 
 function filtered(word) {
