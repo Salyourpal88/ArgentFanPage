@@ -61,6 +61,8 @@ export const promos = [
   {
     image: "images/Promos/yuki-the-lightning-flash.webp",
     name: "Yuki, the Lightning Flash",
+    cost: 3,
+    power: 2000,
     element: "light",
     type: "knight",
     effect:
@@ -193,8 +195,10 @@ export const promos = [
   {
     image: "images/Promos/ash-the-glacial-sorcerer.webp",
     name: "Ash, the Glacial Sorcerer",
+    cost: 3,
+    power: 2000,
     element: "water",
-    type: undefined,
+    type: "Unit",
     effect:
       "When you play a Water Spell – You can place an Ice Wall counter on target non-destroyed Tower you own. (Towers with Ice Wall counters get +500 defense. If a Tower is destroyed, remove all Ice Wall counters from that Tower.)\n" +
       "Remove all Ice Wall counters from all Towers you own: Deal damage to target Unit equal to the number of counters removed x500.",
@@ -215,8 +219,10 @@ export const promos = [
   {
     image: "images/Promos/gz-the-explosion-master.webp",
     name: "G.Z. the Explosion Master",
+    cost: 2,
+    power: 1500,
     element: "fire",
-    type: undefined,
+    type: "Unit",
     effect:
       "Arrive – Place an Explosion counter on target Tower you own.\n" +
       "Exhaust, remove an Explosion Counter from a Tower you own: If it's face-down, flip it face-up. Deal damage equal to double its defense to target Unit. Destroy that Tower.",
@@ -225,8 +231,11 @@ export const promos = [
   {
     image: "images/Promos/nanatsu-the-pure-shinobi.webp",
     name: "Nanatsu, the Pure Shinobi",
+    cost: 4,
+    power: 2500,
     element: "air",
-    type: undefined,
+    type: "Unit",
+    subtype: "Ninja",
     effect:
       "Arrive – For each destroyed Tower, place one counter on this card.\n" +
       "Exhaust, remove one counter from this card: Exhaust Target Unit.\n" +
@@ -261,7 +270,8 @@ export const promos = [
     image: "images/Promos/buckeye-the-loyal.webp",
     name: "Buckeye, the Loyal",
     element: "light",
-    type: undefined,
+    affinity: 10,
+    type: "Spirit",
     effect:
       'You start the game with a Hound unit token with Guardian (Unit * Hound/Light/500). This token cannot attack, and has "Sacrifice this unit: Prevent the next damage that would be dealt to target unit this turn."\n' +
       "Soulburst: Prevent all damage that would be dealt to target unit this turn.",
@@ -270,8 +280,11 @@ export const promos = [
   {
     image: "images/Promos/yuki-the-lightning-flash-1.webp",
     name: "Yuki, the Lightning Flash",
+    cost: 3,
+    power: 2000,
     element: "light",
-    type: "knight",
+    type: "Unit",
+    subtype: "Knight",
     effect:
       "Target Attack\n" +
       "If this card is in your hand, after one of your Towers is destroyed – Put this card into play.",
@@ -303,7 +316,7 @@ export const promos = [
     image: "images/Promos/nanatsu-the-pure-shinobi-1.webp",
     name: "Nanatsu, the Pure Shinobi",
     element: "air",
-    type: undefined,
+    type: "unit",
     effect:
       "Arrive – For each destroyed Tower, place one counter on this card.\n" +
       "Exhaust, remove one counter from this card: Exhaust Target Unit.\n" +
@@ -314,7 +327,8 @@ export const promos = [
     image: "images/Promos/buckeye-the-loyal-1.webp",
     name: "Buckeye, the Loyal",
     element: "light",
-    type: undefined,
+    affinity: 10,
+    type: "Spirit",
     effect:
       'You start the game with a Hound unit token with Guardian (Unit * Hound/Light/500). This token cannot attack, and has "Sacrifice this unit: Prevent the next damage that would be dealt to target unit this turn."\n' +
       "Soulburst: Prevent all damage that would be dealt to target unit this turn.",
@@ -324,7 +338,9 @@ export const promos = [
     image: "images/Promos/gz-the-explosion-master-1.webp",
     name: "G.Z. the Explosion Master",
     element: "fire",
-    type: undefined,
+    cost: 2,
+    power: 1500,
+    type: "unit",
     effect:
       "Arrive – Place an Explosion counter on target Tower you own.\n" +
       "Exhaust, remove an Explosion Counter from a Tower you own: If it's face-down, flip it face-up. Deal damage equal to double its defense to target Unit. Destroy that Tower.",
@@ -334,7 +350,9 @@ export const promos = [
     image: "images/Promos/ash-the-glacial-sorcerer-1.jpg",
     name: "Ash, the Glacial Sorcerer",
     element: "water",
-    type: undefined,
+    cost: 3,
+    power: 2000,
+    type: "unit",
     effect:
       "When you play a Water Spell – You can place an Ice Wall counter on target non-destroyed Tower you own. (Towers with Ice Wall counters get +500 defense. If a Tower is destroyed, remove all Ice Wall counters from that Tower.)\n" +
       "Remove all Ice Wall counters from all Towers you own: Deal damage to target Unit equal to the number of counters removed x500.",
@@ -357,6 +375,8 @@ export const promos = [
     image: "images/Promos/demon-of-the-evil-eye.webp",
     name: "Demon of the Evil Eye",
     element: "dark",
+    cost: 5,
+    power: 3000,
     type: "demon",
     effect:
       "Arrive – Declare a card name, then your opponent reveals their hand and discards all cards with that name. Draw one card for each card discarded this way.",
@@ -447,7 +467,8 @@ export const promos = [
     image: "images/Promos/curse-of-the-witch-queen.webp",
     name: "Curse of the Witch Queen",
     element: "water",
-    type: undefined,
+    cost: 6,
+    type: "Spell",
     effect: "Take control of up to two target exhausted units.",
     number: "043",
   },
@@ -503,6 +524,7 @@ export const promos = [
     name: "Tower of Air",
     element: "air",
     type: "Tower",
+    defense: 1000,
     effect:
       "When this card is destroyed, you can return up to two Units from the field to their owner's hand.",
     number: "048",
@@ -512,6 +534,7 @@ export const promos = [
     name: "Tower of Darkness",
     element: "dark",
     type: "Tower",
+    defense: 1500,
     effect:
       "When this card is destroyed, you can look at your opponent's hand and select one card, then your opponent discards that card.",
     number: "049",
@@ -521,6 +544,7 @@ export const promos = [
     name: "Tower of Fire",
     element: "fire",
     type: "Tower",
+    defense: 1000,
     effect: "When this card is destroyed, you can destroy a Unit.",
     number: "050",
   },
@@ -529,6 +553,7 @@ export const promos = [
     name: "Tower of Light",
     element: "light",
     type: "Tower",
+    defense: 1500,
     effect:
       "When this card is destroyed, you can put into play a Knight Unit Token with Guardian (Unit * Knight/Light/2000).",
     number: "051",
@@ -538,6 +563,7 @@ export const promos = [
     name: "Tower of Water",
     element: "water",
     type: "Tower",
+    defense: 1500,
     effect: "When this card is destroyed, you can draw two cards.",
     number: "052",
   },
@@ -545,6 +571,8 @@ export const promos = [
     image: "images/Promos/daylon-the-conjurers-raven-1.webp",
     name: "Daylon, the Conjurer's Raven",
     element: "dark",
+    cost: 2,
+    power: 500,
     type: "legendary raven",
     effect:
       'Arrive – If your champion is "Hoenna, the Immoral Conjurer", choose one.\n' +
@@ -568,7 +596,10 @@ export const promos = [
     image: "images/Promos/ruka-pugilist-of-the-holy-flame.webp",
     name: "Ruka, Pugilist of the Holy Flame",
     element: "fire",
-    type: "warrior",
+    cost: 2,
+    power: 1000,
+    type: "Unit",
+    subtype: "warrior",
     effect:
       "Arrive – If you control another Fire unit, this card gets +500 and gains Brawler.\n" +
       "Whenever this declares an attack on a unit – If your spirit is Fire, you may flip it face-up.",
@@ -602,7 +633,10 @@ export const promos = [
     image: "images/Promos/liyu-avarice-reborn.webp",
     name: "Liyu, Avarice Reborn",
     element: "dark",
-    type: "golem",
+    cost: 4,
+    power: 2000,
+    type: "Unit",
+    subtype: "golem",
     effect:
       "When this card isput into the discard zone from anywhere – You may sacrifice a Dark unit. If you do, put this card into play.",
     number: "058",
@@ -632,8 +666,11 @@ export const promos = [
   {
     image: "images/Promos/valtier-the-magical-marksman.webp",
     name: "Valtier, the Magical Marksman",
+    cost: 3,
+    power: 2000,
     element: "light",
-    type: "pirate",
+    type: "Unit",
+    subtype: "pirate",
     effect: "Exhaust, pay (2): Destroy target unit with cost (2) or less.",
     number: "061",
   },
@@ -665,7 +702,10 @@ export const promos = [
     image: "images/Promos/rex-child-of-brilliance.jpg",
     name: "Rex, Child of Brilliance",
     element: "water",
-    type: "child sorcerer",
+    cost: 1,
+    power: 1000,
+    type: "unit",
+    subtype: "child sorcerer",
     effect:
       "If you would use Shard Drain you may sacrifice this card instead of returning a shard to your shard deck.",
     number: "064",
@@ -761,8 +801,11 @@ export const promos = [
   {
     image: "images/Promos/daylon-the-conjurers-raven.jpg",
     name: "Daylon, the Conjurer's Raven",
+    cost: 2,
+    power: 500,
     element: "dark",
-    type: "legendary raven",
+    type: "Unit",
+    subtype: "legendary raven",
     effect:
       'Arrive – If your champion is "Hoenna, the Immoral Conjurer", choose one.\n' +
       "* Put three counters on your champion.\n" +
@@ -772,8 +815,11 @@ export const promos = [
   {
     image: "images/Promos/daylon-the-conjurers-raven.webp",
     name: "Daylon, the Conjurer's Raven",
+    cost: 2,
+    power: 500,
     element: "dark",
-    type: "legendary raven",
+    type: "Unit",
+    subtype: "legendary raven",
     effect:
       'Arrive – If your champion is "Hoenna, the Immoral Conjurer", choose one.\n' +
       "* Put three counters on your champion.\n" +
@@ -784,6 +830,8 @@ export const promos = [
     image: "images/Promos/ruka-pugilist-of-the-holy-flame-1.webp",
     name: "Ruka, Pugilist of the Holy Flame",
     element: "fire",
+    cost: 2,
+    power: 1000,
     type: "warrior",
     effect:
       "Arrive – If you control another Fire unit, this card gets +500 and gains Brawler.\n" +
@@ -806,6 +854,9 @@ export const promos = [
     image: "images/Promos/liyu-avarice-reborn-1.webp",
     name: "Liyu, Avarice Reborn",
     element: "dark",
+    cost: 4,
+    power: 2000,
+    type: "Unit",
     type: "golem",
     effect:
       "When this card is put into the discard zone from anywhere – You may sacrifice a Dark unit. If you do, put this card into play.",
@@ -825,8 +876,11 @@ export const promos = [
   {
     image: "images/Promos/valtier-the-magical-marksman.jpg",
     name: "Valtier, the Magical Marksman",
+    cost: 3,
+    power: 2000,
     element: "light",
-    type: "pirate",
+    type: "Unit",
+    subtype: "pirate",
     effect: "Exhaust, pay (2): Destroy target unit with cost (2) or less.",
     number: "079",
   },
@@ -834,7 +888,10 @@ export const promos = [
     image: "images/Promos/woody-loyal-pack-leader-2.jpg",
     name: "Woody, Loyal Pack Leader",
     element: "argent",
-    type: "legendary beast",
+    cost: 4,
+    power: 2000,
+    type: "Unit",
+    subtype: "legendary beast",
     effect:
       "Guardian, Target Attack\n" +
       'Arrive – Put into play a Hound token (Unit * Beast/Light/500) that has Guardian and "Sacrifice this card: Prevent the next damage that would be dealt to target unit this turn." If your spirit is "Buckeye, the Loyal", put two into play instead.',
@@ -866,7 +923,10 @@ export const promos = [
     image: "images/Promos/rex-child-of-brilliance.webp",
     name: "Rex, Child of Brilliance",
     element: "water",
-    type: "child sorcerer",
+    cost: 1,
+    power: 1000,
+    type: "Unit",
+    subtype: "child sorcerer",
     effect:
       "If you would use Shard Drain you may sacrifice this card instead of returning a shard to your shard deck.",
     number: "085",
@@ -888,7 +948,8 @@ export const promos = [
     image: "images/Promos/woody-loyal-pack-leader.webp",
     name: "Woody, Loyal Pack Leader",
     element: "argent",
-    type: "legendary beast",
+    type: "Unit",
+    subtype: "legendary beast",
     effect:
       "Guardian, Target Attack\n" +
       'Arrive – Put into play a Hound token (Unit * Beast/Light/500) that has Guardian and "Sacrifice this card: Prevent the next damage that would be dealt to target unit this turn." If your spirit is "Buckeye, the Loyal", put two into play instead.',
@@ -910,7 +971,8 @@ export const promos = [
     image: "images/Promos/tux-the-emperor-spirit.webp",
     name: "Tux, the Emperor Spirit",
     element: "water",
-    type: undefined,
+    affinity: 10,
+    type: "Spirit",
     effect:
       "When a unit you control destroys a tower - You may draw a card then discard a card.\n" +
       "Soulburst, pay (3): Stun all units your opponent controls. (A Stunned card cannot attack, block, or use activated abilities, until the end of the next turn.)",
@@ -1133,6 +1195,7 @@ export const promos = [
     image: "images/Promos/tower-of-surging-gales.webp",
     name: "Tower of Surging Gales",
     element: "air",
+    defense: 1000,
     type: "Tower",
     effect:
       "Use only if your spirit or champion is Air.\n" +
@@ -1143,6 +1206,7 @@ export const promos = [
     image: "images/Promos/tower-of-surging-radiance.webp",
     name: "Tower of Surging Radiance",
     element: "light",
+    defense: 1000,
     type: "Tower",
     effect:
       "Use only if your spirit or champion is Light.\n" +
@@ -1153,6 +1217,7 @@ export const promos = [
     image: "images/Promos/tower-of-surging-shadows.webp",
     name: "Tower of Surging Shadows",
     element: "dark",
+    defense: 2000,
     type: "Tower",
     effect:
       "Use only if your spirit or champion is Dark.\n" +
@@ -1162,6 +1227,7 @@ export const promos = [
   {
     image: "images/Promos/tower-of-surging-torrents.webp",
     name: "Tower of Surging Torrents",
+    defense: 1500,
     element: "water",
     type: "Tower",
     effect:
@@ -1173,6 +1239,7 @@ export const promos = [
     image: "images/Promos/tower-of-surging-flames.webp",
     name: "Tower of Surging Flames",
     element: "fire",
+    defense: 1500,
     type: "Tower",
     effect:
       "Use only if your spirit or champion is Fire.\n" +
@@ -1183,7 +1250,8 @@ export const promos = [
     image: "images/Promos/buckeye-the-loyal.png",
     name: "Buckeye, the Loyal",
     element: "light",
-    type: undefined,
+    affinity: 10,
+    type: "Spirit",
     effect:
       'You start the game with a Hound unit token with Guardian (Unit * Hound/Light/500). This token cannot attack, and has "Sacrifice this unit: Prevent the next damage that would be dealt to target unit this turn."\n' +
       "Soulburst: Prevent all damage that would be dealt to target unit this turn.",
@@ -1214,6 +1282,8 @@ export const promos = [
     image: "images/Promos/demonic-spy.webp",
     name: "Demonic Spy",
     element: "dark",
+    cost: 2,
+    power: 1000,
     type: "demon",
     effect:
       "Arrive – Flip target face-down tower your opponent controls face-up.",
@@ -1224,6 +1294,7 @@ export const promos = [
     name: "Fizzy, the Water Spirit",
     element: "water",
     type: "Spirit",
+    affinity: 8,
     effect:
       "Once per turn, during your turn, Shard Drain 1: Draw one card.\n" +
       "During your turn, Soulburst: Draw one card.",
@@ -1234,6 +1305,7 @@ export const promos = [
     name: "Luna, the Dark Spirit",
     element: "dark",
     type: "Spirit",
+    affinity: 8,
     effect:
       "When you destroy a tower or unit in battle - Place one counter on this card.\n" +
       "During your turn, remove three counters from this card: Your opponent discards one card.\n" +
@@ -1245,6 +1317,7 @@ export const promos = [
     name: "Corona, the Fire Spirit",
     element: "fire",
     type: "Spirit",
+    affinity: 8,
     effect:
       "Once per turn, during your turn, discard one Fire unit from your hand: Deal 500 to target unit.\n" +
       "During your turn,Soulburst: Target unit gains Quickness this turn.",
@@ -1255,6 +1328,7 @@ export const promos = [
     name: "Sola, the Light Spirit",
     element: "light",
     type: "Spirit",
+    affinity: 8,
     effect:
       "At the end of your turn - You can switch one of your exhausted units to active.\n" +
       "Soulburst: Put into play a Knight unit token with Guardian (Unit * Knight/Light/2000).",
@@ -1265,6 +1339,7 @@ export const promos = [
     name: "Kyte, the Air Spirit",
     element: "air",
     type: "Spirit",
+    affinity: 8,
     effect:
       "Once per turn, during your turn, discard one card: Return target Air unit you control to its owner's hand and, if you do, switch one of your exhausted shards to active.\n" +
       "Soulburst: Return target unit with cost (3) or less to its owner's hand.",
@@ -1319,7 +1394,7 @@ export const promos = [
     image: "images/Promos/kratin-being-of-strength.webp",
     name: "Kratin, Being of Strength",
     element: "argent",
-    type: undefined,
+    type: "Champion",
     effect: "Exhaust, pay (2): Target attacking unit gets +1000 this turn.",
     number: "131",
   },
@@ -1327,7 +1402,7 @@ export const promos = [
     image: "images/Promos/master-of-the-cerulean-tower.webp",
     name: "Master of the Cerulean Tower",
     element: "argent",
-    type: undefined,
+    type: "Champion",
     effect:
       " Exhaust, pay (1): Draw a card, then put a card from your hand on the bottom of your deck.",
     number: "132",
@@ -1336,7 +1411,7 @@ export const promos = [
     image: "images/Promos/greatest-gardener-gregory.webp",
     name: "Greatest Gardener, Gregory",
     element: "argent",
-    type: undefined,
+    type: "Champion",
     effect: "Exhaust, sacrifice a unit: Recover one of your shards.",
     number: "133",
   },
@@ -1344,7 +1419,7 @@ export const promos = [
     image: "images/Promos/dubell-spirit-of-gains.webp",
     name: "Dubell, Spirit of Gains",
     element: "argent",
-    type: undefined,
+    type: "Spirit",
     effect:
       "Exhaust, pay (1): Target attacking unit gets +500 this turn.\n" +
       "Soulburst: Target unit gets +1000 this turn.",
@@ -1354,7 +1429,7 @@ export const promos = [
     image: "images/Promos/welink-spirit-of-paper.webp",
     name: "Welink, Spirit of Paper",
     element: "argent",
-    type: undefined,
+    type: "Spirit",
     effect:
       "Exhaust, pay (1): Put the bottom card of your deck on top of your deck.\n" +
       "Soulburst: Draw a card.",
@@ -1364,7 +1439,7 @@ export const promos = [
     image: "images/Promos/chewallo-spirit-of-seeds.webp",
     name: "Chewallo, Spirit of Seeds",
     element: "argent",
-    type: undefined,
+    type: "Spirit",
     effect:
       "Exhaust, pay (1): Look at the top card of your deck, put it on the top of your deck.\n" +
       "Soulburst: Recover one of your shards.",
@@ -1374,7 +1449,8 @@ export const promos = [
     image: "images/Promos/tower-of-embers.webp",
     name: "Tower of Embers",
     element: "fire",
-    type: undefined,
+    defense: 1500,
+    type: "unit",
     effect:
       "When this tower is destroyed, you may deal 1500 to a unit, then you may deal 1000 to a unit.",
     number: "137",
@@ -1383,7 +1459,8 @@ export const promos = [
     image: "images/Promos/tower-of-waves.webp",
     name: "Tower of Waves",
     element: "water",
-    type: undefined,
+    defense: 1000,
+    type: "unit",
     effect:
       "When this tower is destroyed, you may draw three cards, then put two cards from your hand on the bottom of your deck.",
     number: "138",
@@ -1392,7 +1469,8 @@ export const promos = [
     image: "images/Promos/tower-of-glimmers.webp",
     name: "Tower of Glimmers",
     element: "light",
-    type: undefined,
+    defense: 1000,
+    type: "unit",
     effect:
       "When this tower is destroyed, you may exhaust all units your opponent controls.",
     number: "139",
@@ -1411,7 +1489,8 @@ export const promos = [
     image: "images/Promos/tower-of-fear.webp",
     name: "Tower of Fear",
     element: "dark",
-    type: undefined,
+    defense: 1000,
+    type: "unit",
     effect:
       "When this tower is destroyed, you may exhaust two of your opponent's shards.",
     number: "141",
@@ -1420,7 +1499,8 @@ export const promos = [
     image: "images/Promos/tower-of-gusts.webp",
     name: "Tower of Gusts",
     element: "air",
-    type: undefined,
+    defense: 1500,
+    type: "unit",
     effect:
       "When this tower is destroyed, you may recover all shards you control.",
     number: "142",
@@ -1429,7 +1509,10 @@ export const promos = [
     image: "images/Promos/nori-the-first-warlock.webp",
     name: "Nori, the First Warlock",
     element: "water",
-    type: "warlock",
+    cost: 4,
+    power: 2500,
+    type: "Unit",
+    subtype: "warlock",
     effect:
       "As an additional cost to play this card you may pay (X).\n" +
       "Arrive – If you paid this card's additional cost, draw X cards.\n" +
@@ -1440,7 +1523,10 @@ export const promos = [
     image: "images/Promos/unger-the-conjurers-adversary.webp",
     name: "Unger, the Conjurer's Adversary",
     element: "dark",
-    type: "conjurer",
+    cost: 2,
+    power: 1500,
+    type: "Unit",
+    subtype: "conjurer",
     effect:
       "Whenever a unit your opponent controls is put into the discard zone - You may put into play a Raven token (Unit/Dark/Beast/500).\n" +
       "Sacrifice two other units: Your opponent's champion loses all abilities this turn.",
@@ -1450,7 +1536,10 @@ export const promos = [
     image: "images/Promos/gz-blazerusher-squire.webp",
     name: "G.Z., Blazerusher Squire",
     element: "fire",
-    type: "blazerusher",
+    cost: 3,
+    power: 2000,
+    type: "Unit",
+    subtype: "blazerusher",
     effect:
       "Arrive – You may expel an Air card from your discard zone, and/or a Fire card from your hand. If you do, put an Explosion Counter on this card for each card expelled this way.\n" +
       "Remove an Explosion counter from a card you control: This card gains Quickness.\n" +
@@ -1461,7 +1550,10 @@ export const promos = [
     image: "images/Promos/yuki-brightveiler-squire.webp",
     name: "Yuki, Brightveiler Squire",
     element: "light",
-    type: "brightveiler",
+    cost: 3,
+    power: 2000,
+    type: "Unit",
+    subtype: "brightveiler",
     effect:
       "Target Attack\n" +
       "This card cannot be targeted by spells or abilities of cards with cost (2) or less.\n" +
@@ -1472,7 +1564,7 @@ export const promos = [
     image: "images/Promos/brilliant-verdure.jpg",
     name: "Brilliant Verdure",
     element: "air",
-    type: undefined,
+    type: "Spell",
     effect:
       "If this is the second card you've played this turn, this card costs (1) less to play.\n" +
       "Look at the top four cards of your deck. You may add a unit and/or augment among them to your hand. Place the rest on the bottom of your deck in any order.",
@@ -1482,7 +1574,10 @@ export const promos = [
     image: "images/Promos/ash-tidemelder-squire.webp",
     name: "Ash, Tidemelder Squire",
     element: "water",
-    type: "tidemelder",
+    cost: 3,
+    power: 2000,
+    type: "Unit",
+    subtype: "tidemelder",
     effect:
       "Your Fire and Water spells cost (1) less to play while your opponent has three or more destroyed towers.\n" +
       "Once per turn, expel a Fire card and Water card from your discard zone: Deal 1500 to target unit, and if you do, draw a card.",
@@ -1492,7 +1587,10 @@ export const promos = [
     image: "images/Promos/forager-of-the-fallen-leaf.webp",
     name: "Forager of the Fallen Leaf",
     element: "air",
-    type: "mystic",
+    cost: 1,
+    power: 1000,
+    type: "Unit",
+    subtype: "mystic",
     effect:
       "Units you control with power that is double or more their original power cannot be targeted by your opponent's spells or abilities.\n" +
       "Whenever a unit is put into play under your control - You may pay (X). If you do, put X +500 counters on that unit.",
@@ -1502,7 +1600,10 @@ export const promos = [
     image: "images/Promos/nanatsu-stormsurger-squire.webp",
     name: "Nanatsu, Stormsurger Squire",
     element: "air",
-    type: "stormsurger",
+    cost: 3,
+    power: 2000,
+    type: "Unit",
+    subtype: "stormsurger",
     effect:
       "Instacast\n" +
       "Once per turn, expel an Air card and a Water card from your discard zone: Exhaust target unit, and if you do, recover one of your shards. Use this only while your opponent has three or more destroyed towers.",
@@ -1511,8 +1612,9 @@ export const promos = [
   {
     image: "images/Promos/abyssal-maw.png",
     name: "Abyssal Maw",
+    cost: 2,
     element: "dark",
-    type: undefined,
+    type: "Spell",
     effect:
       "Target unit gets -X000 this turn. (X equals the number of Dark units in your discard zone.)",
     number: "148",
@@ -1521,7 +1623,10 @@ export const promos = [
     image: "images/Promos/linda-and-goblin-dynamic-duo.webp",
     name: "Linda & Goblin, Dynamic Duo",
     element: "light",
-    type: "legendary duo",
+    cost: 3,
+    power: 1500,
+    type: "Unit",
+    subtype: "legendary duo",
     effect:
       "Brawler\n" +
       "While you control a Beast unit, you may play this card from your discard zone as if it was in your hand.\n" +
@@ -1532,7 +1637,10 @@ export const promos = [
     image: "images/Promos/enforcer-of-the-twisting-abyss.png",
     name: "Enforcer of the Twisting Abyss",
     element: "dark",
-    type: "dragon",
+    cost: 3,
+    power: 2000,
+    type: "Unit",
+    subtype: "dragon",
     effect:
       "Whenever this card deals damage to an opponent's tower - Your opponent discards a card and you draw a card.\n" +
       "Whenever your opponent discards a card - You may add this card from your discard zone to your hand.",
@@ -1542,7 +1650,8 @@ export const promos = [
     image: "images/Promos/void-flame-expulsion.webp",
     name: "Void Flame Expulsion",
     element: "fire",
-    type: undefined,
+    cost: 2,
+    type: "Spell",
     effect:
       "Instacast\n" +
       "Play only while you control a Fire unit. Neither player can add to the queue in response to this card. Expel target unit or augment, and if you do, it's owner draws a card.",
@@ -1551,8 +1660,10 @@ export const promos = [
   {
     image: "images/Promos/underlord-of-the-void-flame.webp",
     name: "Underlord of the Void Flame",
+    cost: 2,
     element: "fire",
-    type: "warrior",
+    type: "Unit",
+    subtype: "warrior",
     effect:
       "As an additional cost to play this card you may sacrifice a Fire unit with cost (2) or more. If you do, this card costs (2) less to play.\n" +
       "If you paid the additional cost to play this card, this card gains Quickness.",
@@ -1562,7 +1673,8 @@ export const promos = [
     image: "images/Promos/rippling-sword-slash.png",
     name: "Rippling Sword Slash",
     element: "light",
-    type: undefined,
+    cost: 2,
+    type: "Spell",
     effect:
       "Exhaust target unit your opponent controls, and if you do, you may recover a unit you control with cost less than the exhausted unit.",
     number: "152",
@@ -1571,7 +1683,10 @@ export const promos = [
     image: "images/Promos/striker-of-the-endless-sword.png",
     name: "Striker of the Endless Sword",
     element: "light",
-    type: "warrior",
+    cost: 2,
+    power: 1500,
+    type: "Unit",
+    subtype: "warrior",
     effect:
       "Arrive - You may discard a card, if you do, choose one.\n" +
       "* Exhaust target unit.\n" +
@@ -1582,7 +1697,8 @@ export const promos = [
     image: "images/Promos/twisting-premonition.png",
     name: "Twisting Premonition",
     element: "water",
-    type: undefined,
+    cost: 1,
+    type: "Spell",
     effect:
       "Instacast\n" +
       "Look at the top card of your deck. You may put it into the discard zone. Draw a card.",
@@ -1592,7 +1708,10 @@ export const promos = [
     image: "images/Promos/ruler-of-the-twisting-waters.png",
     name: "Ruler of the Twisting Waters",
     element: "water",
-    type: "mystic",
+    cost: 1,
+    power: 500,
+    type: "unit",
+    subtype: "mystic",
     effect:
       "Arrive - Target a Water spell in your discard zone. This turn, you may play that card from your discard zone as if it were in your hand. Expel that card if you do.",
     number: "155",
@@ -1601,7 +1720,10 @@ export const promos = [
     image: "images/Promos/shard-mecha-prime-king-warku.webp",
     name: "Shard-Mecha Prime: King Warku",
     element: "argent",
-    type: "mecha",
+    cost: 4,
+    power: 2000,
+    type: "unit",
+    subtype: "mecha",
     effect:
       "Unblockable\n" +
       'While you control "Underground Mech Base", you may play this card from your discard zone as if it was in your hand. If you do, expel this card when it leaves the field.\n' +
@@ -1612,7 +1734,10 @@ export const promos = [
     image: "images/Promos/silver-kings-overseer.webp",
     name: "Silver King's Overseer",
     element: "argent",
-    type: "silver army",
+    cost: 2,
+    power: 1000,
+    type: "unit",
+    subtype: "silver army",
     effect: `Ruined - Search your deck for up to one "Silver King's Pawn" and put it into play. If your champion is "Metaial the Silver King" put two into play instead.`,
     number: "161",
   },
@@ -1632,7 +1757,10 @@ export const promos = [
     image: "images/Promos/citra-aspirant-rose-knight.webp",
     name: "Citra, Aspirant Rose Knight",
     element: "light",
-    type: "rose knight",
+    cost: 1,
+    power: 1000,
+    type: "unit",
+    subtype: "rose knight",
     effect:
       'Discard this card and a Gear from your hand: Search your deck for "Order of the Rose" and add it to your hand.\n' +
       'Arrive - If a unit was sent from your field to the discard zone this turn, you may search your deck for a Rose Knight unit with cost (2) or less, except "Citra, Aspirant Rose Knight" and put it into play.',
@@ -1642,7 +1770,10 @@ export const promos = [
     image: "images/Promos/omega-charger.webp",
     name: "Ω Charger",
     element: "argent",
-    type: "mech",
+    cost: 2,
+    power: 1000,
+    type: "unit",
+    subtype: "mech",
     effect:
       "Arrive – Put target unit from your discard zone under target Ω unit you control.",
     number: "163",
@@ -1651,7 +1782,8 @@ export const promos = [
     image: "images/Promos/omega-amulet.webp",
     name: "Ω Amulet",
     element: "argent",
-    type: "legendary amulet",
+    cost: 2,
+    type: "legendary augment",
     effect:
       "Arrive – Draw a card.\n" +
       "Sacrifice this card: Champions lose all abilities this turn. Neither player can add to the queue in response to this ability.",
@@ -1661,7 +1793,10 @@ export const promos = [
     image: "images/Promos/ruka-the-dragonsoul-pugilist.webp",
     name: "Ruka, the Dragonsoul Pugilist",
     element: "fire",
-    type: "warrior",
+    power: 2,
+    power: 1000,
+    type: "Unit",
+    subtype: "warrior",
     effect:
       "While you control this card, this card is also treated as a Dragon unit.\n" +
       "This card gets +500 for each of your expelled Dragon units.\n" +
@@ -1672,7 +1807,10 @@ export const promos = [
     image: "images/Promos/sandsea-hydra-scorpion.jpg",
     name: "Sandsea Hydra Scorpion",
     element: "air",
-    type: "dragon beast",
+    power: 2,
+    power: 1000,
+    type: "Unit",
+    subtype: "dragon beast",
     effect:
       "Ruined – Search your deck for a Beast unit with cost (1) or less and put it into play.",
     number: "172",
@@ -1681,7 +1819,10 @@ export const promos = [
     image: "images/Promos/demi-bahamute.jpg",
     name: "Demi-Bahamute",
     element: "fire",
-    type: "dragon",
+    power: 5,
+    power: 2500,
+    type: "Unit",
+    subtype: "dragon",
     effect:
       "Destroyer\n" +
       "Arrive - You may reveal two Dragon units from your hand: Destroy any number of units your opponent controls with combined power 2000 or less. For each unit destroyed this way, you may search your deck for a Dragon unit with cost (1) and put it into play.",
@@ -1691,7 +1832,10 @@ export const promos = [
     image: "images/Promos/demi-leviathan.png",
     name: "Demi-Leviathan",
     element: "water",
-    type: "serpent",
+    power: 5,
+    power: 2500,
+    type: "Unit",
+    subtype: "serpent",
     effect:
       "Guardian\n" +
       "Arrive - You may flip any number of your face-down towers face-up. If you do, take control of any number of target units whose combined cost is equal to or less than the number of towers you flipped up.",
@@ -1728,7 +1872,6 @@ export const promos = [
     name: "Hadir, Boy of the Sacred Forest",
     element: "Air",
     type: "Champion",
-    subtype: "",
     effect:
       "Exhaust, put a card from your hand under this card: If it was a Beast unit, you may place a +500 counter on target unit. If it was an Elemental unit, draw a card.\n" +
       "Put two cards form under this card into the discard zone: Target unit you control gets +1000 and gains Overrun this turn.",
@@ -1740,7 +1883,6 @@ export const promos = [
     element: "Argent",
     cost: 2,
     type: "Augment",
-    subtype: "",
     effect:
       "Neither player can target cards in discard zones.\n" +
       "Neither player can activate the abilities of cards in discard zones.\n" +
@@ -1752,7 +1894,6 @@ export const promos = [
     name: "Neferia, the Queen's Assassin",
     element: "Dark",
     type: "Champion",
-    subtype: "",
     effect:
       "Whenever you trigger the Ruined ability of a unit - You may put that unit under this card.\n" +
       "Exhaust, put three cards from under this card into the discard zone: Target unit loses all abilities this turn. Then if its cost is (3) or less, destroy it.",
@@ -1763,7 +1904,6 @@ export const promos = [
     name: "Pengardian Legend, Hanzo",
     element: "Water",
     type: "Champion",
-    subtype: "",
     effect:
       "Whenever a unit your opponent controls becomes Stunned - You may put the top card of your deck under this card. If it was a Penguin unit, you may draw a card.\n" +
       "Once per turn, put two cards from under this card on the top or bottom of their owner's deck in any order: Ignore the effects of target non-destroyed tower this turn.",
@@ -1774,7 +1914,6 @@ export const promos = [
     name: "Renna, Feral Warrior",
     element: "Fire",
     type: "Champion",
-    subtype: "",
     effect:
       "Exhaust, if you declared an attack with a Fire unit this turn, put the top card of your deck under this card: If it was a Fire unit, you may deal 1000 to target unit your opponent controls.\n" +
       "Put two cards from under this card on the top or bottom of their owner's deck in any order: Put a Dinosaur unit from your hand or discard zone with cost equal to or less than the number of shards you control into play.",
@@ -1798,7 +1937,8 @@ export const promos = [
     image: "images/Promos/tux-the-emperor-spirit-1.webp",
     name: "Tux, the Emperor Spirit",
     element: "water",
-    type: undefined,
+    affinity: 10,
+    type: "Spirit",
     effect:
       "When a unit you control destroys a tower - You may draw a card then discard a card.\n" +
       "Soulburst, pay (3): Stun all units your opponent controls. (A Stunned card cannot attack, block, or use activated abilities, until the end of the next turn.)",
@@ -1809,7 +1949,6 @@ export const promos = [
     name: "Zane, Hero of Hyldia",
     element: "Light",
     type: "Champion",
-    subtype: "",
     effect:
       "Exhaust: If you declared an attack with a basic unit this turn, put a card from your hand under this card, and if you do, draw a card.\n" +
       "Put two cards under this card into the discard zone: Put a Hyldian token (Unit/Warrior/Light/1000) into play.",
@@ -1819,7 +1958,9 @@ export const promos = [
     image: "images/Promos/the-masked-nemesis.png",
     name: "The Masked Nemesis",
     element: "dark",
-    type: undefined,
+    power: 2,
+    power: 1500,
+    type: "unit",
     effect:
       "Arrive or whenever this card declares an attack - Place a counter on this card.\n" +
       "Ruined - If this card had at least two counters on it, your opponent discards a card. If it had at least three counters, you may put this card into play.",
@@ -1829,7 +1970,10 @@ export const promos = [
     image: "images/Promos/fragment-of-adoration.webp",
     name: "Fragment of Adoration",
     element: "argent",
-    type: "entity",
+    power: 6,
+    power: 5000,
+    type: "Omega Unit",
+    subtype: "entity",
     effect:
       "Ω (Place on one or more of your units.)\n" +
       "Once per turn, put a unit from under this card into the discard zone: If every card in your discard zone has a different name, you may search your deck for a non-Argent card and either add it to your hand or put it into play.",
@@ -1839,7 +1983,10 @@ export const promos = [
     image: "images/Promos/professor-damous-outlandish-engineer.png",
     name: "Professor Damous, Outlandish Engineer",
     element: "argent",
-    type: "professor",
+    power: 3,
+    power: 2000,
+    type: "Unit",
+    subtype: "professor",
     effect:
       "Exhaust, sacrifice a unit: Trigger the Arrive ability of the sacrificed unit.",
     number: "200",
