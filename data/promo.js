@@ -64,7 +64,8 @@ export const promos = [
     cost: 3,
     power: 2000,
     element: "light",
-    type: "knight",
+    type: "Unit",
+    subtype: "knight",
     effect:
       "Target Attack\n" +
       "If this card is in your hand, after one of your Towers is destroyed – Put this card into play.",
@@ -315,6 +316,8 @@ export const promos = [
   {
     image: "images/Promos/nanatsu-the-pure-shinobi-1.webp",
     name: "Nanatsu, the Pure Shinobi",
+    cost: 4,
+    power: 2500,
     element: "air",
     type: "unit",
     effect:
@@ -377,7 +380,8 @@ export const promos = [
     element: "dark",
     cost: 5,
     power: 3000,
-    type: "demon",
+    type: "Unit",
+    subtype: "demon",
     effect:
       "Arrive – Declare a card name, then your opponent reveals their hand and discards all cards with that name. Draw one card for each card discarded this way.",
     number: "034",
@@ -573,7 +577,8 @@ export const promos = [
     element: "dark",
     cost: 2,
     power: 500,
-    type: "legendary raven",
+    type: "Unit",
+    subtype: "legendary raven",
     effect:
       'Arrive – If your champion is "Hoenna, the Immoral Conjurer", choose one.\n' +
       "* Put three counters on your champion.\n" +
@@ -591,6 +596,19 @@ export const promos = [
     effect:
       "When this card is returned to your hand from the field - You can discard this card, Draw two cards.",
     number: "054",
+  },
+  {
+    image: "images/Promos/ruka-pugilist-of-the-holy-flame-2.webp",
+    name: "Ruka, Pugilist of the Holy Flame",
+    element: "fire",
+    cost: 2,
+    power: 1000,
+    type: "Unit",
+    subtype: "warrior",
+    effect:
+      "Arrive – If you control another Fire unit, this card gets +500 and gains Brawler.\n" +
+      "Whenever this declares an attack on a unit – If your spirit is Fire, you may flip it face-up.",
+    number: "055",
   },
   {
     image: "images/Promos/ruka-pugilist-of-the-holy-flame.webp",
@@ -832,7 +850,8 @@ export const promos = [
     element: "fire",
     cost: 2,
     power: 1000,
-    type: "warrior",
+    type: "Unit",
+    subtype: "warrior",
     effect:
       "Arrive – If you control another Fire unit, this card gets +500 and gains Brawler.\n" +
       "Whenever this declares an attack on a unit – If your spirit is Fire, you may flip it face-up.",
@@ -857,7 +876,7 @@ export const promos = [
     cost: 4,
     power: 2000,
     type: "Unit",
-    type: "golem",
+    subtype: "golem",
     effect:
       "When this card is put into the discard zone from anywhere – You may sacrifice a Dark unit. If you do, put this card into play.",
     number: "077",
@@ -948,6 +967,8 @@ export const promos = [
     image: "images/Promos/woody-loyal-pack-leader.webp",
     name: "Woody, Loyal Pack Leader",
     element: "argent",
+    cost: 4,
+    power: 2000,
     type: "Unit",
     subtype: "legendary beast",
     effect:
@@ -1284,7 +1305,8 @@ export const promos = [
     element: "dark",
     cost: 2,
     power: 1000,
-    type: "demon",
+    type: "Unit",
+    subtype: "demon",
     effect:
       "Arrive – Flip target face-down tower your opponent controls face-up.",
     number: "121",
@@ -1450,7 +1472,7 @@ export const promos = [
     name: "Tower of Embers",
     element: "fire",
     defense: 1500,
-    type: "unit",
+    type: "Tower",
     effect:
       "When this tower is destroyed, you may deal 1500 to a unit, then you may deal 1000 to a unit.",
     number: "137",
@@ -1460,7 +1482,7 @@ export const promos = [
     name: "Tower of Waves",
     element: "water",
     defense: 1000,
-    type: "unit",
+    type: "Tower",
     effect:
       "When this tower is destroyed, you may draw three cards, then put two cards from your hand on the bottom of your deck.",
     number: "138",
@@ -1470,7 +1492,7 @@ export const promos = [
     name: "Tower of Glimmers",
     element: "light",
     defense: 1000,
-    type: "unit",
+    type: "Tower",
     effect:
       "When this tower is destroyed, you may exhaust all units your opponent controls.",
     number: "139",
@@ -1490,7 +1512,7 @@ export const promos = [
     name: "Tower of Fear",
     element: "dark",
     defense: 1000,
-    type: "unit",
+    type: "Tower",
     effect:
       "When this tower is destroyed, you may exhaust two of your opponent's shards.",
     number: "141",
@@ -1500,7 +1522,7 @@ export const promos = [
     name: "Tower of Gusts",
     element: "air",
     defense: 1500,
-    type: "unit",
+    type: "Tower",
     effect:
       "When this tower is destroyed, you may recover all shards you control.",
     number: "142",
@@ -1793,7 +1815,7 @@ export const promos = [
     image: "images/Promos/ruka-the-dragonsoul-pugilist.webp",
     name: "Ruka, the Dragonsoul Pugilist",
     element: "fire",
-    power: 2,
+    cost: 2,
     power: 1000,
     type: "Unit",
     subtype: "warrior",
@@ -1807,7 +1829,7 @@ export const promos = [
     image: "images/Promos/sandsea-hydra-scorpion.jpg",
     name: "Sandsea Hydra Scorpion",
     element: "air",
-    power: 2,
+    cost: 2,
     power: 1000,
     type: "Unit",
     subtype: "dragon beast",
@@ -1819,7 +1841,7 @@ export const promos = [
     image: "images/Promos/demi-bahamute.jpg",
     name: "Demi-Bahamute",
     element: "fire",
-    power: 5,
+    cost: 5,
     power: 2500,
     type: "Unit",
     subtype: "dragon",
@@ -1832,7 +1854,7 @@ export const promos = [
     image: "images/Promos/demi-leviathan.png",
     name: "Demi-Leviathan",
     element: "water",
-    power: 5,
+    cost: 5,
     power: 2500,
     type: "Unit",
     subtype: "serpent",
@@ -1958,7 +1980,7 @@ export const promos = [
     image: "images/Promos/the-masked-nemesis.png",
     name: "The Masked Nemesis",
     element: "dark",
-    power: 2,
+    cost: 2,
     power: 1500,
     type: "unit",
     effect:
@@ -1970,7 +1992,7 @@ export const promos = [
     image: "images/Promos/fragment-of-adoration.webp",
     name: "Fragment of Adoration",
     element: "argent",
-    power: 6,
+    cost: 6,
     power: 5000,
     type: "Omega Unit",
     subtype: "entity",
@@ -1983,7 +2005,7 @@ export const promos = [
     image: "images/Promos/professor-damous-outlandish-engineer.png",
     name: "Professor Damous, Outlandish Engineer",
     element: "argent",
-    power: 3,
+    cost: 3,
     power: 2000,
     type: "Unit",
     subtype: "professor",
