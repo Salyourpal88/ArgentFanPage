@@ -2014,6 +2014,17 @@ export const promos = [
     number: "188",
   },
   {
+    image: "images/Promos/ketsu-the-erratic-armor.png",
+    cost: 1,
+    name: "Ketsu, the Erratic Armor",
+    type: "Augment",
+    subtype: "Gear",
+    element: "light",
+    number: "194",
+    effect:
+      'You can only control one "Ketsu, the Erratic Armor".\nEquip to target \u03A9 unit you control.\nIf the equipped unit would put a unit under it into the discard zone for an ability, you may sacrifice this card instead.\nWhenever one of your \u03A9 units attacks - You may equip this card from your discard zone to that unit.',
+  },
+  {
     image: "images/Promos/fragment-of-adoration.webp",
     name: "Fragment of Adoration",
     element: "argent",
@@ -2040,16 +2051,501 @@ export const promos = [
   },
 ];
 
+export const lgs1 = [
+  {
+    image: "images/Promos/treat.webp",
+    name: "Treat!",
+    element: "dark",
+    cost: 1,
+    type: "Spell",
+    effect:
+      "Instacast\n" +
+      "As an additional cost to play this card, sacrifice a unit.\n" +
+      "Search your deck for a number of cards equal to the sacrificed unit's cost, and send them to the discard zone.",
+    number: "072",
+  },
+  {
+    image: "images/Promos/gloom-necrolord.webp",
+    name: "Gloom Necrolord",
+    element: "Dark",
+    cost: 9,
+    power: 3000,
+    type: "Unit",
+    effect:
+      "Ruined - You may expel this card from your discard zone: If you do, put two target units from your discard zone into play.",
+    number: "078",
+  },
+  {
+    image: "images/Promos/guiding-winds.webp",
+    name: "Guiding Winds",
+    element: "air",
+    cost: 1,
+    type: "Spell",
+    effect:
+      " Instacast\n" +
+      "Return target unit you control to its owner's hand, and if you do draw one card.",
+    number: "084",
+  },
+  {
+    image: "images/Promos/tux-the-emperor-spirit.webp",
+    name: "Tux, the Emperor Spirit",
+    element: "water",
+    affinity: 10,
+    type: "Spirit",
+    effect:
+      "When a unit you control destroys a tower - You may draw a card then discard a card.\n" +
+      "Soulburst, pay (3): Stun all units your opponent controls. (A Stunned card cannot attack, block, or use activated abilities, until the end of the next turn.)",
+    number: "089",
+  },
+  {
+    image: "images/Promos/omega-magic-yami.webp",
+    name: "Omega Magic: Yami",
+    element: "dark",
+    cost: 2,
+    type: "Spell",
+    effect:
+      "Instacast\n" +
+      "Choose one OR if you have two or less towers remaining you can choose both.\n" +
+      "* Target unit gets -1000 this turn.\n" +
+      "* Return target unit with cost (3) or less from your discard zone to the field.",
+    number: "102",
+  },
+  {
+    image: "images/Promos/omega-magic-kaze.webp",
+    name: "Omega Magic: Kaze",
+    element: "air",
+    cost: 2,
+    type: "Spell",
+    effect:
+      "Instacast\n" +
+      "If you have two or less towers remaining, this card costs (0) to play.\n" +
+      "Target unit cannot deal damage or attack this turn. Draw one card.",
+    number: "103",
+  },
+  {
+    image: "images/Promos/omega-magic-mizu.webp",
+    name: "Omega Magic: Mizu",
+    element: "water",
+    cost: 2,
+    type: "Spell",
+    effect:
+      "Instacast\n" +
+      "Choose one OR if you have two or less towers remaining, choose two.\n" +
+      "* Draw one card.\n" +
+      "* Exhaust target unit.\n" +
+      "* Return target unit to its owner's hand if it is exhausted.",
+    number: "104",
+  },
+  {
+    image: "images/Promos/omega-magic-kasai.webp",
+    name: "Omega Magic: Kasai",
+    element: "fire",
+    cost: 2,
+    type: "Spell",
+    effect:
+      "Instacast\n" +
+      "Deal 1500 to target attacking or blocking unit.\n" +
+      "Then, if you have two or less towers remaining, deal 2000 to target unit.",
+    number: "105",
+  },
+  {
+    image: "images/Promos/omega-magic-hikari.webp",
+    name: "Omega Magic: Hikari",
+    element: "light",
+    cost: 2,
+    type: "Spell",
+    effect:
+      "Instacast\n" +
+      "Put into play one Knight unit token with Guardian (Unit * Knight/Light/1000). If you have two or less towers remaining, put into play two tokens instead.",
+    number: "106",
+  },
+  {
+    image: "images/Promos/zephyr-crystal.webp",
+    name: "Zephyr Crystal",
+    element: "argent",
+    type: "Special Shard",
+    effect:
+      "If your spirit isn't Air, this card comes into play exhausted.\n" +
+      "Exhaust: Produce (1).\n" +
+      "Exhaust, pay (2): Destroy target Augment.",
+    number: "107",
+  },
+  {
+    image: "images/Promos/nightmare-crystal.webp",
+    name: "Nightmare Crystal",
+    element: "argent",
+    type: "Special Shard",
+    effect:
+      "If your spirit isn't Dark, this card comes into play exhausted.\n" +
+      "Exhaust: Produce (1).\n" +
+      "Exhaust: Send the top card of your deck to the discard zone.",
+    number: "108",
+  },
+  {
+    image: "images/Promos/hallowed-crystal.webp",
+    name: "Hallowed Crystal",
+    element: "argent",
+    type: "Special Shard",
+    effect:
+      "If your spirit isn't Light, this card comes into play exhausted.\n" +
+      "Exhaust: Produce (1).\n" +
+      "Exhaust, pay (1): Target unit with Guardian gets +500 this turn.",
+    number: "109",
+  },
+  {
+    image: "images/Promos/cryptic-crystal.webp",
+    name: "Cryptic Crystal",
+    element: "argent",
+    type: "Special Shard",
+    effect:
+      "If your spirit isn't Water, this card comes into play exhausted.\n" +
+      "Exhaust: Produce (1).\n" +
+      "Arrive - Look at the top two cards of your deck and put them back in any order.",
+    number: "110",
+  },
+  {
+    image: "images/Promos/wyvern-crystal.webp",
+    name: "Wyvern Crystal",
+    element: "argent",
+    type: "Special Shard",
+    effect:
+      "If your spirit isn't Fire, this card comes into play exhausted.\n" +
+      "Exhaust: Produce (1).\n" +
+      "Arrive - Add target Dragon unit from your discard zone to your hand, and, if you do, discard one card from your hand.",
+    number: "111",
+  },
+];
+
+export const lgs2 = [
+  {
+    image: "images/Promos/tower-of-surging-gales.webp",
+    name: "Tower of Surging Gales",
+    element: "air",
+    defense: 1000,
+    type: "Tower",
+    effect:
+      "Use only if your spirit or champion is Air.\n" +
+      "When this card is destroyed: You may put the top card of your shard deck into play. Use this effect only if you have more destroyed towers than your opponent.",
+    number: "112",
+  },
+  {
+    image: "images/Promos/tower-of-surging-radiance.webp",
+    name: "Tower of Surging Radiance",
+    element: "light",
+    defense: 1000,
+    type: "Tower",
+    effect:
+      "Use only if your spirit or champion is Light.\n" +
+      "When this card is destroyed: You may put a unit with cost (3) or less from your hand into play. Use this effect only if you have more destroyed towers than your opponent.",
+    number: "113",
+  },
+  {
+    image: "images/Promos/tower-of-surging-shadows.webp",
+    name: "Tower of Surging Shadows",
+    element: "dark",
+    defense: 2000,
+    type: "Tower",
+    effect:
+      "Use only if your spirit or champion is Dark.\n" +
+      "When this tower is destroyed: You may return a unit with cost (3) or less from your discard zone to the field. Use this effect only if you have more destroyed towers than your opponent.",
+    number: "114",
+  },
+  {
+    image: "images/Promos/tower-of-surging-torrents.webp",
+    name: "Tower of Surging Torrents",
+    defense: 1500,
+    element: "water",
+    type: "Tower",
+    effect:
+      "Use only if your spirit or champion is Water.\n" +
+      "When this card is destroyed: You may search your deck for a spell and add it to your hand. Use this effect only if you have more destroyed towers than your opponent.",
+    number: "115",
+  },
+  {
+    image: "images/Promos/tower-of-surging-flames.webp",
+    name: "Tower of Surging Flames",
+    element: "fire",
+    defense: 1500,
+    type: "Tower",
+    effect:
+      "Use only if your spirit or champion is Fire.\n" +
+      "When this card is destroyed: You may deal 1500 to all units your opponent controls. Use this effect only if you have more destroyed towers than your opponent.",
+    number: "116",
+  },
+  {
+    image: "images/Promos/giga_shard_beast.webp",
+    name: "Giga-Shardbeast",
+    element: "Argent",
+    cost: 2,
+    power: 2500,
+    type: "Unit",
+    subtype: "Beast",
+    effect:
+      "You can only play units.\n" +
+      "Ohter 'Shardbeast' units control get +500\n",
+    number: "001",
+  },
+  {
+    image: "images/Promos/iakuma-juggernaut.webp",
+    element: "water",
+    cost: 5,
+    power: 3000,
+    name: "Iakuma Juggernaut",
+    type: "Unit",
+    number: "002",
+    effect:
+      "Guardian\n" +
+      "If this card uses Guardian - Switch it to Active after that battle.\n" +
+      "Shard Drain 1: This card cannot be targeted by Spells or Abilities this turn.",
+  },
+  {
+    image: "images/Promos/booster-dragon.webp",
+    element: "fire",
+    cost: 2,
+    power: 1500,
+    name: "Booster Dragon",
+    type: "Unit",
+    subtype: "dragon",
+    number: "003",
+    effect: "Arrive – Target Dragon Unit gets +1000 this turn.",
+  },
+  {
+    image: "images/Promos/vabriels-final-gift.webp",
+    element: "air",
+    cost: 2,
+    name: "Vabriel's Final Gift",
+    type: "Spell",
+    number: "004",
+    effect: "Search your deck for any card and add it to your hand.",
+  },
+  {
+    image: "images/Promos/mutation-002-reprobloom.webp",
+    element: "argent",
+    cost: 2,
+    power: 1000,
+    name: "Mutation 002: Reprobloom",
+    type: "Unit",
+    subtype: "experiment",
+    number: "005",
+    effect:
+      "When this card is targeted by a spell or ability - You may put into play two Experiment unit tokens (Unit * Experiment/Argent/1000).",
+  },
+  {
+    image: "images/Promos/mara-mischievous-witch.webp",
+    element: "water",
+    cost: 2,
+    power: 1000,
+    name: "Mara, Mischievous Witch",
+    type: "Unit",
+    subtype: "witch",
+    number: "006",
+    effect:
+      'Arrive - You may reveal two different spells from your hand: If you do, search your deck for an "Animated" unit and put it into play.',
+  },
+  {
+    image: "images/Promos/obsidian-gargoyle.webp",
+    element: "dark",
+    cost: 2,
+    power: 1000,
+    name: "Obsidian Gargoyle",
+    type: "Unit",
+    subtype: "gargoyle",
+    number: "007",
+    effect:
+      "When this card is sent from your deck to your discard zone - You may put it into play.",
+  },
+  {
+    image: "images/Promos/shining-shardagger.webp",
+    element: "light",
+    cost: 2,
+    name: "Shining Shardagger",
+    type: "Augment",
+    subtype: "gear",
+    number: "008",
+    effect: " Equip to target Unit.\nIt gets +500 and Quickness.",
+  },
+  {
+    image: "images/Promos/sandsea-hydra-scorpion.webp",
+    name: "Sandsea Hydra Scorpion",
+    element: "air",
+    cost: 2,
+    power: 1000,
+    type: "Unit",
+    subtype: "dragon beast",
+    effect:
+      "Ruined – Search your deck for a Beast unit with cost (1) or less and put it into play.",
+    number: "009",
+  },
+];
+
+export const lgs3 = [
+  {
+    image: "images/Promos/ceremonial-harpist.webp",
+    name: "Ceremonial Harpist",
+    element: "Argent",
+    cost: 3,
+    power: 1500,
+    type: "Unit",
+    effect: `Guardian\nThis card cannot deal damage, and cannot be targeted by spells.\nRuined – Search your deck for a "Hallowed Harpist" and put it into play.`,
+    number: "010",
+  },
+  {
+    image: "images/Promos/unrestrained-poltergeist.webp",
+    name: "Unrestrained Poltergeist",
+    element: "Dark",
+    cost: 2,
+    power: 500,
+    type: "Unit",
+    effect: `Ruined – Send the top three cards of a player's deck to the discard zone, then a different player expels the top three cards of their deck.`,
+    number: "011",
+  },
+  {
+    image: "images/Promos/gallant-squire.webp",
+    name: "Gallant Squire",
+    element: "Dark",
+    cost: 1,
+    power: 1000,
+    type: "Unit",
+    subtype: "Knight",
+    effect: "Arrive - The next Gear you play this turn costs (1) less to play.",
+    number: "012",
+  },
+  {
+    image: "images/Promos/bone-scavager.webp",
+    name: "Bone Scavager",
+    element: "argent",
+    cost: 1,
+    power: 1000,
+    type: "Unit",
+    subtype: "beast",
+    effect:
+      "Arrive - Expel target unit from a discard zone.\n" +
+      "Pay (1): Expel target unit from a discard zone, and if you do, place a +500 counter on this card.",
+    number: "013",
+  },
+  {
+    image: "images/Promos/shard-spider.webp",
+    element: "argent",
+    cost: 3,
+    power: 1500,
+    name: "Shard Spider",
+    type: "Unit",
+    subtype: "beast",
+    number: "014",
+    effect:
+      "If you have more destroyed towers than your opponent, and they control more units than you, this card cost (3) less to play.\n" +
+      "Arrive - Exhaust target unit your opponent controls. It does not recover during your opponent's next charge phase.",
+  },
+  {
+    image: "images/Promos/shadow-liger.webp",
+    element: "dark",
+    cost: 1,
+    power: 1000,
+    name: "Shadow Liger",
+    type: "Unit",
+    subtype: "beast",
+    number: "015",
+    effect:
+      "Whenever this card attacks or is attacked - Send the top two cards of your deck to the discard zone.",
+  },
+  {
+    image: "images/Promos/golden-rose-blade.webp",
+    element: "Light",
+    cost: 2,
+    name: "Golden Rose Blade",
+    type: "Augment",
+    subtype: "Gear",
+    effect:
+      " Equip only to target Knight unit. The equipped unit gets +500 and gains Unblockable. (Guardian cannot be used when this card attacks.)Whenever your opponent plays a spell - You may add this card from your discard zone to your hand.",
+    number: "016",
+  },
+  {
+    image: "images/Promos/cloudsea-offensive-formation.webp",
+    element: "Air",
+    cost: 1,
+    name: "Cloudsea Offensive Formation",
+    type: "Spell",
+    effect:
+      "InstacastPlay only while you control an Airship unit.Destroy target unit or augment.",
+    number: "017",
+  },
+  {
+    image: "images/Promos/grove-elemental.webp",
+    element: "air",
+    cost: 2,
+    power: 2000,
+    name: "Grove Elemental",
+    type: "Unit",
+    subtype: "elemental",
+    number: "018",
+    effect:
+      "Arrive - If you've played at least two other cards this turn, put the top card of your shard deck into play.\n" +
+      "Whenever this card leaves the field - Your opponent may destroy one of your shards.",
+  },
+  {
+    image: "images/Promos/ritual-of-ashes.webp",
+    element: "Fire",
+    cost: 1,
+    name: "Ritual of Ashes",
+    type: "Spell",
+    effect:
+      "Choose one.* Your Fire spells cost (1) less to play this turn.* Each time you play a Fire spell this turn, draw a card.",
+    number: "019",
+  },
+  {
+    image: "images/Promos/ashborn-conjurer.webp",
+    element: "fire",
+    cost: 3,
+    power: 1500,
+    name: "Ashborn Conjurer",
+    type: "Unit",
+    subtype: "mystic",
+    number: "020",
+    effect:
+      'Whenever your opponent plays a spell or uses an activated ability - You may put into play a Fire Elemental token (Unit * Elemental/Fire/1000) with "Ruined: Deal 500 to target unit."',
+  },
+  {
+    image: "images/Promos/expanding-elemental.webp",
+    element: "water",
+    cost: 2,
+    power: 1000,
+    name: "Expanding Elemental",
+    type: "Unit",
+    subtype: "elemental",
+    number: "021",
+    effect:
+      'Arrive - You may Shard Drain 1: If you do, search your deck for an "Expanding Elemental" and put it into play.',
+  },
+  {
+    image: "images/Promos/witch-queens-ring.webp",
+    element: "Water",
+    cost: 1,
+    name: "Witch Queen's Ring",
+    type: "Augment",
+    subtype: "Gear",
+    effect:
+      "Equip to target unit.\nWhenever the equipped unit attacks - Draw a card, then discard a card.",
+    number: "022",
+  },
+  {
+    image: "images/Promos/linda-and-goblin-dynamic-duo-1.webp",
+    name: "Linda & Goblin, Dynamic Duo",
+    element: "light",
+    cost: 3,
+    power: 1500,
+    type: "Unit",
+    subtype: "legendary duo",
+    effect:
+      "Brawler\n" +
+      "While you control a Beast unit, you may play this card from your discard zone as if it was in your hand.\n" +
+      'Arrive – Put into play a Cat token (Unit/Beast/Light/1000) that has "Cannot be targeted by spells or abilities.".',
+    number: "023",
+  },
+];
+
+export const lgs4 = [];
 let sal = {
   units: [
-    {
-      searchable: "ceremonial-harpist",
-      name: "Ceremonial Harpist",
-      element: "argent",
-      url: "https://argent-saga-card-bucket.s3.amazonaws.com/ceremonial-harpist.jpg",
-      effect:
-        'Guardian\nThis card cannot deal damage, and cannot be targeted by spells.\nRuined – Search your deck for a "Hallowed Harpist" and put it into play.',
-    },
     {
       searchable: "dux-the-infamous-skyraider",
       name: "Dux, the Infamous Skyraider",
@@ -2065,26 +2561,6 @@ let sal = {
       url: "https://argent-saga-card-bucket.s3.amazonaws.com/gigath-king-of-the-gargoyles.jpg",
       effect:
         "This card costs (2) less to play for each card in your hand that exceeds the number of cards in your opponent's hand.\nIf you have more cards in your hand than your opponent, neither player can add to the queue in response to playing this card.\nOther units you control gain Immortal during your turn.",
-    },
-    {
-      searchable: "unrestrained-poltergeist",
-      name: "Unrestrained Poltergeist",
-      element: "dark",
-      url: "https://argent-saga-card-bucket.s3.amazonaws.com/unrestrained-poltergeist.jpg",
-      effect:
-        "Ruined – Send the top three cards of a player's deck to the discard zone, then a different player expels the top three cards of their deck.",
-    },
-  ],
-  augments: [
-    {
-      searchable: "ketsu-the-erratic-armor",
-      name: "Ketsu, the Erratic Armor",
-      type: "gear",
-      element: "light",
-      promo: true,
-      url: "https://argent-saga-card-bucket.s3.amazonaws.com/ketsu-the-erratic-armor.png",
-      effect:
-        'You can only control one "Ketsu, the Erratic Armor".\nEquip to target \u03A9 unit you control.\nIf the equipped unit would put a unit under it into the discard zone for an ability, you may sacrifice this card instead.\nWhenever one of your \u03A9 units attacks - You may equip this card from your discard zone to that unit.',
     },
   ],
 };
