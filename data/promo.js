@@ -2543,24 +2543,169 @@ export const lgs3 = [
   },
 ];
 
-export const lgs4 = [];
-let sal = {
-  units: [
-    {
-      searchable: "dux-the-infamous-skyraider",
-      name: "Dux, the Infamous Skyraider",
-      element: "air",
-      url: "https://argent-saga-card-bucket.s3.amazonaws.com/dux-the-infamous-skyraider.jpg",
-      effect:
-        "Airship and Skyraider units cost you (1) less to play.\nArrive - Add target Airship or Skyraider unit from your discard zone to your hand.",
-    },
-    {
-      searchable: "gigath-the-king-of-the-gargoyles",
-      name: "Gigath, the King of the Gargoyles",
-      element: "dark",
-      url: "https://argent-saga-card-bucket.s3.amazonaws.com/gigath-king-of-the-gargoyles.jpg",
-      effect:
-        "This card costs (2) less to play for each card in your hand that exceeds the number of cards in your opponent's hand.\nIf you have more cards in your hand than your opponent, neither player can add to the queue in response to playing this card.\nOther units you control gain Immortal during your turn.",
-    },
-  ],
-};
+export const lgs4 = [
+  {
+    image: "images/Promos/charise-archivist-of-worlds.jpg",
+    element: "argent",
+    cost: 1,
+    power: 500,
+    name: "Charise, Archivist of Worlds",
+    type: "Unit",
+    subtype: "mysterious woman",
+    rarity: "Common",
+    number: "024",
+    effect:
+      "Exhaust: Put one counter on this card.\n Exhaust, pay (1): Search your deck for a unit with cost equal to or less than the number of counters on this card and add it to your hand. Remove all counters from this card.",
+  },
+  {
+    image: "images/Promos/cloudsea-scoutship.jpg",
+    element: "Air",
+    cost: 2,
+    power: 1000,
+    name: "Cloudsea Scoutship",
+    type: "Unit",
+    subtype: "Airship",
+    effect:
+      "Arrive - Look at the top card of your opponent's deck. You may put it on the top or bottom of their deck.Ruined - You may put into play target Skyraider unit with cost (1) from your discard zone.",
+    number: "025",
+  },
+  {
+    image: "images/Promos/crystal-dimensional-dragon.jpg",
+    element: "water",
+    cost: 10,
+    power: 4000,
+    name: "Crystal Dimensional Dragon",
+    type: "Unit",
+    subtype: "dragon",
+    number: "026",
+    effect:
+      "If you've played five or more Water spells this turn, this card costs (0) to play.\n" +
+      "Arrive - If you played this card from your hand, your opponent cannot put units into play or play spells on their next turn.",
+  },
+  {
+    image: "images/Promos/dux-the-infamous-skyraider.jpg",
+    element: "Air",
+    cost: 3,
+    power: 2000,
+    name: "Dux, the Infamous Skyraider",
+    type: "Unit",
+    subtype: "Skraider",
+    number: "027",
+    effect:
+      "Airship and Skyraider units cost you (1) less to play.\nArrive - Add target Airship or Skyraider unit from your discard zone to your hand.",
+  },
+  {
+    image: "images/Promos/endowment-of-the-dragon-god.jpg",
+    element: "Fire",
+    cost: 1,
+    name: "Endowment of the Dragon God",
+    type: "Spell",
+    effect:
+      'You can only play one "Endowment of the Dragon God" each turn.As an additional cost to play this card reveal any number of different Dragon units from your hand.The next Dragon unit you play this turn costs (X) less to play. (X equals the number of Dragon units you revealed.)',
+    number: "028",
+  },
+  {
+    image: "images/Promos/ferocious-acidic-monger.jpg",
+    element: "Argent",
+    cost: 3,
+    power: 1500,
+    name: "Ferocious Acidic Monger",
+    type: "Unit",
+    effect: "Arrive - Destroy target augment, and if you do, draw a card.",
+    number: "029",
+  },
+  {
+    image: "images/Promos/gigath-king-of-the-gargoyles.jpg",
+    element: "Dark",
+    cost: 10,
+    power: 5000,
+    name: "Gigath, King of the Gargoyles",
+    type: "Unit",
+    subtype: "Gargoyle",
+    effect:
+      "This card costs (2) less to play for each card in your hand that exceeds the number of cards in your opponent's hand.\nIf you have more cards in your hand than your opponent, neither player can add to the queue in response to playing this card.\nOther units you control gain Immortal during your turn.",
+    number: "030",
+  },
+  {
+    image: "images/Promos/golem-of-avarice.jpg",
+    element: "dark",
+    cost: 3,
+    power: 2000,
+    name: "Golem Of Avarice",
+    type: "Unit",
+    subtype: "golem",
+    number: "031",
+    effect:
+      "Arrive (When this card enters the field zone.) - If you control another Golem Unit, discard one random card from your opponent's hand.",
+  },
+  {
+    image: "images/Promos/great-stormfish.jpg",
+    element: "water",
+    cost: 3,
+    power: 1500,
+    name: "Great Stormfish",
+    type: "Unit",
+    subtype: "fish",
+    number: "032",
+    effect:
+      "Arrive - Exhaust target unit.\n" +
+      "Ruined - Return target unit to the top of its owner's",
+  },
+  {
+    image: "images/Promos/hidden-laboratory.jpg",
+    element: "dark",
+    cost: 2,
+    name: "Hidden Laboratory",
+    type: "Augment",
+    number: "033",
+    effect:
+      'Arrive (When this card enters the field zone.) - Place three counters on your Champion if it is "Hoenna, Immoral Conjurer".\n' +
+      "Exhaust, sacrifice a Golem Unit: Draw one card.",
+  },
+  {
+    image: "images/Promos/juvenile-dragon.jpg",
+    element: "fire",
+    cost: 1,
+    power: 1000,
+    name: "Juvenile Dragon",
+    type: "Unit",
+    subtype: "dragon",
+    number: "034",
+    effect:
+      "While you control two or more other Dragon units, this card has Quickness.",
+  },
+  {
+    image: "images/Promos/order-of-the-rose.jpg",
+    element: "light",
+    cost: 1,
+    name: "Order of the Rose",
+    type: "Spell",
+    number: "035",
+    effect:
+      'Reveal the top five cards of your deck. You may add one revealed "Rose Knight" unit from them to your hand. If you do, you may also add a revealed Gear to your hand. Place the rest on the bottom of your deck in any order.',
+  },
+  {
+    image: "images/Promos/raza-knight-of-unity.jpg",
+    element: "light",
+    cost: 3,
+    power: 1500,
+    name: "Raza, Knight of Unity",
+    type: "Unit",
+    subtype: "knight",
+    number: "036",
+    effect:
+      "Arrive (When this card enters the field zone.) - Expel any number of Gears from your discard zone, Put into play a Knight Unit from your Deck with cost equal to the number of Gears you expelled.",
+  },
+  {
+    image: "images/promos/skyship-engineer.jpg",
+    element: "air",
+    cost: 1,
+    power: 1000,
+    name: "Skyship Engineer",
+    type: "Unit",
+    subtype: "skyraider",
+    number: "037",
+    effect:
+      "Exhaust: Return this card to its owner's hand, and, if you do, your Airship units cost (1) less to play this turn.",
+  },
+];
