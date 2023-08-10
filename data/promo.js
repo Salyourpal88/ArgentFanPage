@@ -1812,6 +1812,18 @@ export const promos = [
     number: "164",
   },
   {
+    image: "images/Promos/playful-imp.png",
+    element: "Dark",
+    cost: 1,
+    power: 1000,
+    name: "Playful Imp",
+    type: "Unit",
+    subtype: "Demon",
+    effect:
+      "Ruined - Declare a card name. Your opponent reveals their hand and discards all copies of the declared card.",
+    number: "166",
+  },
+  {
     image: "images/Promos/ruka-the-dragonsoul-pugilist.webp",
     name: "Ruka, the Dragonsoul Pugilist",
     element: "fire",
@@ -1987,6 +1999,19 @@ export const promos = [
       "Arrive or whenever this card declares an attack - Place a counter on this card.\n" +
       "Ruined - If this card had at least two counters on it, your opponent discards a card. If it had at least three counters, you may put this card into play.",
     number: "185",
+  },
+  {
+    image: "images/Promos/giga_shard_beast.png",
+    name: "Giga-Shardbeast",
+    element: "Argent",
+    cost: 2,
+    power: 2500,
+    type: "Unit",
+    subtype: "Beast",
+    effect:
+      "You can only play units.\n" +
+      "Ohter 'Shardbeast' units control get +500\n",
+    number: "188",
   },
   {
     image: "images/Promos/fragment-of-adoration.webp",
