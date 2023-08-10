@@ -1,4 +1,4 @@
-export const cardData = [
+export const hokken = [
   {
     image: "images/Hokken/ArcticArbiter.webp",
     element: "Water",
