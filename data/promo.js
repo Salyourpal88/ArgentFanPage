@@ -2697,7 +2697,7 @@ export const lgs4 = [
       "Arrive (When this card enters the field zone.) - Expel any number of Gears from your discard zone, Put into play a Knight Unit from your Deck with cost equal to the number of Gears you expelled.",
   },
   {
-    image: "images/promos/skyship-engineer.jpg",
+    image: "images/Promos/skyship-engineer.jpg",
     element: "air",
     cost: 1,
     power: 1000,

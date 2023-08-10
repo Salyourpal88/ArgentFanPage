@@ -252,7 +252,7 @@ export const hokken = [
     number: "020/136",
   },
   {
-    image: "images/Hokken/DiscipleofValor.webp",
+    image: "images/Hokken/DiscipleOfValor.webp",
     element: "Light",
     cost: 2,
     power: 1000,
