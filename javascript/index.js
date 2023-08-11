@@ -6,26 +6,12 @@ import { ascension } from "../data/3-ascension.js";
 import { hokken } from "../data/4-echoes-of-hokken.js";
 import { generations, genesis, conviction } from "../data/expansion-packs.js";
 import { promos, lgs1, lgs2, lgs3, lgs4 } from "../data/promo.js";
+import { allCards } from "../data/all-cards.js";
 let imageString = "";
 
-let everything = [
-  ...intros,
-  ...betrayal,
-  ...revelations,
-  ...ascension,
-  ...hokken,
-  ...generations,
-  ...genesis,
-  ...conviction,
-  ...promos,
-  ...lgs1,
-  ...lgs2,
-  ...lgs3,
-  ...lgs4,
-];
-let filteredList = everything.slice();
+let filteredList = allCards.slice();
 
-everything.forEach((value) => {
+allCards.forEach((value) => {
   imageString += `<div class='image-formating'><img src="${value.image}" /></div>`;
 });
 document.querySelector(".first").innerHTML = imageString;
@@ -63,7 +49,7 @@ document.querySelector(".filter-button").addEventListener("click", () => {
   document.querySelector(".effect-filter").value = "";
   document.querySelector(".rarity-filter").value = "";
 
-  filteredList = everything;
+  filteredList = allCards;
 });
 
 function filtered(word) {
