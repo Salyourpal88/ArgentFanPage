@@ -410,6 +410,15 @@ export const promos = [
     number: "036",
   },
   {
+    image: "images/Promos/knight-token-1.jpg",
+    element: "light",
+    name: "Knight Token",
+    type: "Unit",
+    effect:
+      "Guardian (Exhaust this card to make an attacking Unit attack this one instead.)",
+    number: "037",
+  },
+  {
     image: "images/Promos/arbor-carbuncle-1.webp",
     name: "Arbor Carbuncle",
     element: "air",
@@ -2048,6 +2057,61 @@ export const promos = [
     effect:
       "Exhaust, sacrifice a unit: Trigger the Arrive ability of the sacrificed unit.",
     number: "200",
+  },
+  {
+    image: "images/Promos/hoenna-immoral-conjurer.jpg",
+    element: "dark",
+    name: "Hoenna, Immoral Conjurer",
+    type: "Champion",
+    rarity: "Intro Deck",
+    number: "37/86",
+    effect:
+      "When you destroy a Tower or Unit in battle - Place one counter on this card.\n" +
+      "Remove three counters from this card: Put into play a Golem Token Unit (Unit * Golem/Dark/1500).",
+  },
+  {
+    image: "images/Promos/golem-token.jpg",
+    name: "Golem Token",
+    element: "Dark",
+    power: 1500,
+    type: "Unit",
+    subtype: "Golem",
+  },
+  {
+    image: "images/Promos/hound-token.jpg",
+    name: "Hound Token",
+    element: "Light",
+    power: 500,
+    type: "Unit",
+    subtype: "Beast",
+    effect:
+      "Guardian Sacrafice this unit: Prevent the next damage that would be dealt to target unit this turn.",
+  },
+  {
+    image: "images/Promos/hound-token-1.jpg",
+    name: "Hound Token",
+    element: "Light",
+    power: 500,
+    type: "Unit",
+    subtype: "Hound",
+    effect:
+      "Guardian Sacrafice this unit: Prevent the next damage that would be dealt to target unit this turn.",
+  },
+  {
+    image: "images/Promos/illusion-token.webp",
+    name: "Illusion Token",
+    element: "Water",
+    power: 500,
+    type: "Unit",
+    subtype: "Illusion",
+    effect: "Guardian(This unit cannot attack.)",
+  },
+  {
+    image: "images/Promos/knight-token-1000.jpg",
+    element: "light",
+    name: "Knight Token",
+    type: "Unit",
+    effect: "Guardian",
   },
 ];
 

@@ -2534,14 +2534,6 @@ export const allCards = [
       "Exhaust, pay (2): Destroy target Augment.",
   },
   {
-    image: "images/Betrayal/knight-token-2000.webp",
-    element: "light",
-    name: "Knight Token",
-    type: "Unit",
-    effect:
-      "Guardian (Exhaust this card to make an attacking Unit attack this one instead.)",
-  },
-  {
     image: "images/Revelations/academy-of-argos.webp",
     element: "water",
     cost: 1,
@@ -6967,6 +6959,18 @@ export const allCards = [
     number: "007",
   },
   {
+    image: "images/Promos/ash-the-glacial-sorcerer.webp",
+    name: "Ash, the Glacial Sorcerer",
+    cost: 3,
+    power: 2000,
+    element: "water",
+    type: "Unit",
+    effect:
+      "When you play a Water Spell – You can place an Ice Wall counter on target non-destroyed Tower you own. (Towers with Ice Wall counters get +500 defense. If a Tower is destroyed, remove all Ice Wall counters from that Tower.)\n" +
+      "Remove all Ice Wall counters from all Towers you own: Deal damage to target Unit equal to the number of counters removed x500.",
+    number: "018",
+  },
+  {
     image: "images/Promos/demon-of-the-evil-eye.webp",
     name: "Demon of the Evil Eye",
     element: "dark",
@@ -6977,6 +6981,15 @@ export const allCards = [
     effect:
       "Arrive – Declare a card name, then your opponent reveals their hand and discards all cards with that name. Draw one card for each card discarded this way.",
     number: "034",
+  },
+  {
+    image: "images/Promos/knight-token-1.jpg",
+    element: "light",
+    name: "Knight Token",
+    type: "Unit",
+    effect:
+      "Guardian (Exhaust this card to make an attacking Unit attack this one instead.)",
+    number: "037",
   },
   {
     image: "images/Promos/curse-of-the-witch-queen.webp",
@@ -7549,6 +7562,50 @@ export const allCards = [
     effect:
       "Exhaust, sacrifice a unit: Trigger the Arrive ability of the sacrificed unit.",
     number: "200",
+  },
+  {
+    image: "images/Promos/golem-token.jpg",
+    name: "Golem Token",
+    element: "Dark",
+    power: 1500,
+    type: "Unit",
+    subtype: "Golem",
+  },
+  {
+    image: "images/Promos/hound-token.jpg",
+    name: "Hound Token",
+    element: "Light",
+    power: 500,
+    type: "Unit",
+    subtype: "Beast",
+    effect:
+      "Guardian Sacrafice this unit: Prevent the next damage that would be dealt to target unit this turn.",
+  },
+  {
+    image: "images/Promos/hound-token-1.jpg",
+    name: "Hound Token",
+    element: "Light",
+    power: 500,
+    type: "Unit",
+    subtype: "Hound",
+    effect:
+      "Guardian Sacrafice this unit: Prevent the next damage that would be dealt to target unit this turn.",
+  },
+  {
+    image: "images/Promos/illusion-token.webp",
+    name: "Illusion Token",
+    element: "Water",
+    power: 500,
+    type: "Unit",
+    subtype: "Illusion",
+    effect: "Guardian(This unit cannot attack.)",
+  },
+  {
+    image: "images/Promos/knight-token-1000.jpg",
+    element: "light",
+    name: "Knight Token",
+    type: "Unit",
+    effect: "Guardian",
   },
   {
     image: "images/Promos/tux-the-emperor-spirit.webp",

@@ -1611,7 +1611,7 @@ export const betrayal = [
   {
     image: "images/Betrayal/knight-token-2000.webp",
     element: "light",
-    name: "Knight Token",
+    name: "Knight",
     type: "Unit",
     effect:
       "Guardian (Exhaust this card to make an attacking Unit attack this one instead.)",
