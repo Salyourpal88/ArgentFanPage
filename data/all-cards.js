@@ -1067,6 +1067,7 @@ export const allCards = [
   },
   {
     image: "images/Intro-Deck-2019/argent-shard.webp",
+    element: "Argent",
     name: "Argent Shard",
     type: "Basic Shard",
     rarity: "Intro Deck",
@@ -5054,7 +5055,6 @@ export const allCards = [
   {
     image: "images/Ascension/BerserkerGolemToken.webp",
     element: "Dark",
-    cost: 0,
     power: 2000,
     name: "Berserker Golem Token",
     type: "Unit",
@@ -5063,7 +5063,6 @@ export const allCards = [
   {
     image: "images/Ascension/BlobToken.webp",
     element: "Argent",
-    cost: 0,
     power: 1000,
     name: "Blob Token",
     type: "Unit",
@@ -5073,7 +5072,6 @@ export const allCards = [
   {
     image: "images/Ascension/ExperimentToken.webp",
     element: "Argent",
-    cost: 0,
     power: 1000,
     name: "Experiment Token",
     type: "Unit",
@@ -5082,7 +5080,6 @@ export const allCards = [
   {
     image: "images/Ascension/FireElementalToken.webp",
     element: "Fire",
-    cost: 0,
     power: 1000,
     name: "Fire Elemental Token",
     type: "Unit",
@@ -5092,7 +5089,6 @@ export const allCards = [
   {
     image: "images/Ascension/HulkingMechToken.webp",
     element: "Argent",
-    cost: 0,
     power: 4000,
     name: "Experiment Token",
     type: "Unit",
@@ -5100,7 +5096,6 @@ export const allCards = [
   {
     image: "images/Ascension/IllusionToken.webp",
     element: "Water",
-    cost: 0,
     power: 1000,
     name: "Illusion Token",
     type: "Unit",
@@ -5109,7 +5104,6 @@ export const allCards = [
   {
     image: "images/Ascension/KnightToken1000.webp",
     element: "Light",
-    cost: 0,
     power: 1000,
     name: "Knight Token",
     type: "Unit",
@@ -5118,7 +5112,6 @@ export const allCards = [
   {
     image: "images/Ascension/KnightToken1500.webp",
     element: "Light",
-    cost: 0,
     power: 1500,
     name: "Knight Token",
     type: "Unit",
@@ -5127,7 +5120,6 @@ export const allCards = [
   {
     image: "images/Ascension/KnightToken1500Guardian.webp",
     element: "Light",
-    cost: 0,
     power: 1500,
     name: "Knight Token",
     type: "Unit",
@@ -5137,7 +5129,6 @@ export const allCards = [
   {
     image: "images/Ascension/MutationToken.webp",
     element: "Argent",
-    cost: 0,
     power: 500,
     name: "Mutation Token",
     type: "Unit",
@@ -5148,7 +5139,6 @@ export const allCards = [
   {
     image: "images/Ascension/RaoToken.webp",
     element: "Fire",
-    cost: 0,
     power: 1000,
     name: "Rao Token",
     type: "Unit",
@@ -5156,7 +5146,6 @@ export const allCards = [
   {
     image: "images/Ascension/ScorpionToken.webp",
     element: "Air",
-    cost: 0,
     power: 1000,
     name: "Scorpion Token",
     type: "Unit",
@@ -5166,7 +5155,6 @@ export const allCards = [
   {
     image: "images/Ascension/SentinelToken.webp",
     element: "Argent",
-    cost: 0,
     power: 4000,
     name: "Sentinel Token",
     type: "Unit",
@@ -5175,7 +5163,6 @@ export const allCards = [
   {
     image: "images/Ascension/SulkingMechToken.webp",
     element: "Argent",
-    cost: 0,
     power: 1000,
     name: "Sulking Mech Token",
     type: "Unit",
@@ -5183,7 +5170,6 @@ export const allCards = [
   {
     image: "images/Ascension/WaterElementalToken.webp",
     element: "Water",
-    cost: 0,
     power: 500,
     name: "Water Elemental Token",
     type: "Unit",
@@ -5193,7 +5179,6 @@ export const allCards = [
   {
     image: "images/Ascension/WhelpToken.webp",
     element: "Argent",
-    cost: 0,
     power: 1000,
     name: "Whelp Token",
     type: "Unit",
@@ -5202,7 +5187,6 @@ export const allCards = [
   {
     image: "images/Hokken/ArcticArbiter.webp",
     element: "Water",
-    cost: 6,
     power: 4000,
     name: "Arctic Arbiter",
     type: "Unit",
