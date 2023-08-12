@@ -1,11 +1,3 @@
-import { alphaIntros } from "../data/alpha-intros.js";
-import { intros } from "../data/0-intros.js";
-import { betrayal } from "../data/1-betrayal.js";
-import { revelations } from "../data/2-revelations.js";
-import { ascension } from "../data/3-ascension.js";
-import { hokken } from "../data/4-echoes-of-hokken.js";
-import { generations, genesis, conviction } from "../data/expansion-packs.js";
-import { promos, lgs1, lgs2, lgs3, lgs4 } from "../data/promo.js";
 import { allCards } from "../data/all-cards.js";
 let imageString = "";
 

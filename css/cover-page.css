@@ -1,0 +1,84 @@
+.flex-intro{
+    display: flex;
+}
+
+.center-text{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.mid-section .header-logo{
+    height: 125px;
+}
+
+.right-image-intro{
+    flex: 1;
+}
+
+.right-image-intro img{
+    width: 100%;
+    height: 650px;
+}
+
+
+.simple-design{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 300px;
+    background-image:    url(../images/Assets/elmo.jpg);
+    background-size:     cover;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+}
+
+.classic-design{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 150px;
+    background-color: green;
+}
+
+
+
+.Contributors-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+
+.flex-image-pfp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-image-pfp img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.image-adj{
+    height: 300px;
+}
+
+header{
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 125px;
+    background-color: rgb(169, 169, 169);
+}
+
+body{
+    margin-top: 125px;
+}
