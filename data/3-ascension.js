@@ -1114,7 +1114,7 @@ export const ascension = [
     image: "images/Ascension/SpiritOfUrsatovis.webp",
     element: "Fire",
     affinity: 12,
-    name: "Spirit of Serpio",
+    name: "Spirit of Ursatovis",
     type: "Spirit",
     effect:
       "Exhaust: Sacrifice a unit.Soulburst: All units get -1000 this turn.",
@@ -1362,6 +1362,129 @@ export const ascension = [
     effect: "Equip to target unit.\nIt gets +500 and Target Attack.s",
     rarity: "Common",
     number: "113/103",
+  },
+  {
+    image: "images/Promos/fizzy-the-water-spirit.webp",
+    name: "Fizzy, the Water Spirit",
+    element: "water",
+    type: "Spirit",
+    affinity: 8,
+    rarity: "Promo",
+    effect:
+      "Once per turn, during your turn, Shard Drain 1: Draw one card.\n" +
+      "During your turn, Soulburst: Draw one card.",
+    number: "122",
+  },
+  {
+    image: "images/Promos/luna-the-dark-spirit.webp",
+    name: "Luna, the Dark Spirit",
+    element: "dark",
+    type: "Spirit",
+    affinity: 8,
+    rarity: "Promo",
+    effect:
+      "When you destroy a tower or unit in battle - Place one counter on this card.\n" +
+      "During your turn, remove three counters from this card: Your opponent discards one card.\n" +
+      "During your turn, Soulburst: Your opponent discards one card.",
+    number: "123",
+  },
+  {
+    image: "images/Promos/corona-the-fire-spirit.webp",
+    name: "Corona, the Fire Spirit",
+    element: "fire",
+    type: "Spirit",
+    affinity: 8,
+    rarity: "Promo",
+    effect:
+      "Once per turn, during your turn, discard one Fire unit from your hand: Deal 500 to target unit.\n" +
+      "During your turn,Soulburst: Target unit gains Quickness this turn.",
+    number: "124",
+  },
+  {
+    image: "images/Promos/sola-the-light-spirit.webp",
+    name: "Sola, the Light Spirit",
+    element: "light",
+    type: "Spirit",
+    affinity: 8,
+    rarity: "Promo",
+    effect:
+      "At the end of your turn - You can switch one of your exhausted units to active.\n" +
+      "Soulburst: Put into play a Knight unit token with Guardian (Unit * Knight/Light/2000).",
+    number: "125",
+  },
+  {
+    image: "images/Promos/kyte-the-air-spirit.webp",
+    name: "Kyte, the Air Spirit",
+    element: "air",
+    type: "Spirit",
+    affinity: 8,
+    rarity: "Promo",
+    effect:
+      "Once per turn, during your turn, discard one card: Return target Air unit you control to its owner's hand and, if you do, switch one of your exhausted shards to active.\n" +
+      "Soulburst: Return target unit with cost (3) or less to its owner's hand.",
+    number: "126",
+  },
+  {
+    image: "images/Promos/metaial-the-silver-king.webp",
+    name: "Metaial, the Silver King",
+    element: "Argent",
+    type: "Champion",
+    rarity: "Promo",
+    effect:
+      "Instead of drawing for your turn you may discard a card - If you do, search your deck for a Silver General unit and add it to your hand.Pay (1), place a Silver General unit from yourdiscard zone on the bottom of your deck: Draw a card.",
+    number: "127",
+  },
+  {
+    image: "images/Promos/carriermecha-kyari.webp",
+    name: "Carriermecha: Kyari",
+    element: "Argent",
+    cost: 0,
+    power: 500,
+    type: "Omega Unit",
+    subtype: "Mecha",
+    rarity: "Promo",
+    effect:
+      'Ω (Place on one of your Mecha units.)Exhaust: Choose one.* Search your deck for a "Shard-Mecha" unit and place it under this card.* Put into play as many "Shard-Mecha" units as possible that are under this card.',
+    number: "128",
+  },
+  {
+    image: "images/Promos/lloyd-traveler-of-worlds.webp",
+    name: "Lloyd, Traveler of Worlds",
+    element: "Argent",
+    cost: 4,
+    power: 2000,
+    type: "Unit",
+    subtype: "???",
+    rarity: "Promo",
+    effect:
+      "Arrive - You may place up to three target spells from your discard zone under this card.You may play spells under this card as if they were in your hand, if you do, expel them after they are played. If this card would leave field, expel all cards under it.",
+    number: "129",
+  },
+  {
+    image: "images/Promos/metaial-celestial-of-ruin.webp",
+    name: "Metaial, Celestial of Ruin",
+    element: "Argent",
+    cost: 8,
+    power: 6000,
+    type: "Unit",
+    subtype: "Celestial",
+    rarity: "Promo",
+    effect:
+      'This card costs (1) less to play for each Silver Army and/or Silver General unit you control.If your champion has "Metaial" in its name, this card gains the following abilities.Sacrifice a unit: This card gains Immortal this turn.Sacrifice two other units: Destroy target shard and target unit.Sacrifice three other units: Destroy up to two target towers.',
+    number: "130",
+  },
+  {
+    image: "images/Promos/raoyenna-the-vengeful-phoenix.webp",
+    element: "Fire",
+    cost: 5,
+    power: 3000,
+    name: "Raoyenna, the Vengeful Phoenix",
+    type: "Unit",
+    subtype: "Phoenix",
+    rarity: "Promo",
+    effect:
+      'Discard this card from your hand: Destroy target non-token unit you control, and if you do, deal 1500 to target unit your opponent controls.At the start of your draw phase, if this card is in your discard zone because of its own ability - You may expel this card. If you do, put into play a "Raoyenna" unit from your hand or discard zone.',
+    number: "162",
   },
   {
     image: "images/Ascension/BerserkerGolemToken.webp",

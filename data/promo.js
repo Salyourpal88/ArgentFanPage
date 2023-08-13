@@ -926,6 +926,14 @@ export const promos = [
     number: "080",
   },
   {
+    image: "images/Promos/argent-shard-set-2.jpg",
+    name: "Argent Shard",
+    element: "Argent",
+    type: "Basic Shard",
+    effect: "Exhaust: Produce(1).",
+    number: "081",
+  },
+  {
     image: "images/Promos/corona-the-spirit-ruby.webp",
     name: "Corona, the Spirit Ruby",
     element: "argent",
@@ -2099,6 +2107,15 @@ export const promos = [
   },
   {
     image: "images/Promos/illusion-token.webp",
+    name: "Illusion Token",
+    element: "Water",
+    power: 500,
+    type: "Unit",
+    subtype: "Illusion",
+    effect: "Guardian(This unit cannot attack.)",
+  },
+  {
+    image: "images/Promos/illusion-token.jpg",
     name: "Illusion Token",
     element: "Water",
     power: 500,

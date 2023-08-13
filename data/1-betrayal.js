@@ -1509,16 +1509,17 @@ export const betrayal = [
     name: "Argent Shard",
     element: "Argent",
     type: "Basic Shard",
+    rarity: "Secret Rare",
     effect: "Exhaust: Produce (1).",
-    number: "2BETSR 01/09",
+    number: "01/09",
   },
   {
     image: "images/Bin/dragonholt-the-dracoborg.webp",
     element: "fire",
     name: "Dragonholt, the Dracoborg",
     type: "Champion",
-    rarity: "Intro Deck",
-    number: "15/86",
+    rarity: "Secret Rare",
+    number: "02/09",
     effect:
       "Exhaust, pay 1, discard one Fire Unit from your hand: Add one non-Legendary Dragon Unit from your deck to your hand.",
   },
@@ -1527,8 +1528,8 @@ export const betrayal = [
     element: "air",
     name: "Eitan, Exiled Prince",
     type: "Champion",
-    rarity: "Intro Deck",
-    number: "20/86",
+    rarity: "Secret Rare",
+    number: "03/09",
     effect:
       "Once per turn, pay 1 and sacrifice a Unit you control: Put into play one Air Unit from your hand whose cost is 1 greater than the sacrificed Unit.",
   },
@@ -1537,8 +1538,8 @@ export const betrayal = [
     element: "dark",
     name: "Hoenna, Immoral Conjurer",
     type: "Champion",
-    rarity: "Intro Deck",
-    number: "37/86",
+    rarity: "Secret Rare",
+    number: "04/09",
     effect:
       "When you destroy a Tower or Unit in battle - Place one counter on this card.\n" +
       "Remove three counters from this card: Put into play a Golem Token Unit (Unit * Golem/Dark/1500).",
@@ -1548,8 +1549,8 @@ export const betrayal = [
     element: "water",
     name: "Jemial, Cryptic Caster",
     type: "Champion",
-    rarity: "Intro Deck",
-    number: "44/86",
+    rarity: "Secret Rare",
+    number: "05/09",
     effect:
       "Place one counter on this card for each Water Unit that comes into play on your field.\n" +
       "Remove three counters from this card: Draw two cards then discard one card.",
@@ -1559,8 +1560,8 @@ export const betrayal = [
     element: "light",
     name: "Liam, Traitor of Knights",
     type: "Champion",
-    rarity: "Intro Deck",
-    number: "48/86",
+    rarity: "Secret Rare",
+    number: "06/09",
     effect:
       "When you destroy an opponent's Tower - You can add one Gear from your deck to your hand.\n" +
       "Once per turn, discard one Gear from your hand: target Unit gets +500 this turn.",
@@ -1572,8 +1573,8 @@ export const betrayal = [
     power: 2000,
     name: "Silver Watchwoman",
     type: "Unit",
-    rarity: "Super Rare",
-    number: "098/116",
+    rarity: "Secret Rare",
+    number: "07/09",
     effect:
       "Arrive - Place two counters on this card.\n" +
       "Remove a counter from this card: Choose one.\n" +
@@ -1588,8 +1589,8 @@ export const betrayal = [
     power: 4000,
     name: "Stormcaster of Azure Tower",
     type: "Unit",
-    rarity: "Intro Deck",
-    number: "73/86",
+    rarity: "Secret Rare",
+    number: "08/09",
     effect:
       "Destroyer\n" +
       "Arrive - If there is a destroyed Water Tower, return up to two target Units your opponent controls to the bottom of their owner's deck in any order.",
@@ -1602,11 +1603,18 @@ export const betrayal = [
     name: "Twilight Knight",
     type: "Unit",
     subtype: "legendary knight",
-    rarity: "Argent Rare",
-    number: "112/116",
+    rarity: "Secret Rare",
+    number: "09/09",
     effect:
       "Destroyer\n" +
       "Arrive - Destroy target Unit with Guardian, and, if you do, this card gains Quickness.",
+  },
+  {
+    image: "images/Intro-Deck-2019/argent-shard.webp",
+    name: "Argent Shard",
+    type: "Basic Shard",
+    rarity: "Intro Deck",
+    effect: "Exhaust: Produce 1.",
   },
   {
     image: "images/Betrayal/knight-token-2000.webp",

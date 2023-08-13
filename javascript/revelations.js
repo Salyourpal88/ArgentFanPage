@@ -100,6 +100,9 @@ function filterEffect(effect) {
 
 function filterRarity(rarity) {
   filteredList = filteredList.filter((value) => {
+    if (value.rarity === undefined) {
+      return false;
+    }
     return value.rarity.toLocaleUpperCase() === rarity.toLocaleUpperCase();
   });
 }

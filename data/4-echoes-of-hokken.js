@@ -1700,4 +1700,127 @@ export const hokken = [
     rarity: "Argent Rare",
     number: "136/136",
   },
+  {
+    image: "images/Promos/hokken-archaeologist.webp",
+    name: "Hokken Archaeologist",
+    element: "Argent",
+    cost: 2,
+    power: 1000,
+    type: "Unit",
+    subtype: "Adventurer",
+    rarity: "Promo",
+    effect:
+      "Augments you control cannot be targeted by spells or abilities.\n" +
+      "Arrive - You may search your deck for a non-Location augment and add it to your hand, if you do, put a card from your hand on top of your deck.",
+    number: "175",
+  },
+  {
+    image: "images/Promos/fragment-of-the-forgotten-one.webp",
+    name: "Fragment of the Forgotten One",
+    element: "Argent",
+    cost: 5,
+    power: 3000,
+    type: "Unit",
+    subtype: "Astral",
+    rarity: "Promo",
+    effect:
+      "Triggered abilities of units and augments do no trigger.\n" +
+      "Once per turn, expel another unit you control: This card gains Immortal this turn.",
+    number: "176",
+  },
+  {
+    image: "images/Promos/hadir-boy-of-the-sacred-forest.webp",
+    name: "Hadir, Boy of the Sacred Forest",
+    element: "Air",
+    type: "Champion",
+    rarity: "Promo",
+    effect:
+      "Exhaust, put a card from your hand under this card: If it was a Beast unit, you may place a +500 counter on target unit. If it was an Elemental unit, draw a card.\n" +
+      "Put two cards form under this card into the discard zone: Target unit you control gets +1000 and gains Overrun this turn.",
+    number: "177",
+  },
+  {
+    image: "images/Promos/hokken-warding-amulet.webp",
+    name: "Hokken Warding Amulet",
+    element: "Argent",
+    cost: 2,
+    type: "Augment",
+    rarity: "Promo",
+    effect:
+      "Neither player can target cards in discard zones.\n" +
+      "Neither player can activate the abilities of cards in discard zones.\n" +
+      'You can only control one "Hokken Warding Amulet".',
+    number: "178",
+  },
+  {
+    image: "images/Promos/neferia-the-queens-assassin.webp",
+    name: "Neferia, the Queen's Assassin",
+    element: "Dark",
+    type: "Champion",
+    rarity: "Promo",
+    effect:
+      "Whenever you trigger the Ruined ability of a unit - You may put that unit under this card.\n" +
+      "Exhaust, put three cards from under this card into the discard zone: Target unit loses all abilities this turn. Then if its cost is (3) or less, destroy it.",
+    number: "179",
+  },
+  {
+    image: "images/Promos/pengardian-legend-hanzo.webp",
+    name: "Pengardian Legend, Hanzo",
+    element: "Water",
+    type: "Champion",
+    rarity: "Promo",
+    effect:
+      "Whenever a unit your opponent controls becomes Stunned - You may put the top card of your deck under this card. If it was a Penguin unit, you may draw a card.\n" +
+      "Once per turn, put two cards from under this card on the top or bottom of their owner's deck in any order: Ignore the effects of target non-destroyed tower this turn.",
+    number: "180",
+  },
+  {
+    image: "images/Promos/renna-feral-warrior.webp",
+    name: "Renna, Feral Warrior",
+    element: "Fire",
+    type: "Champion",
+    rarity: "Promo",
+    effect:
+      "Exhaust, if you declared an attack with a Fire unit this turn, put the top card of your deck under this card: If it was a Fire unit, you may deal 1000 to target unit your opponent controls.\n" +
+      "Put two cards from under this card on the top or bottom of their owner's deck in any order: Put a Dinosaur unit from your hand or discard zone with cost equal to or less than the number of shards you control into play.",
+    number: "181",
+  },
+  {
+    image: "images/Promos/shardwork-arbiter.webp",
+    name: "Shadrwork Arbiter",
+    element: "Argent",
+    cost: 6,
+    power: 5000,
+    type: "Unit",
+    subtype: "Robot Arbiter",
+    rarity: "Promo",
+    effect:
+      "As an additional cost to play this card you may exhaust any number of units you control. If you do, this card costs (1) less to play for each.\n" +
+      "Destroyer, Guardian, Overrun, Quickness, Target Attack\n" +
+      "Animate 2 (You must pay (2) to attack or block with this card.)",
+    number: "182",
+  },
+  {
+    image: "images/Promos/tux-the-emperor-spirit-1.webp",
+    name: "Tux, the Emperor Spirit",
+    element: "water",
+    affinity: 10,
+    type: "Spirit",
+    rarity: "Promo",
+    effect:
+      "When a unit you control destroys a tower - You may draw a card then discard a card.\n" +
+      "Soulburst, pay (3): Stun all units your opponent controls. (A Stunned card cannot attack, block, or use activated abilities, until the end of the next turn.)",
+    number: "183",
+  },
+  {
+    image: "images/Promos/zane-hero-of-hyldia.webp",
+    name: "Zane, Hero of Hyldia",
+    element: "Light",
+    type: "Champion",
+    rarity: "Promo",
+    effect:
+      "Exhaust: If you declared an attack with a basic unit this turn, put a card from your hand under this card, and if you do, draw a card.\n" +
+      "Put two cards under this card into the discard zone: Put a Hyldian token (Unit/Warrior/Light/1000) into play.",
+    number: "184",
+  },
 ];

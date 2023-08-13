@@ -24,8 +24,6 @@ document.querySelector(".filter-button").addEventListener("click", () => {
     filterSubtype(document.querySelector(".subtype-filter").value);
   document.querySelector(".effect-filter").value &&
     filterEffect(document.querySelector(".effect-filter").value);
-  document.querySelector(".rarity-filter").value &&
-    filterRarity(document.querySelector(".rarity-filter").value);
 
   let displayWord = "";
   filteredList.forEach((value) => {
@@ -40,7 +38,6 @@ document.querySelector(".filter-button").addEventListener("click", () => {
   document.querySelector(".type-filter").value = "";
   document.querySelector(".subtype-filter").value = "";
   document.querySelector(".effect-filter").value = "";
-  document.querySelector(".rarity-filter").value = "";
 
   filteredList = lgs3;
 });
@@ -96,11 +93,5 @@ function filterEffect(effect) {
     return value.effect
       .toLocaleUpperCase()
       .includes(effect.toLocaleUpperCase());
-  });
-}
-
-function filterRarity(rarity) {
-  filteredList = filteredList.filter((value) => {
-    return value.rarity.toLocaleUpperCase() === rarity.toLocaleUpperCase();
   });
 }
