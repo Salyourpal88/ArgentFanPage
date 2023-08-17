@@ -1,0 +1,59 @@
+.champ-spirit{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0px 0px 5px;
+}
+
+.champ-slot{
+    margin-bottom: 5px;
+}
+
+img{
+    width: 100%
+}
+
+body{
+    margin: 0;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+
+}
+
+.main-deck{
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    padding: 10px;
+    column-gap: 5px;
+    row-gap: 5px;
+}
+
+.first{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    background-color: white;
+    row-gap: 5px;
+    column-gap: 5px;
+    padding: 5px;
+}
+
+.filter-bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    background-color: darkgray;
+    padding: 5px;
+}
+
+.filter-button{
+    background-color: white;
+    font-family: 'Poppins', sans-serif;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    color: black;
+    width: 80px;
+    height: 45px;
+}
