@@ -84,8 +84,13 @@ function rerender(category, location) {
   category.forEach((value) => {
     mainString += `<div style="position:relative">
       <img src=${value.image} />
-      <img src="images/assets/shardcopy.png" class="shard-quantity-overlay">
-      <div class="number-quantity-overlay">${value.quantity}</div>
+      ${
+        [mainDeck, shardDeck].includes(category)
+          ? "<img src='images/assets/shardcopy.png' class='shard-quantity-overlay'> <div class='number-quantity-overlay'>" +
+            value.quantity +
+            "</div>"
+          : "</>"
+      }
     </div>`;
   });
   document.querySelector(location).innerHTML = mainString;
