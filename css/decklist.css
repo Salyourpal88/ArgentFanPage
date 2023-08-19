@@ -30,7 +30,6 @@ h2{
     height: 27px;
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
 }
 
