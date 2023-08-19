@@ -70,11 +70,7 @@ function addEvents() {
         return;
       }
       if (["TOWER"].includes(typeOfCard.toLocaleUpperCase())) {
-        if (towerRegion.length === 5) {
-          alert("Wake up that's too many towers");
-          return;
-        }
-        addCard(towerRegion, cardDetails);
+        towerRegion = addCardTower(towerRegion, cardDetails);
         rerender(towerRegion, ".js-tower-slots");
         return;
       }
@@ -84,6 +80,7 @@ function addEvents() {
 
 function rerender(category, location) {
   let mainString = "";
+  console.log(category);
   category.forEach((value) => {
     mainString += `<div style="position:relative">
       <img src=${value.image} />
@@ -108,6 +105,24 @@ function addCard(category, cardDetails) {
     }
   });
   !found && category.push({ image: cardDetails.image, quantity: 1 });
+}
+
+function addCardTower(category, cardDetails) {
+  let found = "";
+  category.forEach((value) => {
+    if (value.element === cardDetails.element) {
+      value.image = cardDetails.image;
+      console.log(value);
+      found = true;
+    }
+  });
+  !found &&
+    category.push({
+      image: cardDetails.image,
+      element: cardDetails.element,
+      quantity: 1,
+    });
+  return category;
 }
 
 function getDataButtons(data) {

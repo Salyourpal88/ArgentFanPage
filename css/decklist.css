@@ -3,11 +3,15 @@
     flex-direction: column;
     padding: 0px 0px 0px 5px;
     font-size: 15px;
+    min-width: 168px;
+    width: 168px;
 }
 
 .champ-slot{
     margin-bottom: 5px;
+    padding-top: 10px;
 }
+
 
 img{
     width: 100%
@@ -20,6 +24,14 @@ body{
 p{
     font-family: 'Poppins', sans-serif;
 
+}
+
+h2{
+    height: 27px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .main-deck{
