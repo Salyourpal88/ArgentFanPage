@@ -23,7 +23,11 @@ function addEvents() {
           "LEGENDARY UNIT",
         ].includes(typeOfCard.toLocaleUpperCase())
       ) {
-        if (mainDeck.length < 60) {
+        let count = 0;
+        mainDeck.forEach((value) => {
+          count += value.quantity;
+        });
+        if (count < 60) {
           addCard(mainDeck, cardDetails);
           rerender(mainDeck, ".js-main-deck");
           return;
@@ -53,7 +57,11 @@ function addEvents() {
           typeOfCard.toLocaleUpperCase()
         )
       ) {
-        if (shardDeck.length > 10) {
+        let count = 0;
+        shardDeck.forEach((value) => {
+          count += value.quantity;
+        });
+        if (count >= 10) {
           alert("Wake up that's too many shards");
           return;
         }
@@ -72,13 +80,16 @@ function addEvents() {
       }
     });
   });
-  console.log("Hmmm");
 }
 
 function rerender(category, location) {
   let mainString = "";
   category.forEach((value) => {
-    mainString += `<img src=${value.image} />`;
+    mainString += `<div style="position:relative">
+      <img src=${value.image} />
+      <img src="images/assets/shardcopy.png" class="shard-quantity-overlay">
+      <div class="number-quantity-overlay">${value.quantity}</div>
+    </div>`;
   });
   document.querySelector(location).innerHTML = mainString;
 }
@@ -87,6 +98,11 @@ function addCard(category, cardDetails) {
   let found = "";
   category.forEach((value) => {
     if (value.image === cardDetails.image) {
+      if (value.quantity === cardDetails.capacity) {
+        alert("Max Copies");
+        found = true;
+        return;
+      }
       value.quantity += 1;
       found = true;
     }
@@ -95,11 +111,14 @@ function addCard(category, cardDetails) {
 }
 
 function getDataButtons(data) {
+  removeEvents();
   let filteredList = data.slice();
   let imageString = "";
 
   data.forEach((value) => {
-    imageString += `<div class='image-formating' data-number="${value.number}"><img src="${value.image}" /></div>`;
+    imageString += `<div class='image-formating' data-number="${value.number}">
+      <img src="${value.image}" />
+    </div>`;
   });
   document.querySelector(".first").innerHTML = imageString;
 
@@ -191,4 +210,69 @@ function getDataButtons(data) {
     });
   }
   addEvents();
+}
+
+function removeEvents() {
+  document.querySelectorAll(".image-formating").forEach((image) => {
+    image.removeEventListener("click", () => {
+      const cardDetails = dataNumbers[image.dataset.number];
+      const typeOfCard = cardDetails.type;
+      if (
+        [
+          "UNIT",
+          "AUGMENT",
+          "SPELL",
+          "LEGENDARY AUGMENT",
+          "LEGENDARY UNIT",
+        ].includes(typeOfCard.toLocaleUpperCase())
+      ) {
+        if (mainDeck.length < 60) {
+          addCard(mainDeck, cardDetails);
+          rerender(mainDeck, ".js-main-deck");
+          return;
+        } else {
+          alert("Wake up that's more than 60");
+          return;
+        }
+      }
+      if (["CHAMPION"].includes(typeOfCard.toLocaleUpperCase())) {
+        if (champRegion.length === 1) {
+          champRegion = [];
+        }
+        addCard(champRegion, cardDetails);
+        rerender(champRegion, ".js-champ-slot");
+        return;
+      }
+      if (["SPIRIT"].includes(typeOfCard.toLocaleUpperCase())) {
+        if (spiritRegion.length === 1) {
+          spiritRegion = [];
+        }
+        addCard(spiritRegion, cardDetails);
+        rerender(spiritRegion, ".js-spirit-slot");
+        return;
+      }
+      if (
+        ["BASIC SHARD", "SPECIAL SHARD", "LEGENDARY SHARD"].includes(
+          typeOfCard.toLocaleUpperCase()
+        )
+      ) {
+        if (shardDeck.length > 10) {
+          alert("Wake up that's too many shards");
+          return;
+        }
+        addCard(shardDeck, cardDetails);
+        rerender(shardDeck, ".js-shard-slots");
+        return;
+      }
+      if (["TOWER"].includes(typeOfCard.toLocaleUpperCase())) {
+        if (towerRegion.length === 5) {
+          alert("Wake up that's too many towers");
+          return;
+        }
+        addCard(towerRegion, cardDetails);
+        rerender(towerRegion, ".js-tower-slots");
+        return;
+      }
+    });
+  });
 }

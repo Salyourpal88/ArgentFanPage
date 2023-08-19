@@ -11,6 +11,7 @@ export const dataNumbers = [
     effect:
       'Arrive (When this card enters the field zone.) - Search your deck for a card with "Kala" in its name and add it to your hand.\n' +
       "Pay 1: Return this card to its owner's hand.",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/azure-guardian.webp",
@@ -24,6 +25,7 @@ export const dataNumbers = [
     effect:
       "Guardian (Exhaust this card to make an attacking Unit attack this one instead.)\n" +
       "This Unit cannot attack.",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/azure-seer.webp",
@@ -36,6 +38,7 @@ export const dataNumbers = [
     number: 2,
     effect:
       "Arrive - Look at the top card of your deck and place it back at the top or bottom of your deck.",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/booster-dragon.webp",
@@ -48,6 +51,7 @@ export const dataNumbers = [
     rarity: "Intro Deck",
     number: 3,
     effect: "Arrive – Target Dragon Unit gets +1000 this turn.",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/corona-the-fire-spirit.webp",
@@ -60,6 +64,7 @@ export const dataNumbers = [
     effect:
       "Once per turn, during your turn, discard one Fire unit from your hand: Deal 500 to target unit.\n" +
       "During your turn, Soulburst: Target unit gains Quickness this turn.",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/corum-assassin.webp",
@@ -73,6 +78,7 @@ export const dataNumbers = [
     effect:
       "Quickness (This Unit can attack or activate Exhaust abilities the turn it is played.)\n" +
       "Arrive (When this card enters the field zone.) - You can sacrifice a Gear you control to destroy target Unit your opponent controls.",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/corum-blademaster.webp",
@@ -86,6 +92,7 @@ export const dataNumbers = [
     number: 6,
     effect:
       " Arrive (When this card enters the field zone.) - Target one Gear in your discard zone and equip it to this card.",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/corum-craftsman.webp",
@@ -98,6 +105,7 @@ export const dataNumbers = [
     number: 7,
     effect:
       "Arrive (When this card enters the field zone.) - You can add one Gear from your deck to your hand.",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/corum-lancer.webp",
@@ -111,6 +119,7 @@ export const dataNumbers = [
     number: 8,
     effect:
       "Target Attack (This Unit can attack any Unit.) When this card attacks a Unit - Give this card +500 until end of turn.",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/corum-phalanx.webp",
@@ -124,6 +133,7 @@ export const dataNumbers = [
     number: 9,
     effect:
       " Guardian (Exhaust this card to make an attacking Unit attack this one instead.)",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/corum-rampart.webp",
@@ -136,6 +146,7 @@ export const dataNumbers = [
     rarity: "Intro Deck",
     number: 10,
     effect: "This Unit gets +500 for each Gear equipped to it.",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/corum-squire.webp",
@@ -149,6 +160,7 @@ export const dataNumbers = [
     number: 11,
     effect:
       'Ruined - Add one "Gear" with cost (1) or less from your deck to your hand.',
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/cryptic-deflection.webp",
@@ -161,6 +173,7 @@ export const dataNumbers = [
     effect:
       " Instacast\n" +
       `If your Champion is "Jemial, Cryptic Caster", you can remove four counters from that card instead of paying this card's cost. Target Unit cannot be targeted by Spells or Abilities this turn.`,
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/deranged-dragon.webp",
@@ -173,6 +186,7 @@ export const dataNumbers = [
     rarity: "Intro Deck",
     number: 13,
     effect: "This unit must attack each turn if able.",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/dragonholt-the-dracoborg.webp",
@@ -183,6 +197,7 @@ export const dataNumbers = [
     number: 14,
     effect:
       "Exhaust, pay 1, discard one Fire Unit from your hand: Add one non-Legendary Dragon Unit from your deck to your hand.",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/dragonic-blast.webp",
@@ -195,6 +210,7 @@ export const dataNumbers = [
     effect:
       "Instacast (You can play this card any time you have priority.)\n" +
       "As an additional cost to play this card, Exhaust any number of Dragon Units you control. Deal X000 to up to two target Units (X is the number of Dragons you Exhausted).",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/dragonic-destroyer.webp",
@@ -209,6 +225,7 @@ export const dataNumbers = [
     effect:
       "Destroyer (When this card attacks a Tower, it attacks two Towers instead.\n" +
       "Arrive (When this card enters the field zone.) - Sacrifice another Dragon Unit: Deal X to all Units your opponent controls (X is the sacrificed Unit's power).",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/dragonic-summoner.webp",
@@ -222,6 +239,7 @@ export const dataNumbers = [
     number: 17,
     effect:
       " Arrive (When this card enters the field zone.) - Put one Dragon Unit with cost 2 or less from your hand into play.",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/dusk-strike.webp",
@@ -235,6 +253,7 @@ export const dataNumbers = [
       "Instacast\n" +
       "You can play this card only if you control a Dark unit.\n" +
       "Target unit gets -2500 this turn.",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/eitan-exiled-prince.webp",
@@ -245,6 +264,7 @@ export const dataNumbers = [
     number: 19,
     effect:
       "Once per turn, pay 1 and sacrifice a Unit you control: Put into play one Air Unit from your hand whose cost is 1 greater than the sacrificed Unit.",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/enraged-dragon.webp",
@@ -258,6 +278,7 @@ export const dataNumbers = [
     number: 20,
     effect:
       "Arrive (When this card enters the field zone.) - Deal 1000 to target Unit.",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/exploding-dragon.webp",
@@ -271,6 +292,7 @@ export const dataNumbers = [
     number: 21,
     effect:
       "Ruined (When this card is destroyed or sacrificed.) - Deal 1000 to target Unit.",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/failed-golem-1.webp",
@@ -284,6 +306,7 @@ export const dataNumbers = [
     number: 22,
     effect:
       "Ruined (When this card is destroyed or sacrificed.) You can send one Golem Unit from your deck to the discard zone.",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/failed-golem-2.webp",
@@ -297,6 +320,7 @@ export const dataNumbers = [
     number: 23,
     effect:
       'Arrive (When this card enters the field zone.) - Place one counter on your Champion if it is "Hoenna, Immoral Conjurer".',
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/fizzy-the-water-spirit.webp",
@@ -309,6 +333,7 @@ export const dataNumbers = [
     effect:
       "Once per turn, during your turn, Shard Drain 1: Draw one card.\n" +
       "During your turn, Soulburst: Draw one card.",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/force-blast.webp",
@@ -321,6 +346,7 @@ export const dataNumbers = [
     effect:
       "Instacast (You can play this card anytime you have priority.)\n" +
       "Return target Unit with cost 2 or less to its owner's hand.",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/golem-of-allurement.webp",
@@ -334,6 +360,7 @@ export const dataNumbers = [
     number: 26,
     effect:
       "Arrive - Take control of target unit with cost (1) or less. It cannot attack this turn.",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/golem-of-arrogance.webp",
@@ -347,6 +374,7 @@ export const dataNumbers = [
     number: 27,
     effect:
       "Arrive (When this card enters the field zone.) - If you control another Golem Unit, your opponent sacrifices a Unit. Then, if they have more cards in their hand than you, they discard one card.",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/golem-of-avarice.webp",
@@ -360,6 +388,7 @@ export const dataNumbers = [
     number: 28,
     effect:
       "Arrive (When this card enters the field zone.) - If you control another Golem Unit, discard one random card from your opponent's hand.",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/golem-of-devourment.webp",
@@ -375,6 +404,7 @@ export const dataNumbers = [
       "Guardian\n" +
       "This card cannot deal damage.\n" +
       'Ruined - Put a "Golem of Devourment" from your deck into play.',
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/golem-of-indolence.webp",
@@ -389,6 +419,7 @@ export const dataNumbers = [
     effect:
       "Target Attack (This Unit can attack any Unit.) This card only attack Units.\n" +
       "Arrive (When this card enters the field zone.) - You can discard one card. If you do, this turn this card gains +1000 and Quickness (This Unit can attack or activate Exhaust abilities the turn it is played).",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/golem-of-jealousy.webp",
@@ -402,6 +433,7 @@ export const dataNumbers = [
     number: 31,
     effect:
       "Arrive (When this card enters the field zone.) - If you control another Golem Unit, draw one card.",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/golem-of-vengeance.webp",
@@ -416,6 +448,7 @@ export const dataNumbers = [
     effect:
       "Destroyer (When this card attacks a Tower, it attacks two Towers instead.)\n" +
       "Arrive - Look at your opponent's hand and select one card, then your opponent discards that card. If you control two or more other Golem Units, select two cards instead.",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/great-stormfish.webp",
@@ -430,6 +463,7 @@ export const dataNumbers = [
     effect:
       "Arrive - Exhaust target unit.\n" +
       "Ruined - Return target unit to the top of its owner's",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/greathawk-of-cloudsea.webp",
@@ -443,6 +477,7 @@ export const dataNumbers = [
     number: 34,
     effect:
       "Arrive - If there is a destroyed Air tower, you can exhaust target unit and return another target unit to its owner's hand.",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/hellish-guardhound.webp",
@@ -457,6 +492,7 @@ export const dataNumbers = [
     effect:
       "Guardian (Exhaust this card to make an attacking Unit attack this one instead.)\n" +
       "Arrive (When this card enters the field zone.) - Target Unit cannot attack next turn.",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/hoenna-immoral-conjurer.webp",
@@ -468,6 +504,7 @@ export const dataNumbers = [
     effect:
       "When you destroy a Tower or Unit in battle - Place one counter on this card.\n" +
       "Remove three counters from this card: Put into play a Golem Token Unit (Unit * Golem/Dark/1500).",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/holy-slash.webp",
@@ -480,6 +517,7 @@ export const dataNumbers = [
     effect:
       "Instacast (You can play this card any time you have priority.)\n" +
       "Destroy target attacking Unit.",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/hurricane-shot.webp",
@@ -492,6 +530,7 @@ export const dataNumbers = [
     effect:
       "Instacast (You can play this card any time you have priority.)\n" +
       "As an additional cost to play this card, return an Air Unit from your field to its owner's hand. Destroy target Unit with cost 4 or less.",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/iakuma-mistmage.webp",
@@ -504,6 +543,7 @@ export const dataNumbers = [
     number: 39,
     effect:
       "Arrive (When this card enters the field zone.) - Reveal the top three cards of your deck. Add two of those cards to your hand and send the other to your discard zone.",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/iakuma-silencer.webp",
@@ -516,6 +556,7 @@ export const dataNumbers = [
     number: 40,
     effect:
       "Shard Drain 1 (Return one of your Shards to the bottom of your Shard Deck.): target Unit or Augment loses all abilities this turn.",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/iakuma-stormknight.webp",
@@ -528,6 +569,7 @@ export const dataNumbers = [
     number: 41,
     effect:
       "Arrive (When this card enters the field zone.) - If you have more destroyed Towers than your opponent, return target Unit to the top or bottom of its owner's deck.",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/imbued-by-fire.webp",
@@ -540,6 +582,7 @@ export const dataNumbers = [
     effect:
       " Instacast (You can play this card any time you have priority.)\n" +
       "Target Fire Unit gets +2000 this turn.",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/jemial-cryptic-caster.webp",
@@ -551,6 +594,7 @@ export const dataNumbers = [
     effect:
       "Place one counter on this card for each Water Unit that comes into play on your field.\n" +
       "Remove three counters from this card: Draw two cards then discard one card.",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/juvenile-dragon.webp",
@@ -564,6 +608,7 @@ export const dataNumbers = [
     number: 44,
     effect:
       "While you control two or more other Dragon units, this card has Quickness.",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/kala-trusty-companion.webp",
@@ -578,6 +623,7 @@ export const dataNumbers = [
     effect:
       'If you control an "Ariana" Unit, this card costs 1 less to play.\n' +
       'If an "Ariana" Unit would be destroyed, you can destroy this card instead.',
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/kyte-the-air-spirit.webp",
@@ -590,6 +636,7 @@ export const dataNumbers = [
     effect:
       "Once per turn, during your turn, discard one card: Return target Air unit you control to its owner's hand and, if you do, switch one of your exhausted shards to active.\n" +
       "Soulburst: Return target unit with cost (3) or less to its owner's hand.",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/liam-traitor-of-knights.webp",
@@ -601,6 +648,7 @@ export const dataNumbers = [
     effect:
       "When you destroy an opponent's Tower - You can add one Gear from your deck to your hand.\n" +
       "Once per turn, discard one Gear from your hand: target Unit gets +500 this turn.",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/locke-knight-of-fury.webp",
@@ -615,6 +663,7 @@ export const dataNumbers = [
     effect:
       "Quickness (This Unit can attack or activate Exhaust abilities the turn it is played.)\n" +
       "When this card attacks - You can equip a Gear from your hand to this card.",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/lucient-guardian-of-vigilance.webp",
@@ -628,6 +677,7 @@ export const dataNumbers = [
     effect:
       "Guardian\n" +
       "Arrive - If there is a destroyed Light tower, switch up to two target exhausted Light units to active.",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/luna-the-dark-spirit.webp",
@@ -641,6 +691,7 @@ export const dataNumbers = [
       "When you destroy a tower or unit in battle - Place one counter on this card.\n" +
       "During your turn, remove three counters from this card: Your opponent discards one card.\n" +
       "During your turn, Soulburst: Your opponent discards one card.",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/mechdragons-flame.webp",
@@ -652,6 +703,7 @@ export const dataNumbers = [
     number: 51,
     effect:
       "Expel target Unit if its power is less than the highest power of a Dragon Unit you control.",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/mei-yus-assistant.webp",
@@ -663,6 +715,7 @@ export const dataNumbers = [
     rarity: "Intro Deck",
     number: 52,
     effect: "Your Water Spell cards cost 1 less to play.",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/nobe-the-shadow-guardian.webp",
@@ -677,6 +730,7 @@ export const dataNumbers = [
     effect:
       "Guardian\n" +
       "Arrive - If there is a destroyed Dark tower, target unit gets -2000 this turn.",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/phantasmal-guards.webp",
@@ -688,6 +742,7 @@ export const dataNumbers = [
     number: 54,
     effect:
       "Put two Illusion Unit Tokens into play with Guardian (Unit * Illusion/Water/500). These Tokens cannot attack.",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/rao-dragon-tamer.webp",
@@ -700,6 +755,7 @@ export const dataNumbers = [
     number: 55,
     effect:
       "Arrive (When this card enters the field zone.) - Switch target Exhausted Dragon Unit to Active.",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/royal-reflection.webp",
@@ -712,6 +768,7 @@ export const dataNumbers = [
     effect:
       "Instacast (You can play this card any time you have priority.)\n" +
       "Change the target of a Spell or Ability to another legal target.",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/shard-hoarder.webp",
@@ -725,6 +782,7 @@ export const dataNumbers = [
     effect:
       "Arrive (When this card enters the field zone.) - Draw one card.\n" +
       "Ruined (When this card is destroyed or sacrificed.) - Discard one card.",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/shards-of-winter.webp",
@@ -737,6 +795,7 @@ export const dataNumbers = [
     effect:
       "Instacast (You can play this card anytime you have priority.)\n" +
       "Exhaust all Units your opponent controls.",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/sky-recruit.webp",
@@ -750,6 +809,7 @@ export const dataNumbers = [
     number: 59,
     effect:
       'Arrive (When this card enters the field zone.) - Add a "Sky Recruit" from your deck to your hand.',
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/skyship-engineer.webp",
@@ -763,6 +823,7 @@ export const dataNumbers = [
     number: 60,
     effect:
       "Exhaust: Return this card to its owner's hand, and, if you do, your Airship units cost (1) less to play this turn.",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/skytree-aviator.webp",
@@ -776,6 +837,7 @@ export const dataNumbers = [
     number: 61,
     effect:
       "Exhaust: Return this Unit to its owner's hand, and, if you do, Airship Units you control gain +1000 this turn.",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/skytree-battle-cruiser.webp",
@@ -790,6 +852,7 @@ export const dataNumbers = [
     effect:
       "This card cannot be targeted by Spells.\n" +
       "Ruined (When this Unit is destroyed or sacrificed.) - You can put target Skyraider Unit with cost 3 or less from your discard zone into play.",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/skytree-blockadeship.webp",
@@ -804,6 +867,7 @@ export const dataNumbers = [
     effect:
       "Guardian (Exhaust this card to make an attacking Unit attack this one instead.)\n" +
       "Units in front of this card cannot attack.",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/skytree-dragon.webp",
@@ -818,6 +882,7 @@ export const dataNumbers = [
     effect:
       " Arrive (When this card enters the field zone.) - If two or more of your Air Units have returned to your hand this turn from the field, return target Unit to its owner's hand.\n" +
       "When this card attacks - target Unit cannot use Guardian this turn.",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/skytree-sandship.webp",
@@ -832,6 +897,7 @@ export const dataNumbers = [
     effect:
       "Arrive - Exhaust target unit.\n" +
       "Ruined - You can put target Skyraider unit with cost (2) or less from your discard zone into play.",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/skytree-warship.webp",
@@ -847,6 +913,7 @@ export const dataNumbers = [
       "Destroyer\n" +
       "Arrive - Destroy target Unit with cost 4 or less.\n" +
       "Ruined - You can put target Skyraider Unit or Airship Unit with cost 4 or less from your discard zone into play.",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/sola-the-light-spirit.webp",
@@ -859,6 +926,7 @@ export const dataNumbers = [
     effect:
       "At the end of your turn - You can switch one of your exhausted units to active.\n" +
       "Soulburst: Put into play a Knight unit token with Guardian (Unit * Knight/Light/2000).",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/soulfire-dragon.webp",
@@ -872,6 +940,7 @@ export const dataNumbers = [
     number: 68,
     effect:
       "Ruined (When this card is destroyed or sacrificed.) - Search your deck for a Dragon Unit with cost of 1 and put it into play.",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/standard-shardarmor.webp",
@@ -885,6 +954,7 @@ export const dataNumbers = [
     effect:
       "Equip to target Unit.\n" +
       "If it would take damage, you can sacrifice this card and prevent that damage instead.",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/standard-shardshield.webp",
@@ -899,6 +969,7 @@ export const dataNumbers = [
       "Equip to target Unit.\n" +
       "It gains Guardian (Exhaust this card to make an attacking Unit attack this one instead.).\n" +
       "When the equipped Unit uses Guardian - It gets +1000 this turn.",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/standard-shardsword.webp",
@@ -910,6 +981,7 @@ export const dataNumbers = [
     rarity: "Intro Deck",
     number: 71,
     effect: "Equip to target unit.\nIt gets +500 and Target Attack.",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/stormcaster-of-azure-tower.webp",
@@ -923,6 +995,7 @@ export const dataNumbers = [
     effect:
       "Destroyer\n" +
       "Arrive - If there is a destroyed Water Tower, return up to two target Units your opponent controls to the bottom of their owner's deck in any order.",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/stormfish.webp",
@@ -936,6 +1009,7 @@ export const dataNumbers = [
     number: 73,
     effect:
       "Ruined (When this card is destroyed or sacrificed.) - Return target Unit to its owner's hand.",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/strike-of-the-golems.webp",
@@ -947,6 +1021,7 @@ export const dataNumbers = [
     number: 74,
     effect:
       "Put into play up to two target Golem Units from your discard zone with combined cost of 5 or less.",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/tornado-shot.webp",
@@ -960,6 +1035,7 @@ export const dataNumbers = [
       "Instacast (You can play this card any time you have priority.)\n" +
       "Play only if an Air Unit returned to your hand from the field thisturn.\n" +
       "Deal 2000 to target Unit.",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/tower-of-air.webp",
@@ -971,6 +1047,7 @@ export const dataNumbers = [
     number: 76,
     effect:
       "When this card is destroyed, you can return up to two Units from the field to their owner's hand.",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/tower-of-darkness.webp",
@@ -982,6 +1059,7 @@ export const dataNumbers = [
     number: 77,
     effect:
       "When this card is destroyed, you can look at your opponent's hand and select one card, then your opponent discards that card.",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/tower-of-fire.webp",
@@ -992,6 +1070,7 @@ export const dataNumbers = [
     rarity: "Intro Deck",
     number: 78,
     effect: "When this card is destroyed, you can destroy a Unit.",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/tower-of-light.webp",
@@ -1003,6 +1082,7 @@ export const dataNumbers = [
     number: 79,
     effect:
       "When this card is destroyed, you can put into play a Knight Unit Token with Guardian (Unit * Knight/Light/2000).",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/tower-of-water.webp",
@@ -1013,6 +1093,7 @@ export const dataNumbers = [
     rarity: "Intro Deck",
     number: 80,
     effect: "When this card is destroyed, you can draw two cards.",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/uncertain-experiment.webp",
@@ -1024,6 +1105,7 @@ export const dataNumbers = [
     number: 81,
     effect:
       "Look at the top four cards of your deck. You can reveal one Golem Unit among them and add it to your hand. Place the rest of the cards on the bottom of your deck in any order.",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/vehemont-crimson-guardian.webp",
@@ -1036,6 +1118,7 @@ export const dataNumbers = [
     rarity: "Intro Deck",
     number: 82,
     effect: "Arrive - If there is a destroyed Fire tower, destroy target unit.",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/vengeful-dragon.webp",
@@ -1049,6 +1132,7 @@ export const dataNumbers = [
     number: 83,
     effect:
       "This Unit costs 2 less to play if a Dragon Unit was destroyed this turn.",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/vi-giver-of-light.webp",
@@ -1062,6 +1146,7 @@ export const dataNumbers = [
     effect:
       "Arrive - Send one Gear from your deck to the discard zone.\n" +
       "Sacrifice this card: Target Light Unit gets +500 this turn.",
+    capacity: 3,
   },
   {
     image: "images/Intro-Deck-2019/argent-shard.webp",
@@ -1071,6 +1156,7 @@ export const dataNumbers = [
     rarity: "Intro Deck",
     number: 85,
     effect: "Exhaust: Produce 1.",
+    capacity: 10,
   },
   {
     image: "images/Betrayal/acid-monger.webp",
@@ -1083,6 +1169,7 @@ export const dataNumbers = [
     number: 86,
     effect:
       "Arrive (When this card enters the field zone.) - Destroy target Augment.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/altar-of-the-dragon-god.webp",
@@ -1094,6 +1181,7 @@ export const dataNumbers = [
     number: 87,
     effect:
       "Exhaust, pay 1: Destroy target Dragon Unit you control, and, if you do, search your deck for a Dragon Unit with the same cost and put it into play.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/amorphagus.webp",
@@ -1107,6 +1195,7 @@ export const dataNumbers = [
     effect:
       "Guardian (Exhaust this card to make an attacking Unit attack this one instead.)\n" +
       "Ruined (When this Unit is destroyed or sacrificed.) - Put into play a Blog Unit Token with Guardian (Unit * Argent/1000).",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/ancient-serpents-breath.webp",
@@ -1120,6 +1209,7 @@ export const dataNumbers = [
       "Instacast\n" +
       "As an additional cost to play this card, you may Shard Drain 1. If you do, return target Unit to the top of its owner's deck.\n" +
       "Return target Unit with cost 2 or less to its owner's hand, then its owner draws one card.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/argent-archer.webp",
@@ -1132,6 +1222,7 @@ export const dataNumbers = [
     number: 90,
     effect:
       " Arrive (When this card enters the field zone.) - Deal 500 to target Unit.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/argent-egg.webp",
@@ -1147,6 +1238,7 @@ export const dataNumbers = [
       "Guardian\n" +
       "This card cannot attack.\n" +
       "Ruined - Put into play one Whelp Unit Token (Unit * Dragon/Argent/500)",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/argent-watcher.webp",
@@ -1160,6 +1252,7 @@ export const dataNumbers = [
     effect:
       "Arrive (When this card enters the field zone.) -\n" +
       "Target Unit loses all abilities.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/arianas-amulet.webp",
@@ -1173,6 +1266,7 @@ export const dataNumbers = [
     effect:
       "Arrive (When this card enters the field zone.) - Draw one card\n" +
       "Sacrifice this card: All Spirits lose all abilities until your next turn.",
+    capacity: 1,
   },
   {
     image: "images/Betrayal/artred-the-luminous-warrior.webp",
@@ -1187,6 +1281,7 @@ export const dataNumbers = [
     effect:
       "Guardian (Exhaust this card to make an attacking Unit attack this one instead.)\n" +
       "Arrive (When this card enters the field zone.) - Target up to two different Gears in your discard zone and equip them to this card.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/astonishing-betrayal.webp",
@@ -1199,6 +1294,7 @@ export const dataNumbers = [
     effect:
       " Instacast (You can play this card any time you have priority.)\n" +
       "Destroy target Unit that dealt damage this turn.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/bahamute-dragonic-deity.webp",
@@ -1214,6 +1310,7 @@ export const dataNumbers = [
       "Quickness (This Unit can attack or activate Exhaust abilities the turn it is played.)\n" +
       "This card costs 2 less to play if you have 5 or more Dragon Units with different names in your discard zone.\n" +
       "Arrive (When this card enters the field zone.) - Expel target Unit and, if you do, deal 2000 to each Unit that was adjacent to it.",
+    capacity: 1,
   },
   {
     image: "images/Betrayal/blessed-shardcloak.webp",
@@ -1225,6 +1322,7 @@ export const dataNumbers = [
     rarity: "Common",
     number: 97,
     effect: "Equip to target Unit.\nIt cannot be targeted by Spells.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/blood-sacrifice.webp",
@@ -1237,6 +1335,7 @@ export const dataNumbers = [
     effect:
       "As an additional cost to play this card, sacrifice a Dark Unit.\n" +
       "Discard one random card from your opponent's hand.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/bloodlight-maniac.webp",
@@ -1249,6 +1348,7 @@ export const dataNumbers = [
     number: 99,
     effect:
       "Arrive (When this card enters the field zone.) - Both players discard one random card from their hands.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/brain-wipe-beam.webp",
@@ -1261,6 +1361,7 @@ export const dataNumbers = [
     effect:
       "Target a Unit. If its power is 2000 or less,\n" +
       "Exhaust it and take control of it. If its power is more than 2000, give it -2000 this turn.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/brant-the-wicked-judge.webp",
@@ -1275,6 +1376,7 @@ export const dataNumbers = [
     effect:
       "This card gets +500 for each of your opponent's destroyed Towers.\n" +
       "If you have 2 or less Towers remaining - This card gains Quickness and cannot be targeted by Spells.",
+    capacity: 1,
   },
   {
     image: "images/Betrayal/brilliant-barrier.webp",
@@ -1287,6 +1389,7 @@ export const dataNumbers = [
     effect:
       "Instacast (You can play this card any time you have priority.)\n" +
       "Prevent all damage that would be dealt to target Unit this turn.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/celestial-magic-chronostasis.webp",
@@ -1299,6 +1402,7 @@ export const dataNumbers = [
     effect:
       " Instacast (You can play this card any time you have priority.)\n" +
       "Place all Units on the field on the bottom of their owner's decks, in any order you choose.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/corum-reinforcements.webp",
@@ -1309,6 +1413,7 @@ export const dataNumbers = [
     rarity: "Common",
     number: 104,
     effect: "Put two Knight Unit Tokens into play (Unit * Knight/Light/1000).",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/corum-sniper.webp",
@@ -1321,6 +1426,7 @@ export const dataNumbers = [
     number: 105,
     effect:
       "Exhaust, discard one Gear from your hand: Deal 1000 to target Unit.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/corum-war-room.webp",
@@ -1333,6 +1439,7 @@ export const dataNumbers = [
     effect:
       "Your Gear cost 1 less to play.\n" +
       "Exhaust, sacrifice this card: Equip target Gear from your discard zone to target Unit you control.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/cruel-accord.webp",
@@ -1344,6 +1451,7 @@ export const dataNumbers = [
     number: 107,
     effect:
       "Discard one card from your hand, then your opponent discards two cards from their hand.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/cry-of-madness.webp",
@@ -1354,6 +1462,7 @@ export const dataNumbers = [
     rarity: "Common",
     number: 108,
     effect: "Discard two random cards from your opponent's hand.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/cryptic-crystal.webp",
@@ -1366,6 +1475,7 @@ export const dataNumbers = [
       "If your spirit isn't Water, this card comes into play exhausted.\n" +
       "Exhaust: Produce (1).\n" +
       "Arrive - Look at the top two cards of your deck and put them back in any order.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/cryptic-secret.webp",
@@ -1378,6 +1488,7 @@ export const dataNumbers = [
     effect:
       "Play only if there is a destroyed Light or Water Tower.\n" +
       "Shuffle target Unit back into its owner's deck.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/dancer-of-time.webp",
@@ -1390,6 +1501,7 @@ export const dataNumbers = [
     number: 111,
     effect:
       "When this card is targeted by a Spell - You may discard one card: If you do, Expel this card and return it to the field at the end of the turn.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/debilitating-miasma.webp",
@@ -1402,6 +1514,7 @@ export const dataNumbers = [
     effect:
       "Instacast (You can play this card any time you have priority.)\n" +
       "Up to two target Units get -2000 this turn.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/delayed-poison.webp",
@@ -1414,6 +1527,7 @@ export const dataNumbers = [
     effect:
       "Equip to target unit.\n" +
       "At the start of your next turn - Destroy the equipped Unit.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/disintegration-shot.webp",
@@ -1427,6 +1541,7 @@ export const dataNumbers = [
       "Choose one.\n" +
       "* Destroy target Augment.\n" +
       "* Destroy target Unit with cost 1 or less.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/dragonic-zone.webp",
@@ -1438,6 +1553,7 @@ export const dataNumbers = [
     number: 115,
     effect:
       "Exhaust: Target Fire Unit gets +1000 this turn. Sacrifice this card: Return target Dragon Unit from your discard zone to your hand.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/drained-hag.webp",
@@ -1450,6 +1566,7 @@ export const dataNumbers = [
     number: 116,
     effect:
       "This card costs 1 less to play for each time you used Shard Drain this turn.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/dux-skyraider-captain.webp",
@@ -1463,6 +1580,7 @@ export const dataNumbers = [
     number: 117,
     effect:
       "Arrive (When this card enters the field zone.) - Put into play one Skyraider Unit from your hand with cost 3 or less.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/eitan-righteous-outlaw.webp",
@@ -1477,6 +1595,7 @@ export const dataNumbers = [
     effect:
       "Discard this card from your hand: Return target Air Unit you control with cost 3 or less to its owner's hand.\n" +
       "If this card is in your discard zone, when an Air Unit is returned to your hand from field for the second time in a turn - You can put this card into play exhausted. Expel it when it leaves the field.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/enraged-attack.webp",
@@ -1488,6 +1607,7 @@ export const dataNumbers = [
     number: 119,
     effect:
       "Put into play one Unit with cost 3 or less from your hand, and, if you do, deal 1000 to target Unit.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/enveloped-in-darkness.webp",
@@ -1500,6 +1620,7 @@ export const dataNumbers = [
     effect:
       "Instacast (You can play this card any time you have priority.)\n" +
       "Target attacking Unit gets -1000 this turn.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/finishing-ray.webp",
@@ -1510,6 +1631,7 @@ export const dataNumbers = [
     rarity: "Super Rare",
     number: 121,
     effect: "Destroy all Units.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/garga-keeper-of-gales.webp",
@@ -1523,6 +1645,7 @@ export const dataNumbers = [
     number: 122,
     effect:
       "Arrive - Choose a cost. Return all Units of the chosen cost to their owners' hands. If two or more Units are returned to the hand with this effect, this card gains Quickness.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/gargoyle-mimic.webp",
@@ -1536,6 +1659,7 @@ export const dataNumbers = [
     number: 123,
     effect:
       'Ruined (When this Unit is destroyed or sacrificed.) - Target one Dark Unit in your discard zone with Ruined (except "Gargoyle Mimic") and apply its Ruined effect.',
+    capacity: 3,
   },
   {
     image: "images/Betrayal/gathering-shardlight.webp",
@@ -1548,6 +1672,7 @@ export const dataNumbers = [
     effect:
       "Instacast (Play this card any time you have priority.)\n" +
       "Draw two cards, then discard one card.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/gigath-the-first-gargoyle.webp",
@@ -1562,6 +1687,7 @@ export const dataNumbers = [
     effect:
       "Arrive - Put a Protection Counter on another target Unit you control. (If a Unit with a Protection Counter would be destroyed, remove all damage and a Proection Counter from it instead.)\n" +
       "If this card is in your discard zone, discard Dark Units from your hand whose combined cost equals 10: Put this card into play.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/gloom-oligarch.webp",
@@ -1576,6 +1702,7 @@ export const dataNumbers = [
       " Sacrifice a Unit: Choose one.\n" +
       "* Target Unit gets +1000 this turn.\n" +
       "* Target Unit gets -1000 this turn.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/hallowed-crystal.webp",
@@ -1588,6 +1715,7 @@ export const dataNumbers = [
       "If your spirit isn't Light, this card comes into play exhausted.\n" +
       "Exhaust: Produce (1).\n" +
       "Exhaust, pay (1): Target unit with Guardian gets +500 this turn.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/hana-apprentice-of-mei-yu.webp",
@@ -1600,6 +1728,7 @@ export const dataNumbers = [
     number: 128,
     effect:
       "Arrive (When this card enters the field zone.) - Put target Unit with cost 2 or less from your discard zone into play.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/hidden-laboratory.webp",
@@ -1612,6 +1741,7 @@ export const dataNumbers = [
     effect:
       'Arrive (When this card enters the field zone.) - Place three counters on your Champion if it is "Hoenna, Immoral Conjurer".\n' +
       "Exhaust, sacrifice a Golem Unit: Draw one card.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/iakuma-juggernaut.webp",
@@ -1626,6 +1756,7 @@ export const dataNumbers = [
       "Guardian\n" +
       "If this card uses Guardian - Switch it to Active after that battle.\n" +
       "Shard Drain 1: This card cannot be targeted by Spells or Abilities this turn.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/iakuma-wave-bender.webp",
@@ -1638,6 +1769,7 @@ export const dataNumbers = [
     number: 131,
     effect:
       "Arrive (When this card enters the field zone.) - Return target Unit to its owner's hand.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/iskandar-the-mythical-king.webp",
@@ -1654,6 +1786,7 @@ export const dataNumbers = [
       "This card costs 1 less to play for each Gear in your discard zone.\n" +
       "Arrive - Target up to two different Gears in your discard zone and equip them to this card.\n" +
       "Expel a Gear equipped to this card: Expel target Unit.",
+    capacity: 1,
   },
   {
     image: "images/Betrayal/jemial-suspicious-sorcerer.webp",
@@ -1665,6 +1798,7 @@ export const dataNumbers = [
     rarity: "Rare",
     number: 133,
     effect: "When you play a card with Shard Drain - Deal 1000 to target Unit.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/kako-brother-of-destiny.webp",
@@ -1678,6 +1812,7 @@ export const dataNumbers = [
     effect:
       ' This card costs 1 less to play if you control a "Mirai" Unit.\n' +
       "Exhaust: Put target Unit in a discard zone on top of its owner's deck.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/kalibur-the-sacred-shardsword.webp",
@@ -1693,6 +1828,7 @@ export const dataNumbers = [
       "It gets +1000.\n" +
       "Sacrifice this card: This turn the equipped Unit cannot be targeted by Spells or Abilities. Draw one card.\n" +
       'You can only control one "Kalibur, the Sacred Shardsword".',
+    capacity: 3,
   },
   {
     image: "images/Betrayal/knowledge-unbound.webp",
@@ -1703,6 +1839,7 @@ export const dataNumbers = [
     rarity: "Common",
     number: 136,
     effect: "Draw three cards.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/konost-the-aerial-fortress.webp",
@@ -1718,6 +1855,7 @@ export const dataNumbers = [
       "Guardian (Exhaust this card to make an attacking Unit attack this one instead.)\n" +
       "Units in front of this card cannot attack and have -2000.\n" +
       "Once per turn, you can return another Air Unit you control to its owner's hand: This card is unaffected by Spells this turn.",
+    capacity: 1,
   },
   {
     image: "images/Betrayal/leviathan-the-ancient-serpent.webp",
@@ -1733,6 +1871,7 @@ export const dataNumbers = [
       "Guardian (Exhaust this card to make an attacking Unit attack this one instead.)\n" +
       "Destroyer (When this Unit attacks a Tower, it attacks two Towers instead.)\n" +
       "Arrive (When this card enters the field zone.) - Take control of target Unit.",
+    capacity: 1,
   },
   {
     image: "images/Betrayal/lightning-shot.webp",
@@ -1743,6 +1882,7 @@ export const dataNumbers = [
     rarity: "Super Rare",
     number: 139,
     effect: "Deal 3000 to target Unit and 1000 to another target Unit.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/longinus-mythical-shardlance.webp",
@@ -1758,6 +1898,7 @@ export const dataNumbers = [
       "It gets +1000.\n" +
       "Sacrifice this card: Deal 1500 to target Unit.\n" +
       'You can only control one "Longinus, Mythical Shardlance".',
+    capacity: 3,
   },
   {
     image: "images/Betrayal/mechdragon-prototype.webp",
@@ -1772,6 +1913,7 @@ export const dataNumbers = [
     effect:
       "Quickness (This Unit can attack or activate Exhaust abilities the turn it is played.)\n" +
       "While you have one or less cards in hand, this card has Destroyer (When this Unit attacks a Tower, it attacks two Towers instead.).",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/mei-yu-grand-sorceress.webp",
@@ -1786,6 +1928,7 @@ export const dataNumbers = [
     effect:
       "Arrive (When this card enters the field zone.) - Return target Spell in your discard zone to your hand, and, if you do, the next Spell you play this turn costs 0.\n" +
       "One per turn, when you play a card with Shard Drain or use Shard Drain - Return target other Unit to the top of its owner's deck.",
+    capacity: 1,
   },
   {
     image: "images/Betrayal/mel-corum-magician.webp",
@@ -1798,6 +1941,7 @@ export const dataNumbers = [
     number: 143,
     effect:
       "Arrive (When this card enters the field zone.) - If you have three or more Gear in your discard zone, draw two cards.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/mirai-sister-of-sight.webp",
@@ -1811,6 +1955,7 @@ export const dataNumbers = [
     effect:
       'This card costs 1 less to play if you control a "Kako" Unit.\n' +
       "Exhaust: Declare a card name, then reveal the top card of your deck. If it is the declared card, add it to your hand, otherwise, put it on the bottom of your deck.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/molten-explosion.webp",
@@ -1823,6 +1968,7 @@ export const dataNumbers = [
     effect:
       "Instacast (You can play this card any time you have priority.)\n" +
       "Destroy target Unit with 2000 power or less.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/monarchs-sky-dagger.webp",
@@ -1839,6 +1985,7 @@ export const dataNumbers = [
       "* Deal 500 to target Unit.\n" +
       "* Equipped Unit gains +500 this turn.\n" +
       "If this card is in your discard zone, when an Air Unit is returned from the field to your hand - You can add this card to your hand.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/mr-kins-cryptic-familiar.webp",
@@ -1853,6 +2000,7 @@ export const dataNumbers = [
     effect:
       "Arrive (When this card enters the field zone.) - Look at the top two cards of your deck and put them back in any order.\n" +
       "Exhaust: Draw one card, then return this card to the top of its owner's deck.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/nightmare-crystal.webp",
@@ -1865,6 +2013,7 @@ export const dataNumbers = [
       "If your spirit isn't Dark, this card comes into play exhausted.\n" +
       "Exhaust: Produce (1).\n" +
       "Exhaust: Send the top card of your deck to the discard zone.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/novice-protector.webp",
@@ -1877,6 +2026,7 @@ export const dataNumbers = [
     number: 149,
     effect:
       "Guardian (Exhaust this card to make an attacking Unit attack this one instead.)",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/omega-magic-hikari.webp",
@@ -1889,6 +2039,7 @@ export const dataNumbers = [
     effect:
       "Instacast\n" +
       "Put into play one Knight unit token with Guardian (Unit * Knight/Light/1000). If you have two or less towers remaining, put into play two tokens instead.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/omega-magic-kasai.webp",
@@ -1902,6 +2053,7 @@ export const dataNumbers = [
       "Instacast\n" +
       "Deal 1500 to target attacking or blocking unit.\n" +
       "Then, if you have two or less towers remaining, deal 2000 to target unit.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/omega-magic-kaze.webp",
@@ -1915,6 +2067,7 @@ export const dataNumbers = [
       "Instacast\n" +
       "If you have two or less towers remaining, this card costs (0) to play.\n" +
       "Target unit cannot deal damage or attack this turn. Draw one card.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/omega-magic-mizu.webp",
@@ -1930,6 +2083,7 @@ export const dataNumbers = [
       "* Draw one card.\n" +
       "* Exhaust target unit.\n" +
       "* Return target unit to its owner's hand if it is exhausted.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/omega-magic-yami.webp",
@@ -1944,6 +2098,7 @@ export const dataNumbers = [
       "Choose one OR if you have two or less towers remaining you can choose both.\n" +
       "* Target unit gets -1000 this turn.\n" +
       "* Return target unit with cost (3) or less from your discard zone to the field.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/patriarch-of-the-golems.webp",
@@ -1959,6 +2114,7 @@ export const dataNumbers = [
       "Destroyer (When this Unit attacks a Tower, it attacks two Towers instead.)\n" +
       "This card costs 1 less to play for each card discarded from your opponent's hand by your effects this turn.\n" +
       "Discard one Golem Unit from your hand: Target Unit gets -X000 (X equals the discarded card's cost).",
+    capacity: 1,
   },
   {
     image: "images/Betrayal/pewter-gargoyle.webp",
@@ -1972,6 +2128,7 @@ export const dataNumbers = [
     number: 156,
     effect:
       "If this card is in your discard zone, when a card is discarded from your opponent's hand by your effect - You can put this card into play.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/philosophers-stone.webp",
@@ -1986,6 +2143,7 @@ export const dataNumbers = [
       "Arrive (When this card enters the field zone.) - Expel all Golem Units from your discard zone, and place one counter on this card for each.\n" +
       "Exhaust, remove any number of counters from this card: Search your deck for a Dark Unit with cost equal to the number of counters removed, and put it into play.\n" +
       "At the end of a turn - If this card has no counters, sacrifice it.",
+    capacity: 1,
   },
   {
     image: "images/Betrayal/phoenix-flame-strike.webp",
@@ -1997,6 +2155,7 @@ export const dataNumbers = [
     number: 158,
     effect:
       'If you control a "Raoyenna" Unit, this card costs 1 less to play. Deal 1000 to all Units your opponent controls.',
+    capacity: 3,
   },
   {
     image: "images/Betrayal/poisonous-strike.webp",
@@ -2009,6 +2168,7 @@ export const dataNumbers = [
     effect:
       "Instacast\n" +
       "Target attacking or blocking Unit gets -2000 this turn, then your opponent discards one card from their hand.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/professor-rudy-magical-engineer.webp",
@@ -2021,6 +2181,7 @@ export const dataNumbers = [
     rarity: "Argent Rare",
     number: 160,
     effect: "Your Arrive effects trigger twice.",
+    capacity: 1,
   },
   {
     image: "images/Betrayal/rao-daredevil.webp",
@@ -2033,6 +2194,7 @@ export const dataNumbers = [
     number: 161,
     effect:
       "Arrive (When this card enters the field zone.) - Destroy all Units with cost 1.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/rao-dragon-caller.webp",
@@ -2045,6 +2207,7 @@ export const dataNumbers = [
     number: 162,
     effect:
       "Arrive (When this card enters the field zone.) - Add one Dragon Unit that costs 2 or less from your deck to your hand.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/rao-dragon-priest.webp",
@@ -2056,6 +2219,7 @@ export const dataNumbers = [
     rarity: "Common",
     number: 163,
     effect: "All Dragon Units you control get +1000.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/rao-fire-bomb.webp",
@@ -2066,6 +2230,7 @@ export const dataNumbers = [
     rarity: "Super Rare",
     number: 164,
     effect: "Deal 1500 to target Unit and 1000 to each Unit adjacent to it.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/rao-scarlet-slayer.webp",
@@ -2078,6 +2243,7 @@ export const dataNumbers = [
     number: 165,
     effect:
       "Quickness (This Unit can attack or activate Exhaust abilities the turn it is played.)",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/rao-wyvern-rider.webp",
@@ -2091,6 +2257,7 @@ export const dataNumbers = [
     number: 166,
     effect:
       "Quickness\nRuined - Put a Rao Unit Token into play (Unit * Fire/1000).",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/raoyenna-the-phoenix.webp",
@@ -2105,6 +2272,7 @@ export const dataNumbers = [
     effect:
       "Arrive (When this card enters the field zone.) - Deal 1500 to all Units your opponent controls.\n" +
       "Ruined (When this Unit is destroyed or sacrificed.) - Shuffle this card into its owner's deck.",
+    capacity: 1,
   },
   {
     image: "images/Betrayal/raoyenna-immortal-princess.webp",
@@ -2118,6 +2286,7 @@ export const dataNumbers = [
     number: 168,
     effect:
       'Ruined (When this Unit is destroyed or sacrificed.) - Put into play a "Raoyenna, the Phoenix" from your hand or deck.',
+    capacity: 3,
   },
   {
     image: "images/Betrayal/raoyennas-pet-dragon.webp",
@@ -2132,6 +2301,7 @@ export const dataNumbers = [
     effect:
       'Arrive (When this card enters the field zone.) - If you control another "Raoyenna" Unit, deal 1000 to target Unit.\n' +
       'Other "Raoyenna" Units you control cannot be targeted by Spells or Abilities.',
+    capacity: 3,
   },
   {
     image: "images/Betrayal/raza-knight-of-unity.webp",
@@ -2145,6 +2315,7 @@ export const dataNumbers = [
     number: 170,
     effect:
       "Arrive (When this card enters the field zone.) - Expel any number of Gears from your discard zone, Put into play a Knight Unit from your Deck with cost equal to the number of Gears you expelled.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/reactive-runes.webp",
@@ -2157,6 +2328,7 @@ export const dataNumbers = [
     effect:
       " Instacast (You can play this card any time you have priority.)\n" +
       "Return target Unit that came into play this turn to the top of its owner's deck.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/returning-shadows.webp",
@@ -2169,6 +2341,7 @@ export const dataNumbers = [
     effect:
       "Instacast (You can play this card any time you have priority.)\n" +
       "Add target Unit from your discard zone to your hand.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/royal-command.webp",
@@ -2180,6 +2353,7 @@ export const dataNumbers = [
     number: 173,
     effect:
       "Switch all Air Units you control to Active. Air Units get +1000 this turn.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/sandsea-covert.webp",
@@ -2192,6 +2366,7 @@ export const dataNumbers = [
     number: 174,
     effect:
       " Your opponent cannot target other Air Units you control with Spells.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/sandsea-drifter.webp",
@@ -2204,6 +2379,7 @@ export const dataNumbers = [
     number: 175,
     effect:
       " Ruined (When this Unit is destroyed or sacrificed.) - Switch up to two of your Shards to Active.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/sandsea-traveller.webp",
@@ -2215,6 +2391,7 @@ export const dataNumbers = [
     rarity: "Common",
     number: 176,
     effect: "When this card attacks - Switch one of your Shards to active.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/savage-mystic.webp",
@@ -2226,6 +2403,7 @@ export const dataNumbers = [
     rarity: "Common",
     number: 177,
     effect: "Once per turn, when you cast a Spell - Deal 1000 to target Unit.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/scarlet-egg.webp",
@@ -2241,6 +2419,7 @@ export const dataNumbers = [
       "Guardian\n" +
       "This Unit cannot attack.\n" +
       "If you control two or more other Dragon Units, sacrifice this card: Search your deck for a Dragon Unit with cost 2 or less and put it into play.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/secret-project-aira.webp",
@@ -2254,6 +2433,7 @@ export const dataNumbers = [
     number: 179,
     effect:
       "Your Units adjacent to this card cannot be targeted by Spells or Abilities.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/shard-research-facility.webp",
@@ -2267,6 +2447,7 @@ export const dataNumbers = [
       "Arrive (When this card enters the field zone.) - Place counters on this card equal to the number of Water Units you control.\n" +
       "Exhaust, remove any number of counters from this card: Add target Spell from your discard zone with cost equal to the number of counters removed.\n" +
       "At the end of a turn - If this card has no counters on it, sacrifice it.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/shardsword-nova.webp",
@@ -2280,6 +2461,7 @@ export const dataNumbers = [
       "Instacast (You can play this card any time you have priority.)\n" +
       "As an additional cost to play this card, discard one Gear or sacrifice one Gear you control.\n" +
       "Destroy target Unit with cost 3 or less.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/shining-shardagger.webp",
@@ -2291,6 +2473,7 @@ export const dataNumbers = [
     rarity: "Common",
     number: 182,
     effect: " Equip to target Unit.\nIt gets +500 and Quickness.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/silver-watchwoman.webp",
@@ -2307,6 +2490,7 @@ export const dataNumbers = [
       "* This card gains Quickness (This Unit can attack or activate Exhaust abilities the turn it is played.).\n" +
       "* This card gains Target Attack (This Unit can attack any Unit.).\n" +
       "* Prevent the next damage that would be dealt to this card this turn.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/skytree-command-center.webp",
@@ -2319,6 +2503,7 @@ export const dataNumbers = [
     effect:
       "When a unit is returned to your hand from the field - Place one counter on this card for each.\n" +
       "Exhaust, remove any number of counters from this card: Put into play one unit from your hand with cost equal to the number of counters removed.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/skytree-glidetrooper.webp",
@@ -2332,6 +2517,7 @@ export const dataNumbers = [
     number: 185,
     effect:
       "If two or more Air Units have returned to your hand this turn, this card costs 2 less to play.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/skytree-hawk.webp",
@@ -2345,6 +2531,7 @@ export const dataNumbers = [
     number: 186,
     effect:
       "When this card is returned to your hand from the field - You can discard this card, Draw two cards.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/skytree-marksman.webp",
@@ -2358,6 +2545,7 @@ export const dataNumbers = [
     number: 187,
     effect:
       "Arrive (When this card enters the field zone.) - Return another target Air Unit you control to its owner's hand, and, if you do, deal 1500 to target Unit.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/soul-transfer.webp",
@@ -2369,6 +2557,7 @@ export const dataNumbers = [
     number: 188,
     effect:
       "Destroy target Unit, and, if you do, you can put into play a Unit from your discard zone whose cost is lower than the destroyed Unit.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/spitfire-dragon.webp",
@@ -2381,6 +2570,7 @@ export const dataNumbers = [
     rarity: "Common",
     number: 189,
     effect: "When this card attacks - Deal 1000 to target Unit.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/statue-at-the-argent-tower.webp",
@@ -2393,6 +2583,7 @@ export const dataNumbers = [
     effect:
       "Arrive (When this card enters the field zone.) - Draw one card.\n" +
       "Sacrifice this card: Shuffle up to three target Units from your discard zone into your deck.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/supply-deal.webp",
@@ -2403,6 +2594,7 @@ export const dataNumbers = [
     rarity: "Common",
     number: 191,
     effect: "Discard one Gear from your hand, then draw two cards.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/sylphia-spirit-of-air.webp",
@@ -2416,6 +2608,7 @@ export const dataNumbers = [
     number: 192,
     effect:
       "Arrive (When this card enters the field zone.) - Choose even or odd cost. Your opponent places all of their Units with the chosen cost on the bottom of their owners' decks in any order.",
+    capacity: 1,
   },
   {
     image: "images/Betrayal/terror-of-the-sandsea.webp",
@@ -2430,6 +2623,7 @@ export const dataNumbers = [
     effect:
       "This card costs 1 less to play for each Unit returned to the hand from the field this turn.\n" +
       "When this card attacks - Your opponent sacrifices a Unit.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/tidal-rush.webp",
@@ -2443,6 +2637,7 @@ export const dataNumbers = [
       "Instacast\n" +
       "As an additional cost to play this card, you may Shard Drain 1. If you do, return target unit to its owner's hand.\n" +
       "Return target unit to its owner's hand, then draw one card.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/transfiguration-master.webp",
@@ -2455,6 +2650,7 @@ export const dataNumbers = [
     number: 195,
     effect:
       "Arrive (When this card enters the field zone.) - Expel target Unit, and, if you do, roll a die. If the result is even, the owner of the Expelled Unit gets a Hulking Mech Unit Token (Unit * Argent/4000). If the result is odd, the owner of the Expelled Unit gets a Sulking Mech Unit Token (Unit * Argent/1000).",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/turin-the-primal-turtle.webp",
@@ -2468,6 +2664,7 @@ export const dataNumbers = [
     effect:
       "Guardian (Exhaust this card to make an attacking Unit attack this one instead.)\n" +
       "Arrive (When this card enters the field zone.) - Deal 2000 to up to two target Units.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/twilight-knight.webp",
@@ -2482,6 +2679,7 @@ export const dataNumbers = [
     effect:
       "Destroyer\n" +
       "Arrive - Destroy target Unit with Guardian, and, if you do, this card gains Quickness.",
+    capacity: 1,
   },
   {
     image: "images/Betrayal/vis-blessing.webp",
@@ -2495,6 +2693,7 @@ export const dataNumbers = [
       "Choose one.\n" +
       "* Add up to two target Gears from your discard zone to your hand.\n" +
       "* Equip target Gear from your discard zone to target Unit you control.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/winds-of-the-cloudsea.webp",
@@ -2507,6 +2706,7 @@ export const dataNumbers = [
     effect:
       "Instacast (You can play this card any time you have priority.)\n" +
       "Return X target Units you control to their owners' hands, then put into play one Unit from your hand with cost X or less.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/wyvern-crystal.webp",
@@ -2519,6 +2719,7 @@ export const dataNumbers = [
       "If your spirit isn't Fire, this card comes into play exhausted.\n" +
       "Exhaust: Produce (1).\n" +
       "Arrive - Add target Dragon unit from your discard zone to your hand, and, if you do, discard one card from your hand.",
+    capacity: 3,
   },
   {
     image: "images/Betrayal/zephyr-crystal.webp",
@@ -2531,6 +2732,7 @@ export const dataNumbers = [
       "If your spirit isn't Air, this card comes into play exhausted.\n" +
       "Exhaust: Produce (1).\n" +
       "Exhaust, pay (2): Destroy target Augment.",
+    capacity: 3,
   },
   {
     image: "images/Revelations/academy-of-argos.webp",
@@ -2543,6 +2745,7 @@ export const dataNumbers = [
     effect:
       "When you attack with a Witch - Place one counter on this card.\n" +
       "Once per turn, if you were to use Shard Drain to return a number of shards to your shard deck, you may remove that many counters from this card instead.",
+    capacity: 3,
   },
   {
     image: "images/Revelations/aira-inquisitive-protector.webp",
@@ -2558,6 +2761,7 @@ export const dataNumbers = [
       "Guardian\n" +
       "As long as this card is exhausted, your opponent cannot attack the tower this card is in front of.\n" +
       "Exhaust: Move this card to one of your other vacant zones.",
+    capacity: 3,
   },
   {
     image: "images/Revelations/animated-broomstick.webp",
@@ -2571,6 +2775,7 @@ export const dataNumbers = [
     number: 204,
     effect:
       "Ruined - Add target Witch unit from your discard zone to your hand.",
+    capacity: 3,
   },
   {
     image: "images/Revelations/animated-spellbook.webp",
@@ -2584,6 +2789,7 @@ export const dataNumbers = [
     number: 205,
     effect:
       "Ruined - Add a spell that cost (1) or less from your deck to your hand.",
+    capacity: 3,
   },
   {
     image: "images/Revelations/ariana-hope-of-argos.webp",
@@ -2597,6 +2803,7 @@ export const dataNumbers = [
     effect:
       "Brawler (This card can attack active and exhausted units the turn it comes into play.)\n" +
       'Ruined - You may discard one card from your hand: If you do, search your deck for an "Eitan" unit and add it to your hand.',
+    capacity: 3,
   },
   {
     image: "images/Revelations/banner-of-vabrilily.webp",
@@ -2609,6 +2816,7 @@ export const dataNumbers = [
     effect:
       "Arrive - Place three counters on this card. Once per turn, when a Air unit is returned to your hand from the field - You may remove one counter from this card: If you do, switch target shard to active.\n" +
       "At the end of each turn - Destroy this card if it has no counters.",
+    capacity: 3,
   },
   {
     image: "images/Revelations/black-rose-knight.webp",
@@ -2624,6 +2832,7 @@ export const dataNumbers = [
       "Brawler\n" +
       "Arrive - You may equip target Gear from a unit you control to this card.\n" +
       "While this card is equipped with a Gear, when this card or a unit adjacent to this card attacks - You may draw one card then discard one card.",
+    capacity: 3,
   },
   {
     image: "images/Revelations/blazestriker-dive.webp",
@@ -2635,6 +2844,7 @@ export const dataNumbers = [
     number: 209,
     effect:
       "Put into play one Blazewalker unit you own from your hand or that is expelled with cost X, and if you do, deal damage equal to its power to any unit in a zone in front of it.",
+    capacity: 3,
   },
   {
     image: "images/Revelations/blazewalker-lieutenant-rei.webp",
@@ -2649,6 +2859,7 @@ export const dataNumbers = [
     effect:
       "When this card is expelled - You may give target Dragon unit or Blazewalker unit Quickness.\n" +
       "Expel one unit from your hand: Expel this card until the start of your next draw phase.",
+    capacity: 3,
   },
   {
     image: "images/Revelations/blazewalker-rookie-ark.webp",
@@ -2661,6 +2872,7 @@ export const dataNumbers = [
     rarity: "Common",
     number: 211,
     effect: "When this card is expelled - You may deal 1000 to target unit.",
+    capacity: 3,
   },
   {
     image: "images/Revelations/blazewalker-scout-leiah.webp",
@@ -2675,6 +2887,7 @@ export const dataNumbers = [
     effect:
       "When this card is expelled - You may shuffle three of your other expelled Fire units into your deck: If you do, draw one card.\n" +
       "Expel one unit from your hand: Expel this card until the start of your next draw phase.",
+    capacity: 3,
   },
   {
     image: "images/Revelations/blazewalker-warrior-fang.webp",
@@ -2689,6 +2902,7 @@ export const dataNumbers = [
     effect:
       "When this card is expelled - The next Dragon unit or Blazewalker unit you play this turn costs (1) less to play.\n" +
       "Expel one unit from your hand: Expel this card until the start of your next draw phase.",
+    capacity: 3,
   },
   {
     image: "images/Revelations/blue-rose-knight.webp",
@@ -2701,6 +2915,7 @@ export const dataNumbers = [
     rarity: "Common",
     number: 214,
     effect: "This card has +500 for each unit adjacent to it.",
+    capacity: 3,
   },
   {
     image: "images/Revelations/bone-scavager.webp",
@@ -2715,6 +2930,7 @@ export const dataNumbers = [
     effect:
       "Arrive - Expel target unit from a discard zone.\n" +
       "Pay (1): Expel target unit from a discard zone, and if you do, place a +500 counter on this card.",
+    capacity: 3,
   },
   {
     image: "images/Revelations/catrina-the-dark-lady.webp",
@@ -2727,6 +2943,7 @@ export const dataNumbers = [
     number: 216,
     effect:
       'Arrive - Choose one. * Add one "Trick!" or "Treat!" from your deck or discard zone to your hand. * Offering 2 (Expel two units from your discard zone.): Add both instead.',
+    capacity: 3,
   },
   {
     image: "images/Revelations/celestial-of-genesis.webp",
@@ -2741,6 +2958,7 @@ export const dataNumbers = [
     effect:
       "Arrive - If two or more Air units have returned to your hand from the field this turn, take an extra turn after this one.\n" +
       'Expel "Celestial of Genesis" when it leaves the field.',
+    capacity: 1,
   },
   {
     image: "images/Revelations/charise-archivist-of-worlds.webp",
@@ -2755,6 +2973,7 @@ export const dataNumbers = [
     effect:
       "Exhaust: Put one counter on this card.\n" +
       " Exhaust, pay (1): Search your deck for a unit with cost equal to or less than the number of counters on this card and add it to your hand. Remove all counters from this card.",
+    capacity: 3,
   },
   {
     image: "images/Revelations/corona-the-spirit-ruby.webp",
@@ -2765,6 +2984,7 @@ export const dataNumbers = [
     number: 219,
     effect:
       "If you control another legendary shard send this card to the discard zone. Exhaust: Produce (1). Exhaust, flip your spirit face-down: Destroy target unit.",
+    capacity: 1,
   },
   {
     image: "images/Revelations/dragon-gods-scale.webp",
@@ -2777,6 +2997,7 @@ export const dataNumbers = [
     effect:
       "Instacast\n" +
       "Target Dragon unit you control cannot be targeted by spells this turn.",
+    capacity: 3,
   },
   {
     image: "images/Revelations/dragonholt-the-bold.webp",
@@ -2791,6 +3012,7 @@ export const dataNumbers = [
     effect:
       "Arrive - You may reveal two Dragon units from your hand: If you do, deal 1000 to all units your opponent controls.\n" +
       "Dragon units you control cannot be targeted by your opponent's spells with cost equal to or less than the number of Dragon units you control.",
+    capacity: 3,
   },
   {
     image: "images/Revelations/eccentric-visitor.webp",
@@ -2804,6 +3026,7 @@ export const dataNumbers = [
     number: 222,
     effect:
       "Arrive - If you have two or more destroyed towers, you may flip your spirit face-up.",
+    capacity: 3,
   },
   {
     image: "images/Revelations/effy-the-evil-witch.webp",
@@ -2817,6 +3040,7 @@ export const dataNumbers = [
     number: 223,
     effect:
       "When this card attacks - You may reveal two different spells from your hand: If you do, return up to X target units your opponent controls to the bottom of their owner's deck in any order. (X equals the number of Witch units you control.)",
+    capacity: 3,
   },
   {
     image: "images/Revelations/eitan-protector-of-argos.webp",
@@ -2832,6 +3056,7 @@ export const dataNumbers = [
       "Guardian\n" +
       "Units in front of this card must attack each turn, if able.\n" +
       'Ruined - You may discard an "Eitan" unit from your hand: If you do, put this card into play exhausted.',
+    capacity: 3,
   },
   {
     image: "images/Revelations/ella-the-sky-huntress.webp",
@@ -2845,6 +3070,7 @@ export const dataNumbers = [
     number: 225,
     effect:
       "Arrive - You may discard one Skyraider unit or Airship unit from your hand: If you do, target unit loses all abilities and cannot attack as long as you control this card.",
+    capacity: 3,
   },
   {
     image: "images/Revelations/entreat-the-blazewalkers.webp",
@@ -2856,6 +3082,7 @@ export const dataNumbers = [
     number: 226,
     effect:
       "Expel one Blazewalker unit from your deck, then you may add a card with the same name from your deck to your hand.",
+    capacity: 3,
   },
   {
     image: "images/Revelations/faust-soulless-harbinger.webp",
@@ -2869,6 +3096,7 @@ export const dataNumbers = [
     number: 227,
     effect:
       'Arrive - Put into play two Mutation unit tokens (Unit * Mutation/Argent/500) with "Ruined - Search your deck for an Experiment unit and put it into play".',
+    capacity: 3,
   },
   {
     image: "images/Revelations/fizzy-the-spirit-sapphire.webp",
@@ -2879,6 +3107,7 @@ export const dataNumbers = [
     number: 228,
     effect:
       "If you control another legendary shard send this card to the discard zone. Exhaust: Produce (1). Exhaust, flip your spirit face-down: Draw two cards.",
+    capacity: 1,
   },
   {
     image: "images/Revelations/ghostly-demise.webp",
@@ -2891,6 +3120,7 @@ export const dataNumbers = [
     effect:
       "As an additional cost to play this card, Offering X (Expel any number of units from your discard zone).\n" +
       "Destroy all units with cost X. (X equals the number of units expelled for Offering.)",
+    capacity: 3,
   },
   {
     image: "images/Revelations/glittering-whelp.webp",
@@ -2904,6 +3134,7 @@ export const dataNumbers = [
     number: 230,
     effect:
       "Arrive - You may reveal two Dragon units from your hand: If you do, draw one card.",
+    capacity: 3,
   },
   {
     image: "images/Revelations/gloom-harvester.webp",
@@ -2916,6 +3147,7 @@ export const dataNumbers = [
     number: 231,
     effect:
       "Offering 3 (Expel three units from your discard zone.): Target unit gets -1000 this turn.",
+    capacity: 3,
   },
   {
     image: "images/Revelations/glorious-quake.webp",
@@ -2928,6 +3160,7 @@ export const dataNumbers = [
     effect:
       "Instacast\n" +
       "Deal X000 to target unit, and if you do, exhaust each unit adjacent to it. (X equals the highest cost of a Unit you control.)",
+    capacity: 3,
   },
   {
     image: "images/Revelations/glory-the-awakened-hero.webp",
@@ -2943,6 +3176,7 @@ export const dataNumbers = [
       "Brawler\n" +
       "Arrive - Search your deck for up to two units with cost (1) or less and put them into play.\n" +
       "When this card attacks - Target Light unit you control gains Quickness.",
+    capacity: 1,
   },
   {
     image: "images/Revelations/glory-the-sealed-blade.webp",
@@ -2956,6 +3190,7 @@ export const dataNumbers = [
     effect:
       "Equip only to a unit with cost (4) or more. It gains Brawler (This card can attack active and exhausted units the turn it comes into play).\n" +
       'When the equipped unit destroys a unit in battle - You may sacrifice the equipped unit: If you do, put into play "Glory, Awakened Hero" from your deck or discard zone.',
+    capacity: 3,
   },
   {
     image: "images/Revelations/granite-gargoyle.webp",
@@ -2969,6 +3204,7 @@ export const dataNumbers = [
     effect:
       "Instead of drawing for your turn, you may discard a card. If you do, add this card from your discard zone to your hand.\n" +
       "Discard this card from your hand: Send the top three cards of your deck to the discard zone.",
+    capacity: 3,
   },
   {
     image: "images/Revelations/great-behemoth.webp",
@@ -2983,6 +3219,7 @@ export const dataNumbers = [
     effect:
       "This card costs (1) less to play for each unit you control with cost (2) or less.\n" +
       "Units you control with cost (2) or less get +1000.",
+    capacity: 3,
   },
   {
     image: "images/Revelations/guiding-winds.webp",
@@ -2995,6 +3232,7 @@ export const dataNumbers = [
     effect:
       " Instacast\n" +
       "Return target unit you control to its owner's hand, and if you do draw one card.",
+    capacity: 3,
   },
   {
     image: "images/Revelations/hallowed-harpist.webp",
@@ -3006,6 +3244,7 @@ export const dataNumbers = [
     rarity: "Common",
     number: 238,
     effect: "Guardian\nThis card cannot deal damage.\nRuined - Draw one card.",
+    capacity: 3,
   },
   {
     image: "images/Revelations/hoenna-conjurer-supreme.webp",
@@ -3018,6 +3257,7 @@ export const dataNumbers = [
     number: 239,
     effect:
       "Exhaust, Offering X (Expel any number of units from your discard zone.): Put into play target unit with cost X from your discard zone. (X equals the number of units expelled for Offering.)",
+    capacity: 3,
   },
   {
     image: "images/Revelations/jemial-celestial-wielder.webp",
@@ -3032,6 +3272,7 @@ export const dataNumbers = [
     effect:
       "Arrive - If you have five or more cards in your hand, the next Water card you play this turn costs (0) to play. Otherwise, draw X cards (X equals five minus the number of cards in your hand.)\n" +
       'Expel "Jemial, Celestial Wielder" when it leaves the field.',
+    capacity: 1,
   },
   {
     image: "images/Revelations/kara-the-lone-valkyrie.webp",
@@ -3047,6 +3288,7 @@ export const dataNumbers = [
       "This card costs (1) less to play for each of your destroyed towers.\n" +
       "If you have one or less towers remaining, this card has +1000, Brawler, and Guardian.\n" +
       "If you control no other units this card cannot be targeted by spells or abilities.",
+    capacity: 3,
   },
   {
     image: "images/Revelations/ketsu-the-living-armor.webp",
@@ -3062,6 +3304,7 @@ export const dataNumbers = [
       "Any damage it would take is reduced by 500 instead.\n" +
       "When one of your Light units attacks - You may equip this card from the discard zone to that unit.\n" +
       'A unit may only be equipped with one "Ketsu, the Living Armor".',
+    capacity: 3,
   },
   {
     image: "images/Revelations/kyte-the-spirit-emerald.webp",
@@ -3072,6 +3315,7 @@ export const dataNumbers = [
     number: 243,
     effect:
       "If you control another legendary shard send this card to the discard zone. Exhaust: Produce (1). Exhaust, flip your spirit face-down: Switch up to two of your shards to active.",
+    capacity: 1,
   },
   {
     image: "images/Revelations/liam-brutal-tyrant.webp",
@@ -3086,6 +3330,7 @@ export const dataNumbers = [
     effect:
       "Arrive - If you've destroyed an opponent's tower or unit in battle this turn, you may equip target Gear from your discard zone to this card.\n" +
       "Sacrifice a Knight unit that is equipped with a Gear: Deal X to target face-up tower. (X equals the sacrificed unit's power.)",
+    capacity: 3,
   },
   {
     image: "images/Revelations/madam-phantasm.webp",
@@ -3101,6 +3346,7 @@ export const dataNumbers = [
       "This card cost (1) less to play for each Witch unit you control.\n" +
       'Arrive - You may add one "Phantasmal" card from your deck or discard zone to your hand.\n' +
       'Shard Drain 1, expel this card from your discard zone: Search your deck for an "Academy of Argos" and put it into play.',
+    capacity: 3,
   },
   {
     image: "images/Revelations/magical-gigant.webp",
@@ -3115,6 +3361,7 @@ export const dataNumbers = [
       "Guardian\n" +
       "This card costs (1) less to play for each spell in your discard zone.\n" +
       "This card cannot be targeted by spells.",
+    capacity: 3,
   },
   {
     image: "images/Revelations/maiden-in-distress.webp",
@@ -3127,6 +3374,7 @@ export const dataNumbers = [
     number: 247,
     effect:
       "Exhaust: Put into play a Knight unit token with Guardian (Unit * Knight/Light/1500). Use this only if your opponent controls more units than you.",
+    capacity: 3,
   },
   {
     image: "images/Revelations/mara-mischievous-witch.webp",
@@ -3140,6 +3388,7 @@ export const dataNumbers = [
     number: 248,
     effect:
       'Arrive - You may reveal two different spells from your hand: If you do, search your deck for an "Animated" unit and put it into play.',
+    capacity: 3,
   },
   {
     image: "images/Revelations/march-of-the-corum-brigade.webp",
@@ -3151,6 +3400,7 @@ export const dataNumbers = [
     number: 249,
     effect:
       "Draw one card for each unit you control, then discard one card for each unit your opponent controls.",
+    capacity: 3,
   },
   {
     image: "images/Revelations/master-genso.webp",
@@ -3163,6 +3413,7 @@ export const dataNumbers = [
     number: 250,
     effect:
       "Exhaust: Put target unit with cost (1) or less from your discard zone into play. Expel that unit when it leaves the field.",
+    capacity: 3,
   },
   {
     image: "images/Revelations/mechanical-gigant.webp",
@@ -3177,6 +3428,7 @@ export const dataNumbers = [
       "Destroyer\n" +
       "This card costs (1) less to play for each unit on the field.\n" +
       "This card cannot be targeted by unit abilities.",
+    capacity: 3,
   },
   {
     image: "images/Revelations/megashardmech-titan-yugo.webp",
@@ -3191,6 +3443,7 @@ export const dataNumbers = [
     effect:
       `You may expel three different "Shard-Mecha" units from your hand and/or discard zone rather than pay this card's cost.\n` +
       "Once per turn, discard one card: Destroy target unit or augment.",
+    capacity: 3,
   },
   {
     image: "images/Revelations/mistshaper.webp",
@@ -3204,6 +3457,7 @@ export const dataNumbers = [
     number: 253,
     effect:
       " Arrive - Search your deck for a unit that has the same name as another target unit you control and add it to your hand.",
+    capacity: 1,
   },
   {
     image: "images/Revelations/mutation-000-ziliach.webp",
@@ -3217,6 +3471,7 @@ export const dataNumbers = [
     number: 254,
     effect:
       "This card gets +500 for each different Experiment unit you control.",
+    capacity: 3,
   },
   {
     image: "images/Revelations/mutation-002-reprobloom.webp",
@@ -3230,6 +3485,7 @@ export const dataNumbers = [
     number: 255,
     effect:
       "When this card is targeted by a spell or ability - You may put into play two Experiment unit tokens (Unit * Experiment/Argent/1000).",
+    capacity: 3,
   },
   {
     image: "images/Revelations/mutation-004-duplisa.webp",
@@ -3244,6 +3500,7 @@ export const dataNumbers = [
     effect:
       "Arrive - Equip target unit you control to this card (It's now treated as an augment).\n" +
       "Ruined - If this card was equipped with a unit, search your deck for up to two units with the same name as one that was equipped to this card and put them into play.",
+    capacity: 3,
   },
   {
     image: "images/Revelations/neutral-evil.webp",
@@ -3254,6 +3511,7 @@ export const dataNumbers = [
     rarity: "Common",
     number: 257,
     effect: "Each player sacrifices a unit they control.",
+    capacity: 3,
   },
   {
     image: "images/Revelations/obsidian-gargoyle.webp",
@@ -3267,6 +3525,7 @@ export const dataNumbers = [
     number: 258,
     effect:
       "When this card is sent from your deck to your discard zone - You may put it into play.",
+    capacity: 3,
   },
   {
     image: "images/Revelations/order-of-the-rose.webp",
@@ -3278,6 +3537,7 @@ export const dataNumbers = [
     number: 259,
     effect:
       'Reveal the top five cards of your deck. You may add one revealed "Rose Knight" unit from them to your hand. If you do, you may also add a revealed Gear to your hand. Place the rest on the bottom of your deck in any order.',
+    capacity: 3,
   },
   {
     image: "images/Revelations/panzer-the-dracosteed.webp",
@@ -3292,6 +3552,7 @@ export const dataNumbers = [
     effect:
       "Expel one Fire unit from your hand: Return this card to your hand from the expelled zone.\n" +
       "Arrive - Add target expelled Fire unit you own to your hand.",
+    capacity: 3,
   },
   {
     image: "images/Revelations/phantasmal-army.webp",
@@ -3304,6 +3565,7 @@ export const dataNumbers = [
     effect:
       "Put into play Illusion unit tokens (Unit * Illusion/Water/1000) equal to the number of units your opponent controls.\n" +
       'Shard Drain 1, expel this card from your discard zone: Search your deck for a "Phantasmal Army" and add it to your hand.',
+    capacity: 3,
   },
   {
     image: "images/Revelations/phantasmal-bolt.webp",
@@ -3316,6 +3578,7 @@ export const dataNumbers = [
     effect:
       "Deal 1000 to target unit your opponent controls, and if this destroys it, you may add a Witch unit from your discard zone to your hand.\n" +
       'Shard Drain 1, expel this card from your discard zone: Search your deck for a "Phantasmal Bolt" and add it to your hand.',
+    capacity: 3,
   },
   {
     image: "images/Revelations/phantasmal-gigant.jpg",
@@ -3331,6 +3594,7 @@ export const dataNumbers = [
       "Destroyer\n" +
       'This card cost (1) less to play for each different "Phantasmal" card in your discard zone.\n' +
       'When this card attacks - Deal X000 to target unit or face-up tower. (X equals the number of different "Phantasmal" cards in your discard zone.)',
+    capacity: 3,
   },
   {
     image: "images/Revelations/phantasmal-storm.webp",
@@ -3344,6 +3608,7 @@ export const dataNumbers = [
       "Instacast\n" +
       "Deal 2000 to target unit.\n" +
       'Shard Drain 1, expel this card from your discard zone: Search your deck for a "Phantasmal Storm" and add it to your hand.',
+    capacity: 3,
   },
   {
     image: "images/Revelations/queen-of-the-sandsea.webp",
@@ -3356,6 +3621,7 @@ export const dataNumbers = [
     number: 265,
     effect:
       "Arrive - Take control of target unit with cost (2) or less, as long as you control this card.",
+    capacity: 3,
   },
   {
     image: "images/Revelations/quicksand-trap.webp",
@@ -3366,6 +3632,7 @@ export const dataNumbers = [
     rarity: "Common",
     number: 266,
     effect: "Exhaust target unit and target unit adjacent to it.",
+    capacity: 3,
   },
   {
     image: "images/Revelations/raine-blazewalker-commander.webp",
@@ -3380,6 +3647,7 @@ export const dataNumbers = [
     effect:
       "When this card is expelled - You may reveal the top card of your deck. If it is a Dragon unit or Blazewalker unit with cost (4) or less, you may put it into play. Otherwise, add it to your hand.\n" +
       "Expel two units from your hand: Expel this card until the start of your next draw phase.",
+    capacity: 1,
   },
   {
     image: "images/Revelations/reckless-shardbeast.webp",
@@ -3393,6 +3661,7 @@ export const dataNumbers = [
     number: 268,
     effect:
       "Arrive - You may destroy one of your face-down towers: If you do, this card gains Quickness.",
+    capacity: 3,
   },
   {
     image: "images/Revelations/red-rose-knight.webp",
@@ -3408,6 +3677,7 @@ export const dataNumbers = [
       "Guardian\n" +
       "When this card uses Guardian - You may add target Gear from your discard zone to your hand.\n" +
       "While this card is equipped with a Gear, units adjacent to this card gain +500 and Guardian.",
+    capacity: 3,
   },
   {
     image: "images/Revelations/sandsea-drake.webp",
@@ -3421,6 +3691,7 @@ export const dataNumbers = [
     effect:
       "Arrive - If a unit was sent from your field to the discard zone this turn, you may return target unit to its owner's hand.\n" +
       "When a unit you control is returned to its owner's hand - You may give another target unit Quickness.",
+    capacity: 3,
   },
   {
     image: "images/Revelations/sandsea-nomad.webp",
@@ -3433,6 +3704,7 @@ export const dataNumbers = [
     number: 271,
     effect:
       "When this card attacks - Return target unit you control to its owner's hand.",
+    capacity: 3,
   },
   {
     image: "images/Revelations/sandsea-scorpion.webp",
@@ -3445,6 +3717,7 @@ export const dataNumbers = [
     rarity: "Common",
     number: 272,
     effect: "Ruined - You may give target unit -1000 this turn.",
+    capacity: 3,
   },
   {
     image: "images/Revelations/savage-sellsword.webp",
@@ -3456,6 +3729,7 @@ export const dataNumbers = [
     rarity: "Common",
     number: 273,
     effect: "This unit cannot attack unless you discard one Gear.",
+    capacity: 3,
   },
   {
     image: "images/Revelations/scorpion-emperor.webp",
@@ -3469,6 +3743,7 @@ export const dataNumbers = [
     number: 274,
     effect:
       'Arrive - Put into play two Scorpion unit tokens (Unit * Beast/Air/1000) with "Ruined - You may give target unit -1000 this turn".',
+    capacity: 3,
   },
   {
     image: "images/Revelations/secrets-reveled.webp",
@@ -3480,6 +3755,7 @@ export const dataNumbers = [
     number: 275,
     effect:
       "Look at the top three cards of either player's deck and put them back in any order.",
+    capacity: 3,
   },
   {
     image: "images/Revelations/serena-witch-of-sealing.webp",
@@ -3493,6 +3769,7 @@ export const dataNumbers = [
     number: 276,
     effect:
       "Arrive - You may reveal two different spells from your hand: If you do, target unit your opponent controls cannot use Guardian this turn.",
+    capacity: 3,
   },
   {
     image: "images/Revelations/shade-of-the-silver-king.webp",
@@ -3507,6 +3784,7 @@ export const dataNumbers = [
     effect:
       "Destroyer, Guardian, Target Attack\n" +
       "Offering 7 (Expel seven units from your discard zone.): Put this card from your discard zone into play.",
+    capacity: 1,
   },
   {
     image: "images/Revelations/shard-mecha-buki.webp",
@@ -3522,6 +3800,7 @@ export const dataNumbers = [
       "Target Attack\n" +
       "When this card attacks a unit or is blocked - This card gets +500 this turn.\n" +
       'Ruined - Search your deck for a "Shard-Mecha: Tsubasa" and add it to your hand.',
+    capacity: 3,
   },
   {
     image: "images/Revelations/shard-mecha-shiru.webp",
@@ -3535,6 +3814,7 @@ export const dataNumbers = [
     number: 279,
     effect:
       'GuardianRuined - Search your deck for a "Shard-Mecha: Buki" and add it to your hand.',
+    capacity: 3,
   },
   {
     image: "images/Revelations/shard-mecha-tsubasa.webp",
@@ -3549,6 +3829,7 @@ export const dataNumbers = [
     effect:
       "Brawler (This card can attack active and exhausted units the turn it comes into play.)\n" +
       'Ruined - Search your deck for a "Megashardmech Titan: Yugo" and add it to your hand.',
+    capacity: 3,
   },
   {
     image: "images/Revelations/shrieker.webp",
@@ -3561,6 +3842,7 @@ export const dataNumbers = [
     number: 281,
     effect:
       "Arrive - Send the top three cards of your deck to the discard zone.",
+    capacity: 3,
   },
   {
     image: "images/Revelations/sigil-of-exile.webp",
@@ -3573,6 +3855,7 @@ export const dataNumbers = [
     effect:
       "Exhaust, Pay (1): Put a counter on this card.\n" +
       "Exhaust, Sacrifice this card: Expel target unit your opponent controls with cost X. (X equals the number of counters this card had.)",
+    capacity: 3,
   },
   {
     image: "images/Revelations/sigil-of-loss.webp",
@@ -3585,6 +3868,7 @@ export const dataNumbers = [
     effect:
       "Exhaust, Pay (1): Put a counter on this card.\n" +
       "Exhaust, Sacrifice this card: Expel X target cards in your opponent's discard zone. (X equals the number of counters this card had.)",
+    capacity: 3,
   },
   {
     image: "images/Revelations/sigil-of-renewal.webp",
@@ -3597,6 +3881,7 @@ export const dataNumbers = [
     effect:
       "Exhaust, Pay (1): Put a counter on this card.\n" +
       "Exhaust, Sacrifice this card: Add target card with cost X from your discard zone to your hand. (X equals the number of counters this card had.)",
+    capacity: 3,
   },
   {
     image: "images/Revelations/silvermist-phoenix.webp",
@@ -3611,6 +3896,7 @@ export const dataNumbers = [
     effect:
       "This card cannot be targeted by spells.\n" +
       'At the end of your turn - You may pay (2) and expel this card from your discard zone: If you do, search your deck for a "Silvermist Phoenix" and put it into play.',
+    capacity: 3,
   },
   {
     image: "images/Revelations/silverstone-colossus.webp",
@@ -3624,6 +3910,7 @@ export const dataNumbers = [
     effect:
       "Destroyer\n" +
       "This card costs (3) less to play if a tower was destroyed this turn.",
+    capacity: 3,
   },
   {
     image: "images/Revelations/silverstone-sentinel.webp",
@@ -3638,6 +3925,7 @@ export const dataNumbers = [
       "Once per turn, when your opponent activates or triggers the ability of their Champion or Spirit - You may choose one.\n" +
       "* Draw a card.\n" +
       "* Expel target card from your opponent's discard zone.",
+    capacity: 3,
   },
   {
     image: "images/Revelations/slate-gargoyle.webp",
@@ -3652,6 +3940,7 @@ export const dataNumbers = [
     effect:
       "When this card attacks - Add a unit with cost (5) from your deck to your hand.\n" +
       "Ruined - You may Offering 5 (Expel five units from your discard zone.): If you do, put one unit with cost (5) from your hand into play.",
+    capacity: 3,
   },
   {
     image: "images/Revelations/slumbering-drake.webp",
@@ -3665,6 +3954,7 @@ export const dataNumbers = [
     number: 289,
     effect:
       "This unit cannot attack unless you reveal two Dragon units from your hand.",
+    capacity: 3,
   },
   {
     image: "images/Revelations/song-of-the-sky.webp",
@@ -3677,6 +3967,7 @@ export const dataNumbers = [
     effect:
       "Play this card only if two or more units returned from the field to your hand this turn.\n" +
       "The next card you play this turn costs (2) less to play.",
+    capacity: 3,
   },
   {
     image: "images/Revelations/spawn-of-bahamute.webp",
@@ -3690,6 +3981,7 @@ export const dataNumbers = [
     number: 291,
     effect:
       'Arrive - You may reveal two Dragon units from your hand: If you do, search your deck for one "Altar of the Dragon God" and add it to your hand.',
+    capacity: 3,
   },
   {
     image: "images/Revelations/stasis-sentinel.webp",
@@ -3702,6 +3994,7 @@ export const dataNumbers = [
     effect:
       "At the end of your turn - Place one counter on this card.\n" +
       "Sacrifice this card with four or more counters: Put into play a Sentinel unit token with Destroyer (Unit * Argent/4000).",
+    capacity: 3,
   },
   {
     image: "images/Revelations/transmutation-circle.webp",
@@ -3713,6 +4006,7 @@ export const dataNumbers = [
     number: 293,
     effect:
       "Exhaust, Offering 1 (Expel one unit from your discard zone.): Send the top card of your deck to the discard zone.",
+    capacity: 3,
   },
   {
     image: "images/Revelations/treat.webp",
@@ -3726,6 +4020,7 @@ export const dataNumbers = [
       "Instacast\n" +
       "As an additional cost to play this card, sacrifice a unit.\n" +
       "Search your deck for a number of cards equal to the sacrificed unit's cost, and send them to the discard zone.",
+    capacity: 3,
   },
   {
     image: "images/Revelations/trick.webp",
@@ -3736,6 +4031,7 @@ export const dataNumbers = [
     rarity: "Common",
     number: 295,
     effect: "Instacast\nTarget unit loses all abilities this turn.",
+    capacity: 3,
   },
   {
     image: "images/Revelations/underground-mech-base.webp",
@@ -3748,6 +4044,7 @@ export const dataNumbers = [
     effect:
       "Exhaust, discard one Mecha Unit from your hand: Draw one card then place one counter on this card.\n" +
       'Sacrifice this card with three or more counters: Put three target "Shard-Mecha" Units with different names from your discard zone into play.',
+    capacity: 3,
   },
   {
     image: "images/Revelations/vabriels-final-gift.webp",
@@ -3758,6 +4055,7 @@ export const dataNumbers = [
     rarity: "Common",
     number: 297,
     effect: "Search your deck for any card and add it to your hand.",
+    capacity: 3,
   },
   {
     image: "images/Revelations/wailing-widow.webp",
@@ -3771,6 +4069,7 @@ export const dataNumbers = [
     effect:
       "Arrive - Send the top three cards of your deck to the discard zone.\n" +
       "Ruined - Send the top three cards of your deck to the discard zone.",
+    capacity: 3,
   },
   {
     image: "images/Revelations/wanda-witch-of-warding.webp",
@@ -3784,6 +4083,7 @@ export const dataNumbers = [
     number: 299,
     effect:
       "Reveal two different spells from your hand, sacrifice this card: This turn Witch units you control take no damage, and they cannot be targeted by spells or abilities.",
+    capacity: 3,
   },
   {
     image: "images/Revelations/whelp-spark.webp",
@@ -3794,6 +4094,7 @@ export const dataNumbers = [
     rarity: "Common",
     number: 300,
     effect: "Deal 500 to target unit.",
+    capacity: 3,
   },
   {
     image: "images/Revelations/white-rose-knight.webp",
@@ -3810,6 +4111,7 @@ export const dataNumbers = [
       "* Search your deck for a Gear and add it to your hand.\n" +
       "* Equip target Gear from your discard zone to this card.\n" +
       "* Switch target Knight unit to active.",
+    capacity: 3,
   },
   {
     image: "images/Ascension/AirCelestialCrystal.webp",
@@ -3821,6 +4123,7 @@ export const dataNumbers = [
       'You can only control one "Air Celestial Crystal".Your Air tower gets +500 defense.Arrive - If your champion or spirit is Air, recover a shard.Discard this card: Recover a shard. Use this only if you control an "Air Celestial Crystal".',
     rarity: "Common",
     number: 302,
+    capacity: 3,
   },
   {
     image: "images/Ascension/AiraSaviorOfArgos.webp",
@@ -3834,6 +4137,7 @@ export const dataNumbers = [
       'Ω (Place on one of your "AIRA" units while you control "Air Celestial Crystal" and "Water Celestial Crystal".)Units you control cannot be targeted by spells or abilities, and are unaffected by tower effects.Arrive - Restore each of your destroyed towers.',
     rarity: "Secret Rare",
     number: 303,
+    capacity: 1,
   },
   {
     image: "images/Ascension/ArianaCelestiallyImbued.webp",
@@ -3847,6 +4151,7 @@ export const dataNumbers = [
       "Ω (Place on one of your Ariana units.)Target Attack, UnblockableWhenever this card attacks - Recover up to two of your shards, and if you do, draw a card for each shard you recovered this way.Expel this card: Until your next turn, your towers cannot be destroyed.",
     rarity: "Secret Rare",
     number: 304,
+    capacity: 1,
   },
   {
     image: "images/Ascension/ArkTheSoaringBlazewalker.webp",
@@ -3860,6 +4165,7 @@ export const dataNumbers = [
       "Ω (Place on one of your Fire units.)This card costs (2) less to play when placing it on top of a Blazewalker unit.Put a unit under this card into the discard zone: Add up to two target Fire units from your expelled zone to your hand.",
     rarity: "Argent Rare",
     number: 305,
+    capacity: 3,
   },
   {
     image: "images/Ascension/AshbornSprite.webp",
@@ -3873,6 +4179,7 @@ export const dataNumbers = [
       "Whenever your opponent plays a spell or uses an activated ability - You may reveal this card from your hand: If you do, put this card from your hand into play.",
     rarity: "Common",
     number: 306,
+    capacity: 3,
   },
   {
     image: "images/Ascension/AssaultFromTheDeep.webp",
@@ -3884,6 +4191,7 @@ export const dataNumbers = [
       "Put into play a Water unit from your hand with cost (X) or less. Then if you have four or more face-up towers, you may return a unit to its owner's hand with cost (X) or less. (X equals the number of your face-up towers.)",
     rarity: "Common",
     number: 307,
+    capacity: 3,
   },
   {
     image: "images/Ascension/AssaultOfAshes.webp",
@@ -3895,6 +4203,7 @@ export const dataNumbers = [
       "InstacastChoose one. If you control three or more Fire units you may choose both.* Deal 500 to target unit.* Destroy target damaged unit.",
     rarity: "Common",
     number: 308,
+    capacity: 3,
   },
   {
     image: "images/Ascension/AuronShiningRoseKnight.webp",
@@ -3908,6 +4217,7 @@ export const dataNumbers = [
       "Spells cost your opponent (1) more to play for each Gear you control.Expel Gears from your discard zone whose total cost equals (4) or more: This card gains Immortal this turn. (It cannot be destroyed by damage or effects.)",
     rarity: "Super Rare",
     number: 309,
+    capacity: 3,
   },
   {
     image: "images/Ascension/BagoomTheFriendlyBeast.webp",
@@ -3921,6 +4231,7 @@ export const dataNumbers = [
       'Guardian, Unblockable (Guardian cannot be used when this card attacks.)Remove a Maze counter from "The Great Magimaze" that has five or more counters Exhaust target unit.',
     rarity: "Common",
     number: 310,
+    capacity: 3,
   },
   {
     image: "images/Ascension/BagoomsRoar.webp",
@@ -3932,6 +4243,7 @@ export const dataNumbers = [
       'InstacastExhaust target unit. If you control "The Great Magimaze" Exhaust up to two instead.',
     rarity: "Common",
     number: 311,
+    capacity: 3,
   },
   {
     image: "images/Ascension/BlessedElemental.webp",
@@ -3945,6 +4257,7 @@ export const dataNumbers = [
       "Ω (Place on one of your Light units.)Put a unit under this card into the discard zone: Target unit you control cannot be targeted by spells or abilities this turn.",
     rarity: "Super Rare",
     number: 312,
+    capacity: 3,
   },
   {
     image: "images/Ascension/BoreasCloudseaEnforcer.webp",
@@ -3958,6 +4271,7 @@ export const dataNumbers = [
       "Ω (Place on one of your Skyraider units.)Unblockable (Guardian cannot be used when this card attacks.)Put a unit under this card into the discard zone: This card gains Immortal this turn. (It cannot be destroyed by damage or effects.)Ruined - - You may put into play target Skyraider or Airship unit with cost (4) or less from your discard zone.",
     rarity: "Argent Rare",
     number: 313,
+    capacity: 3,
   },
   {
     image: "images/Ascension/CarriermechaKyari.webp",
@@ -3971,6 +4285,7 @@ export const dataNumbers = [
       'Ω (Place on one of your Mecha units.)Exhaust: Choose one.* Search your deck for a "Shard-Mecha" unit and place it under this card.* Put into play as many "Shard-Mecha" units as possible that are under this card.',
     rarity: "Argent Rare",
     number: 314,
+    capacity: 3,
   },
   {
     image: "images/Ascension/CelestialTeamup.webp",
@@ -3982,6 +4297,7 @@ export const dataNumbers = [
       "Draw two cards. Then, if you control both an Air and Water unit, you may put a unit from your hand into play with cost (X) or less. (X equals the number of cards in your hand.)",
     rarity: "Super Rare",
     number: 315,
+    capacity: 3,
   },
   {
     image: "images/Ascension/CloudseaBeastTamer.webp",
@@ -3995,6 +4311,7 @@ export const dataNumbers = [
       "Arrive - If you've played at least two other cards this turn, you may search your deck for a Beast unit withcost (2) or less and put it into play.",
     rarity: "Common",
     number: 316,
+    capacity: 3,
   },
   {
     image: "images/Ascension/CloudseaJumper.webp",
@@ -4008,6 +4325,7 @@ export const dataNumbers = [
       "Reveal this card from your hand: Put this card from your hand into play, and if you do, draw a card. Use only if an Airship unit you controlled was put into the discard zone this turn.",
     rarity: "Common",
     number: 317,
+    capacity: 3,
   },
   {
     image: "images/Ascension/CloudseaOffensiveFormation.webp",
@@ -4019,6 +4337,7 @@ export const dataNumbers = [
       "InstacastPlay only while you control an Airship unit.Destroy target unit or augment.",
     rarity: "Common",
     number: 318,
+    capacity: 3,
   },
   {
     image: "images/Ascension/CloudseaPreparation.webp",
@@ -4030,6 +4349,7 @@ export const dataNumbers = [
       "Add target Skyraider and target Airship unit from your discard zone to your hand. If you've played two or more other cards this turn, you may put them into play instead.",
     rarity: "Rare",
     number: 319,
+    capacity: 3,
   },
   {
     image: "images/Ascension/CloudseaPteromyini.webp",
@@ -4043,6 +4363,7 @@ export const dataNumbers = [
       "This card gets +500 while you control another Beast unit.This card gains Quickness while you control a Skyraider unit.",
     rarity: "Common",
     number: 320,
+    capacity: 3,
   },
   {
     image: "images/Ascension/CloudseaScoutship.webp",
@@ -4056,6 +4377,7 @@ export const dataNumbers = [
       "Arrive - Look at the top card of your opponent's deck. You may put it on the top or bottom of their deck.Ruined - You may put into play target Skyraider unit with cost (1) from your discard zone.",
     rarity: "Common",
     number: 321,
+    capacity: 3,
   },
   {
     image: "images/Ascension/CosmicAirMagic.webp",
@@ -4069,6 +4391,7 @@ export const dataNumbers = [
       " InstacastThis card costs (1) less to play for each face-up Air tower.The next Arrive - ability does not trigger this turn.",
     rarity: "Rare",
     number: 322,
+    capacity: 3,
   },
   {
     image: "images/Ascension/CosmicDarkMagic.webp",
@@ -4080,6 +4403,7 @@ export const dataNumbers = [
       "This card costs (1) less to play for each face-up Dark tower.Look at the top three cards of your deck. You may add a Dark unit among them to your hand. Send the rest to the discard zone.",
     rarity: "Rare",
     number: 323,
+    capacity: 3,
   },
   {
     image: "images/Ascension/CosmicFireMagic.webp",
@@ -4091,6 +4415,7 @@ export const dataNumbers = [
       "InstacastThis card costs (1) less to play for each face-up Fire tower.This turn Ruined - abilities of units do not trigger.",
     rarity: "Rare",
     number: 324,
+    capacity: 3,
   },
   {
     image: "images/Ascension/CosmicLightMagic.webp",
@@ -4102,6 +4427,7 @@ export const dataNumbers = [
       "This card costs (1) less to play for each face-up Light tower.Exhaust target unit you control, and if you do, deal damage equal to its power to target face-up tower.",
     rarity: "Rare",
     number: 325,
+    capacity: 3,
   },
   {
     image: "images/Ascension/CosmicWaterMagic.webp",
@@ -4113,6 +4439,7 @@ export const dataNumbers = [
       "InstacastThis card costs (1) less to play for each face-up Water tower.Target unit you control cannot be targeted by your opponent's spells this turn.",
     rarity: "Rare",
     number: 326,
+    capacity: 3,
   },
   {
     image: "images/Ascension/DefenderOfRaoyenna.webp",
@@ -4126,6 +4453,7 @@ export const dataNumbers = [
       'GuardianDiscard this card from your hand: Destroy target unit you control, and if you do, this turn "Raoyenna" units cost you (2) less to play.At the start of your draw phase, if this card is in your discard zone because of its own ability - You may put this card into play.',
     rarity: "Common",
     number: 327,
+    capacity: 3,
   },
   {
     image: "images/Ascension/DragonholtFuryUnleashed.webp",
@@ -4139,6 +4467,7 @@ export const dataNumbers = [
       "Ω (Place on one or more of your Dragon units.)DestroyerWhenever this card attacks - You may put any number of units under this card into the discard zone: If you do, for each card put into your discard zone this way, destroy target unit, augment, or shard.",
     rarity: "Secret Rare",
     number: 328,
+    capacity: 1,
   },
   {
     image: "images/Ascension/DragonicEruption.webp",
@@ -4150,6 +4479,7 @@ export const dataNumbers = [
       "Deal 1500 to all units your opponent controls, and if you control four or more Dragon units, you may deal 1500 to target face-up tower.",
     rarity: "Super Rare",
     number: 329,
+    capacity: 3,
   },
   {
     image: "images/Ascension/EllaCorruptedByLove.webp",
@@ -4163,6 +4493,7 @@ export const dataNumbers = [
       "Discard a Silver General unit from your hand: Target unit or augment loses all abilities as long as you control this card.Whenever this card is discarded - You may pay (1): If you do, target unit or augment loses all abilities this turn.",
     rarity: "Rare",
     number: 330,
+    capacity: 3,
   },
   {
     image: "images/Ascension/EndowmentOfTheDragonGod.webp",
@@ -4174,6 +4505,7 @@ export const dataNumbers = [
       'You can only play one "Endowment of the Dragon God" each turn.As an additional cost to play this card reveal any number of different Dragon units from your hand.The next Dragon unit you play this turn costs (X) less to play. (X equals the number of Dragon units you revealed.)',
     rarity: "Common",
     number: 331,
+    capacity: 3,
   },
   {
     image: "images/Ascension/EndowmentOfTheSeaGod.webp",
@@ -4185,6 +4517,7 @@ export const dataNumbers = [
       'You can only play one "Endowment of the Sea God" each turn.Flip any number of your face-up towers face-down. If you do, the next card you play this turn costs (X) less to play. (X equals the number of towers you flipped face-down.)',
     rarity: "Common",
     number: 332,
+    capacity: 3,
   },
   {
     image: "images/Ascension/EnemyOfMyEnemy.webp",
@@ -4196,6 +4529,7 @@ export const dataNumbers = [
       "Play only if your champion and spirit are different elements.As an additional cost to play this card, discard a unit whose element is the same as your champion.Search your deck for a unit with the same element as your spirit and add it to your hand.",
     rarity: "Super Rare",
     number: 333,
+    capacity: 3,
   },
   {
     image: "images/Ascension/ErgonTheForgivenEmissary.webp",
@@ -4209,6 +4543,7 @@ export const dataNumbers = [
       "Ω (Place on one of your Gargoyle units.)DestroyerOffering 3: Add this card from your discard zone to your hand.",
     rarity: "Super Rare",
     number: 334,
+    capacity: 3,
   },
   {
     image: "images/Ascension/FathersBetrayal.webp",
@@ -4220,6 +4555,7 @@ export const dataNumbers = [
       "InstacastReturn target Exhausted unit you control to its owner's hand.",
     rarity: "Common",
     number: 335,
+    capacity: 3,
   },
   {
     image: "images/Ascension/FerociousAcidicMonger.webp",
@@ -4231,6 +4567,7 @@ export const dataNumbers = [
     effect: "Arrive - Destroy target augment, and if you do, draw a card.",
     rarity: "Common",
     number: 336,
+    capacity: 3,
   },
   {
     image: "images/Ascension/FinalBattleAtTheArgentTower.webp",
@@ -4242,6 +4579,7 @@ export const dataNumbers = [
       "For each of your destroyed towers, you may recover target unit, and for each of your opponent's destroyed towers, you may Exhaust target unit. Recovered units this way get +1000 this turn and Exhausted units this way get -1000 this turn.",
     rarity: "Common",
     number: 337,
+    capacity: 3,
   },
   {
     image: "images/Ascension/GallantSquire.webp",
@@ -4254,6 +4592,7 @@ export const dataNumbers = [
     effect: "Arrive - The next Gear you play this turn costs (1) less to play.",
     rarity: "Common",
     number: 338,
+    capacity: 3,
   },
   {
     image: "images/Ascension/GillianInterdimensionalWitch.webp",
@@ -4267,6 +4606,7 @@ export const dataNumbers = [
       "Ω (Place on two of your units including at least one Witch unit.)Exhaust, put a unit under this card into the discard zone: Expel up to two target units your opponent controls. If you do, the zones those units occupied cannot be used for the rest of the game.",
     rarity: "Secret Rare",
     number: 339,
+    capacity: 1,
   },
   {
     image: "images/Ascension/GilliansGambit.webp",
@@ -4277,6 +4617,7 @@ export const dataNumbers = [
     effect: `As an additional cost to play this card flip your champion face-down.If your Champion is "Gillian, the Witch Queen" look at the top five cards of your deck and put them back in any order.Reveal the top card of your deck. If it's a Water unit, put it into play. Otherwise, send it to the discard zone, and your opponent may destroy one of your towers.`,
     rarity: "Common",
     number: 340,
+    capacity: 3,
   },
   {
     image: "images/Ascension/GloomNecrolord.webp",
@@ -4289,6 +4630,7 @@ export const dataNumbers = [
       "Ruined - You may expel this card from your discard zone: If you do, put two target units from your discard zone into play.",
     rarity: "Rare",
     number: 341,
+    capacity: 3,
   },
   {
     image: "images/Ascension/GloomNeophyte.webp",
@@ -4301,6 +4643,7 @@ export const dataNumbers = [
       "Whenever a card is discarded from your opponent's hand - You may have target unit get -2000 this turn.",
     rarity: "Common",
     number: 342,
+    capacity: 3,
   },
   {
     image: "images/Ascension/GlowshardDragon.webp",
@@ -4314,6 +4657,7 @@ export const dataNumbers = [
       "Other Dragon units you control cannot be targeted by your opponent's spells or abilities.Pay (2), expel this card from your discard zone: Target Dragon unit cannot be targeted by your opponent's spells or abilities this turn.",
     rarity: "Common",
     number: 343,
+    capacity: 3,
   },
   {
     image: "images/Ascension/GoldenRoseBlade.webp",
@@ -4326,6 +4670,7 @@ export const dataNumbers = [
       " Equip only to target Knight unit. The equipped unit gets +500 and gains Unblockable. (Guardian cannot be used when this card attacks.)Whenever your opponent plays a spell - You may add this card from your discard zone to your hand.",
     rarity: "Common",
     number: 344,
+    capacity: 3,
   },
   {
     image: "images/Ascension/GuardsmanOfLeviathan.webp",
@@ -4339,6 +4684,7 @@ export const dataNumbers = [
       "GuardianArrive - Choose one.* Flip one of your towers face-down.* Flip one of your towers face-up.",
     rarity: "Common",
     number: 345,
+    capacity: 3,
   },
   {
     image: "images/Ascension/HandOfRaoyenna.webp",
@@ -4352,6 +4698,7 @@ export const dataNumbers = [
       'Discard this card from your hand: Destroy target unit you control, and if you do, search your deck for a "Raoyenna" unit and add it to your hand.At the start of your draw phase, if this card is in your discard zone because of its own ability - You may put this card into play.',
     rarity: "Common",
     number: 346,
+    capacity: 3,
   },
   {
     image: "images/Ascension/HannaReformedApprentice.webp",
@@ -4364,6 +4711,7 @@ export const dataNumbers = [
     effect: `Arrive - Put into play a Water Elemental token (Unit/Elemental/Water/500) with "Ruined - : Return target unit to its owner's hand".`,
     rarity: "Rare",
     number: 347,
+    capacity: 3,
   },
   {
     image: "images/Ascension/HiddenDragonOfTheCloudsea.webp",
@@ -4377,6 +4725,7 @@ export const dataNumbers = [
       "Arrive - If you've played at least two other cards this turn, put into play two Cloud Dragon tokens (Unit/Dragon/Air/1000) that have Quickness.Pay (3), discard this cardfrom your hand: Put into play a Cloud Dragon token (Unit/Dragon/Air/1000) that has Quickness.",
     rarity: "Rare",
     number: 348,
+    capacity: 3,
   },
   {
     image: "images/Ascension/HoennaHorrificPerfection.webp",
@@ -4390,6 +4739,7 @@ export const dataNumbers = [
       "Ω (Place on one of your Golem units.)Offering 2, sacrifice another unit: Draw a card and your opponent discards a card. Use only once per turn.Offering X: Destroy target unit or augment with cost (X). Use only once per turn.",
     rarity: "Secret Rare",
     number: 349,
+    capacity: 1,
   },
   {
     image: "images/Ascension/HoennasInquest.webp",
@@ -4401,6 +4751,7 @@ export const dataNumbers = [
       "As an additional cost to play this card expel a Dark card from your hand.Look at your opponent's hand. You may select and discard a card from their hand with cost (X) or less. (X equals the cost of the card you expelled.)",
     rarity: "Common",
     number: 350,
+    capacity: 3,
   },
   {
     image: "images/Ascension/HoennasWrath.webp",
@@ -4412,6 +4763,7 @@ export const dataNumbers = [
       'This card costs (2) less to play if your champion is "Hoenna, Immoral Conjurer".Put into play two Berserker Golem tokens (Unit/Golem/Dark/2000), then each non-Golem unit gets -X000 this turn. (X equals the number of Golem units you control.)',
     rarity: "Rare",
     number: 351,
+    capacity: 3,
   },
   {
     image: "images/Ascension/ImbuedByAshes.webp",
@@ -4423,6 +4775,7 @@ export const dataNumbers = [
       "InstacastFire units you control get +500 this turn. If you control three or more Fire units, draw a card.",
     rarity: "Common",
     number: 352,
+    capacity: 3,
   },
   {
     image: "images/Ascension/InspiringSprite.webp",
@@ -4435,6 +4788,7 @@ export const dataNumbers = [
     effect: "Arrive - Target unit gets +1000 this turn.",
     rarity: "Common",
     number: 353,
+    capacity: 3,
   },
   {
     image: "images/Ascension/InterdimensionalHorror.webp",
@@ -4448,6 +4802,7 @@ export const dataNumbers = [
       "Ω (Place on two of your Dark units.)DestroyerPut a unit under this card into the discard zone and declare a card name: Search your opponent's discard zone, hand, and deck for any number of cards with that name and expel them.",
     rarity: "Argent Rare",
     number: 354,
+    capacity: 3,
   },
   {
     image: "images/Ascension/JubeiKingOfTheMagimaze.webp",
@@ -4461,6 +4816,7 @@ export const dataNumbers = [
       ' If you control "The Great Magimaze" this card costs (2) less to play.Arrive - You may put a Maze counter on target "The GreatMagimaze", and if you do, search your deck for a Magimaze unit with cost (4) or less and put it into play.',
     rarity: "Super Rare",
     number: 355,
+    capacity: 3,
   },
   {
     image: "images/Ascension/JubeisCrystalBall.webp",
@@ -4472,6 +4828,7 @@ export const dataNumbers = [
       'Exhaust, pay (X): Look at the top X cards of your deck. You may add a Magimaze card among them to your hand. Place the rest on the bottom of your deck in any order.Exhaust, sacrifice this card: Search your deck for a Magimaze card and add it to your hand. Use only while you control "The Great Magimaze".',
     rarity: "Common",
     number: 356,
+    capacity: 3,
   },
   {
     image: "images/Ascension/JubeisPranksters.webp",
@@ -4485,6 +4842,7 @@ export const dataNumbers = [
       'Arrive - You may put two Maze counters on target "The Great Magimaze", and if you do, draw two cards.',
     rarity: "Common",
     number: 357,
+    capacity: 3,
   },
   {
     image: "images/Ascension/JubeisServants.webp",
@@ -4497,6 +4855,7 @@ export const dataNumbers = [
     effect: 'This card gets +1000 while you control "The Great Magimaze".',
     rarity: "Common",
     number: 358,
+    capacity: 3,
   },
   {
     image: "images/Ascension/KalaBestFriendsForever.webp",
@@ -4509,6 +4868,7 @@ export const dataNumbers = [
     effect: `This card's name is always treated as "Kala, Trusty Companion".Sacrifice this card: Target unit you control gains Immortal this turn. (It cannot be destroyed by damage or effects.)`,
     rarity: "Common",
     number: 359,
+    capacity: 3,
   },
   {
     image: "images/Ascension/KaraTheGloriousValkyrie.webp",
@@ -4522,6 +4882,7 @@ export const dataNumbers = [
       "Ω (Place on one of your Light units that is equipped with a Gear.)Guardian, Target Attack, UnblockableThis card costs (1) less to play for each of your destroyed towers.Neither player can play non-Light spells, and non-Light units come into play Exhausted.",
     rarity: "Secret Rare",
     number: 360,
+    capacity: 1,
   },
   {
     image: "images/Ascension/LesserShrieker.webp",
@@ -4534,6 +4895,7 @@ export const dataNumbers = [
       "Ruined - Send the top three cards of your deck to the discard zone.",
     rarity: "Common",
     number: 361,
+    capacity: 3,
   },
   {
     image: "images/Ascension/LeviathansFury.webp",
@@ -4545,6 +4907,7 @@ export const dataNumbers = [
       "InstacastThis card costs (1) less to play for each of your face-up towers.Return all units your opponent controls to their owner's hand.",
     rarity: "Common",
     number: 362,
+    capacity: 3,
   },
   {
     image: "images/Ascension/LiamCorruptedByMadness.webp",
@@ -4558,6 +4921,7 @@ export const dataNumbers = [
       "UnblockableWhenever this card attacks - You may discard a Silver General unit from your hand: If you do, search your deck for up to two Silver Army units and put them into play.Whenever this card is discarded - You may pay (2): If you do, search your deck for a Silver Army unit and put it into play.",
     rarity: "Super Rare",
     number: 363,
+    capacity: 3,
   },
   {
     image: "images/Ascension/LloydTravelerOfWorlds.webp",
@@ -4571,6 +4935,7 @@ export const dataNumbers = [
       "Arrive - You may place up to three target spells from your discard zone under this card.You may play spells under this card as if they were in your hand, if you do, expel them after they are played. If this card would leave field, expel all cards under it.",
     rarity: "Argent Rare",
     number: 364,
+    capacity: 3,
   },
   {
     image: "images/Ascension/MagimazeGatekeeper.webp",
@@ -4584,6 +4949,7 @@ export const dataNumbers = [
       'Sacrifice this card: Your opponent cannot target augments you control with spells or abilities this turn.Ruined - You may put"The Great Magimaze" from your hand or discard zone into play.',
     rarity: "Common",
     number: 365,
+    capacity: 3,
   },
   {
     image: "images/Ascension/MagimazeWorm.webp",
@@ -4597,6 +4963,7 @@ export const dataNumbers = [
       'While you control "The Great Magimaze" this card is treated as all subtypes.Expel this card from your discard zone, and two other Magimaze units from your discard zone: Remove a Maze counter from target "The Great Magimaze".',
     rarity: "Common",
     number: 366,
+    capacity: 3,
   },
   {
     image: "images/Ascension/MaidenOfTheMazeSeriah.webp",
@@ -4610,6 +4977,7 @@ export const dataNumbers = [
       'Arrive - Choose one.* Add "The Great Magimaze" from your deck or discard zone to your hand.* Remove a Maze counter from target "The Great Magimaze".',
     rarity: "Rare",
     number: 367,
+    capacity: 3,
   },
   {
     image: "images/Ascension/MeiyuCorruptedByPower.webp",
@@ -4623,6 +4991,7 @@ export const dataNumbers = [
       "Arrive - You may discard a Silver General unit from your hand: If you do, return target unit to the top of its owner's deck.Whenever this card is discarded - You may pay (4): If you do, return target unit to the top of its owner's deck.",
     rarity: "Rare",
     number: 368,
+    capacity: 3,
   },
   {
     image: "images/Ascension/MeiyusMirrorMagic.webp",
@@ -4634,6 +5003,7 @@ export const dataNumbers = [
       "Exhaust target unit you control, and if you do, search your deck for a unit with the same name and put it into play.",
     rarity: "Rare",
     number: 369,
+    capacity: 3,
   },
   {
     image: "images/Ascension/MetaialCelestialOfRuin.webp",
@@ -4647,6 +5017,7 @@ export const dataNumbers = [
       'This card costs (1) less to play for each Silver Army and/or Silver General unit you control.If your champion has "Metaial" in its name, this card gains the following abilities.Sacrifice a unit: This card gains Immortal this turn.Sacrifice two other units: Destroy target shard and target unit.Sacrifice three other units: Destroy up to two target towers.',
     rarity: "Argent Rare",
     number: 370,
+    capacity: 3,
   },
   {
     image: "images/Ascension/MetaialTheSilverKing.webp",
@@ -4657,6 +5028,7 @@ export const dataNumbers = [
       "Instead of drawing for your turn you may discard a card - If you do, search your deck for a Silver General unit and add it to your hand.Pay (1), place a Silver General unit from your discard zone on the bottom of your deck: Draw a card.",
     rarity: "Promo",
     number: 371,
+    capacity: 3,
   },
   {
     image: "images/Ascension/NovaKnight.webp",
@@ -4670,6 +5042,7 @@ export const dataNumbers = [
       "Ω (Place on one of your Knight units.)Put a unit under this card into the discard zone: Exhaust or recover target unit.",
     rarity: "Argent Rare",
     number: 372,
+    capacity: 3,
   },
   {
     image: "images/Ascension/OracleOfLeviathan.webp",
@@ -4683,6 +5056,7 @@ export const dataNumbers = [
       "This card cannot be targeted by spells while you have two or more face-up towers.Ruined - You may flip two of your towers face-down.",
     rarity: "Common",
     number: 373,
+    capacity: 3,
   },
   {
     image: "images/Ascension/OvergrownSabertooth.webp",
@@ -4696,6 +5070,7 @@ export const dataNumbers = [
       "Ω (Place on one of your Air units.)Unblockable (Guardian cannot be used when this card attacks.)Ruined - Recover up to two of your shards.",
     rarity: "Super Rare",
     number: 374,
+    capacity: 3,
   },
   {
     image: "images/Ascension/PhantasmalPaladin.webp",
@@ -4709,6 +5084,7 @@ export const dataNumbers = [
       "Ω (Place on one of your Water units.)Put a unit under this card into the discard zone: Return target unit with Guardian to the top or bottom of its owner's deck.",
     rarity: "Super Rare",
     number: 375,
+    capacity: 3,
   },
   {
     image: "images/Ascension/PlayfulImp.webp",
@@ -4722,6 +5098,7 @@ export const dataNumbers = [
       "Ruined - Declare a card name. Your opponent reveals their hand and discards all copies of the declared card.",
     rarity: "Common",
     number: 376,
+    capacity: 3,
   },
   {
     image: "images/Ascension/ProtectorOfTheInbetween.webp",
@@ -4733,6 +5110,7 @@ export const dataNumbers = [
     effect: "GuardianArrive - Units adjacent to this card gain Guardian.",
     rarity: "Common",
     number: 377,
+    capacity: 3,
   },
   {
     image: "images/Ascension/RaineCorruptedByGrief.webp",
@@ -4746,6 +5124,7 @@ export const dataNumbers = [
       "QuicknessDiscard a Silver General unit from your hand: Expel target unit your opponent controls and this card until the end of the turn.Whenever this card is discarded - You may pay (3): If you do, expel target unit until the end of the turn.",
     rarity: "Super Rare",
     number: 378,
+    capacity: 3,
   },
   {
     image: "images/Ascension/RaoyennaTheVengefulPhoenix.webp",
@@ -4759,6 +5138,7 @@ export const dataNumbers = [
       'Discard this card from your hand: Destroy target non-token unit you control, and if you do, deal 1500 to target unit your opponent controls.At the start of your draw phase, if this card is in your discard zone because of its own ability - You may expel this card. If you do, put into play a "Raoyenna" unit from your hand or discard zone.',
     rarity: "Rare",
     number: 379,
+    capacity: 3,
   },
   {
     image: "images/Ascension/RavenousAcidicMonger.webp",
@@ -4772,6 +5152,7 @@ export const dataNumbers = [
       "Arrive - Destroy up to two target augments. If you destroyed at least one, this card gains Quickness. If you destroyed two, this card also gains Destroyer.",
     rarity: "Rare",
     number: 380,
+    capacity: 3,
   },
   {
     image: "images/Ascension/ReturnFromAshes.webp",
@@ -4783,6 +5164,7 @@ export const dataNumbers = [
       "Destroy target Fire unit you control, and if you do, put into play a Fire unit from your discard zone with cost less than the destroyed unit.",
     rarity: "Common",
     number: 381,
+    capacity: 3,
   },
   {
     image: "images/Ascension/RevivalOfTheSon.webp",
@@ -4793,6 +5175,7 @@ export const dataNumbers = [
     effect: "Put into play target unit with cost (X-1) from your discard zone.",
     rarity: "Rare",
     number: 382,
+    capacity: 3,
   },
   {
     image: "images/Ascension/RitualOfAshes.webp",
@@ -4804,6 +5187,7 @@ export const dataNumbers = [
       "Choose one.* Your Fire spells cost (1) less to play this turn.* Each time you play a Fire spell this turn, draw a card.",
     rarity: "Rare",
     number: 383,
+    capacity: 3,
   },
   {
     image: "images/Ascension/ScalesOfDarkness.webp",
@@ -4814,6 +5198,7 @@ export const dataNumbers = [
     effect: "Each player sacrifices a unit and discards a card.",
     rarity: "Common",
     number: 384,
+    capacity: 3,
   },
   {
     image: "images/Ascension/ShardMerchant.webp",
@@ -4825,6 +5210,7 @@ export const dataNumbers = [
     effect: "Whenever your opponent plays a spell - Draw a card.",
     rarity: "Rare",
     number: 385,
+    capacity: 3,
   },
   {
     image: "images/Ascension/ShardarmoredWyrm.webp",
@@ -4838,6 +5224,7 @@ export const dataNumbers = [
       "Arrive - Equip target Gear from your discard zone to this card.Ruined - Destroy all units with cost equal to or less than the number of Gear that were equipped to this card.",
     rarity: "Common",
     number: 386,
+    capacity: 3,
   },
   {
     image: "images/Ascension/SilverKingsInquisitor.webp",
@@ -4851,6 +5238,7 @@ export const dataNumbers = [
       "Target AttackArrive - Put target Silver Army unit from your discard zone into play.",
     rarity: "Common",
     number: 387,
+    capacity: 3,
   },
   {
     image: "images/Ascension/SilverKingsPawn.webp",
@@ -4864,6 +5252,7 @@ export const dataNumbers = [
       "You may have any number of copies of this card in your deck.Exhaust two Silver Army units you control: Add target Argent unit from your discard zone to your hand.",
     rarity: "Common",
     number: 388,
+    capacity: 3,
   },
   {
     image: "images/Ascension/SkeletalGargoyle.webp",
@@ -4877,6 +5266,7 @@ export const dataNumbers = [
       "Whenever this card attacks or is attacked - Send the top three cards of your deck to the discard zone.",
     rarity: "Common",
     number: 389,
+    capacity: 3,
   },
   {
     image: "images/Ascension/SpiritOfCervimini.webp",
@@ -4888,6 +5278,7 @@ export const dataNumbers = [
       "Exhaust, pay (2): Target unit gets +1000 this turn, and if its cost is (4) or more it gains Destroyer this turn.Soulburst: All units you control get +1000 this turn.",
     rarity: "Promo",
     number: 390,
+    capacity: 3,
   },
   {
     image: "images/Ascension/SpiritOfOtterius.webp",
@@ -4899,6 +5290,7 @@ export const dataNumbers = [
       "Exhaust, pay (2): Target unit you control gains Unblockable this turn. (Guardian cannot be used when this card attacks.)Soulburst: Target unit gains Unblockable this turn.",
     rarity: "Promo",
     number: 391,
+    capacity: 3,
   },
   {
     image: "images/Ascension/SpiritOfSerpio.webp",
@@ -4910,6 +5302,7 @@ export const dataNumbers = [
       "At the start of the game (after mulligans) you may search your shard deck for a shard, shuffle your shard deck, then place it on top.Soulburst: Recover a shard.",
     rarity: "Promo",
     number: 392,
+    capacity: 3,
   },
   {
     image: "images/Ascension/SpiritOfStrigra.webp",
@@ -4921,6 +5314,7 @@ export const dataNumbers = [
       "At the start of the game (after mulligans) you may search your deck for a Gear with cost (1) and add it to your hand.Soulburst: Equip target Gear from your discard zone to target unit you control.",
     rarity: "Promo",
     number: 393,
+    capacity: 3,
   },
   {
     image: "images/Ascension/SpiritOfUrsatovis.webp",
@@ -4932,6 +5326,7 @@ export const dataNumbers = [
       "Exhaust: Sacrifice a unit.Soulburst: All units get -1000 this turn.",
     rarity: "Promo",
     number: 394,
+    capacity: 3,
   },
   {
     image: "images/Ascension/TheGreatMagimaze.webp",
@@ -4943,6 +5338,7 @@ export const dataNumbers = [
       'You can only control one "The Great Magimaze".This card comes into play with five Maze counters on it.Exhaust: If this card has no Maze counters, destroy it, and if you do, you win the game.',
     rarity: "Rare",
     number: 395,
+    capacity: 3,
   },
   {
     image: "images/Ascension/ThroughDangersUntold.webp",
@@ -4954,6 +5350,7 @@ export const dataNumbers = [
       'Play only while you control "The Great Magimaze".Choose one. If you control "Maiden of the Maze, Seriah" you may choose both instead.* Units and towers you control take no damage until your next turn.* Remove two Maze counters from target "The Great Magimaze".',
     rarity: "Common",
     number: 396,
+    capacity: 3,
   },
   {
     image: "images/Ascension/UnitedEmpowerment.webp",
@@ -4965,6 +5362,7 @@ export const dataNumbers = [
       "Play only if you've destroyed an opponent's tower this turn.Reveal the top five cards of your deck. Equip as many revealed Gear as possible to units you control. Send the rest to the discard zone.",
     rarity: "Rare",
     number: 397,
+    capacity: 3,
   },
   {
     image: "images/Ascension/VeteranOfTheGildedHills.webp",
@@ -4978,6 +5376,7 @@ export const dataNumbers = [
       "Arrive - If your champion and spirit are the same element, add target unit with that element from your discard zone to your hand.",
     rarity: "Rare",
     number: 398,
+    capacity: 3,
   },
   {
     image: "images/Ascension/VoidfireElemental.webp",
@@ -4991,6 +5390,7 @@ export const dataNumbers = [
       "Ω (Place on one of your Fire units.)Arrive - Destroy any number of target units your opponent controls whose combined power is 3000 or less.",
     rarity: "Super Rare",
     number: 399,
+    capacity: 3,
   },
   {
     image: "images/Ascension/WarriorOfSol.webp",
@@ -5003,6 +5403,7 @@ export const dataNumbers = [
     effect: "Brawler",
     rarity: "Common",
     number: 400,
+    capacity: 3,
   },
   {
     image: "images/Ascension/WaterCelestialCrystal.webp",
@@ -5014,6 +5415,7 @@ export const dataNumbers = [
       'You can only control one "Water Celestial Crystal".Your Water tower gets +500 defense.Arrive - If your champion or spirit is Water, draw a card.Discard this card: Draw a card. Use this only if you control a "Water Celestial Crystal".',
     rarity: "Common",
     number: 401,
+    capacity: 3,
   },
   {
     image: "images/Ascension/WickedPact.webp",
@@ -5025,6 +5427,7 @@ export const dataNumbers = [
       "Destroy one of your towers ignoring its effects, and if you do, reveal the top three cards of your deck. You may add a card among them to your hand. Place the rest on the bottom of your deck in any order.",
     rarity: "Common",
     number: 402,
+    capacity: 3,
   },
   {
     image: "images/Ascension/WitchOfTheFuture.webp",
@@ -5040,6 +5443,7 @@ export const dataNumbers = [
       'Whenever you would draw a card, you may put a unit under this card into the discard zone instead. If you do, search your deck for a Witch unit or a "Phantasmal" card and add it to your hand.',
     rarity: "Argent Rare",
     number: 403,
+    capacity: 3,
   },
   {
     image: "images/Ascension/WitchQueensRing.webp",
@@ -5053,6 +5457,7 @@ export const dataNumbers = [
       "Whenever the equipped unit attacks - Draw a card, then discard a card.",
     rarity: "Common",
     number: 404,
+    capacity: 3,
   },
   {
     image: "images/Ascension/BerserkerGolemToken.webp",
@@ -5062,6 +5467,7 @@ export const dataNumbers = [
     type: "Unit",
     subtype: "Golem",
     number: 405,
+    capacity: 3,
   },
   {
     image: "images/Ascension/BlobToken.webp",
@@ -5072,6 +5478,7 @@ export const dataNumbers = [
     subtype: "Golem",
     effect: "Guardian",
     number: 406,
+    capacity: 3,
   },
   {
     image: "images/Ascension/ExperimentToken.webp",
@@ -5081,6 +5488,7 @@ export const dataNumbers = [
     type: "Unit",
     subtype: "Experiment",
     number: 407,
+    capacity: 3,
   },
   {
     image: "images/Ascension/FireElementalToken.webp",
@@ -5091,6 +5499,7 @@ export const dataNumbers = [
     subtype: "Elemental",
     effect: "Ruined: Deal 500 to target unit.",
     number: 408,
+    capacity: 3,
   },
   {
     image: "images/Ascension/HulkingMechToken.webp",
@@ -5099,6 +5508,7 @@ export const dataNumbers = [
     name: "Experiment Token",
     type: "Unit",
     number: 409,
+    capacity: 3,
   },
   {
     image: "images/Ascension/IllusionToken.webp",
@@ -5108,6 +5518,7 @@ export const dataNumbers = [
     type: "Unit",
     subtype: "Illusion",
     number: 410,
+    capacity: 3,
   },
   {
     image: "images/Ascension/KnightToken1000.webp",
@@ -5117,6 +5528,7 @@ export const dataNumbers = [
     type: "Unit",
     subtype: "Knight",
     number: 411,
+    capacity: 3,
   },
   {
     image: "images/Ascension/KnightToken1500.webp",
@@ -5126,6 +5538,7 @@ export const dataNumbers = [
     type: "Unit",
     subtype: "Knight",
     number: 412,
+    capacity: 3,
   },
   {
     image: "images/Ascension/KnightToken1500Guardian.webp",
@@ -5136,6 +5549,7 @@ export const dataNumbers = [
     subtype: "knight",
     effect: "Guardian",
     number: 413,
+    capacity: 3,
   },
   {
     image: "images/Ascension/MutationToken.webp",
@@ -5147,6 +5561,7 @@ export const dataNumbers = [
     effect:
       "Ruined - Search your deck for an Experiment unit and put it into play.",
     number: 414,
+    capacity: 3,
   },
   {
     image: "images/Ascension/RaoToken.webp",
@@ -5155,6 +5570,7 @@ export const dataNumbers = [
     name: "Rao Token",
     type: "Unit",
     number: 415,
+    capacity: 3,
   },
   {
     image: "images/Ascension/ScorpionToken.webp",
@@ -5165,6 +5581,7 @@ export const dataNumbers = [
     subtype: "Beast",
     effect: "Ruined - You may give target unit -1000 this turn.",
     number: 416,
+    capacity: 3,
   },
   {
     image: "images/Ascension/SentinelToken.webp",
@@ -5174,6 +5591,7 @@ export const dataNumbers = [
     type: "Unit",
     effect: "Destroyer",
     number: 417,
+    capacity: 3,
   },
   {
     image: "images/Ascension/SulkingMechToken.webp",
@@ -5182,6 +5600,7 @@ export const dataNumbers = [
     name: "Sulking Mech Token",
     type: "Unit",
     number: 418,
+    capacity: 3,
   },
   {
     image: "images/Ascension/WaterElementalToken.webp",
@@ -5192,6 +5611,7 @@ export const dataNumbers = [
     subtype: "Elemental",
     effect: "Ruined - Return target unit to its owner's hand.",
     number: 419,
+    capacity: 3,
   },
   {
     image: "images/Ascension/WhelpToken.webp",
@@ -5201,6 +5621,7 @@ export const dataNumbers = [
     type: "Unit",
     subtype: "Dragon",
     number: 420,
+    capacity: 3,
   },
   {
     image: "images/Hokken/ArcticArbiter.webp",
@@ -5215,6 +5636,7 @@ export const dataNumbers = [
       "Ignore the effects of your opponent's Water tower.",
     rarity: "Super Rare",
     number: 421,
+    capacity: 3,
   },
   {
     image: "images/Hokken/AstralOfHope.webp",
@@ -5230,6 +5652,7 @@ export const dataNumbers = [
       'Sacrifice a basic unit: Add target "Astralic" card from your discard zone to your hand.',
     rarity: "Super Rare",
     number: 422,
+    capacity: 3,
   },
   {
     image: "images/Hokken/AstralOfValor.webp",
@@ -5245,6 +5668,7 @@ export const dataNumbers = [
       "Sacrifice a basic unit: Put a basic unit from your hand into play.",
     rarity: "Rare",
     number: 423,
+    capacity: 3,
   },
   {
     image: "images/Hokken/AstralicHerald.webp",
@@ -5257,6 +5681,7 @@ export const dataNumbers = [
     effect: "Reduce all damage dealt to basic units you control by 500.",
     rarity: "Common",
     number: 424,
+    capacity: 3,
   },
   {
     image: "images/Hokken/AstralicInvocation.webp",
@@ -5269,6 +5694,7 @@ export const dataNumbers = [
       "Add up to two target basic units from your discard zone to your hand.",
     rarity: "Common",
     number: 425,
+    capacity: 3,
   },
   {
     image: "images/Hokken/AstralicJudgment.webp",
@@ -5282,6 +5708,7 @@ export const dataNumbers = [
       "Destroy a number of units and/or augments your opponent controls equal to or less than the number of cards expelled this way, then draw a card for each card destroyed this way.",
     rarity: "Super Rare",
     number: 426,
+    capacity: 3,
   },
   {
     image: "images/Hokken/AstralicLaw.webp",
@@ -5296,6 +5723,7 @@ export const dataNumbers = [
       "* Draw a card for each basic unit you control.",
     rarity: "Common",
     number: 427,
+    capacity: 3,
   },
   {
     image: "images/Hokken/AstralicRegalia.webp",
@@ -5309,6 +5737,7 @@ export const dataNumbers = [
       "Basic units equipped with this card gain Guardian, Target Attack, and get +1000 instead.",
     rarity: "Common",
     number: 428,
+    capacity: 3,
   },
   {
     image: "images/Hokken/AurelianUrsa.webp",
@@ -5325,6 +5754,7 @@ export const dataNumbers = [
       "* This card gains Overrun this turn. (Whenever this attacking card deals damage to a unit, you may deal any excess damagee to an opponent's tower.)",
     rarity: "Super Rare",
     number: 429,
+    capacity: 3,
   },
   {
     image: "images/Hokken/BeastkingsAwakening.webp",
@@ -5337,6 +5767,7 @@ export const dataNumbers = [
       "Put a Beast unit from your hand into play. Then if you control a Beast unit and an Elemental unit, draw a card.",
     rarity: "Super Rare",
     number: 430,
+    capacity: 3,
   },
   {
     image: "images/Hokken/BlazingArbiter.webp",
@@ -5352,6 +5783,7 @@ export const dataNumbers = [
       "Ignore the effects of your opponent's Fire tower.",
     rarity: "Super Rare",
     number: 431,
+    capacity: 3,
   },
   {
     image: "images/Hokken/Boostersaurus.webp",
@@ -5365,6 +5797,7 @@ export const dataNumbers = [
       "Arrive or whenever this card declares an attack - Target Fire unit you control gets +1000 this turn.",
     rarity: "Common",
     number: 432,
+    capacity: 3,
   },
   {
     image: "images/Hokken/BrontaurianBambino.webp",
@@ -5377,6 +5810,7 @@ export const dataNumbers = [
     effect: "Ruined - You may destroy target damaged unit.",
     rarity: "Common",
     number: 433,
+    capacity: 3,
   },
   {
     image: "images/Hokken/BrontaurianHerdmother.webp",
@@ -5392,6 +5826,7 @@ export const dataNumbers = [
       "Whenever a Dinosaur unit you control is put into the discard zone - You may deal damage equal to this card's power to target unit your opponent controls.",
     rarity: "Argent Rare",
     number: 434,
+    capacity: 3,
   },
   {
     image: "images/Hokken/CrushingBeast.webp",
@@ -5405,6 +5840,7 @@ export const dataNumbers = [
       "Sacrifice this card: Destroy target unit that dealt or was dealt damage this turn.",
     rarity: "Common",
     number: 435,
+    capacity: 3,
   },
   {
     image: "images/Hokken/CrushingElemental.webp",
@@ -5418,6 +5854,7 @@ export const dataNumbers = [
       "Sacrifice this card: Destroy target augment, and if you do, place a +500 counter on each Beast unit you control.",
     rarity: "Common",
     number: 436,
+    capacity: 3,
   },
   {
     image: "images/Hokken/CultistOfTheForgottenOne.webp",
@@ -5430,6 +5867,7 @@ export const dataNumbers = [
     effect: "Units and augments with Arrive abilities cost (2) more to play.",
     rarity: "Common",
     number: 437,
+    capacity: 3,
   },
   {
     image: "images/Hokken/DecayedArbiter.webp",
@@ -5445,6 +5883,7 @@ export const dataNumbers = [
       "Ignore the effects of your opponent's Dark tower.",
     rarity: "Super Rare",
     number: 438,
+    capacity: 3,
   },
   {
     image: "images/Hokken/Destroyasaurus.webp",
@@ -5458,6 +5897,7 @@ export const dataNumbers = [
       "Arrive - You may destroy target damaged unit, and if you do, this card gains Quickness.",
     rarity: "Rare",
     number: 439,
+    capacity: 3,
   },
   {
     image: "images/Hokken/DiscipleOfHope.webp",
@@ -5471,6 +5911,7 @@ export const dataNumbers = [
       "Sacrifice this card: If your opponent controls more units than you, put target basic unit with cost (3) or less from your discard zone into play.",
     rarity: "Common",
     number: 440,
+    capacity: 3,
   },
   {
     image: "images/Hokken/DiscipleOfValor.webp",
@@ -5484,6 +5925,7 @@ export const dataNumbers = [
       "Arrive - If your opponent controls more units than you, you may put a basic unit with cost (3) or less from your hand into play.",
     rarity: "Common",
     number: 441,
+    capacity: 3,
   },
   {
     image: "images/Hokken/DriftingDiplodocus.webp",
@@ -5498,6 +5940,7 @@ export const dataNumbers = [
       "This card is unaffected by the activated abilities of units and augments.",
     rarity: "Common",
     number: 442,
+    capacity: 3,
   },
   {
     image: "images/Hokken/ElemasterAurora.webp",
@@ -5512,6 +5955,7 @@ export const dataNumbers = [
       "If you control a Light unit, prevent the first damage that would be dealt to this card each turn.",
     rarity: "Rare",
     number: 443,
+    capacity: 3,
   },
   {
     image: "images/Hokken/ElemasterCinder.webp",
@@ -5526,6 +5970,7 @@ export const dataNumbers = [
       "Whenever this card declares an attack - If you control a Fire unit, target unit you control gains Quickness this turn.",
     rarity: "Rare",
     number: 444,
+    capacity: 3,
   },
   {
     image: "images/Hokken/ElemasterCoral.webp",
@@ -5540,6 +5985,7 @@ export const dataNumbers = [
       "Exhaust: If you control a Water unit, switch control of this card and target unit your opponent controls.",
     rarity: "Rare",
     number: 445,
+    capacity: 3,
   },
   {
     image: "images/Hokken/ElemasterSquall.webp",
@@ -5554,6 +6000,7 @@ export const dataNumbers = [
       "Arrive - If you control an Air unit, target unit you control gains Overrun this turn. (Whenever this attacking card deals damage to a unit, you may deal any excess damage to an opponent's tower.)",
     rarity: "Rare",
     number: 446,
+    capacity: 3,
   },
   {
     image: "images/Hokken/ElemasterUmbra.webp",
@@ -5568,6 +6015,7 @@ export const dataNumbers = [
       "Ruined - If you control a Dark unit, target unit you control gains Destroyer this turn.",
     rarity: "Rare",
     number: 447,
+    capacity: 3,
   },
   {
     image: "images/Hokken/EmeraldElderStag.webp",
@@ -5582,6 +6030,7 @@ export const dataNumbers = [
       "Exhaust an Elemental unit you control: Recover this card.",
     rarity: "Rare",
     number: 448,
+    capacity: 3,
   },
   {
     image: "images/Hokken/EmeraldElderTreant.webp",
@@ -5595,6 +6044,7 @@ export const dataNumbers = [
       "Arrive - Look at the top three cards of your deck. You may put a Beast unit with cost (3) or less among them into play with a +500 counter. Place the rest on the bottom of your deck in any order.",
     rarity: "Rare",
     number: 449,
+    capacity: 3,
   },
   {
     image: "images/Hokken/EvaerieBurial.webp",
@@ -5607,6 +6057,7 @@ export const dataNumbers = [
       "Search your deck for up to two units with Ruined and put them into the discard zone.",
     rarity: "Common",
     number: 450,
+    capacity: 3,
   },
   {
     image: "images/Hokken/EvaerieChangeling.webp",
@@ -5620,6 +6071,7 @@ export const dataNumbers = [
       'Exhaust, sacrifice this card: Put target Dark unit from your discard zone with cost (2) or less, except "Evaerie Changeling", into play.',
     rarity: "Common",
     number: 451,
+    capacity: 3,
   },
   {
     image: "images/Hokken/EvaerieCourt.webp",
@@ -5633,6 +6085,7 @@ export const dataNumbers = [
       "Exhaust, sacrifice this card: Search your deck for a Dark unit with cost equal to the number of counters this card had and put it into play.",
     rarity: "Common",
     number: 452,
+    capacity: 3,
   },
   {
     image: "images/Hokken/EvaerieCrone.webp",
@@ -5646,6 +6099,7 @@ export const dataNumbers = [
       "Ruined - You may sacrifice a unit you control. If you do, draw a card.",
     rarity: "Common",
     number: 453,
+    capacity: 3,
   },
   {
     image: "images/Hokken/EvaerieGlamour.webp",
@@ -5659,6 +6113,7 @@ export const dataNumbers = [
       "This turn target unit loses all abilities and becomes a (Unit/Evaerie/Dark/1000).",
     rarity: "Common",
     number: 454,
+    capacity: 3,
   },
   {
     image: "images/Hokken/EvaerieHorde.webp",
@@ -5672,6 +6127,7 @@ export const dataNumbers = [
       'Ruined - You may search your deck for an "Evaerie Horde" and put it into play.',
     rarity: "Common",
     number: 455,
+    capacity: 3,
   },
   {
     image: "images/Hokken/EvaerieRogue.webp",
@@ -5684,6 +6140,7 @@ export const dataNumbers = [
     effect: "Ruined - Return this card to its owner's hand.",
     rarity: "Common",
     number: 456,
+    capacity: 3,
   },
   {
     image: "images/Hokken/EvaerieThroneguard.webp",
@@ -5699,6 +6156,7 @@ export const dataNumbers = [
       "Ruined - Target unit loses all abilities.",
     rarity: "Common",
     number: 457,
+    capacity: 3,
   },
   {
     image: "images/Hokken/EvvieMelanitesArchmagus.webp",
@@ -5713,6 +6171,7 @@ export const dataNumbers = [
       "Ruined - Put target unit with Ruined and cost (2) or less from your discard zone into play.",
     rarity: "Argent Rare",
     number: 458,
+    capacity: 3,
   },
   {
     image: "images/Hokken/FragmentOfTheForgottenOne.webp",
@@ -5727,6 +6186,7 @@ export const dataNumbers = [
       "Once per turn, expel another unit you control: This card gains Immortal this turn.",
     rarity: "Argent Rare",
     number: 459,
+    capacity: 3,
   },
   {
     image: "images/Hokken/GlacialShuriken.webp",
@@ -5740,6 +6200,7 @@ export const dataNumbers = [
       "Stun target unit. (A Stunned card cannot attack, block, or use activated abilities, until the end of the next turn.)",
     rarity: "Common",
     number: 460,
+    capacity: 3,
   },
   {
     image: "images/Hokken/HadirBoyOfTheSacredForest.webp",
@@ -5752,6 +6213,7 @@ export const dataNumbers = [
       "Put two cards form under this card into the discard zone: Target unit you control gets +1000 and gains Overrun this turn.",
     rarity: "Promo",
     number: 461,
+    capacity: 3,
   },
   {
     image: "images/Hokken/HandOfPengiro.webp",
@@ -5765,6 +6227,7 @@ export const dataNumbers = [
       "Arrive - Look at the top three cards of your deck. You may add a Penguin unit among them to your hand. Place the rest on the bottom of your deck in any order.",
     rarity: "Common",
     number: 462,
+    capacity: 3,
   },
   {
     image: "images/Hokken/HarmonizationOfHope.webp",
@@ -5778,6 +6241,7 @@ export const dataNumbers = [
       "Target Light unit you control cannot be targeted by your opponent's spells this turn. If it is a basic unit, draw a card.",
     rarity: "Common",
     number: 463,
+    capacity: 3,
   },
   {
     image: "images/Hokken/HeraldOfTyrantus.webp",
@@ -5792,6 +6256,7 @@ export const dataNumbers = [
       "Whenever this card destroys an opponent's tower or unit - You may put a Dinosaur unit with cost (4) or less from your hand into play.",
     rarity: "Super Rare",
     number: 464,
+    capacity: 3,
   },
   {
     image: "images/Hokken/HerdmothersFormation.webp",
@@ -5804,6 +6269,7 @@ export const dataNumbers = [
       "Add two target Fire units with the same cost but different names from your discard zone to your hand.",
     rarity: "Rare",
     number: 465,
+    capacity: 3,
   },
   {
     image: "images/Hokken/HokkenAdventurer.webp",
@@ -5817,6 +6283,7 @@ export const dataNumbers = [
       "Arrive - You may search your deck for a Location augment and add it to your hand. Then draw a card for each Location you have in play.",
     rarity: "Super Rare",
     number: 466,
+    capacity: 3,
   },
   {
     image: "images/Hokken/HokkenArchaeologist.webp",
@@ -5831,6 +6298,7 @@ export const dataNumbers = [
       "Arrive - You may search your deck for a non-Location augment and add it to your hand, if you do, put a card from your hand on top of your deck.",
     rarity: "Common",
     number: 467,
+    capacity: 3,
   },
   {
     image: "images/Hokken/HokkenFighter.webp",
@@ -5843,6 +6311,7 @@ export const dataNumbers = [
     effect: "",
     rarity: "Common",
     number: 468,
+    capacity: 3,
   },
   {
     image: "images/Hokken/HokkenHare.webp",
@@ -5856,6 +6325,7 @@ export const dataNumbers = [
       "Ruined - Search your deck for a unit with cost (1) and add it to your hand.",
     rarity: "Common",
     number: 469,
+    capacity: 3,
   },
   {
     image: "images/Hokken/HokkenMarket.webp",
@@ -5867,6 +6337,7 @@ export const dataNumbers = [
     effect: "Pay (2): Draw a card. Both players may use this ability.",
     rarity: "Common",
     number: 470,
+    capacity: 3,
   },
   {
     image: "images/Hokken/HokkenSprite.webp",
@@ -5879,6 +6350,7 @@ export const dataNumbers = [
     effect: "Arrive - Each player draws a card.",
     rarity: "Common",
     number: 471,
+    capacity: 3,
   },
   {
     image: "images/Hokken/HokkenTinkerersAlexAndAlex.webp",
@@ -5893,6 +6365,7 @@ export const dataNumbers = [
       "Pay (1): Your opponent sacrifices an augment.",
     rarity: "Rare",
     number: 472,
+    capacity: 3,
   },
   {
     image: "images/Hokken/HokkenWardingAmulet.webp",
@@ -5907,6 +6380,7 @@ export const dataNumbers = [
       'You can only control one "Hokken Warding Amulet".',
     rarity: "Argent Rare",
     number: 473,
+    capacity: 3,
   },
   {
     image: "images/Hokken/HornedBrontaurian.webp",
@@ -5919,6 +6393,7 @@ export const dataNumbers = [
     effect: "",
     rarity: "Common",
     number: 474,
+    capacity: 3,
   },
   {
     image: "images/Hokken/HuntOfTheNightriders.webp",
@@ -5932,6 +6407,7 @@ export const dataNumbers = [
       'Search your deck for a "Nightrider" unit and add it to your hand. If you paid the additional cost, your opponent sacrifices a unit.',
     rarity: "Common",
     number: 475,
+    capacity: 3,
   },
   {
     image: "images/Hokken/HyldiaAstralicSanctum.webp",
@@ -5945,6 +6421,7 @@ export const dataNumbers = [
       "Exhaust, sacrifice this card and a Light unit: Recover target unit. If it's a basic unit, draw a card.",
     rarity: "Common",
     number: 476,
+    capacity: 3,
   },
   {
     image: "images/Hokken/HyldianTrainee.webp",
@@ -5957,6 +6434,7 @@ export const dataNumbers = [
     effect: "",
     rarity: "Common",
     number: 477,
+    capacity: 3,
   },
   {
     image: "images/Hokken/IceBreathFirstFormCryostrike.webp",
@@ -5969,6 +6447,7 @@ export const dataNumbers = [
       "Stun target unit with cost (2) or less. If that unit was already Stunned, destroy it instead. (A Stunned card cannot attack, block, or use activated abilities, until the end of the next turn.)+",
     rarity: "Common",
     number: 478,
+    capacity: 3,
   },
   {
     image: "images/Hokken/IceBreathSecondFormCryostorm.webp",
@@ -5982,6 +6461,7 @@ export const dataNumbers = [
       "Water units you control get +1000 and cannot be targeted by spells or abilities this turn.",
     rarity: "Rare",
     number: 479,
+    capacity: 3,
   },
   {
     image: "images/Hokken/JurassticStrength.webp",
@@ -5996,6 +6476,7 @@ export const dataNumbers = [
       "Whenever a Dinosaur unit you control destroys an opponent's tower while you control three or more shards - You may add this card from your discard zone to your hand.",
     rarity: "Common",
     number: 480,
+    capacity: 3,
   },
   {
     image: "images/Hokken/JurassticSwipe.webp",
@@ -6010,6 +6491,7 @@ export const dataNumbers = [
       "It deals damage equal to its power to another target unit. If you exhausted a Dinosaur unit and control four or more shards, return this card to your hand.",
     rarity: "Rare",
     number: 481,
+    capacity: 3,
   },
   {
     image: "images/Hokken/KongaSacredForestBeastking.webp",
@@ -6025,6 +6507,7 @@ export const dataNumbers = [
       "Ruined - You may put a Beast unit with cost (3) or less from your hand and/or an Elemental unit with cost (3) or less from your discard zone into play.",
     rarity: "Secret Rare",
     number: 482,
+    capacity: 1,
   },
   {
     image: "images/Hokken/KumakoriPengardianTutelary.webp",
@@ -6042,6 +6525,7 @@ export const dataNumbers = [
       "* Destroy target Stunned unit.",
     rarity: "Secret Rare",
     number: 483,
+    capacity: 1,
   },
   {
     image: "images/Hokken/KumakorisTotem.webp",
@@ -6055,6 +6539,7 @@ export const dataNumbers = [
       "Ruined - You may Stun target unit.",
     rarity: "Common",
     number: 484,
+    capacity: 3,
   },
   {
     image: "images/Hokken/Lavallosaurus.webp",
@@ -6069,6 +6554,7 @@ export const dataNumbers = [
       "While you control nine or more shards, this card gains Quickness and cannot be targeted by spells or abilities.",
     rarity: "Common",
     number: 485,
+    capacity: 3,
   },
   {
     image: "images/Hokken/MabEvaerieDowager.webp",
@@ -6084,6 +6570,7 @@ export const dataNumbers = [
       "* Add target Dark unit other than this card from your discard zone to your hand.",
     rarity: "Super Rare",
     number: 486,
+    capacity: 3,
   },
   {
     image: "images/Hokken/MarrowSlurper.webp",
@@ -6098,6 +6585,7 @@ export const dataNumbers = [
       "Pay (1), discard this card: Expel target unit from your opponent's discard zone.",
     rarity: "Common",
     number: 487,
+    capacity: 3,
   },
   {
     image: "images/Hokken/MelaniteEvaerieNightQueen.webp",
@@ -6112,6 +6600,7 @@ export const dataNumbers = [
       "At the end of your turn - You may sacrifice a unit: If your do, put target unit with Ruined from your discard zone into play.",
     rarity: "Secret Rare",
     number: 488,
+    capacity: 1,
   },
   {
     image: "images/Hokken/MelanitesEnvoy.webp",
@@ -6125,6 +6614,7 @@ export const dataNumbers = [
       "Ruined - Put target Dark unit with cost (1) from your discard zone into play.",
     rarity: "Common",
     number: 489,
+    capacity: 3,
   },
   {
     image: "images/Hokken/MelantiesGaze.webp",
@@ -6137,6 +6627,7 @@ export const dataNumbers = [
       "Look at your opponent's hand. You may choose a non-unit card among them with cost (2) or less. Your opponent discards that card.",
     rarity: "Rare",
     number: 490,
+    capacity: 3,
   },
   {
     image: "images/Hokken/MelanitesManipulation.webp",
@@ -6149,6 +6640,7 @@ export const dataNumbers = [
       "Put target unit from your opponent's discard zone into play under your control.",
     rarity: "Rare",
     number: 491,
+    capacity: 3,
   },
   {
     image: "images/Hokken/MezoziaThePrimalCaldera.webp",
@@ -6162,6 +6654,7 @@ export const dataNumbers = [
       "Exhaust, sacrifice this card: If you control four or more shards and a Dinosaur unit, deal 1000 to target unit or target face-up tower.",
     rarity: "Common",
     number: 492,
+    capacity: 3,
   },
   {
     image: "images/Hokken/MezozianHatchling.webp",
@@ -6174,6 +6667,7 @@ export const dataNumbers = [
     effect: "Other Dinosaur units you control get +500.",
     rarity: "Common",
     number: 493,
+    capacity: 3,
   },
   {
     image: "images/Hokken/MezozianOpteryx.webp",
@@ -6188,6 +6682,7 @@ export const dataNumbers = [
       "While you control seven or more shards, units your opponent controls with power less than this card lose their abilities.",
     rarity: "Common",
     number: 494,
+    capacity: 3,
   },
   {
     image: "images/Hokken/MezozianRaptor.webp",
@@ -6202,6 +6697,7 @@ export const dataNumbers = [
       "While you control five or more shards, units your opponent controls with cost (2) or less lose their abilities.",
     rarity: "Common",
     number: 495,
+    capacity: 3,
   },
   {
     image: "images/Hokken/NarrowEscape.webp",
@@ -6215,6 +6711,7 @@ export const dataNumbers = [
       "Return target attacking or blocking unit you control to its owner's hand.",
     rarity: "Common",
     number: 496,
+    capacity: 3,
   },
   {
     image: "images/Hokken/NeferiaTheQueensAssassin.webp",
@@ -6227,6 +6724,7 @@ export const dataNumbers = [
       "Exhaust, put three cards from under this card into the discard zone: Target unit loses all abilities this turn. Then if its cost is (3) or less, destroy it.",
     rarity: "Promo",
     number: 497,
+    capacity: 3,
   },
   {
     image: "images/Hokken/NightriderEmmed.webp",
@@ -6241,6 +6739,7 @@ export const dataNumbers = [
       "Arrive - If you paid the additional cost, put Evaerie tokens (Unit/Evaerie/Dark/1000) equal to the sacrificed unit's cost into play.",
     rarity: "Common",
     number: 498,
+    capacity: 3,
   },
   {
     image: "images/Hokken/NightriderEooch.webp",
@@ -6255,6 +6754,7 @@ export const dataNumbers = [
       "Arrive - If you paid the additional cost, target unit gets -X this turn, where X equals the power of the sacrificed unit.",
     rarity: "Common",
     number: 499,
+    capacity: 3,
   },
   {
     image: "images/Hokken/NightriderErren.webp",
@@ -6269,6 +6769,7 @@ export const dataNumbers = [
       "Arrive - If you paid the additional cost, look at your opponent's hand. You may choose a card with the same cost as the sacrificed unit. Your opponent discards that card.",
     rarity: "Rare",
     number: 500,
+    capacity: 3,
   },
   {
     image: "images/Hokken/ObstructionOfOria.webp",
@@ -6281,6 +6782,7 @@ export const dataNumbers = [
       "Your opponent cannot play spells, trigger abilities, or activate abilities this turn.",
     rarity: "Rare",
     number: 501,
+    capacity: 3,
   },
   {
     image: "images/Hokken/OriaFragmentOfGenesis.webp",
@@ -6297,6 +6799,7 @@ export const dataNumbers = [
       "Once per turn, sacrifice a non-token basic unit: Recover this card and it gains Immortal this turn.",
     rarity: "Secret Rare",
     number: 502,
+    capacity: 1,
   },
   {
     image: "images/Hokken/PengardianLegendHanzo.webp",
@@ -6309,6 +6812,7 @@ export const dataNumbers = [
       "Once per turn, put two cards from under this card on the top or bottom of their owner's deck in any order: Ignore the effects of target non-destroyed tower this turn.",
     rarity: "Promo",
     number: 503,
+    capacity: 3,
   },
   {
     image: "images/Hokken/PengardianMystic.webp",
@@ -6322,6 +6826,7 @@ export const dataNumbers = [
       "Pay (1), sacrifice this card: Stun target unit. (A Stunned card cannot attack, block, or use activated abilities, until the end of the next turn.)",
     rarity: "Common",
     number: 504,
+    capacity: 3,
   },
   {
     image: "images/Hokken/PengardianPupil.webp",
@@ -6334,6 +6839,7 @@ export const dataNumbers = [
     effect: "Instacast",
     rarity: "Common",
     number: 505,
+    capacity: 3,
   },
   {
     image: "images/Hokken/PengiroEmperorOfPengardia.webp",
@@ -6348,6 +6854,7 @@ export const dataNumbers = [
       "Exhaust, pay (1): Put a Penguin unit with cost (3) of less from your hand into play.",
     rarity: "Argent Rare",
     number: 506,
+    capacity: 3,
   },
   {
     image: "images/Hokken/PengirosDecree.webp",
@@ -6362,6 +6869,7 @@ export const dataNumbers = [
       "Whenever a Stunned unit your opponent controls is put into the discard zone - You may add this card from your discard zone to your hand.",
     rarity: "Super Rare",
     number: 507,
+    capacity: 3,
   },
   {
     image: "images/Hokken/PengobiJoninMochizuki.webp",
@@ -6377,6 +6885,7 @@ export const dataNumbers = [
       "Whenever a unit becomes Stunned - You may draw a card.",
     rarity: "Super Rare",
     number: 508,
+    capacity: 3,
   },
   {
     image: "images/Hokken/PengobiKishu.webp",
@@ -6391,6 +6900,7 @@ export const dataNumbers = [
       "Arrive - Stun target unit that came into play this turn, and if you do, draw a card. (A Stunned card cannot attack, block, or use activated abilities, until the end of the next turn.)",
     rarity: "Rare",
     number: 509,
+    capacity: 3,
   },
   {
     image: "images/Hokken/PengobiKonran.webp",
@@ -6405,6 +6915,7 @@ export const dataNumbers = [
       "Arrive - You may Stun target unit with cost (1) or less. (A Stunned card cannot attack, block, or use activated abilities, until the end of the next turn.)",
     rarity: "Common",
     number: 510,
+    capacity: 3,
   },
   {
     image: "images/Hokken/PengushiDamiyoKenshin.webp",
@@ -6418,6 +6929,7 @@ export const dataNumbers = [
       "While your opponent controls a Stunned unit, this card gets +1000 and cannot be targeted by spells or abilities.",
     rarity: "Common",
     number: 511,
+    capacity: 3,
   },
   {
     image: "images/Hokken/PengushiKyudo.webp",
@@ -6432,6 +6944,7 @@ export const dataNumbers = [
       "Whenever this card declares an attack - You may destroy target Stunned unit.",
     rarity: "Common",
     number: 512,
+    capacity: 3,
   },
   {
     image: "images/Hokken/PengushiRonin.webp",
@@ -6445,6 +6958,7 @@ export const dataNumbers = [
       "While your opponent controls a Stunned unit, this card gets +1000 and gains Guardian.",
     rarity: "Common",
     number: 513,
+    capacity: 3,
   },
   {
     image: "images/Hokken/PrimevalAcidMonger.webp",
@@ -6458,6 +6972,7 @@ export const dataNumbers = [
       "Whenever this card declares an attack - You may destroy target augment.",
     rarity: "Common",
     number: 514,
+    capacity: 3,
   },
   {
     image: "images/Hokken/PrimevalEgg.webp",
@@ -6473,6 +6988,7 @@ export const dataNumbers = [
       "Ruined - Search your deck for a Dinosaur unit with cost (3) or less and add it to your hand.",
     rarity: "Common",
     number: 515,
+    capacity: 3,
   },
   {
     image: "images/Hokken/PrimevalRoar.webp",
@@ -6486,6 +7002,7 @@ export const dataNumbers = [
       "Deal 1500 to target unit. Then if you control four or more shards you may exhaust target shard an opponent controls.",
     rarity: "Common",
     number: 516,
+    capacity: 3,
   },
   {
     image: "images/Hokken/PrimevalShockwave.webp",
@@ -6499,6 +7016,7 @@ export const dataNumbers = [
       "Deal 2000 to all units. Then if you control seven or more shards, exhaust any number of target shards your opponent controls up to the number of units dealt damage this way.",
     rarity: "Super Rare",
     number: 517,
+    capacity: 3,
   },
   {
     image: "images/Hokken/ProphetOfHope.webp",
@@ -6512,6 +7030,7 @@ export const dataNumbers = [
       "Ruined - Search your deck for a basic unit and add it to your hand.",
     rarity: "Common",
     number: 518,
+    capacity: 3,
   },
   {
     image: "images/Hokken/ProphetOfValor.webp",
@@ -6525,6 +7044,7 @@ export const dataNumbers = [
       "Arrive - Search your deck for a basic unit and send it to the discard zone.",
     rarity: "Common",
     number: 519,
+    capacity: 3,
   },
   {
     image: "images/Hokken/RadiantArbiter.webp",
@@ -6540,6 +7060,7 @@ export const dataNumbers = [
       "Ignore the effects of your opponent's Light tower.",
     rarity: "Super Rare",
     number: 520,
+    capacity: 3,
   },
   {
     image: "images/Hokken/RavagingRhinoceros.webp",
@@ -6554,6 +7075,7 @@ export const dataNumbers = [
       "Once per turn, pay (1) and return another unit you control to its owner's hand: Place a +500 counter on this card.",
     rarity: "Argent Rare",
     number: 521,
+    capacity: 3,
   },
   {
     image: "images/Hokken/RennaFeralWarrior.webp",
@@ -6566,6 +7088,7 @@ export const dataNumbers = [
       "Put two cards from under this card on the top or bottom of their owner's deck in any order: Put a Dinosaur unit from your hand or discard zone with cost equal to or less than the number of shards you control into play.",
     rarity: "Promo",
     number: 522,
+    capacity: 3,
   },
   {
     image: "images/Hokken/RuinedReclamation.webp",
@@ -6581,6 +7104,7 @@ export const dataNumbers = [
       "* Add target unit with Ruined from your discard zone to your hand.",
     rarity: "Super Rare",
     number: 523,
+    capacity: 3,
   },
   {
     image: "images/Hokken/SavageArbiter.webp",
@@ -6596,6 +7120,7 @@ export const dataNumbers = [
       "Ignore the effects of your opponent's Air tower.",
     rarity: "Super Rare",
     number: 524,
+    capacity: 3,
   },
   {
     image: "images/Hokken/SecretPengutsuGlacialClones.webp",
@@ -6609,6 +7134,7 @@ export const dataNumbers = [
       "Return target attacking or blocking unit you control to its owner's hand, and if you do, put two Clone tokens (Unit/Clone/Water/1000) into play.",
     rarity: "Common",
     number: 525,
+    capacity: 3,
   },
   {
     image: "images/Hokken/ShardworkAngel.webp",
@@ -6623,6 +7149,7 @@ export const dataNumbers = [
       "Animate 1 (You must pay (1) to attack or block with this card.)",
     rarity: "Common",
     number: 526,
+    capacity: 3,
   },
   {
     image: "images/Hokken/ShardworkArbiter.webp",
@@ -6638,6 +7165,7 @@ export const dataNumbers = [
       "Animate 2 (You must pay (2) to attack or block with this card.)",
     rarity: "Argent Rare",
     number: 527,
+    capacity: 3,
   },
   {
     image: "images/Hokken/ShardworkDragon.webp",
@@ -6652,6 +7180,7 @@ export const dataNumbers = [
       "Animate 1 (You must pay (1) to attack or block with this card.)",
     rarity: "Super Rare",
     number: 528,
+    capacity: 3,
   },
   {
     image: "images/Hokken/ShardworkFactory.webp",
@@ -6667,6 +7196,7 @@ export const dataNumbers = [
       `3 or more, The "Shardwork" unit you control with the highest cost cannot be targeted by your opponent's spells or abilities.`,
     rarity: "Common",
     number: 529,
+    capacity: 3,
   },
   {
     image: "images/Hokken/ShardworkHeart.webp",
@@ -6680,6 +7210,7 @@ export const dataNumbers = [
       "The equipped unit ignores Animate.",
     rarity: "Common",
     number: 530,
+    capacity: 3,
   },
   {
     image: "images/Hokken/ShardworkHound.webp",
@@ -6694,6 +7225,7 @@ export const dataNumbers = [
       "Animate 1 (You must pay (1) to attack or block with this card.)",
     rarity: "Common",
     number: 531,
+    capacity: 3,
   },
   {
     image: "images/Hokken/ShardworkKnight.webp",
@@ -6708,6 +7240,7 @@ export const dataNumbers = [
       "Animate 2 (You may pay (2) to attack or block with this card.)",
     rarity: "Common",
     number: 532,
+    capacity: 3,
   },
   {
     image: "images/Hokken/ShardworkTitan.webp",
@@ -6722,6 +7255,7 @@ export const dataNumbers = [
       "Animate 2 (You may pay (2) to attack or block with this card.)",
     rarity: "Common",
     number: 533,
+    capacity: 3,
   },
   {
     image: "images/Hokken/SnowtopElemental.webp",
@@ -6735,6 +7269,7 @@ export const dataNumbers = [
       "Arrive - Stun target unit. (A Stunned card cannot attack, block, or use activated abilities, until the end of the next turn.)",
     rarity: "Rare",
     number: 534,
+    capacity: 3,
   },
   {
     image: "images/Hokken/SnowtopHibagon.webp",
@@ -6748,6 +7283,7 @@ export const dataNumbers = [
       "Arrive - If you control a Penguin unit, you may stun target unit. (A Stunned card cannot attack, block, or use activated abilities, until the end of the next turn.)",
     rarity: "Common",
     number: 535,
+    capacity: 3,
   },
   {
     image: "images/Hokken/SnowtopVillagePengardia.webp",
@@ -6761,6 +7297,7 @@ export const dataNumbers = [
       "Exhaust, pay (2): Put target Water unit expelled by this card into play.",
     rarity: "Common",
     number: 536,
+    capacity: 3,
   },
   {
     image: "images/Hokken/SoulSevering.webp",
@@ -6776,6 +7313,7 @@ export const dataNumbers = [
       "* Remove a counter from this card.",
     rarity: "Common",
     number: 537,
+    capacity: 3,
   },
   {
     image: "images/Hokken/TempleOfTheForgotten.webp",
@@ -6791,6 +7329,7 @@ export const dataNumbers = [
       "* Remove a counter from this card.",
     rarity: "Common",
     number: 538,
+    capacity: 3,
   },
   {
     image: "images/Hokken/Territoritops.webp",
@@ -6805,6 +7344,7 @@ export const dataNumbers = [
       "While you control six or more shards and this card is exhausted, your opponent cannot attack unless they are attacking this card and cannot target other units you control with spells or abilities.",
     rarity: "Common",
     number: 539,
+    capacity: 3,
   },
   {
     image: "images/Hokken/TyrantusPrimevalRuler.webp",
@@ -6821,6 +7361,7 @@ export const dataNumbers = [
       "Units your opponent control with power less than this card lose their abilities.",
     rarity: "Secret Rare",
     number: 540,
+    capacity: 1,
   },
   {
     image: "images/Hokken/VindicationOfValor.webp",
@@ -6834,6 +7375,7 @@ export const dataNumbers = [
       "Destroy target unit or augment. If you sacrificed a non-token basic unit, draw a card.",
     rarity: "Rare",
     number: 541,
+    capacity: 3,
   },
   {
     image: "images/Hokken/VoidfireShadow.webp",
@@ -6847,6 +7389,7 @@ export const dataNumbers = [
       "Arrive - The next spell you play this turn costs (1) less to play.",
     rarity: "Common",
     number: 542,
+    capacity: 3,
   },
   {
     image: "images/Hokken/WarriorOfHope.webp",
@@ -6859,6 +7402,7 @@ export const dataNumbers = [
     effect: "",
     rarity: "Common",
     number: 543,
+    capacity: 3,
   },
   {
     image: "images/Hokken/WarriorOfValor.webp",
@@ -6871,6 +7415,7 @@ export const dataNumbers = [
     effect: "",
     rarity: "Common",
     number: 544,
+    capacity: 3,
   },
   {
     image: "images/Hokken/ZaneHeroOfHyldia.webp",
@@ -6883,6 +7428,7 @@ export const dataNumbers = [
       "Put two cards under this card into the discard zone: Put a Hyldian token (Unit/Warrior/Light/1000) into play.",
     rarity: "Promo",
     number: 545,
+    capacity: 3,
   },
   {
     image: "images/Hokken/ZonamaTheSacredForest.webp",
@@ -6896,6 +7442,7 @@ export const dataNumbers = [
       "At the end of your turn - Recover any number of shards you control up to the number of different Air units you control.",
     rarity: "Common",
     number: 546,
+    capacity: 3,
   },
   {
     image: "images/Hokken/ZonamianAmbassador.webp",
@@ -6908,6 +7455,7 @@ export const dataNumbers = [
     effect: "Arrive - Place +500 counter on each Beast unit you control.",
     rarity: "Common",
     number: 547,
+    capacity: 3,
   },
   {
     image: "images/Hokken/ZonamianBarrier.webp",
@@ -6921,6 +7469,7 @@ export const dataNumbers = [
       "Prevent all damage that would be dealt by your opponent's spells this turn.",
     rarity: "Common",
     number: 548,
+    capacity: 3,
   },
   {
     image: "images/Hokken/ZonamianCritters.webp",
@@ -6934,6 +7483,7 @@ export const dataNumbers = [
       "Ruined - Put a Critter Token (Unit/Beast/Air/500) into play. If you control an Elemental unit put two into play instead.",
     rarity: "Common",
     number: 549,
+    capacity: 3,
   },
   {
     image: "images/Hokken/ZonamianDryad.webp",
@@ -6946,6 +7496,7 @@ export const dataNumbers = [
     effect: "Exhaust: If you control a Beast unit, recover one of your shards.",
     rarity: "Common",
     number: 550,
+    capacity: 3,
   },
   {
     image: "images/Hokken/ZonamianLookout.webp",
@@ -6959,6 +7510,7 @@ export const dataNumbers = [
       "Arrive - Look at the top two cards of your opponent's deck and put them back in any order. If you control an Elemental unit, look at the top three instead and put them back in any order.",
     rarity: "Common",
     number: 551,
+    capacity: 3,
   },
   {
     image: "images/Hokken/ZonamianMending.webp",
@@ -6972,6 +7524,7 @@ export const dataNumbers = [
       "Remove all damage from units you control. For each unit that had damage removed this way, recover a shard.",
     rarity: "Common",
     number: 552,
+    capacity: 3,
   },
   {
     image: "images/Hokken/ZonamianMosslurker.webp",
@@ -6984,6 +7537,7 @@ export const dataNumbers = [
     effect: "",
     rarity: "Common",
     number: 553,
+    capacity: 3,
   },
   {
     image: "images/Hokken/ZonamianRage.webp",
@@ -6997,6 +7551,7 @@ export const dataNumbers = [
       "Place a +500 counter on target attacking unit, and if you do, it gains Overrun this turn. (Whenever this attacking card deals damage to a unit, you may deal any excess damage to an opponent's tower.)",
     rarity: "Common",
     number: 554,
+    capacity: 3,
   },
   {
     image: "images/Hokken/ZonamianStampede.webp",
@@ -7009,6 +7564,7 @@ export const dataNumbers = [
       "Deal 2000 to target active unit. If you control a Beast unit, deal 3000 instead.",
     rarity: "Rare",
     number: 555,
+    capacity: 3,
   },
   {
     image: "images/Hokken/ZylaSpeakerOfHyldia.webp",
@@ -7022,6 +7578,7 @@ export const dataNumbers = [
       "Expel this card: If you do not control a unit with abilities, search your deck for up to two basic units with combined cost (5) or less and put them into play. Destroy them at the end of the next turn.",
     rarity: "Argent Rare",
     number: 556,
+    capacity: 3,
   },
   {
     image: "images/Promos/ariana-adventurer-of-argos.webp",
@@ -7030,6 +7587,7 @@ export const dataNumbers = [
     type: "Champion",
     effect: `At the start of the game (after mulligans) you may add one "Kala, Trusty Companion" and/or one "Ariana's Amulet" from your deck to your hand.`,
     number: 557,
+    capacity: 3,
   },
   {
     image: "images/Promos/auron-the-golden-rose.webp",
@@ -7039,6 +7597,7 @@ export const dataNumbers = [
     effect:
       "Exhaust, Discard one Knight or Gear from your hand: Exhaust target unit.",
     number: 558,
+    capacity: 3,
   },
   {
     image: "images/Promos/ergon-the-tragic-gargoyle.webp",
@@ -7049,6 +7608,7 @@ export const dataNumbers = [
       "Exhaust: Send the top two cards of your deck to the discard zone.\n" +
       "Exhaust, Pay (1): Put target unit from your discard zone on top of your deck.",
     number: 559,
+    capacity: 3,
   },
   {
     image: "images/Promos/gillian-the-witch-queen.webp",
@@ -7058,6 +7618,7 @@ export const dataNumbers = [
     effect:
       "Exhaust, Reveal any number of spells from your hand: Reveal the top card of your deck. If it's a spell with cost equal to or less than the number of cards revealed from your hand, add it to your hand.",
     number: 560,
+    capacity: 3,
   },
   {
     image: "images/Promos/raine-mournful-commander.webp",
@@ -7067,6 +7628,7 @@ export const dataNumbers = [
     effect:
       "Exhaust, Expel up to two units from your hand: Deal damage to target unit equal to the number of cards expelled x500.",
     number: 561,
+    capacity: 3,
   },
   {
     image: "images/Promos/yuki-the-lightning-flash.webp",
@@ -7080,6 +7642,7 @@ export const dataNumbers = [
       "Target Attack\n" +
       "If this card is in your hand, after one of your Towers is destroyed – Put this card into play.",
     number: 562,
+    capacity: 3,
   },
   {
     image: "images/Promos/ash-the-glacial-sorcerer.webp",
@@ -7092,6 +7655,7 @@ export const dataNumbers = [
       "When you play a Water Spell – You can place an Ice Wall counter on target non-destroyed Tower you own. (Towers with Ice Wall counters get +500 defense. If a Tower is destroyed, remove all Ice Wall counters from that Tower.)\n" +
       "Remove all Ice Wall counters from all Towers you own: Deal damage to target Unit equal to the number of counters removed x500.",
     number: 563,
+    capacity: 3,
   },
   {
     image: "images/Promos/demon-of-the-evil-eye.webp",
@@ -7104,6 +7668,7 @@ export const dataNumbers = [
     effect:
       "Arrive – Declare a card name, then your opponent reveals their hand and discards all cards with that name. Draw one card for each card discarded this way.",
     number: 564,
+    capacity: 3,
   },
   {
     image: "images/Promos/knight-token-1.jpg",
@@ -7113,6 +7678,7 @@ export const dataNumbers = [
     effect:
       "Guardian (Exhaust this card to make an attacking Unit attack this one instead.)",
     number: 565,
+    capacity: 3,
   },
   {
     image: "images/Promos/curse-of-the-witch-queen.webp",
@@ -7122,6 +7688,7 @@ export const dataNumbers = [
     type: "Spell",
     effect: "Take control of up to two target exhausted units.",
     number: 566,
+    capacity: 3,
   },
   {
     image: "images/Promos/daylon-the-conjurers-raven-1.webp",
@@ -7136,6 +7703,7 @@ export const dataNumbers = [
       "* Put three counters on your champion.\n" +
       "* Remove all counters from your champion, then search your deck for a non-legendary unit with cost equal or less than the number of counters you removed this way and put it into play.",
     number: 567,
+    capacity: 1,
   },
   {
     image: "images/Promos/ruka-pugilist-of-the-holy-flame-2.webp",
@@ -7149,6 +7717,7 @@ export const dataNumbers = [
       "Arrive – If you control another Fire unit, this card gets +500 and gains Brawler.\n" +
       "Whenever this declares an attack on a unit – If your spirit is Fire, you may flip it face-up.",
     number: 568,
+    capacity: 3,
   },
   {
     image: "images/Promos/liyu-avarice-reborn.webp",
@@ -7161,6 +7730,7 @@ export const dataNumbers = [
     effect:
       "When this card isput into the discard zone from anywhere – You may sacrifice a Dark unit. If you do, put this card into play.",
     number: 569,
+    capacity: 3,
   },
   {
     image: "images/Promos/valtier-the-magical-marksman.webp",
@@ -7172,6 +7742,7 @@ export const dataNumbers = [
     subtype: "pirate",
     effect: "Exhaust, pay (2): Destroy target unit with cost (2) or less.",
     number: 570,
+    capacity: 3,
   },
   {
     image: "images/Promos/rex-child-of-brilliance.jpg",
@@ -7184,6 +7755,7 @@ export const dataNumbers = [
     effect:
       "If you would use Shard Drain you may sacrifice this card instead of returning a shard to your shard deck.",
     number: 571,
+    capacity: 3,
   },
   {
     image: "images/Promos/woody-loyal-pack-leader-2.jpg",
@@ -7197,6 +7769,7 @@ export const dataNumbers = [
       "Guardian, Target Attack\n" +
       'Arrive – Put into play a Hound token (Unit * Beast/Light/500) that has Guardian and "Sacrifice this card: Prevent the next damage that would be dealt to target unit this turn." If your spirit is "Buckeye, the Loyal", put two into play instead.',
     number: 572,
+    capacity: 1,
   },
   {
     image: "images/Promos/buckeye-the-loyal.png",
@@ -7208,6 +7781,7 @@ export const dataNumbers = [
       'You start the game with a Hound unit token with Guardian (Unit * Hound/Light/500). This token cannot attack, and has "Sacrifice this unit: Prevent the next damage that would be dealt to target unit this turn."\n' +
       "Soulburst: Prevent all damage that would be dealt to target unit this turn.",
     number: 573,
+    capacity: 3,
   },
   {
     image: "images/Promos/demonic-spy.webp",
@@ -7220,6 +7794,7 @@ export const dataNumbers = [
     effect:
       "Arrive – Flip target face-down tower your opponent controls face-up.",
     number: 574,
+    capacity: 3,
   },
   {
     image: "images/Promos/kratin-being-of-strength.webp",
@@ -7228,6 +7803,7 @@ export const dataNumbers = [
     type: "Champion",
     effect: "Exhaust, pay (2): Target attacking unit gets +1000 this turn.",
     number: 575,
+    capacity: 3,
   },
   {
     image: "images/Promos/master-of-the-cerulean-tower.webp",
@@ -7237,6 +7813,7 @@ export const dataNumbers = [
     effect:
       " Exhaust, pay (1): Draw a card, then put a card from your hand on the bottom of your deck.",
     number: 576,
+    capacity: 3,
   },
   {
     image: "images/Promos/greatest-gardener-gregory.webp",
@@ -7245,6 +7822,7 @@ export const dataNumbers = [
     type: "Champion",
     effect: "Exhaust, sacrifice a unit: Recover one of your shards.",
     number: 577,
+    capacity: 3,
   },
   {
     image: "images/Promos/dubell-spirit-of-gains.webp",
@@ -7255,6 +7833,7 @@ export const dataNumbers = [
       "Exhaust, pay (1): Target attacking unit gets +500 this turn.\n" +
       "Soulburst: Target unit gets +1000 this turn.",
     number: 578,
+    capacity: 3,
   },
   {
     image: "images/Promos/welink-spirit-of-paper.webp",
@@ -7265,6 +7844,7 @@ export const dataNumbers = [
       "Exhaust, pay (1): Put the bottom card of your deck on top of your deck.\n" +
       "Soulburst: Draw a card.",
     number: 579,
+    capacity: 3,
   },
   {
     image: "images/Promos/chewallo-spirit-of-seeds.webp",
@@ -7275,6 +7855,7 @@ export const dataNumbers = [
       "Exhaust, pay (1): Look at the top card of your deck, put it on the top of your deck.\n" +
       "Soulburst: Recover one of your shards.",
     number: 580,
+    capacity: 3,
   },
   {
     image: "images/Promos/tower-of-embers.webp",
@@ -7285,6 +7866,7 @@ export const dataNumbers = [
     effect:
       "When this tower is destroyed, you may deal 1500 to a unit, then you may deal 1000 to a unit.",
     number: 581,
+    capacity: 3,
   },
   {
     image: "images/Promos/tower-of-waves.webp",
@@ -7295,6 +7877,7 @@ export const dataNumbers = [
     effect:
       "When this tower is destroyed, you may draw three cards, then put two cards from your hand on the bottom of your deck.",
     number: 582,
+    capacity: 3,
   },
   {
     image: "images/Promos/tower-of-glimmers.webp",
@@ -7305,6 +7888,7 @@ export const dataNumbers = [
     effect:
       "When this tower is destroyed, you may exhaust all units your opponent controls.",
     number: 583,
+    capacity: 3,
   },
   {
     image: "images/Promos/tower-of-fear.webp",
@@ -7315,6 +7899,7 @@ export const dataNumbers = [
     effect:
       "When this tower is destroyed, you may exhaust two of your opponent's shards.",
     number: 584,
+    capacity: 3,
   },
   {
     image: "images/Promos/tower-of-gusts.webp",
@@ -7325,6 +7910,7 @@ export const dataNumbers = [
     effect:
       "When this tower is destroyed, you may recover all shards you control.",
     number: 585,
+    capacity: 3,
   },
   {
     image: "images/Promos/nori-the-first-warlock.webp",
@@ -7339,6 +7925,7 @@ export const dataNumbers = [
       "Arrive – If you paid this card's additional cost, draw X cards.\n" +
       "Whenever you play a Water spell – You may exhaust target unit.",
     number: 586,
+    capacity: 3,
   },
   {
     image: "images/Promos/unger-the-conjurers-adversary.webp",
@@ -7352,6 +7939,7 @@ export const dataNumbers = [
       "Whenever a unit your opponent controls is put into the discard zone - You may put into play a Raven token (Unit/Dark/Beast/500).\n" +
       "Sacrifice two other units: Your opponent's champion loses all abilities this turn.",
     number: 587,
+    capacity: 3,
   },
   {
     image: "images/Promos/gz-blazerusher-squire.webp",
@@ -7366,6 +7954,7 @@ export const dataNumbers = [
       "Remove an Explosion counter from a card you control: This card gains Quickness.\n" +
       "Remove two Explosion counters from cards you control: Destroy target tower you own and target tower your opponent owns.",
     number: 588,
+    capacity: 3,
   },
   {
     image: "images/Promos/yuki-brightveiler-squire.webp",
@@ -7380,6 +7969,7 @@ export const dataNumbers = [
       "This card cannot be targeted by spells or abilities of cards with cost (2) or less.\n" +
       "Expel a Dark card and Light card from your discard zone, and reveal this card from your hand: Put this card from your hand into play, and if you do, exhaust target unit your opponent controls. Use only while your opponent has three or more destroyed towers.",
     number: 589,
+    capacity: 3,
   },
   {
     image: "images/Promos/brilliant-verdure.jpg",
@@ -7390,6 +7980,7 @@ export const dataNumbers = [
       "If this is the second card you've played this turn, this card costs (1) less to play.\n" +
       "Look at the top four cards of your deck. You may add a unit and/or augment among them to your hand. Place the rest on the bottom of your deck in any order.",
     number: 590,
+    capacity: 3,
   },
   {
     image: "images/Promos/ash-tidemelder-squire.webp",
@@ -7403,6 +7994,7 @@ export const dataNumbers = [
       "Your Fire and Water spells cost (1) less to play while your opponent has three or more destroyed towers.\n" +
       "Once per turn, expel a Fire card and Water card from your discard zone: Deal 1500 to target unit, and if you do, draw a card.",
     number: 591,
+    capacity: 3,
   },
   {
     image: "images/Promos/forager-of-the-fallen-leaf.webp",
@@ -7416,6 +8008,7 @@ export const dataNumbers = [
       "Units you control with power that is double or more their original power cannot be targeted by your opponent's spells or abilities.\n" +
       "Whenever a unit is put into play under your control - You may pay (X). If you do, put X +500 counters on that unit.",
     number: 592,
+    capacity: 3,
   },
   {
     image: "images/Promos/nanatsu-stormsurger-squire.webp",
@@ -7429,6 +8022,7 @@ export const dataNumbers = [
       "Instacast\n" +
       "Once per turn, expel an Air card and a Water card from your discard zone: Exhaust target unit, and if you do, recover one of your shards. Use this only while your opponent has three or more destroyed towers.",
     number: 593,
+    capacity: 3,
   },
   {
     image: "images/Promos/abyssal-maw.png",
@@ -7439,6 +8033,7 @@ export const dataNumbers = [
     effect:
       "Target unit gets -X000 this turn. (X equals the number of Dark units in your discard zone.)",
     number: 594,
+    capacity: 3,
   },
   {
     image: "images/Promos/linda-and-goblin-dynamic-duo.webp",
@@ -7453,6 +8048,7 @@ export const dataNumbers = [
       "While you control a Beast unit, you may play this card from your discard zone as if it was in your hand.\n" +
       'Arrive – Put into play a Cat token (Unit/Beast/Light/1000) that has "Cannot be targeted by spells or abilities.".',
     number: 595,
+    capacity: 1,
   },
   {
     image: "images/Promos/enforcer-of-the-twisting-abyss.png",
@@ -7466,6 +8062,7 @@ export const dataNumbers = [
       "Whenever this card deals damage to an opponent's tower - Your opponent discards a card and you draw a card.\n" +
       "Whenever your opponent discards a card - You may add this card from your discard zone to your hand.",
     number: 596,
+    capacity: 3,
   },
   {
     image: "images/Promos/void-flame-expulsion.webp",
@@ -7477,6 +8074,7 @@ export const dataNumbers = [
       "Instacast\n" +
       "Play only while you control a Fire unit. Neither player can add to the queue in response to this card. Expel target unit or augment, and if you do, it's owner draws a card.",
     number: 597,
+    capacity: 3,
   },
   {
     image: "images/Promos/underlord-of-the-void-flame.webp",
@@ -7489,6 +8087,7 @@ export const dataNumbers = [
       "As an additional cost to play this card you may sacrifice a Fire unit with cost (2) or more. If you do, this card costs (2) less to play.\n" +
       "If you paid the additional cost to play this card, this card gains Quickness.",
     number: 598,
+    capacity: 3,
   },
   {
     image: "images/Promos/rippling-sword-slash.png",
@@ -7499,6 +8098,7 @@ export const dataNumbers = [
     effect:
       "Exhaust target unit your opponent controls, and if you do, you may recover a unit you control with cost less than the exhausted unit.",
     number: 599,
+    capacity: 3,
   },
   {
     image: "images/Promos/striker-of-the-endless-sword.png",
@@ -7513,6 +8113,7 @@ export const dataNumbers = [
       "* Exhaust target unit.\n" +
       "* Recover target unit.",
     number: 600,
+    capacity: 3,
   },
   {
     image: "images/Promos/twisting-premonition.png",
@@ -7524,6 +8125,7 @@ export const dataNumbers = [
       "Instacast\n" +
       "Look at the top card of your deck. You may put it into the discard zone. Draw a card.",
     number: 601,
+    capacity: 3,
   },
   {
     image: "images/Promos/ruler-of-the-twisting-waters.png",
@@ -7536,6 +8138,7 @@ export const dataNumbers = [
     effect:
       "Arrive - Target a Water spell in your discard zone. This turn, you may play that card from your discard zone as if it were in your hand. Expel that card if you do.",
     number: 602,
+    capacity: 3,
   },
   {
     image: "images/Promos/shard-mecha-prime-king-warku.webp",
@@ -7550,6 +8153,7 @@ export const dataNumbers = [
       'While you control "Underground Mech Base", you may play this card from your discard zone as if it was in your hand. If you do, expel this card when it leaves the field.\n' +
       'Arrive – You may discard a card. If you do, search your deck for an "Underground Mech Base" and put it into play, and if you do, you may also add a "Shard-Mecha" unit with cost (3) or less from your deck to your hand.',
     number: 603,
+    capacity: 3,
   },
   {
     image: "images/Promos/silver-kings-overseer.webp",
@@ -7561,6 +8165,7 @@ export const dataNumbers = [
     subtype: "silver army",
     effect: `Ruined - Search your deck for up to one "Silver King's Pawn" and put it into play. If your champion is "Metaial the Silver King" put two into play instead.`,
     number: 604,
+    capacity: 3,
   },
   {
     image: "images/Promos/citra-aspirant-rose-knight.webp",
@@ -7574,6 +8179,7 @@ export const dataNumbers = [
       'Discard this card and a Gear from your hand: Search your deck for "Order of the Rose" and add it to your hand.\n' +
       'Arrive - If a unit was sent from your field to the discard zone this turn, you may search your deck for a Rose Knight unit with cost (2) or less, except "Citra, Aspirant Rose Knight" and put it into play.',
     number: 605,
+    capacity: 3,
   },
   {
     image: "images/Promos/omega-charger.webp",
@@ -7586,6 +8192,7 @@ export const dataNumbers = [
     effect:
       "Arrive – Put target unit from your discard zone under target Ω unit you control.",
     number: 606,
+    capacity: 3,
   },
   {
     image: "images/Promos/omega-amulet.webp",
@@ -7597,6 +8204,7 @@ export const dataNumbers = [
       "Arrive – Draw a card.\n" +
       "Sacrifice this card: Champions lose all abilities this turn. Neither player can add to the queue in response to this ability.",
     number: 607,
+    capacity: 1,
   },
   {
     image: "images/Promos/ruka-the-dragonsoul-pugilist.webp",
@@ -7611,6 +8219,7 @@ export const dataNumbers = [
       "This card gets +500 for each of your expelled Dragon units.\n" +
       "Arrive - You may expel a Fire unit from your hand. If you do, draw a card. If you expelled a Dragon unit, draw two cards instead.",
     number: 608,
+    capacity: 3,
   },
   {
     image: "images/Promos/demi-bahamute.jpg",
@@ -7624,6 +8233,7 @@ export const dataNumbers = [
       "Destroyer\n" +
       "Arrive - You may reveal two Dragon units from your hand: Destroy any number of units your opponent controls with combined power 2000 or less. For each unit destroyed this way, you may search your deck for a Dragon unit with cost (1) and put it into play.",
     number: 609,
+    capacity: 3,
   },
   {
     image: "images/Promos/demi-leviathan.png",
@@ -7637,6 +8247,7 @@ export const dataNumbers = [
       "Guardian\n" +
       "Arrive - You may flip any number of your face-down towers face-up. If you do, take control of any number of target units whose combined cost is equal to or less than the number of towers you flipped up.",
     number: 610,
+    capacity: 3,
   },
   {
     image: "images/Promos/the-masked-nemesis.png",
@@ -7649,6 +8260,7 @@ export const dataNumbers = [
       "Arrive or whenever this card declares an attack - Place a counter on this card.\n" +
       "Ruined - If this card had at least two counters on it, your opponent discards a card. If it had at least three counters, you may put this card into play.",
     number: 611,
+    capacity: 3,
   },
   {
     image: "images/Promos/ketsu-the-erratic-armor.png",
@@ -7663,6 +8275,7 @@ export const dataNumbers = [
       "Equip to target Ω unit you control.\n" +
       "If the equipped unit would put a unit under it into the discard zone for an ability, you may sacrifice this card instead.\n" +
       "Whenever one of your Ω units attacks - You may equip this card from your discard zone to that unit.",
+    capacity: 3,
   },
   {
     image: "images/Promos/fragment-of-adoration.webp",
@@ -7676,6 +8289,7 @@ export const dataNumbers = [
       "Ω (Place on one or more of your units.)\n" +
       "Once per turn, put a unit from under this card into the discard zone: If every card in your discard zone has a different name, you may search your deck for a non-Argent card and either add it to your hand or put it into play.",
     number: 613,
+    capacity: 3,
   },
   {
     image: "images/Promos/professor-damous-outlandish-engineer.png",
@@ -7688,6 +8302,7 @@ export const dataNumbers = [
     effect:
       "Exhaust, sacrifice a unit: Trigger the Arrive ability of the sacrificed unit.",
     number: 614,
+    capacity: 3,
   },
   {
     image: "images/Promos/golem-token.jpg",
@@ -7697,6 +8312,7 @@ export const dataNumbers = [
     type: "Unit",
     subtype: "Golem",
     number: 615,
+    capacity: 3,
   },
   {
     image: "images/Promos/hound-token.jpg",
@@ -7708,6 +8324,7 @@ export const dataNumbers = [
     effect:
       "Guardian Sacrafice this unit: Prevent the next damage that would be dealt to target unit this turn.",
     number: 616,
+    capacity: 3,
   },
   {
     image: "images/Promos/hound-token-1.jpg",
@@ -7719,6 +8336,7 @@ export const dataNumbers = [
     effect:
       "Guardian Sacrafice this unit: Prevent the next damage that would be dealt to target unit this turn.",
     number: 617,
+    capacity: 3,
   },
   {
     image: "images/Promos/illusion-token.webp",
@@ -7729,6 +8347,7 @@ export const dataNumbers = [
     subtype: "Illusion",
     effect: "Guardian(This unit cannot attack.)",
     number: 618,
+    capacity: 3,
   },
   {
     image: "images/Promos/knight-token-1000.jpg",
@@ -7737,6 +8356,7 @@ export const dataNumbers = [
     type: "Unit",
     effect: "Guardian",
     number: 619,
+    capacity: 3,
   },
   {
     image: "images/Promos/tux-the-emperor-spirit.webp",
@@ -7748,6 +8368,7 @@ export const dataNumbers = [
       "When a unit you control destroys a tower - You may draw a card then discard a card.\n" +
       "Soulburst, pay (3): Stun all units your opponent controls. (A Stunned card cannot attack, block, or use activated abilities, until the end of the next turn.)",
     number: 620,
+    capacity: 3,
   },
   {
     image: "images/Promos/tower-of-surging-gales.webp",
@@ -7759,6 +8380,7 @@ export const dataNumbers = [
       "Use only if your spirit or champion is Air.\n" +
       "When this card is destroyed: You may put the top card of your shard deck into play. Use this effect only if you have more destroyed towers than your opponent.",
     number: 621,
+    capacity: 3,
   },
   {
     image: "images/Promos/tower-of-surging-radiance.webp",
@@ -7770,6 +8392,7 @@ export const dataNumbers = [
       "Use only if your spirit or champion is Light.\n" +
       "When this card is destroyed: You may put a unit with cost (3) or less from your hand into play. Use this effect only if you have more destroyed towers than your opponent.",
     number: 622,
+    capacity: 3,
   },
   {
     image: "images/Promos/tower-of-surging-shadows.webp",
@@ -7781,6 +8404,7 @@ export const dataNumbers = [
       "Use only if your spirit or champion is Dark.\n" +
       "When this tower is destroyed: You may return a unit with cost (3) or less from your discard zone to the field. Use this effect only if you have more destroyed towers than your opponent.",
     number: 623,
+    capacity: 3,
   },
   {
     image: "images/Promos/tower-of-surging-torrents.webp",
@@ -7792,6 +8416,7 @@ export const dataNumbers = [
       "Use only if your spirit or champion is Water.\n" +
       "When this card is destroyed: You may search your deck for a spell and add it to your hand. Use this effect only if you have more destroyed towers than your opponent.",
     number: 624,
+    capacity: 3,
   },
   {
     image: "images/Promos/tower-of-surging-flames.webp",
@@ -7803,6 +8428,7 @@ export const dataNumbers = [
       "Use only if your spirit or champion is Fire.\n" +
       "When this card is destroyed: You may deal 1500 to all units your opponent controls. Use this effect only if you have more destroyed towers than your opponent.",
     number: 625,
+    capacity: 3,
   },
   {
     image: "images/Promos/giga_shard_beast.webp",
@@ -7815,6 +8441,7 @@ export const dataNumbers = [
     effect:
       "You can only play units.\nOhter 'Shardbeast' units control get +500\n",
     number: 626,
+    capacity: 3,
   },
   {
     image: "images/Promos/ceremonial-harpist.webp",
@@ -7828,6 +8455,7 @@ export const dataNumbers = [
       "This card cannot deal damage, and cannot be targeted by spells.\n" +
       'Ruined – Search your deck for a "Hallowed Harpist" and put it into play.',
     number: 627,
+    capacity: 3,
   },
   {
     image: "images/Promos/unrestrained-poltergeist.webp",
@@ -7839,6 +8467,7 @@ export const dataNumbers = [
     effect:
       "Ruined – Send the top three cards of a player's deck to the discard zone, then a different player expels the top three cards of their deck.",
     number: 628,
+    capacity: 3,
   },
   {
     image: "images/Promos/dux-the-infamous-skyraider.jpg",
@@ -7852,6 +8481,7 @@ export const dataNumbers = [
     effect:
       "Airship and Skyraider units cost you (1) less to play.\n" +
       "Arrive - Add target Airship or Skyraider unit from your discard zone to your hand.",
+    capacity: 3,
   },
   {
     image: "images/Promos/gigath-king-of-the-gargoyles.jpg",
@@ -7866,6 +8496,7 @@ export const dataNumbers = [
       "If you have more cards in your hand than your opponent, neither player can add to the queue in response to playing this card.\n" +
       "Other units you control gain Immortal during your turn.",
     number: 630,
+    capacity: 3,
   },
   {
     image: "images/Expansion-Pack-Generations/amateur-witch.webp",
@@ -7875,6 +8506,7 @@ export const dataNumbers = [
     name: "Amateur Witch",
     type: "Unit",
     number: 631,
+    capacity: 3,
   },
   {
     image: "images/Expansion-Pack-Generations/arbor-carbuncle.webp",
@@ -7888,6 +8520,7 @@ export const dataNumbers = [
     effect:
       'When this card is returned to your hand from the field - You may search your deck for an "Arbor Carbuncle" and add it to your hand.\n' +
       'During your turn, expel this card and two other "Arbor Carbuncle" from your hand: Draw two cards and switch up to two of your shards to active.',
+    capacity: 3,
   },
   {
     image: "images/Expansion-Pack-Generations/burning-blitzer.webp",
@@ -7900,6 +8533,7 @@ export const dataNumbers = [
     effect:
       "Quickness, Destroyer\n" +
       "This card cannot attack unless you've attacked with at least two units this turn.",
+    capacity: 3,
   },
   {
     image: "images/Expansion-Pack-Generations/catastrophe-demon.webp",
@@ -7912,6 +8546,7 @@ export const dataNumbers = [
     number: 634,
     effect:
       "Destroyer\nYour opponent's units and shards come into play exhausted.",
+    capacity: 3,
   },
   {
     image: "images/Expansion-Pack-Generations/crystal-dimensional-dragon.webp",
@@ -7925,6 +8560,7 @@ export const dataNumbers = [
     effect:
       "If you've played five or more Water spells this turn, this card costs (0) to play.\n" +
       "Arrive - If you played this card from your hand, your opponent cannot put units into play or play spells on their next turn.",
+    capacity: 3,
   },
   {
     image: "images/Expansion-Pack-Generations/failed-golem-3.webp",
@@ -7935,6 +8571,7 @@ export const dataNumbers = [
     type: "Unit",
     subtype: "golem",
     number: 636,
+    capacity: 3,
   },
   {
     image: "images/Expansion-Pack-Generations/igneous-dragon.webp",
@@ -7945,6 +8582,7 @@ export const dataNumbers = [
     type: "Unit",
     subtype: "dragon",
     number: 637,
+    capacity: 3,
   },
   {
     image:
@@ -7959,6 +8597,7 @@ export const dataNumbers = [
     effect:
       "Destroyer\n" +
       "This card cannot be targeted by unit abilities. Flip your champion and spirit face-down: Destroy all units and augments your opponent controls.",
+    capacity: 1,
   },
   {
     image: "images/Expansion-Pack-Generations/raging-shardbeast.webp",
@@ -7970,6 +8609,7 @@ export const dataNumbers = [
     subtype: "beast",
     number: 639,
     effect: " You cannot play cards with cost (3) or more.",
+    capacity: 3,
   },
   {
     image: "images/Expansion-Pack-Generations/rainbow-knight.webp",
@@ -7980,6 +8620,7 @@ export const dataNumbers = [
     type: "Unit",
     subtype: "knight",
     number: 640,
+    capacity: 3,
   },
   {
     image: "images/Expansion-Pack-Generations/saint-of-sacred-regalia.webp",
@@ -7991,6 +8632,7 @@ export const dataNumbers = [
     number: 641,
     effect:
       "Arrive - If you control less units than your opponent, you may discard a card. If you do, search your deck for a Gear with cost (1) or less and equip it to this card.",
+    capacity: 3,
   },
   {
     image: "images/Expansion-Pack-Generations/skytree-initiate.webp",
@@ -8001,6 +8643,7 @@ export const dataNumbers = [
     type: "Unit",
     subtype: "skyraider",
     number: 642,
+    capacity: 3,
   },
   {
     image: "images/Expansion-Pack-Genesis/beckoner-of-dreams.webp",
@@ -8013,6 +8656,7 @@ export const dataNumbers = [
     number: 643,
     effect:
       "Arrive - Expel any number of spells with Shard Drain from your discard zone: Take control of target unit with cost equal to the number of cards you expelled.",
+    capacity: 3,
   },
   {
     image: "images/Expansion-Pack-Genesis/harbinger-of-vabriel.webp",
@@ -8027,6 +8671,7 @@ export const dataNumbers = [
       "Guardian\n" +
       "This card cannot be targeted by spells.\n" +
       "Flip your champion or your spirit face-down: Restore one of your destroyed towers with the same element as the card you flipped face-down.",
+    capacity: 1,
   },
   {
     image: "images/Expansion-Pack-Genesis/melody-of-ages.webp",
@@ -8037,6 +8682,7 @@ export const dataNumbers = [
     number: 645,
     effect:
       "Target unit or augment loses all abilities. Then, if there is a destroyed Air tower, destroy that card.",
+    capacity: 3,
   },
   {
     image: "images/Expansion-Pack-Genesis/return-to-slumber.webp",
@@ -8048,6 +8694,7 @@ export const dataNumbers = [
     effect:
       "Instacast\n" +
       "Return up to X+1 target units to the top of their owner's deck in any order. (X equals the number of destroyed Water towers.)",
+    capacity: 3,
   },
   {
     image: "images/Expansion-Pack-Genesis/songstress-of-the-cloudsea.webp",
@@ -8060,6 +8707,7 @@ export const dataNumbers = [
     number: 647,
     effect:
       "Exhaust: Reveal the top three cards of your deck. You may add a unit among them to your hand. If two or more units have returned to your hand from the field this turn, you may put that unit into play instead. Put the rest into your discard zone.",
+    capacity: 3,
   },
   {
     image:
@@ -8076,6 +8724,7 @@ export const dataNumbers = [
       "Arrive - Choose one.\n" +
       "* Flip your champion face-down: Put a unit from your hand into play.\n" +
       "* Flip your spirit face-down: Put target unit from your discard zone into play.",
+    capacity: 1,
   },
   {
     image: "images/Expansion-Pack-Genesis/the-greatest-heist.webp",
@@ -8087,6 +8736,7 @@ export const dataNumbers = [
     effect:
       "Arrive - Expel up to X+1 target cards from your opponent's discard zone. (X equals the number of destroyed Dark towers.)\n" +
       "While this card is on the field, you may play cards expelled by this effect as if they were in your hand.",
+    capacity: 3,
   },
   {
     image: "images/Expansion-Pack-Genesis/thief-of-valoi.webp",
@@ -8099,6 +8749,7 @@ export const dataNumbers = [
     number: 650,
     effect:
       "Exhaust, Offering 3 (Expel three units from your discard zone.): Expel target unit from your opponent's discard zone. This turn you may play that card as if it was in your hand.",
+    capacity: 3,
   },
   {
     image: "images/Expansion-Pack-Genesis/voidfire-desolation.webp",
@@ -8113,6 +8764,7 @@ export const dataNumbers = [
       "* Target augment.\n" +
       "* Target shard.\n" +
       "* Target tower.",
+    capacity: 3,
   },
   {
     image: "images/Expansion-Pack-Genesis/voidfire-dragon.webp",
@@ -8126,6 +8778,7 @@ export const dataNumbers = [
     effect:
       "While there is a destroyed Fire tower, expel two or more Fire units from your hand whose combined cost is at least 6: Put this card from your discard zone into play. Expel it when it leaves the field.\n" +
       'Ruined - Add target expelled Fire unit you own, except "Voidfire Dragon", to your hand.',
+    capacity: 3,
   },
   {
     image: "images/Expansion-Pack-Genesis/vrscika-the-scorpion-hammer.webp",
@@ -8139,6 +8792,7 @@ export const dataNumbers = [
       " Equip to target unit.\n" +
       "It gets +1000.\n" +
       "If the equipped unit destroys a unit with Guardian in battle - You may switch the equipped unit to active.",
+    capacity: 3,
   },
   {
     image: "images/Expansion-Pack-Genesis/warden-of-vrscika.webp",
@@ -8152,6 +8806,7 @@ export const dataNumbers = [
     effect:
       "Brawler (This card may attack active and exhausted units the turn it comes into play.)\n" +
       'Arrive - If there is a destroyed Light tower, search your deck for "Vrscika, the Scorpion Hammer" and equip it to this card.',
+    capacity: 3,
   },
   {
     image: "images/Expansion-Pack-Conviction/arianas-resolve.webp",
@@ -8164,6 +8819,7 @@ export const dataNumbers = [
       'Choose one. If your champion has "Ariana" in its name, you may choose both.\n' +
       '* Search your deck for an "Ariana" or "AIRA" unit and add it to your hand.\n' +
       `* Put target "Kala" unit and/or "Ariana's Amulet" from your discard zone into play.`,
+    capacity: 3,
   },
   {
     image: "images/Expansion-Pack-Conviction/ashborn-conjurer.webp",
@@ -8176,6 +8832,7 @@ export const dataNumbers = [
     number: 656,
     effect:
       'Whenever your opponent plays a spell or uses an activated ability - You may put into play a Fire Elemental token (Unit * Elemental/Fire/1000) with "Ruined: Deal 500 to target unit."',
+    capacity: 3,
   },
   {
     image: "images/Expansion-Pack-Conviction/ashborn-shaman.webp",
@@ -8188,6 +8845,7 @@ export const dataNumbers = [
     number: 657,
     effect:
       "Whenever your opponent plays a spell or uses an activated ability - You may search your deck for a Fire spell with cost (1) or less and add it to your hand.",
+    capacity: 3,
   },
   {
     image: "images/Expansion-Pack-Conviction/battle-angel-of-dominion.webp",
@@ -8200,6 +8858,7 @@ export const dataNumbers = [
     number: 658,
     effect:
       "Arrive - You may reveal an Argent unit from your hand: If you do, destroy target unit.",
+    capacity: 3,
   },
   {
     image: "images/Expansion-Pack-Conviction/commander-of-light.webp",
@@ -8212,6 +8871,7 @@ export const dataNumbers = [
     number: 659,
     effect:
       "Exhaust: Recover all units adjacent to this card. They cannot deal damage until the end of the turn.",
+    capacity: 3,
   },
   {
     image: "images/Expansion-Pack-Conviction/dance-of-blades.webp",
@@ -8222,6 +8882,7 @@ export const dataNumbers = [
     number: 660,
     effect:
       " Instacast Deal 500 to target unit. If this destroys the unit, put a Knight token (Unit * Knight/Light/1500) into play.",
+    capacity: 3,
   },
   {
     image: "images/Expansion-Pack-Conviction/deathwhisperer.webp",
@@ -8234,6 +8895,7 @@ export const dataNumbers = [
     number: 661,
     effect:
       " Arrive - You may sacrifice a unit you control with Ruined. If you do, its Ruined ability triggers twice.",
+    capacity: 3,
   },
   {
     image: "images/Expansion-Pack-Conviction/expanding-elemental.webp",
@@ -8246,6 +8908,7 @@ export const dataNumbers = [
     number: 662,
     effect:
       'Arrive - You may Shard Drain 1: If you do, search your deck for an "Expanding Elemental" and put it into play.',
+    capacity: 3,
   },
   {
     image: "images/Expansion-Pack-Conviction/grove-elemental.webp",
@@ -8259,6 +8922,7 @@ export const dataNumbers = [
     effect:
       "Arrive - If you've played at least two other cards this turn, put the top card of your shard deck into play.\n" +
       "Whenever this card leaves the field - Your opponent may destroy one of your shards.",
+    capacity: 3,
   },
   {
     image: "images/Expansion-Pack-Conviction/isa-the-cloudmender.webp",
@@ -8271,6 +8935,7 @@ export const dataNumbers = [
     number: 664,
     effect:
       "Ruined - You may equip this card to target unit you control (While equipped to another unit, treat this card as an augment, not a unit). If a unit equipped with this card would be destroyed, you may remove all damage from that unit, and destroy this card instead.",
+    capacity: 3,
   },
   {
     image: "images/Expansion-Pack-Conviction/jacobi-the-vampire-king.webp",
@@ -8283,6 +8948,7 @@ export const dataNumbers = [
     number: 665,
     effect:
       "Sacrifice this card: Put target unit from your opponent's discard zone that was put there from the field this turn into play under your control.",
+    capacity: 3,
   },
   {
     image: "images/Expansion-Pack-Conviction/lloyd-cosmic-enigma.webp",
@@ -8297,6 +8963,7 @@ export const dataNumbers = [
       "Arrive - Choose an element, and choose one of the following.\n" +
       "* This card cannot be targeted by spells or abilities of the declared element.\n" +
       "* Ignore the effects of all towers with the declared element as long as this card is on the field.",
+    capacity: 3,
   },
   {
     image: "images/Expansion-Pack-Conviction/maiden-of-leviathan.webp",
@@ -8308,6 +8975,7 @@ export const dataNumbers = [
     number: 667,
     effect:
       "Arrive - You may flip one of your towers face-up. Then if you have two or more face-up towers, draw a card.",
+    capacity: 3,
   },
   {
     image: "images/Expansion-Pack-Conviction/ready-for-war.webp",
@@ -8319,6 +8987,7 @@ export const dataNumbers = [
     effect:
       " Instacast\n" +
       "Reveal the top five cards of your deck. Put into play as many revealed Fire units as possible with cost (3) or less. Send the rest to the discard zone.",
+    capacity: 3,
   },
   {
     image: "images/Expansion-Pack-Conviction/tempest-punch.webp",
@@ -8330,6 +8999,7 @@ export const dataNumbers = [
     effect:
       "Instacast\n" +
       `Target attacking unit you control gets +2000, and return it to its owner's hand at the end of the turn. If your champion has "Ariana" in its name, that unit also cannot be targeted by your opponent's spells or abilities this turn.`,
+    capacity: 3,
   },
   {
     image: "images/Expansion-Pack-Conviction/true-kings-greatsword.webp",
@@ -8343,6 +9013,7 @@ export const dataNumbers = [
       "Equip to target unit. The equipped unit gets +500. Whenever the equipped card destroys a unit in battle - Place two counters on this card.\n" +
       "Remove a counter from this card: Deal 1000 to target unit.\n" +
       "Remove two counters from this card: Deal 1000 to target face-up tower.",
+    capacity: 1,
   },
   {
     image: "images/Expansion-Pack-Conviction/vi-matron-of-miracles.webp",
@@ -8355,6 +9026,7 @@ export const dataNumbers = [
     number: 671,
     effect:
       "Expel any number of Gear from your discard zone: Target unit you control with cost (X) or less cannot be targeted by spells or abilities this turn. If it's exhausted, recover it. (X equals the total cost of Gear you expelled.)",
+    capacity: 3,
   },
   {
     image:
@@ -8369,5 +9041,6 @@ export const dataNumbers = [
     effect:
       "Brawler\n" +
       `Arrive - If you destroyed an opponent's tower this turn, search your deck or discard zone for "True King's Greatsword" and equip it to this card.`,
+    capacity: 1,
   },
 ];
