@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding-top: 125px;
     padding-left: 200px;
+    background-image: url(../images/Assets/marble-background2.jpg);
 }
 
 header{
@@ -31,7 +32,6 @@ input, p, select{
 .first{
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    background-color: white;
 }
 
 .mid-section .header-logo{

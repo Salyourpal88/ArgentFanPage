@@ -81,4 +81,9 @@ header{
 
 body{
     margin-top: 125px;
+    background-image: url(../images/Assets/marble-background2.jpg);
+}
+
+p, h1{
+    color: white;
 }
