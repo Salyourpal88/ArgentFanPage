@@ -80,10 +80,12 @@ function addEvents() {
 
 function rerender(category, location) {
   let mainString = "";
-  console.log(category);
   category.forEach((value) => {
     mainString += `<div style="position:relative">
-      <img src=${value.image} />
+      <img class='${
+        [mainDeck, shardDeck].includes(category) &&
+        location.replace(".", "") + "-sal"
+      }' src=${value.image} data-image='${value.image}' />
       ${
         [mainDeck, shardDeck].includes(category)
           ? "<img src='images/assets/shardcopy.png' class='shard-quantity-overlay'> <div class='number-quantity-overlay'>" +
@@ -94,6 +96,8 @@ function rerender(category, location) {
     </div>`;
   });
   document.querySelector(location).innerHTML = mainString;
+  [mainDeck, shardDeck].includes(category) &&
+    removeMainShard(location, category);
 }
 
 function addCard(category, cardDetails) {
@@ -293,6 +297,26 @@ function removeEvents() {
         rerender(towerRegion, ".js-tower-slots");
         return;
       }
+    });
+  });
+}
+function removeMainShard(location, category) {
+  document.querySelectorAll(location + "-sal").forEach((image) => {
+    image.addEventListener("click", () => {
+      category = category.filter((value) => {
+        if (value.image === image.dataset.image) {
+          value.quantity = value.quantity - 1;
+          if (!value.quantity) {
+            return false;
+          }
+          return true;
+        }
+        return true;
+      });
+      location === ".js-main-deck"
+        ? (mainDeck = category)
+        : (shardDeck = category);
+      rerender(category, location);
     });
   });
 }
