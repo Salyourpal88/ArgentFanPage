@@ -21,6 +21,7 @@ function addEvents() {
           "SPELL",
           "LEGENDARY AUGMENT",
           "LEGENDARY UNIT",
+          "OMEGA UNIT",
         ].includes(typeOfCard.toLocaleUpperCase())
       ) {
         let count = 0;
