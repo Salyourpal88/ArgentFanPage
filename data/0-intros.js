@@ -1069,6 +1069,7 @@ export const intros = [
     image: "images/Intro-Deck-2019/argent-shard.webp",
     name: "Argent Shard",
     type: "Basic Shard",
+    element: "Argent",
     rarity: "Intro Deck",
     number: "86/86",
     effect: "Exhaust: Produce 1.",

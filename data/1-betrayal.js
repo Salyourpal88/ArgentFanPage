@@ -1612,6 +1612,7 @@ export const betrayal = [
   {
     image: "images/Intro-Deck-2019/argent-shard.webp",
     name: "Argent Shard",
+    element: "Argent",
     type: "Basic Shard",
     rarity: "Intro Deck",
     effect: "Exhaust: Produce 1.",
