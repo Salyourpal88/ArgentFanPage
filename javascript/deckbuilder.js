@@ -89,7 +89,7 @@ function rerender(category, location) {
       }' src=${value.image} data-image='${value.image}' />
       ${
         [mainDeck, shardDeck].includes(category)
-          ? "<img src='images/assets/shardcopy.png' class='shard-quantity-overlay'> <div class='number-quantity-overlay'>" +
+          ? "<img src='images/Assets/shardcopy.png' class='shard-quantity-overlay'> <div class='number-quantity-overlay'>" +
             value.quantity +
             "</div>"
           : "</>"
