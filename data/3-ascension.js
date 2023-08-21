@@ -449,7 +449,7 @@ export const ascension = [
     cost: 6,
     power: 5000,
     name: "Gillian, Interdimensional Witch",
-    type: "",
+    type: "Omega Unit",
     subtype: "Legendary Witch",
     effect:
       "Ω (Place on two of your units including at least one Witch unit.)Exhaust, put a unit under this card into the discard zone: Expel up to two target units your opponent controls. If you do, the zones those units occupied cannot be used for the rest of the game.",

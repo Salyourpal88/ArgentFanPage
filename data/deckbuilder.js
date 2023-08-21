@@ -5616,7 +5616,7 @@ export const dataNumbers = [
   {
     image: "images/Ascension/WhelpToken.webp",
     element: "Argent",
-    power: 1000,
+    power: 500,
     name: "Whelp Token",
     type: "Unit",
     subtype: "Dragon",
