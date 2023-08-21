@@ -5252,7 +5252,7 @@ export const dataNumbers = [
       "You may have any number of copies of this card in your deck.Exhaust two Silver Army units you control: Add target Argent unit from your discard zone to your hand.",
     rarity: "Common",
     number: 388,
-    capacity: 3,
+    capacity: 60,
   },
   {
     image: "images/Ascension/SkeletalGargoyle.webp",

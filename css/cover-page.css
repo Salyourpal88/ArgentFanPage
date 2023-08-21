@@ -28,7 +28,7 @@
     justify-content: center;
     height: 300px;
     background-image:    url(../images/Assets/elmo.jpg);
-    background-size:     cover;                      /* <------ */
+    background-size:     cover;                    
     background-repeat:   no-repeat;
     background-position: center center;
 }
@@ -37,11 +37,20 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 150px;
-    background-color: green;
 }
 
+.classic-design button{
+    background-color: yellow;
+    color: black;
+    border: none;
+    width: 200px;
+    height: 30px;
+    border-radius: 45px;
+}
 
+a:link{
+    text-decoration: none;
+}
 
 .Contributors-row{
     display: flex;
