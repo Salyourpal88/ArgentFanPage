@@ -5460,170 +5460,6 @@ export const dataNumbers = [
     capacity: 3,
   },
   {
-    image: "images/Ascension/BerserkerGolemToken.webp",
-    element: "Dark",
-    power: 2000,
-    name: "Berserker Golem Token",
-    type: "Unit",
-    subtype: "Golem",
-    number: 405,
-    capacity: 3,
-  },
-  {
-    image: "images/Ascension/BlobToken.webp",
-    element: "Argent",
-    power: 1000,
-    name: "Blob Token",
-    type: "Unit",
-    subtype: "Golem",
-    effect: "Guardian",
-    number: 406,
-    capacity: 3,
-  },
-  {
-    image: "images/Ascension/ExperimentToken.webp",
-    element: "Argent",
-    power: 1000,
-    name: "Experiment Token",
-    type: "Unit",
-    subtype: "Experiment",
-    number: 407,
-    capacity: 3,
-  },
-  {
-    image: "images/Ascension/FireElementalToken.webp",
-    element: "Fire",
-    power: 1000,
-    name: "Fire Elemental Token",
-    type: "Unit",
-    subtype: "Elemental",
-    effect: "Ruined: Deal 500 to target unit.",
-    number: 408,
-    capacity: 3,
-  },
-  {
-    image: "images/Ascension/HulkingMechToken.webp",
-    element: "Argent",
-    power: 4000,
-    name: "Experiment Token",
-    type: "Unit",
-    number: 409,
-    capacity: 3,
-  },
-  {
-    image: "images/Ascension/IllusionToken.webp",
-    element: "Water",
-    power: 1000,
-    name: "Illusion Token",
-    type: "Unit",
-    subtype: "Illusion",
-    number: 410,
-    capacity: 3,
-  },
-  {
-    image: "images/Ascension/KnightToken1000.webp",
-    element: "Light",
-    power: 1000,
-    name: "Knight Token",
-    type: "Unit",
-    subtype: "Knight",
-    number: 411,
-    capacity: 3,
-  },
-  {
-    image: "images/Ascension/KnightToken1500.webp",
-    element: "Light",
-    power: 1500,
-    name: "Knight Token",
-    type: "Unit",
-    subtype: "Knight",
-    number: 412,
-    capacity: 3,
-  },
-  {
-    image: "images/Ascension/KnightToken1500Guardian.webp",
-    element: "Light",
-    power: 1500,
-    name: "Knight Token",
-    type: "Unit",
-    subtype: "knight",
-    effect: "Guardian",
-    number: 413,
-    capacity: 3,
-  },
-  {
-    image: "images/Ascension/MutationToken.webp",
-    element: "Argent",
-    power: 500,
-    name: "Mutation Token",
-    type: "Unit",
-    subtype: "Mutation",
-    effect:
-      "Ruined - Search your deck for an Experiment unit and put it into play.",
-    number: 414,
-    capacity: 3,
-  },
-  {
-    image: "images/Ascension/RaoToken.webp",
-    element: "Fire",
-    power: 1000,
-    name: "Rao Token",
-    type: "Unit",
-    number: 415,
-    capacity: 3,
-  },
-  {
-    image: "images/Ascension/ScorpionToken.webp",
-    element: "Air",
-    power: 1000,
-    name: "Scorpion Token",
-    type: "Unit",
-    subtype: "Beast",
-    effect: "Ruined - You may give target unit -1000 this turn.",
-    number: 416,
-    capacity: 3,
-  },
-  {
-    image: "images/Ascension/SentinelToken.webp",
-    element: "Argent",
-    power: 4000,
-    name: "Sentinel Token",
-    type: "Unit",
-    effect: "Destroyer",
-    number: 417,
-    capacity: 3,
-  },
-  {
-    image: "images/Ascension/SulkingMechToken.webp",
-    element: "Argent",
-    power: 1000,
-    name: "Sulking Mech Token",
-    type: "Unit",
-    number: 418,
-    capacity: 3,
-  },
-  {
-    image: "images/Ascension/WaterElementalToken.webp",
-    element: "Water",
-    power: 500,
-    name: "Water Elemental Token",
-    type: "Unit",
-    subtype: "Elemental",
-    effect: "Ruined - Return target unit to its owner's hand.",
-    number: 419,
-    capacity: 3,
-  },
-  {
-    image: "images/Ascension/WhelpToken.webp",
-    element: "Argent",
-    power: 500,
-    name: "Whelp Token",
-    type: "Unit",
-    subtype: "Dragon",
-    number: 420,
-    capacity: 3,
-  },
-  {
     image: "images/Hokken/ArcticArbiter.webp",
     element: "Water",
     power: 4000,
@@ -5635,7 +5471,7 @@ export const dataNumbers = [
       "Units you control gain Unblockable.\n" +
       "Ignore the effects of your opponent's Water tower.",
     rarity: "Super Rare",
-    number: 421,
+    number: 405,
     capacity: 3,
   },
   {
@@ -5651,7 +5487,7 @@ export const dataNumbers = [
       "If you control two or more basic units, you may play this card from your discard zone as though it were in your hand.\n" +
       'Sacrifice a basic unit: Add target "Astralic" card from your discard zone to your hand.',
     rarity: "Super Rare",
-    number: 422,
+    number: 406,
     capacity: 3,
   },
   {
@@ -5667,7 +5503,7 @@ export const dataNumbers = [
       "If you control two or more basic units, you may play this card from your discard zone as though it were in your hand.\n" +
       "Sacrifice a basic unit: Put a basic unit from your hand into play.",
     rarity: "Rare",
-    number: 423,
+    number: 407,
     capacity: 3,
   },
   {
@@ -5680,7 +5516,7 @@ export const dataNumbers = [
     subtype: "Warrior",
     effect: "Reduce all damage dealt to basic units you control by 500.",
     rarity: "Common",
-    number: 424,
+    number: 408,
     capacity: 3,
   },
   {
@@ -5693,7 +5529,7 @@ export const dataNumbers = [
     effect:
       "Add up to two target basic units from your discard zone to your hand.",
     rarity: "Common",
-    number: 425,
+    number: 409,
     capacity: 3,
   },
   {
@@ -5707,7 +5543,7 @@ export const dataNumbers = [
       "As an additional cost to play this card expel any number of basic units from your hand or from the field that you control.\n" +
       "Destroy a number of units and/or augments your opponent controls equal to or less than the number of cards expelled this way, then draw a card for each card destroyed this way.",
     rarity: "Super Rare",
-    number: 426,
+    number: 410,
     capacity: 3,
   },
   {
@@ -5722,7 +5558,7 @@ export const dataNumbers = [
       "* Put a Hyldian token (Unit/Warrior/Light/1000) into play.\n" +
       "* Draw a card for each basic unit you control.",
     rarity: "Common",
-    number: 427,
+    number: 411,
     capacity: 3,
   },
   {
@@ -5736,7 +5572,7 @@ export const dataNumbers = [
       "Equip to target unit. The equipped unit gets +500.\n" +
       "Basic units equipped with this card gain Guardian, Target Attack, and get +1000 instead.",
     rarity: "Common",
-    number: 428,
+    number: 412,
     capacity: 3,
   },
   {
@@ -5753,7 +5589,7 @@ export const dataNumbers = [
       "* Recover this card.\n" +
       "* This card gains Overrun this turn. (Whenever this attacking card deals damage to a unit, you may deal any excess damagee to an opponent's tower.)",
     rarity: "Super Rare",
-    number: 429,
+    number: 413,
     capacity: 3,
   },
   {
@@ -5766,7 +5602,7 @@ export const dataNumbers = [
     effect:
       "Put a Beast unit from your hand into play. Then if you control a Beast unit and an Elemental unit, draw a card.",
     rarity: "Super Rare",
-    number: 430,
+    number: 414,
     capacity: 3,
   },
   {
@@ -5782,7 +5618,7 @@ export const dataNumbers = [
       "Units you control gain Quickness.\n" +
       "Ignore the effects of your opponent's Fire tower.",
     rarity: "Super Rare",
-    number: 431,
+    number: 415,
     capacity: 3,
   },
   {
@@ -5796,7 +5632,7 @@ export const dataNumbers = [
     effect:
       "Arrive or whenever this card declares an attack - Target Fire unit you control gets +1000 this turn.",
     rarity: "Common",
-    number: 432,
+    number: 416,
     capacity: 3,
   },
   {
@@ -5809,7 +5645,7 @@ export const dataNumbers = [
     subtype: "Dinosaur",
     effect: "Ruined - You may destroy target damaged unit.",
     rarity: "Common",
-    number: 433,
+    number: 417,
     capacity: 3,
   },
   {
@@ -5825,7 +5661,7 @@ export const dataNumbers = [
       "This card cannot be targeted by spells or abilities.\n" +
       "Whenever a Dinosaur unit you control is put into the discard zone - You may deal damage equal to this card's power to target unit your opponent controls.",
     rarity: "Argent Rare",
-    number: 434,
+    number: 418,
     capacity: 3,
   },
   {
@@ -5839,7 +5675,7 @@ export const dataNumbers = [
     effect:
       "Sacrifice this card: Destroy target unit that dealt or was dealt damage this turn.",
     rarity: "Common",
-    number: 435,
+    number: 419,
     capacity: 3,
   },
   {
@@ -5853,7 +5689,7 @@ export const dataNumbers = [
     effect:
       "Sacrifice this card: Destroy target augment, and if you do, place a +500 counter on each Beast unit you control.",
     rarity: "Common",
-    number: 436,
+    number: 420,
     capacity: 3,
   },
   {
@@ -5866,7 +5702,7 @@ export const dataNumbers = [
     subtype: "Cultist",
     effect: "Units and augments with Arrive abilities cost (2) more to play.",
     rarity: "Common",
-    number: 437,
+    number: 421,
     capacity: 3,
   },
   {
@@ -5882,7 +5718,7 @@ export const dataNumbers = [
       "Units you control gain Destroyer.\n" +
       "Ignore the effects of your opponent's Dark tower.",
     rarity: "Super Rare",
-    number: 438,
+    number: 422,
     capacity: 3,
   },
   {
@@ -5896,7 +5732,7 @@ export const dataNumbers = [
     effect:
       "Arrive - You may destroy target damaged unit, and if you do, this card gains Quickness.",
     rarity: "Rare",
-    number: 439,
+    number: 423,
     capacity: 3,
   },
   {
@@ -5910,7 +5746,7 @@ export const dataNumbers = [
     effect:
       "Sacrifice this card: If your opponent controls more units than you, put target basic unit with cost (3) or less from your discard zone into play.",
     rarity: "Common",
-    number: 440,
+    number: 424,
     capacity: 3,
   },
   {
@@ -5924,7 +5760,7 @@ export const dataNumbers = [
     effect:
       "Arrive - If your opponent controls more units than you, you may put a basic unit with cost (3) or less from your hand into play.",
     rarity: "Common",
-    number: 441,
+    number: 425,
     capacity: 3,
   },
   {
@@ -5939,7 +5775,7 @@ export const dataNumbers = [
       "This card costs (1) less to play for each unit that came into play under your control this turn.\n" +
       "This card is unaffected by the activated abilities of units and augments.",
     rarity: "Common",
-    number: 442,
+    number: 426,
     capacity: 3,
   },
   {
@@ -5954,7 +5790,7 @@ export const dataNumbers = [
       "This card gets +500 while your opponent has a destroyed Light tower.\n" +
       "If you control a Light unit, prevent the first damage that would be dealt to this card each turn.",
     rarity: "Rare",
-    number: 443,
+    number: 427,
     capacity: 3,
   },
   {
@@ -5969,7 +5805,7 @@ export const dataNumbers = [
       "This card gets +500 while your opponent has a destroyed Fire tower.\n" +
       "Whenever this card declares an attack - If you control a Fire unit, target unit you control gains Quickness this turn.",
     rarity: "Rare",
-    number: 444,
+    number: 428,
     capacity: 3,
   },
   {
@@ -5984,7 +5820,7 @@ export const dataNumbers = [
       "This card gets +500 while your opponent has a destroyed Water tower.\n" +
       "Exhaust: If you control a Water unit, switch control of this card and target unit your opponent controls.",
     rarity: "Rare",
-    number: 445,
+    number: 429,
     capacity: 3,
   },
   {
@@ -5999,7 +5835,7 @@ export const dataNumbers = [
       "This card gets +500 while your opponent has a destroyed Air tower.\n" +
       "Arrive - If you control an Air unit, target unit you control gains Overrun this turn. (Whenever this attacking card deals damage to a unit, you may deal any excess damage to an opponent's tower.)",
     rarity: "Rare",
-    number: 446,
+    number: 430,
     capacity: 3,
   },
   {
@@ -6014,7 +5850,7 @@ export const dataNumbers = [
       "This card gets +500 while your opponent has a destroyed Dark tower.\n" +
       "Ruined - If you control a Dark unit, target unit you control gains Destroyer this turn.",
     rarity: "Rare",
-    number: 447,
+    number: 431,
     capacity: 3,
   },
   {
@@ -6029,7 +5865,7 @@ export const dataNumbers = [
       "This card cannot be targeted by your opponent's spells or abilities while you control an Elemental unit.\n" +
       "Exhaust an Elemental unit you control: Recover this card.",
     rarity: "Rare",
-    number: 448,
+    number: 432,
     capacity: 3,
   },
   {
@@ -6043,7 +5879,7 @@ export const dataNumbers = [
     effect:
       "Arrive - Look at the top three cards of your deck. You may put a Beast unit with cost (3) or less among them into play with a +500 counter. Place the rest on the bottom of your deck in any order.",
     rarity: "Rare",
-    number: 449,
+    number: 433,
     capacity: 3,
   },
   {
@@ -6056,7 +5892,7 @@ export const dataNumbers = [
     effect:
       "Search your deck for up to two units with Ruined and put them into the discard zone.",
     rarity: "Common",
-    number: 450,
+    number: 434,
     capacity: 3,
   },
   {
@@ -6070,7 +5906,7 @@ export const dataNumbers = [
     effect:
       'Exhaust, sacrifice this card: Put target Dark unit from your discard zone with cost (2) or less, except "Evaerie Changeling", into play.',
     rarity: "Common",
-    number: 451,
+    number: 435,
     capacity: 3,
   },
   {
@@ -6084,7 +5920,7 @@ export const dataNumbers = [
       "Exhaust, sacrifice a Dark unit: Put a counter on this card.\n" +
       "Exhaust, sacrifice this card: Search your deck for a Dark unit with cost equal to the number of counters this card had and put it into play.",
     rarity: "Common",
-    number: 452,
+    number: 436,
     capacity: 3,
   },
   {
@@ -6098,7 +5934,7 @@ export const dataNumbers = [
     effect:
       "Ruined - You may sacrifice a unit you control. If you do, draw a card.",
     rarity: "Common",
-    number: 453,
+    number: 437,
     capacity: 3,
   },
   {
@@ -6112,7 +5948,7 @@ export const dataNumbers = [
       "Instacast\n" +
       "This turn target unit loses all abilities and becomes a (Unit/Evaerie/Dark/1000).",
     rarity: "Common",
-    number: 454,
+    number: 438,
     capacity: 3,
   },
   {
@@ -6126,7 +5962,7 @@ export const dataNumbers = [
     effect:
       'Ruined - You may search your deck for an "Evaerie Horde" and put it into play.',
     rarity: "Common",
-    number: 455,
+    number: 439,
     capacity: 3,
   },
   {
@@ -6139,7 +5975,7 @@ export const dataNumbers = [
     subtype: "Evaerie",
     effect: "Ruined - Return this card to its owner's hand.",
     rarity: "Common",
-    number: 456,
+    number: 440,
     capacity: 3,
   },
   {
@@ -6155,7 +5991,7 @@ export const dataNumbers = [
       "This card cannot attack.\n" +
       "Ruined - Target unit loses all abilities.",
     rarity: "Common",
-    number: 457,
+    number: 441,
     capacity: 3,
   },
   {
@@ -6170,7 +6006,7 @@ export const dataNumbers = [
       "Exhaust, sacrifice two units: Destroy target unit.\n" +
       "Ruined - Put target unit with Ruined and cost (2) or less from your discard zone into play.",
     rarity: "Argent Rare",
-    number: 458,
+    number: 442,
     capacity: 3,
   },
   {
@@ -6185,7 +6021,7 @@ export const dataNumbers = [
       "Triggered abilities of units and augments do no trigger.\n" +
       "Once per turn, expel another unit you control: This card gains Immortal this turn.",
     rarity: "Argent Rare",
-    number: 459,
+    number: 443,
     capacity: 3,
   },
   {
@@ -6199,7 +6035,7 @@ export const dataNumbers = [
       "Instacast\n" +
       "Stun target unit. (A Stunned card cannot attack, block, or use activated abilities, until the end of the next turn.)",
     rarity: "Common",
-    number: 460,
+    number: 444,
     capacity: 3,
   },
   {
@@ -6212,7 +6048,7 @@ export const dataNumbers = [
       "Exhaust, put a card from your hand under this card: If it was a Beast unit, you may place a +500 counter on target unit. If it was an Elemental unit, draw a card.\n" +
       "Put two cards form under this card into the discard zone: Target unit you control gets +1000 and gains Overrun this turn.",
     rarity: "Promo",
-    number: 461,
+    number: 445,
     capacity: 3,
   },
   {
@@ -6226,7 +6062,7 @@ export const dataNumbers = [
     effect:
       "Arrive - Look at the top three cards of your deck. You may add a Penguin unit among them to your hand. Place the rest on the bottom of your deck in any order.",
     rarity: "Common",
-    number: 462,
+    number: 446,
     capacity: 3,
   },
   {
@@ -6240,7 +6076,7 @@ export const dataNumbers = [
       "Instacast\n" +
       "Target Light unit you control cannot be targeted by your opponent's spells this turn. If it is a basic unit, draw a card.",
     rarity: "Common",
-    number: 463,
+    number: 447,
     capacity: 3,
   },
   {
@@ -6255,7 +6091,7 @@ export const dataNumbers = [
       "Arrive - You may destroy target damaged unit.\n" +
       "Whenever this card destroys an opponent's tower or unit - You may put a Dinosaur unit with cost (4) or less from your hand into play.",
     rarity: "Super Rare",
-    number: 464,
+    number: 448,
     capacity: 3,
   },
   {
@@ -6268,7 +6104,7 @@ export const dataNumbers = [
     effect:
       "Add two target Fire units with the same cost but different names from your discard zone to your hand.",
     rarity: "Rare",
-    number: 465,
+    number: 449,
     capacity: 3,
   },
   {
@@ -6282,7 +6118,7 @@ export const dataNumbers = [
     effect:
       "Arrive - You may search your deck for a Location augment and add it to your hand. Then draw a card for each Location you have in play.",
     rarity: "Super Rare",
-    number: 466,
+    number: 450,
     capacity: 3,
   },
   {
@@ -6297,7 +6133,7 @@ export const dataNumbers = [
       "Augments you control cannot be targeted by spells or abilities.\n" +
       "Arrive - You may search your deck for a non-Location augment and add it to your hand, if you do, put a card from your hand on top of your deck.",
     rarity: "Common",
-    number: 467,
+    number: 451,
     capacity: 3,
   },
   {
@@ -6310,7 +6146,7 @@ export const dataNumbers = [
     subtype: "Adventurer",
     effect: "",
     rarity: "Common",
-    number: 468,
+    number: 452,
     capacity: 3,
   },
   {
@@ -6324,7 +6160,7 @@ export const dataNumbers = [
     effect:
       "Ruined - Search your deck for a unit with cost (1) and add it to your hand.",
     rarity: "Common",
-    number: 469,
+    number: 453,
     capacity: 3,
   },
   {
@@ -6336,7 +6172,7 @@ export const dataNumbers = [
     subtype: "Location",
     effect: "Pay (2): Draw a card. Both players may use this ability.",
     rarity: "Common",
-    number: 470,
+    number: 454,
     capacity: 3,
   },
   {
@@ -6349,7 +6185,7 @@ export const dataNumbers = [
     subtype: "Elemental",
     effect: "Arrive - Each player draws a card.",
     rarity: "Common",
-    number: 471,
+    number: 455,
     capacity: 3,
   },
   {
@@ -6364,7 +6200,7 @@ export const dataNumbers = [
       "This card costs (1) less to play for each augment in play.\n" +
       "Pay (1): Your opponent sacrifices an augment.",
     rarity: "Rare",
-    number: 472,
+    number: 456,
     capacity: 3,
   },
   {
@@ -6379,7 +6215,7 @@ export const dataNumbers = [
       "Neither player can activate the abilities of cards in discard zones.\n" +
       'You can only control one "Hokken Warding Amulet".',
     rarity: "Argent Rare",
-    number: 473,
+    number: 457,
     capacity: 3,
   },
   {
@@ -6392,7 +6228,7 @@ export const dataNumbers = [
     subtype: "Dinosaur",
     effect: "",
     rarity: "Common",
-    number: 474,
+    number: 458,
     capacity: 3,
   },
   {
@@ -6406,7 +6242,7 @@ export const dataNumbers = [
       "As an additional cost to play this card you may sacrifice a unit.\n" +
       'Search your deck for a "Nightrider" unit and add it to your hand. If you paid the additional cost, your opponent sacrifices a unit.',
     rarity: "Common",
-    number: 475,
+    number: 459,
     capacity: 3,
   },
   {
@@ -6420,7 +6256,7 @@ export const dataNumbers = [
       "Exhaust, pay (1): Target Light unit you control gets +1000 this turn. If it's a basic unit, draw a card.\n" +
       "Exhaust, sacrifice this card and a Light unit: Recover target unit. If it's a basic unit, draw a card.",
     rarity: "Common",
-    number: 476,
+    number: 460,
     capacity: 3,
   },
   {
@@ -6433,7 +6269,7 @@ export const dataNumbers = [
     subtype: "Elf Warrior",
     effect: "",
     rarity: "Common",
-    number: 477,
+    number: 461,
     capacity: 3,
   },
   {
@@ -6446,7 +6282,7 @@ export const dataNumbers = [
     effect:
       "Stun target unit with cost (2) or less. If that unit was already Stunned, destroy it instead. (A Stunned card cannot attack, block, or use activated abilities, until the end of the next turn.)+",
     rarity: "Common",
-    number: 478,
+    number: 462,
     capacity: 3,
   },
   {
@@ -6460,7 +6296,7 @@ export const dataNumbers = [
       "While your opponent controls a Stunned unit, neither player can add to the queue in response to this card.\n" +
       "Water units you control get +1000 and cannot be targeted by spells or abilities this turn.",
     rarity: "Rare",
-    number: 479,
+    number: 463,
     capacity: 3,
   },
   {
@@ -6475,7 +6311,7 @@ export const dataNumbers = [
       "Target unit gets +1000 this turn.\n" +
       "Whenever a Dinosaur unit you control destroys an opponent's tower while you control three or more shards - You may add this card from your discard zone to your hand.",
     rarity: "Common",
-    number: 480,
+    number: 464,
     capacity: 3,
   },
   {
@@ -6490,7 +6326,7 @@ export const dataNumbers = [
       "As an additional cost to play this card exhaust target Fire unit you control.\n" +
       "It deals damage equal to its power to another target unit. If you exhausted a Dinosaur unit and control four or more shards, return this card to your hand.",
     rarity: "Rare",
-    number: 481,
+    number: 465,
     capacity: 3,
   },
   {
@@ -6506,7 +6342,7 @@ export const dataNumbers = [
       "Whenever a Beast or Elemental unit you control declares an attack - You may return target unit your opponent controls to its owner's hand.\n" +
       "Ruined - You may put a Beast unit with cost (3) or less from your hand and/or an Elemental unit with cost (3) or less from your discard zone into play.",
     rarity: "Secret Rare",
-    number: 482,
+    number: 466,
     capacity: 1,
   },
   {
@@ -6524,7 +6360,7 @@ export const dataNumbers = [
       "* Stun target unit.\n" +
       "* Destroy target Stunned unit.",
     rarity: "Secret Rare",
-    number: 483,
+    number: 467,
     capacity: 1,
   },
   {
@@ -6538,7 +6374,7 @@ export const dataNumbers = [
       "Water units get +500 for each Stunned unit your opponent controls.\n" +
       "Ruined - You may Stun target unit.",
     rarity: "Common",
-    number: 484,
+    number: 468,
     capacity: 3,
   },
   {
@@ -6553,7 +6389,7 @@ export const dataNumbers = [
       "Overrun (Whenver this attacking card deals damage to a unit, you may deal any excess damage to an opponent's tower.)\n" +
       "While you control nine or more shards, this card gains Quickness and cannot be targeted by spells or abilities.",
     rarity: "Common",
-    number: 485,
+    number: 469,
     capacity: 3,
   },
   {
@@ -6569,7 +6405,7 @@ export const dataNumbers = [
       "* Your opponent discards a card.\n" +
       "* Add target Dark unit other than this card from your discard zone to your hand.",
     rarity: "Super Rare",
-    number: 486,
+    number: 470,
     capacity: 3,
   },
   {
@@ -6584,7 +6420,7 @@ export const dataNumbers = [
       "Arrive - Expel target unit from your opponent's discard zone.\n" +
       "Pay (1), discard this card: Expel target unit from your opponent's discard zone.",
     rarity: "Common",
-    number: 487,
+    number: 471,
     capacity: 3,
   },
   {
@@ -6599,7 +6435,7 @@ export const dataNumbers = [
       "Whenever your first Ruined ability triggers each turn, it triggers twice.\n" +
       "At the end of your turn - You may sacrifice a unit: If your do, put target unit with Ruined from your discard zone into play.",
     rarity: "Secret Rare",
-    number: 488,
+    number: 472,
     capacity: 1,
   },
   {
@@ -6613,7 +6449,7 @@ export const dataNumbers = [
     effect:
       "Ruined - Put target Dark unit with cost (1) from your discard zone into play.",
     rarity: "Common",
-    number: 489,
+    number: 473,
     capacity: 3,
   },
   {
@@ -6626,7 +6462,7 @@ export const dataNumbers = [
     effect:
       "Look at your opponent's hand. You may choose a non-unit card among them with cost (2) or less. Your opponent discards that card.",
     rarity: "Rare",
-    number: 490,
+    number: 474,
     capacity: 3,
   },
   {
@@ -6639,7 +6475,7 @@ export const dataNumbers = [
     effect:
       "Put target unit from your opponent's discard zone into play under your control.",
     rarity: "Rare",
-    number: 491,
+    number: 475,
     capacity: 3,
   },
   {
@@ -6653,7 +6489,7 @@ export const dataNumbers = [
       "Exhaust: Dinosaur units you control get +500 this turn.\n" +
       "Exhaust, sacrifice this card: If you control four or more shards and a Dinosaur unit, deal 1000 to target unit or target face-up tower.",
     rarity: "Common",
-    number: 492,
+    number: 476,
     capacity: 3,
   },
   {
@@ -6666,7 +6502,7 @@ export const dataNumbers = [
     subtype: "Dinosaur",
     effect: "Other Dinosaur units you control get +500.",
     rarity: "Common",
-    number: 493,
+    number: 477,
     capacity: 3,
   },
   {
@@ -6681,7 +6517,7 @@ export const dataNumbers = [
       "This card costs (1) less to play for each Dinosaur unit you have attacked with this turn.\n" +
       "While you control seven or more shards, units your opponent controls with power less than this card lose their abilities.",
     rarity: "Common",
-    number: 494,
+    number: 478,
     capacity: 3,
   },
   {
@@ -6696,7 +6532,7 @@ export const dataNumbers = [
       "This card costs (1) less to play for each Dinosaur unit you have attacked with this turn.\n" +
       "While you control five or more shards, units your opponent controls with cost (2) or less lose their abilities.",
     rarity: "Common",
-    number: 495,
+    number: 479,
     capacity: 3,
   },
   {
@@ -6710,7 +6546,7 @@ export const dataNumbers = [
       "Instacast\n" +
       "Return target attacking or blocking unit you control to its owner's hand.",
     rarity: "Common",
-    number: 496,
+    number: 480,
     capacity: 3,
   },
   {
@@ -6723,7 +6559,7 @@ export const dataNumbers = [
       "Whenever you trigger the Ruined ability of a unit - You may put that unit under this card.\n" +
       "Exhaust, put three cards from under this card into the discard zone: Target unit loses all abilities this turn. Then if its cost is (3) or less, destroy it.",
     rarity: "Promo",
-    number: 497,
+    number: 481,
     capacity: 3,
   },
   {
@@ -6738,7 +6574,7 @@ export const dataNumbers = [
       "As an additional cost to play this card you may sacrifice a unit.\n" +
       "Arrive - If you paid the additional cost, put Evaerie tokens (Unit/Evaerie/Dark/1000) equal to the sacrificed unit's cost into play.",
     rarity: "Common",
-    number: 498,
+    number: 482,
     capacity: 3,
   },
   {
@@ -6753,7 +6589,7 @@ export const dataNumbers = [
       "As an additional cost to play this card you may sacrifice a unit.\n" +
       "Arrive - If you paid the additional cost, target unit gets -X this turn, where X equals the power of the sacrificed unit.",
     rarity: "Common",
-    number: 499,
+    number: 483,
     capacity: 3,
   },
   {
@@ -6768,7 +6604,7 @@ export const dataNumbers = [
       "As an additional cost to play this card you may sacrifice a unit.\n" +
       "Arrive - If you paid the additional cost, look at your opponent's hand. You may choose a card with the same cost as the sacrificed unit. Your opponent discards that card.",
     rarity: "Rare",
-    number: 500,
+    number: 484,
     capacity: 3,
   },
   {
@@ -6781,7 +6617,7 @@ export const dataNumbers = [
     effect:
       "Your opponent cannot play spells, trigger abilities, or activate abilities this turn.",
     rarity: "Rare",
-    number: 501,
+    number: 485,
     capacity: 3,
   },
   {
@@ -6798,7 +6634,7 @@ export const dataNumbers = [
       "Arrive - Put up to two target basic units from your discard zone with combined cost (5) or less into play.\n" +
       "Once per turn, sacrifice a non-token basic unit: Recover this card and it gains Immortal this turn.",
     rarity: "Secret Rare",
-    number: 502,
+    number: 486,
     capacity: 1,
   },
   {
@@ -6811,7 +6647,7 @@ export const dataNumbers = [
       "Whenever a unit your opponent controls becomes Stunned - You may put the top card of your deck under this card. If it was a Penguin unit, you may draw a card.\n" +
       "Once per turn, put two cards from under this card on the top or bottom of their owner's deck in any order: Ignore the effects of target non-destroyed tower this turn.",
     rarity: "Promo",
-    number: 503,
+    number: 487,
     capacity: 3,
   },
   {
@@ -6825,7 +6661,7 @@ export const dataNumbers = [
     effect:
       "Pay (1), sacrifice this card: Stun target unit. (A Stunned card cannot attack, block, or use activated abilities, until the end of the next turn.)",
     rarity: "Common",
-    number: 504,
+    number: 488,
     capacity: 3,
   },
   {
@@ -6838,7 +6674,7 @@ export const dataNumbers = [
     subtype: "Shinobi Penguin",
     effect: "Instacast",
     rarity: "Common",
-    number: 505,
+    number: 489,
     capacity: 3,
   },
   {
@@ -6853,7 +6689,7 @@ export const dataNumbers = [
       "Arrive - Look at the top five cards of your deck. You may add a Penguin unit among them to your hand. Place the rest on the bottom of your deck in any order.\n" +
       "Exhaust, pay (1): Put a Penguin unit with cost (3) of less from your hand into play.",
     rarity: "Argent Rare",
-    number: 506,
+    number: 490,
     capacity: 3,
   },
   {
@@ -6868,7 +6704,7 @@ export const dataNumbers = [
       "Draw two cards.\n" +
       "Whenever a Stunned unit your opponent controls is put into the discard zone - You may add this card from your discard zone to your hand.",
     rarity: "Super Rare",
-    number: 507,
+    number: 491,
     capacity: 3,
   },
   {
@@ -6884,7 +6720,7 @@ export const dataNumbers = [
       "Whenever this card declares an attack - You may Stun target unit.\n" +
       "Whenever a unit becomes Stunned - You may draw a card.",
     rarity: "Super Rare",
-    number: 508,
+    number: 492,
     capacity: 3,
   },
   {
@@ -6899,7 +6735,7 @@ export const dataNumbers = [
       "Instacast\n" +
       "Arrive - Stun target unit that came into play this turn, and if you do, draw a card. (A Stunned card cannot attack, block, or use activated abilities, until the end of the next turn.)",
     rarity: "Rare",
-    number: 509,
+    number: 493,
     capacity: 3,
   },
   {
@@ -6914,7 +6750,7 @@ export const dataNumbers = [
       "This card gains Instacast in your hand while your opponent controls a Stunned unit.\n" +
       "Arrive - You may Stun target unit with cost (1) or less. (A Stunned card cannot attack, block, or use activated abilities, until the end of the next turn.)",
     rarity: "Common",
-    number: 510,
+    number: 494,
     capacity: 3,
   },
   {
@@ -6928,7 +6764,7 @@ export const dataNumbers = [
     effect:
       "While your opponent controls a Stunned unit, this card gets +1000 and cannot be targeted by spells or abilities.",
     rarity: "Common",
-    number: 511,
+    number: 495,
     capacity: 3,
   },
   {
@@ -6943,7 +6779,7 @@ export const dataNumbers = [
       "While your opponent controls a Stunned unit, this card gets +1000.\n" +
       "Whenever this card declares an attack - You may destroy target Stunned unit.",
     rarity: "Common",
-    number: 512,
+    number: 496,
     capacity: 3,
   },
   {
@@ -6957,7 +6793,7 @@ export const dataNumbers = [
     effect:
       "While your opponent controls a Stunned unit, this card gets +1000 and gains Guardian.",
     rarity: "Common",
-    number: 513,
+    number: 497,
     capacity: 3,
   },
   {
@@ -6971,7 +6807,7 @@ export const dataNumbers = [
     effect:
       "Whenever this card declares an attack - You may destroy target augment.",
     rarity: "Common",
-    number: 514,
+    number: 498,
     capacity: 3,
   },
   {
@@ -6987,7 +6823,7 @@ export const dataNumbers = [
       "This card cannot attack or deal damage.\n" +
       "Ruined - Search your deck for a Dinosaur unit with cost (3) or less and add it to your hand.",
     rarity: "Common",
-    number: 515,
+    number: 499,
     capacity: 3,
   },
   {
@@ -7001,7 +6837,7 @@ export const dataNumbers = [
       "Instacast\n" +
       "Deal 1500 to target unit. Then if you control four or more shards you may exhaust target shard an opponent controls.",
     rarity: "Common",
-    number: 516,
+    number: 500,
     capacity: 3,
   },
   {
@@ -7015,7 +6851,7 @@ export const dataNumbers = [
       "Instacast\n" +
       "Deal 2000 to all units. Then if you control seven or more shards, exhaust any number of target shards your opponent controls up to the number of units dealt damage this way.",
     rarity: "Super Rare",
-    number: 517,
+    number: 501,
     capacity: 3,
   },
   {
@@ -7029,7 +6865,7 @@ export const dataNumbers = [
     effect:
       "Ruined - Search your deck for a basic unit and add it to your hand.",
     rarity: "Common",
-    number: 518,
+    number: 502,
     capacity: 3,
   },
   {
@@ -7043,7 +6879,7 @@ export const dataNumbers = [
     effect:
       "Arrive - Search your deck for a basic unit and send it to the discard zone.",
     rarity: "Common",
-    number: 519,
+    number: 503,
     capacity: 3,
   },
   {
@@ -7059,7 +6895,7 @@ export const dataNumbers = [
       "Units you control gain Brawler and Target Attack.\n" +
       "Ignore the effects of your opponent's Light tower.",
     rarity: "Super Rare",
-    number: 520,
+    number: 504,
     capacity: 3,
   },
   {
@@ -7074,7 +6910,7 @@ export const dataNumbers = [
       "This card gains Overrun while its power is 2000 or more. (Whenever this attacking card deals damage to a unit, you may deal any excess damage to an opponent's tower.)\n" +
       "Once per turn, pay (1) and return another unit you control to its owner's hand: Place a +500 counter on this card.",
     rarity: "Argent Rare",
-    number: 521,
+    number: 505,
     capacity: 3,
   },
   {
@@ -7087,7 +6923,7 @@ export const dataNumbers = [
       "Exhaust, if you declared an attack with a Fire unit this turn, put the top card of your deck under this card: If it was a Fire unit, you may deal 1000 to target unit your opponent controls.\n" +
       "Put two cards from under this card on the top or bottom of their owner's deck in any order: Put a Dinosaur unit from your hand or discard zone with cost equal to or less than the number of shards you control into play.",
     rarity: "Promo",
-    number: 522,
+    number: 506,
     capacity: 3,
   },
   {
@@ -7103,7 +6939,7 @@ export const dataNumbers = [
       "* Trigger the Ruined ability of target unit you control.\n" +
       "* Add target unit with Ruined from your discard zone to your hand.",
     rarity: "Super Rare",
-    number: 523,
+    number: 507,
     capacity: 3,
   },
   {
@@ -7119,7 +6955,7 @@ export const dataNumbers = [
       "Units you control gain Overrun.\n" +
       "Ignore the effects of your opponent's Air tower.",
     rarity: "Super Rare",
-    number: 524,
+    number: 508,
     capacity: 3,
   },
   {
@@ -7133,7 +6969,7 @@ export const dataNumbers = [
       "Instacast\n" +
       "Return target attacking or blocking unit you control to its owner's hand, and if you do, put two Clone tokens (Unit/Clone/Water/1000) into play.",
     rarity: "Common",
-    number: 525,
+    number: 509,
     capacity: 3,
   },
   {
@@ -7148,7 +6984,7 @@ export const dataNumbers = [
       "Unblockable\n" +
       "Animate 1 (You must pay (1) to attack or block with this card.)",
     rarity: "Common",
-    number: 526,
+    number: 510,
     capacity: 3,
   },
   {
@@ -7164,7 +7000,7 @@ export const dataNumbers = [
       "Destroyer, Guardian, Overrun, Quickness, Target Attack\n" +
       "Animate 2 (You must pay (2) to attack or block with this card.)",
     rarity: "Argent Rare",
-    number: 527,
+    number: 511,
     capacity: 3,
   },
   {
@@ -7179,7 +7015,7 @@ export const dataNumbers = [
       "Quickness\n" +
       "Animate 1 (You must pay (1) to attack or block with this card.)",
     rarity: "Super Rare",
-    number: 528,
+    number: 512,
     capacity: 3,
   },
   {
@@ -7195,7 +7031,7 @@ export const dataNumbers = [
       '2 or more, "Shardwork" units you control Animate for (1) less.\n' +
       `3 or more, The "Shardwork" unit you control with the highest cost cannot be targeted by your opponent's spells or abilities.`,
     rarity: "Common",
-    number: 529,
+    number: 513,
     capacity: 3,
   },
   {
@@ -7209,7 +7045,7 @@ export const dataNumbers = [
       'Equip only to target "Shardwork" unit.\n' +
       "The equipped unit ignores Animate.",
     rarity: "Common",
-    number: 530,
+    number: 514,
     capacity: 3,
   },
   {
@@ -7224,7 +7060,7 @@ export const dataNumbers = [
       "Target Attack\n" +
       "Animate 1 (You must pay (1) to attack or block with this card.)",
     rarity: "Common",
-    number: 531,
+    number: 515,
     capacity: 3,
   },
   {
@@ -7239,7 +7075,7 @@ export const dataNumbers = [
       "Brawler, Guardian\n" +
       "Animate 2 (You may pay (2) to attack or block with this card.)",
     rarity: "Common",
-    number: 532,
+    number: 516,
     capacity: 3,
   },
   {
@@ -7254,7 +7090,7 @@ export const dataNumbers = [
       "Destoyer, Guardian\n" +
       "Animate 2 (You may pay (2) to attack or block with this card.)",
     rarity: "Common",
-    number: 533,
+    number: 517,
     capacity: 3,
   },
   {
@@ -7268,7 +7104,7 @@ export const dataNumbers = [
     effect:
       "Arrive - Stun target unit. (A Stunned card cannot attack, block, or use activated abilities, until the end of the next turn.)",
     rarity: "Rare",
-    number: 534,
+    number: 518,
     capacity: 3,
   },
   {
@@ -7282,7 +7118,7 @@ export const dataNumbers = [
     effect:
       "Arrive - If you control a Penguin unit, you may stun target unit. (A Stunned card cannot attack, block, or use activated abilities, until the end of the next turn.)",
     rarity: "Common",
-    number: 535,
+    number: 519,
     capacity: 3,
   },
   {
@@ -7296,7 +7132,7 @@ export const dataNumbers = [
       "Exhaust: Expel target Water unit you control.\n" +
       "Exhaust, pay (2): Put target Water unit expelled by this card into play.",
     rarity: "Common",
-    number: 536,
+    number: 520,
     capacity: 3,
   },
   {
@@ -7312,7 +7148,7 @@ export const dataNumbers = [
       "* Put a counter on this card.\n" +
       "* Remove a counter from this card.",
     rarity: "Common",
-    number: 537,
+    number: 521,
     capacity: 3,
   },
   {
@@ -7328,7 +7164,7 @@ export const dataNumbers = [
       "* Put a counter on this card.\n" +
       "* Remove a counter from this card.",
     rarity: "Common",
-    number: 538,
+    number: 522,
     capacity: 3,
   },
   {
@@ -7343,7 +7179,7 @@ export const dataNumbers = [
       "Guardian\n" +
       "While you control six or more shards and this card is exhausted, your opponent cannot attack unless they are attacking this card and cannot target other units you control with spells or abilities.",
     rarity: "Common",
-    number: 539,
+    number: 523,
     capacity: 3,
   },
   {
@@ -7360,7 +7196,7 @@ export const dataNumbers = [
       "Ignore the effects of your opponent's towers this card destroys.\n" +
       "Units your opponent control with power less than this card lose their abilities.",
     rarity: "Secret Rare",
-    number: 540,
+    number: 524,
     capacity: 1,
   },
   {
@@ -7374,7 +7210,7 @@ export const dataNumbers = [
       "As an additional cost to play this card, sacrifice a unit.\n" +
       "Destroy target unit or augment. If you sacrificed a non-token basic unit, draw a card.",
     rarity: "Rare",
-    number: 541,
+    number: 525,
     capacity: 3,
   },
   {
@@ -7388,7 +7224,7 @@ export const dataNumbers = [
     effect:
       "Arrive - The next spell you play this turn costs (1) less to play.",
     rarity: "Common",
-    number: 542,
+    number: 526,
     capacity: 3,
   },
   {
@@ -7401,7 +7237,7 @@ export const dataNumbers = [
     subtype: "Elf Warrior",
     effect: "",
     rarity: "Common",
-    number: 543,
+    number: 527,
     capacity: 3,
   },
   {
@@ -7414,7 +7250,7 @@ export const dataNumbers = [
     subtype: "Elf Warrior",
     effect: "",
     rarity: "Common",
-    number: 544,
+    number: 528,
     capacity: 3,
   },
   {
@@ -7427,7 +7263,7 @@ export const dataNumbers = [
       "Exhaust: If you declared an attack with a basic unit this turn, put a card from your hand under this card, and if you do, draw a card.\n" +
       "Put two cards under this card into the discard zone: Put a Hyldian token (Unit/Warrior/Light/1000) into play.",
     rarity: "Promo",
-    number: 545,
+    number: 529,
     capacity: 3,
   },
   {
@@ -7441,7 +7277,7 @@ export const dataNumbers = [
       "This card costs (1) less to play if you control a Beast or Elemental unit. If you control a Beast and an Elemental unit, this card costs (2) less to play instead.\n" +
       "At the end of your turn - Recover any number of shards you control up to the number of different Air units you control.",
     rarity: "Common",
-    number: 546,
+    number: 530,
     capacity: 3,
   },
   {
@@ -7454,7 +7290,7 @@ export const dataNumbers = [
     subtype: "Elemental",
     effect: "Arrive - Place +500 counter on each Beast unit you control.",
     rarity: "Common",
-    number: 547,
+    number: 531,
     capacity: 3,
   },
   {
@@ -7468,7 +7304,7 @@ export const dataNumbers = [
       "Instacast\n" +
       "Prevent all damage that would be dealt by your opponent's spells this turn.",
     rarity: "Common",
-    number: 548,
+    number: 532,
     capacity: 3,
   },
   {
@@ -7482,7 +7318,7 @@ export const dataNumbers = [
     effect:
       "Ruined - Put a Critter Token (Unit/Beast/Air/500) into play. If you control an Elemental unit put two into play instead.",
     rarity: "Common",
-    number: 549,
+    number: 533,
     capacity: 3,
   },
   {
@@ -7495,7 +7331,7 @@ export const dataNumbers = [
     subtype: "Elemental",
     effect: "Exhaust: If you control a Beast unit, recover one of your shards.",
     rarity: "Common",
-    number: 550,
+    number: 534,
     capacity: 3,
   },
   {
@@ -7509,7 +7345,7 @@ export const dataNumbers = [
     effect:
       "Arrive - Look at the top two cards of your opponent's deck and put them back in any order. If you control an Elemental unit, look at the top three instead and put them back in any order.",
     rarity: "Common",
-    number: 551,
+    number: 535,
     capacity: 3,
   },
   {
@@ -7523,7 +7359,7 @@ export const dataNumbers = [
       "Instacast\n" +
       "Remove all damage from units you control. For each unit that had damage removed this way, recover a shard.",
     rarity: "Common",
-    number: 552,
+    number: 536,
     capacity: 3,
   },
   {
@@ -7536,7 +7372,7 @@ export const dataNumbers = [
     subtype: "Elemental",
     effect: "",
     rarity: "Common",
-    number: 553,
+    number: 537,
     capacity: 3,
   },
   {
@@ -7550,7 +7386,7 @@ export const dataNumbers = [
       "Instacast\n" +
       "Place a +500 counter on target attacking unit, and if you do, it gains Overrun this turn. (Whenever this attacking card deals damage to a unit, you may deal any excess damage to an opponent's tower.)",
     rarity: "Common",
-    number: 554,
+    number: 538,
     capacity: 3,
   },
   {
@@ -7563,7 +7399,7 @@ export const dataNumbers = [
     effect:
       "Deal 2000 to target active unit. If you control a Beast unit, deal 3000 instead.",
     rarity: "Rare",
-    number: 555,
+    number: 539,
     capacity: 3,
   },
   {
@@ -7577,7 +7413,7 @@ export const dataNumbers = [
     effect:
       "Expel this card: If you do not control a unit with abilities, search your deck for up to two basic units with combined cost (5) or less and put them into play. Destroy them at the end of the next turn.",
     rarity: "Argent Rare",
-    number: 556,
+    number: 540,
     capacity: 3,
   },
   {
@@ -7586,7 +7422,7 @@ export const dataNumbers = [
     element: "air",
     type: "Champion",
     effect: `At the start of the game (after mulligans) you may add one "Kala, Trusty Companion" and/or one "Ariana's Amulet" from your deck to your hand.`,
-    number: 557,
+    number: 541,
     capacity: 3,
   },
   {
@@ -7596,7 +7432,7 @@ export const dataNumbers = [
     type: "Champion",
     effect:
       "Exhaust, Discard one Knight or Gear from your hand: Exhaust target unit.",
-    number: 558,
+    number: 542,
     capacity: 3,
   },
   {
@@ -7607,7 +7443,7 @@ export const dataNumbers = [
     effect:
       "Exhaust: Send the top two cards of your deck to the discard zone.\n" +
       "Exhaust, Pay (1): Put target unit from your discard zone on top of your deck.",
-    number: 559,
+    number: 543,
     capacity: 3,
   },
   {
@@ -7617,7 +7453,7 @@ export const dataNumbers = [
     type: "Champion",
     effect:
       "Exhaust, Reveal any number of spells from your hand: Reveal the top card of your deck. If it's a spell with cost equal to or less than the number of cards revealed from your hand, add it to your hand.",
-    number: 560,
+    number: 544,
     capacity: 3,
   },
   {
@@ -7627,7 +7463,7 @@ export const dataNumbers = [
     type: "Champion",
     effect:
       "Exhaust, Expel up to two units from your hand: Deal damage to target unit equal to the number of cards expelled x500.",
-    number: 561,
+    number: 545,
     capacity: 3,
   },
   {
@@ -7641,7 +7477,7 @@ export const dataNumbers = [
     effect:
       "Target Attack\n" +
       "If this card is in your hand, after one of your Towers is destroyed – Put this card into play.",
-    number: 562,
+    number: 546,
     capacity: 3,
   },
   {
@@ -7654,7 +7490,7 @@ export const dataNumbers = [
     effect:
       "When you play a Water Spell – You can place an Ice Wall counter on target non-destroyed Tower you own. (Towers with Ice Wall counters get +500 defense. If a Tower is destroyed, remove all Ice Wall counters from that Tower.)\n" +
       "Remove all Ice Wall counters from all Towers you own: Deal damage to target Unit equal to the number of counters removed x500.",
-    number: 563,
+    number: 547,
     capacity: 3,
   },
   {
@@ -7667,17 +7503,7 @@ export const dataNumbers = [
     subtype: "demon",
     effect:
       "Arrive – Declare a card name, then your opponent reveals their hand and discards all cards with that name. Draw one card for each card discarded this way.",
-    number: 564,
-    capacity: 3,
-  },
-  {
-    image: "images/Promos/knight-token-1.jpg",
-    element: "light",
-    name: "Knight Token",
-    type: "Unit",
-    effect:
-      "Guardian (Exhaust this card to make an attacking Unit attack this one instead.)",
-    number: 565,
+    number: 548,
     capacity: 3,
   },
   {
@@ -7687,7 +7513,7 @@ export const dataNumbers = [
     cost: 6,
     type: "Spell",
     effect: "Take control of up to two target exhausted units.",
-    number: 566,
+    number: 549,
     capacity: 3,
   },
   {
@@ -7702,7 +7528,7 @@ export const dataNumbers = [
       'Arrive – If your champion is "Hoenna, the Immoral Conjurer", choose one.\n' +
       "* Put three counters on your champion.\n" +
       "* Remove all counters from your champion, then search your deck for a non-legendary unit with cost equal or less than the number of counters you removed this way and put it into play.",
-    number: 567,
+    number: 550,
     capacity: 1,
   },
   {
@@ -7716,7 +7542,7 @@ export const dataNumbers = [
     effect:
       "Arrive – If you control another Fire unit, this card gets +500 and gains Brawler.\n" +
       "Whenever this declares an attack on a unit – If your spirit is Fire, you may flip it face-up.",
-    number: 568,
+    number: 551,
     capacity: 3,
   },
   {
@@ -7729,7 +7555,7 @@ export const dataNumbers = [
     subtype: "golem",
     effect:
       "When this card isput into the discard zone from anywhere – You may sacrifice a Dark unit. If you do, put this card into play.",
-    number: 569,
+    number: 552,
     capacity: 3,
   },
   {
@@ -7741,7 +7567,7 @@ export const dataNumbers = [
     type: "Unit",
     subtype: "pirate",
     effect: "Exhaust, pay (2): Destroy target unit with cost (2) or less.",
-    number: 570,
+    number: 553,
     capacity: 3,
   },
   {
@@ -7754,7 +7580,7 @@ export const dataNumbers = [
     subtype: "child sorcerer",
     effect:
       "If you would use Shard Drain you may sacrifice this card instead of returning a shard to your shard deck.",
-    number: 571,
+    number: 554,
     capacity: 3,
   },
   {
@@ -7768,7 +7594,7 @@ export const dataNumbers = [
     effect:
       "Guardian, Target Attack\n" +
       'Arrive – Put into play a Hound token (Unit * Beast/Light/500) that has Guardian and "Sacrifice this card: Prevent the next damage that would be dealt to target unit this turn." If your spirit is "Buckeye, the Loyal", put two into play instead.',
-    number: 572,
+    number: 555,
     capacity: 1,
   },
   {
@@ -7780,7 +7606,7 @@ export const dataNumbers = [
     effect:
       'You start the game with a Hound unit token with Guardian (Unit * Hound/Light/500). This token cannot attack, and has "Sacrifice this unit: Prevent the next damage that would be dealt to target unit this turn."\n' +
       "Soulburst: Prevent all damage that would be dealt to target unit this turn.",
-    number: 573,
+    number: 556,
     capacity: 3,
   },
   {
@@ -7793,7 +7619,7 @@ export const dataNumbers = [
     subtype: "demon",
     effect:
       "Arrive – Flip target face-down tower your opponent controls face-up.",
-    number: 574,
+    number: 557,
     capacity: 3,
   },
   {
@@ -7802,7 +7628,7 @@ export const dataNumbers = [
     element: "argent",
     type: "Champion",
     effect: "Exhaust, pay (2): Target attacking unit gets +1000 this turn.",
-    number: 575,
+    number: 558,
     capacity: 3,
   },
   {
@@ -7812,7 +7638,7 @@ export const dataNumbers = [
     type: "Champion",
     effect:
       " Exhaust, pay (1): Draw a card, then put a card from your hand on the bottom of your deck.",
-    number: 576,
+    number: 559,
     capacity: 3,
   },
   {
@@ -7821,7 +7647,7 @@ export const dataNumbers = [
     element: "argent",
     type: "Champion",
     effect: "Exhaust, sacrifice a unit: Recover one of your shards.",
-    number: 577,
+    number: 560,
     capacity: 3,
   },
   {
@@ -7832,7 +7658,7 @@ export const dataNumbers = [
     effect:
       "Exhaust, pay (1): Target attacking unit gets +500 this turn.\n" +
       "Soulburst: Target unit gets +1000 this turn.",
-    number: 578,
+    number: 561,
     capacity: 3,
   },
   {
@@ -7843,7 +7669,7 @@ export const dataNumbers = [
     effect:
       "Exhaust, pay (1): Put the bottom card of your deck on top of your deck.\n" +
       "Soulburst: Draw a card.",
-    number: 579,
+    number: 562,
     capacity: 3,
   },
   {
@@ -7854,7 +7680,7 @@ export const dataNumbers = [
     effect:
       "Exhaust, pay (1): Look at the top card of your deck, put it on the top of your deck.\n" +
       "Soulburst: Recover one of your shards.",
-    number: 580,
+    number: 563,
     capacity: 3,
   },
   {
@@ -7865,7 +7691,7 @@ export const dataNumbers = [
     type: "Tower",
     effect:
       "When this tower is destroyed, you may deal 1500 to a unit, then you may deal 1000 to a unit.",
-    number: 581,
+    number: 564,
     capacity: 3,
   },
   {
@@ -7876,7 +7702,7 @@ export const dataNumbers = [
     type: "Tower",
     effect:
       "When this tower is destroyed, you may draw three cards, then put two cards from your hand on the bottom of your deck.",
-    number: 582,
+    number: 565,
     capacity: 3,
   },
   {
@@ -7887,7 +7713,7 @@ export const dataNumbers = [
     type: "Tower",
     effect:
       "When this tower is destroyed, you may exhaust all units your opponent controls.",
-    number: 583,
+    number: 566,
     capacity: 3,
   },
   {
@@ -7898,7 +7724,7 @@ export const dataNumbers = [
     type: "Tower",
     effect:
       "When this tower is destroyed, you may exhaust two of your opponent's shards.",
-    number: 584,
+    number: 567,
     capacity: 3,
   },
   {
@@ -7909,7 +7735,7 @@ export const dataNumbers = [
     type: "Tower",
     effect:
       "When this tower is destroyed, you may recover all shards you control.",
-    number: 585,
+    number: 568,
     capacity: 3,
   },
   {
@@ -7924,7 +7750,7 @@ export const dataNumbers = [
       "As an additional cost to play this card you may pay (X).\n" +
       "Arrive – If you paid this card's additional cost, draw X cards.\n" +
       "Whenever you play a Water spell – You may exhaust target unit.",
-    number: 586,
+    number: 569,
     capacity: 3,
   },
   {
@@ -7938,7 +7764,7 @@ export const dataNumbers = [
     effect:
       "Whenever a unit your opponent controls is put into the discard zone - You may put into play a Raven token (Unit/Dark/Beast/500).\n" +
       "Sacrifice two other units: Your opponent's champion loses all abilities this turn.",
-    number: 587,
+    number: 570,
     capacity: 3,
   },
   {
@@ -7953,7 +7779,7 @@ export const dataNumbers = [
       "Arrive – You may expel an Air card from your discard zone, and/or a Fire card from your hand. If you do, put an Explosion Counter on this card for each card expelled this way.\n" +
       "Remove an Explosion counter from a card you control: This card gains Quickness.\n" +
       "Remove two Explosion counters from cards you control: Destroy target tower you own and target tower your opponent owns.",
-    number: 588,
+    number: 571,
     capacity: 3,
   },
   {
@@ -7968,7 +7794,7 @@ export const dataNumbers = [
       "Target Attack\n" +
       "This card cannot be targeted by spells or abilities of cards with cost (2) or less.\n" +
       "Expel a Dark card and Light card from your discard zone, and reveal this card from your hand: Put this card from your hand into play, and if you do, exhaust target unit your opponent controls. Use only while your opponent has three or more destroyed towers.",
-    number: 589,
+    number: 572,
     capacity: 3,
   },
   {
@@ -7979,7 +7805,7 @@ export const dataNumbers = [
     effect:
       "If this is the second card you've played this turn, this card costs (1) less to play.\n" +
       "Look at the top four cards of your deck. You may add a unit and/or augment among them to your hand. Place the rest on the bottom of your deck in any order.",
-    number: 590,
+    number: 573,
     capacity: 3,
   },
   {
@@ -7993,7 +7819,7 @@ export const dataNumbers = [
     effect:
       "Your Fire and Water spells cost (1) less to play while your opponent has three or more destroyed towers.\n" +
       "Once per turn, expel a Fire card and Water card from your discard zone: Deal 1500 to target unit, and if you do, draw a card.",
-    number: 591,
+    number: 574,
     capacity: 3,
   },
   {
@@ -8007,7 +7833,7 @@ export const dataNumbers = [
     effect:
       "Units you control with power that is double or more their original power cannot be targeted by your opponent's spells or abilities.\n" +
       "Whenever a unit is put into play under your control - You may pay (X). If you do, put X +500 counters on that unit.",
-    number: 592,
+    number: 575,
     capacity: 3,
   },
   {
@@ -8021,7 +7847,7 @@ export const dataNumbers = [
     effect:
       "Instacast\n" +
       "Once per turn, expel an Air card and a Water card from your discard zone: Exhaust target unit, and if you do, recover one of your shards. Use this only while your opponent has three or more destroyed towers.",
-    number: 593,
+    number: 576,
     capacity: 3,
   },
   {
@@ -8032,7 +7858,7 @@ export const dataNumbers = [
     type: "Spell",
     effect:
       "Target unit gets -X000 this turn. (X equals the number of Dark units in your discard zone.)",
-    number: 594,
+    number: 577,
     capacity: 3,
   },
   {
@@ -8047,7 +7873,7 @@ export const dataNumbers = [
       "Brawler\n" +
       "While you control a Beast unit, you may play this card from your discard zone as if it was in your hand.\n" +
       'Arrive – Put into play a Cat token (Unit/Beast/Light/1000) that has "Cannot be targeted by spells or abilities.".',
-    number: 595,
+    number: 578,
     capacity: 1,
   },
   {
@@ -8061,7 +7887,7 @@ export const dataNumbers = [
     effect:
       "Whenever this card deals damage to an opponent's tower - Your opponent discards a card and you draw a card.\n" +
       "Whenever your opponent discards a card - You may add this card from your discard zone to your hand.",
-    number: 596,
+    number: 579,
     capacity: 3,
   },
   {
@@ -8073,7 +7899,7 @@ export const dataNumbers = [
     effect:
       "Instacast\n" +
       "Play only while you control a Fire unit. Neither player can add to the queue in response to this card. Expel target unit or augment, and if you do, it's owner draws a card.",
-    number: 597,
+    number: 580,
     capacity: 3,
   },
   {
@@ -8086,7 +7912,7 @@ export const dataNumbers = [
     effect:
       "As an additional cost to play this card you may sacrifice a Fire unit with cost (2) or more. If you do, this card costs (2) less to play.\n" +
       "If you paid the additional cost to play this card, this card gains Quickness.",
-    number: 598,
+    number: 581,
     capacity: 3,
   },
   {
@@ -8097,7 +7923,7 @@ export const dataNumbers = [
     type: "Spell",
     effect:
       "Exhaust target unit your opponent controls, and if you do, you may recover a unit you control with cost less than the exhausted unit.",
-    number: 599,
+    number: 582,
     capacity: 3,
   },
   {
@@ -8112,7 +7938,7 @@ export const dataNumbers = [
       "Arrive - You may discard a card, if you do, choose one.\n" +
       "* Exhaust target unit.\n" +
       "* Recover target unit.",
-    number: 600,
+    number: 583,
     capacity: 3,
   },
   {
@@ -8124,7 +7950,7 @@ export const dataNumbers = [
     effect:
       "Instacast\n" +
       "Look at the top card of your deck. You may put it into the discard zone. Draw a card.",
-    number: 601,
+    number: 584,
     capacity: 3,
   },
   {
@@ -8137,7 +7963,7 @@ export const dataNumbers = [
     subtype: "mystic",
     effect:
       "Arrive - Target a Water spell in your discard zone. This turn, you may play that card from your discard zone as if it were in your hand. Expel that card if you do.",
-    number: 602,
+    number: 585,
     capacity: 3,
   },
   {
@@ -8152,7 +7978,7 @@ export const dataNumbers = [
       "Unblockable\n" +
       'While you control "Underground Mech Base", you may play this card from your discard zone as if it was in your hand. If you do, expel this card when it leaves the field.\n' +
       'Arrive – You may discard a card. If you do, search your deck for an "Underground Mech Base" and put it into play, and if you do, you may also add a "Shard-Mecha" unit with cost (3) or less from your deck to your hand.',
-    number: 603,
+    number: 586,
     capacity: 3,
   },
   {
@@ -8164,7 +7990,7 @@ export const dataNumbers = [
     type: "unit",
     subtype: "silver army",
     effect: `Ruined - Search your deck for up to one "Silver King's Pawn" and put it into play. If your champion is "Metaial the Silver King" put two into play instead.`,
-    number: 604,
+    number: 587,
     capacity: 3,
   },
   {
@@ -8178,7 +8004,7 @@ export const dataNumbers = [
     effect:
       'Discard this card and a Gear from your hand: Search your deck for "Order of the Rose" and add it to your hand.\n' +
       'Arrive - If a unit was sent from your field to the discard zone this turn, you may search your deck for a Rose Knight unit with cost (2) or less, except "Citra, Aspirant Rose Knight" and put it into play.',
-    number: 605,
+    number: 588,
     capacity: 3,
   },
   {
@@ -8191,7 +8017,7 @@ export const dataNumbers = [
     subtype: "mech",
     effect:
       "Arrive – Put target unit from your discard zone under target Ω unit you control.",
-    number: 606,
+    number: 589,
     capacity: 3,
   },
   {
@@ -8203,7 +8029,7 @@ export const dataNumbers = [
     effect:
       "Arrive – Draw a card.\n" +
       "Sacrifice this card: Champions lose all abilities this turn. Neither player can add to the queue in response to this ability.",
-    number: 607,
+    number: 590,
     capacity: 1,
   },
   {
@@ -8218,7 +8044,7 @@ export const dataNumbers = [
       "While you control this card, this card is also treated as a Dragon unit.\n" +
       "This card gets +500 for each of your expelled Dragon units.\n" +
       "Arrive - You may expel a Fire unit from your hand. If you do, draw a card. If you expelled a Dragon unit, draw two cards instead.",
-    number: 608,
+    number: 591,
     capacity: 3,
   },
   {
@@ -8232,7 +8058,7 @@ export const dataNumbers = [
     effect:
       "Destroyer\n" +
       "Arrive - You may reveal two Dragon units from your hand: Destroy any number of units your opponent controls with combined power 2000 or less. For each unit destroyed this way, you may search your deck for a Dragon unit with cost (1) and put it into play.",
-    number: 609,
+    number: 592,
     capacity: 3,
   },
   {
@@ -8246,7 +8072,7 @@ export const dataNumbers = [
     effect:
       "Guardian\n" +
       "Arrive - You may flip any number of your face-down towers face-up. If you do, take control of any number of target units whose combined cost is equal to or less than the number of towers you flipped up.",
-    number: 610,
+    number: 593,
     capacity: 3,
   },
   {
@@ -8259,7 +8085,7 @@ export const dataNumbers = [
     effect:
       "Arrive or whenever this card declares an attack - Place a counter on this card.\n" +
       "Ruined - If this card had at least two counters on it, your opponent discards a card. If it had at least three counters, you may put this card into play.",
-    number: 611,
+    number: 594,
     capacity: 3,
   },
   {
@@ -8269,7 +8095,7 @@ export const dataNumbers = [
     type: "Augment",
     subtype: "Gear",
     element: "light",
-    number: 612,
+    number: 595,
     effect:
       'You can only control one "Ketsu, the Erratic Armor".\n' +
       "Equip to target Ω unit you control.\n" +
@@ -8288,7 +8114,7 @@ export const dataNumbers = [
     effect:
       "Ω (Place on one or more of your units.)\n" +
       "Once per turn, put a unit from under this card into the discard zone: If every card in your discard zone has a different name, you may search your deck for a non-Argent card and either add it to your hand or put it into play.",
-    number: 613,
+    number: 596,
     capacity: 3,
   },
   {
@@ -8301,61 +8127,7 @@ export const dataNumbers = [
     subtype: "professor",
     effect:
       "Exhaust, sacrifice a unit: Trigger the Arrive ability of the sacrificed unit.",
-    number: 614,
-    capacity: 3,
-  },
-  {
-    image: "images/Promos/golem-token.jpg",
-    name: "Golem Token",
-    element: "Dark",
-    power: 1500,
-    type: "Unit",
-    subtype: "Golem",
-    number: 615,
-    capacity: 3,
-  },
-  {
-    image: "images/Promos/hound-token.jpg",
-    name: "Hound Token",
-    element: "Light",
-    power: 500,
-    type: "Unit",
-    subtype: "Beast",
-    effect:
-      "Guardian Sacrafice this unit: Prevent the next damage that would be dealt to target unit this turn.",
-    number: 616,
-    capacity: 3,
-  },
-  {
-    image: "images/Promos/hound-token-1.jpg",
-    name: "Hound Token",
-    element: "Light",
-    power: 500,
-    type: "Unit",
-    subtype: "Hound",
-    effect:
-      "Guardian Sacrafice this unit: Prevent the next damage that would be dealt to target unit this turn.",
-    number: 617,
-    capacity: 3,
-  },
-  {
-    image: "images/Promos/illusion-token.webp",
-    name: "Illusion Token",
-    element: "Water",
-    power: 500,
-    type: "Unit",
-    subtype: "Illusion",
-    effect: "Guardian(This unit cannot attack.)",
-    number: 618,
-    capacity: 3,
-  },
-  {
-    image: "images/Promos/knight-token-1000.jpg",
-    element: "light",
-    name: "Knight Token",
-    type: "Unit",
-    effect: "Guardian",
-    number: 619,
+    number: 597,
     capacity: 3,
   },
   {
@@ -8367,7 +8139,7 @@ export const dataNumbers = [
     effect:
       "When a unit you control destroys a tower - You may draw a card then discard a card.\n" +
       "Soulburst, pay (3): Stun all units your opponent controls. (A Stunned card cannot attack, block, or use activated abilities, until the end of the next turn.)",
-    number: 620,
+    number: 598,
     capacity: 3,
   },
   {
@@ -8379,7 +8151,7 @@ export const dataNumbers = [
     effect:
       "Use only if your spirit or champion is Air.\n" +
       "When this card is destroyed: You may put the top card of your shard deck into play. Use this effect only if you have more destroyed towers than your opponent.",
-    number: 621,
+    number: 599,
     capacity: 3,
   },
   {
@@ -8391,7 +8163,7 @@ export const dataNumbers = [
     effect:
       "Use only if your spirit or champion is Light.\n" +
       "When this card is destroyed: You may put a unit with cost (3) or less from your hand into play. Use this effect only if you have more destroyed towers than your opponent.",
-    number: 622,
+    number: 600,
     capacity: 3,
   },
   {
@@ -8403,7 +8175,7 @@ export const dataNumbers = [
     effect:
       "Use only if your spirit or champion is Dark.\n" +
       "When this tower is destroyed: You may return a unit with cost (3) or less from your discard zone to the field. Use this effect only if you have more destroyed towers than your opponent.",
-    number: 623,
+    number: 601,
     capacity: 3,
   },
   {
@@ -8415,7 +8187,7 @@ export const dataNumbers = [
     effect:
       "Use only if your spirit or champion is Water.\n" +
       "When this card is destroyed: You may search your deck for a spell and add it to your hand. Use this effect only if you have more destroyed towers than your opponent.",
-    number: 624,
+    number: 602,
     capacity: 3,
   },
   {
@@ -8427,7 +8199,7 @@ export const dataNumbers = [
     effect:
       "Use only if your spirit or champion is Fire.\n" +
       "When this card is destroyed: You may deal 1500 to all units your opponent controls. Use this effect only if you have more destroyed towers than your opponent.",
-    number: 625,
+    number: 603,
     capacity: 3,
   },
   {
@@ -8440,7 +8212,7 @@ export const dataNumbers = [
     subtype: "Beast",
     effect:
       "You can only play units.\nOhter 'Shardbeast' units control get +500\n",
-    number: 626,
+    number: 604,
     capacity: 3,
   },
   {
@@ -8454,7 +8226,7 @@ export const dataNumbers = [
       "Guardian\n" +
       "This card cannot deal damage, and cannot be targeted by spells.\n" +
       'Ruined – Search your deck for a "Hallowed Harpist" and put it into play.',
-    number: 627,
+    number: 605,
     capacity: 3,
   },
   {
@@ -8466,7 +8238,7 @@ export const dataNumbers = [
     type: "Unit",
     effect:
       "Ruined – Send the top three cards of a player's deck to the discard zone, then a different player expels the top three cards of their deck.",
-    number: 628,
+    number: 606,
     capacity: 3,
   },
   {
@@ -8477,7 +8249,7 @@ export const dataNumbers = [
     name: "Dux, the Infamous Skyraider",
     type: "Unit",
     subtype: "Skraider",
-    number: 629,
+    number: 607,
     effect:
       "Airship and Skyraider units cost you (1) less to play.\n" +
       "Arrive - Add target Airship or Skyraider unit from your discard zone to your hand.",
@@ -8495,7 +8267,7 @@ export const dataNumbers = [
       "This card costs (2) less to play for each card in your hand that exceeds the number of cards in your opponent's hand.\n" +
       "If you have more cards in your hand than your opponent, neither player can add to the queue in response to playing this card.\n" +
       "Other units you control gain Immortal during your turn.",
-    number: 630,
+    number: 608,
     capacity: 3,
   },
   {
@@ -8505,7 +8277,7 @@ export const dataNumbers = [
     power: 1000,
     name: "Amateur Witch",
     type: "Unit",
-    number: 631,
+    number: 609,
     capacity: 3,
   },
   {
@@ -8516,7 +8288,7 @@ export const dataNumbers = [
     name: "Arbor Carbuncle",
     type: "Unit",
     subtype: "beast",
-    number: 632,
+    number: 610,
     effect:
       'When this card is returned to your hand from the field - You may search your deck for an "Arbor Carbuncle" and add it to your hand.\n' +
       'During your turn, expel this card and two other "Arbor Carbuncle" from your hand: Draw two cards and switch up to two of your shards to active.',
@@ -8529,7 +8301,7 @@ export const dataNumbers = [
     power: 1500,
     name: "Burning Blitzer",
     type: "Unit",
-    number: 633,
+    number: 611,
     effect:
       "Quickness, Destroyer\n" +
       "This card cannot attack unless you've attacked with at least two units this turn.",
@@ -8543,7 +8315,7 @@ export const dataNumbers = [
     name: "Catastrophe Demon",
     type: "Unit",
     subtype: "demon",
-    number: 634,
+    number: 612,
     effect:
       "Destroyer\nYour opponent's units and shards come into play exhausted.",
     capacity: 3,
@@ -8556,7 +8328,7 @@ export const dataNumbers = [
     name: "Crystal Dimensional Dragon",
     type: "Unit",
     subtype: "dragon",
-    number: 635,
+    number: 613,
     effect:
       "If you've played five or more Water spells this turn, this card costs (0) to play.\n" +
       "Arrive - If you played this card from your hand, your opponent cannot put units into play or play spells on their next turn.",
@@ -8570,7 +8342,7 @@ export const dataNumbers = [
     name: "Failed Golem #3",
     type: "Unit",
     subtype: "golem",
-    number: 636,
+    number: 614,
     capacity: 3,
   },
   {
@@ -8581,7 +8353,7 @@ export const dataNumbers = [
     name: "Igneous Dragon",
     type: "Unit",
     subtype: "dragon",
-    number: 637,
+    number: 615,
     capacity: 3,
   },
   {
@@ -8593,7 +8365,7 @@ export const dataNumbers = [
     name: "Metaial, the Sealed Celestial",
     type: "Unit",
     subtype: "legendary entity",
-    number: 638,
+    number: 616,
     effect:
       "Destroyer\n" +
       "This card cannot be targeted by unit abilities. Flip your champion and spirit face-down: Destroy all units and augments your opponent controls.",
@@ -8607,7 +8379,7 @@ export const dataNumbers = [
     name: "Raging Shardbeast",
     type: "Unit",
     subtype: "beast",
-    number: 639,
+    number: 617,
     effect: " You cannot play cards with cost (3) or more.",
     capacity: 3,
   },
@@ -8619,7 +8391,7 @@ export const dataNumbers = [
     name: "Rainbow Knight",
     type: "Unit",
     subtype: "knight",
-    number: 640,
+    number: 618,
     capacity: 3,
   },
   {
@@ -8629,7 +8401,7 @@ export const dataNumbers = [
     power: 1000,
     name: "Saint of Sacred Regalia",
     type: "Unit",
-    number: 641,
+    number: 619,
     effect:
       "Arrive - If you control less units than your opponent, you may discard a card. If you do, search your deck for a Gear with cost (1) or less and equip it to this card.",
     capacity: 3,
@@ -8642,7 +8414,7 @@ export const dataNumbers = [
     name: "Skytree Initiate",
     type: "Unit",
     subtype: "skyraider",
-    number: 642,
+    number: 620,
     capacity: 3,
   },
   {
@@ -8653,7 +8425,7 @@ export const dataNumbers = [
     name: "Beckoner of Dreams",
     type: "Unit",
     subtype: "mystic",
-    number: 643,
+    number: 621,
     effect:
       "Arrive - Expel any number of spells with Shard Drain from your discard zone: Take control of target unit with cost equal to the number of cards you expelled.",
     capacity: 3,
@@ -8666,7 +8438,7 @@ export const dataNumbers = [
     name: "Harbinger of Vabriel",
     type: "Unit",
     subtype: "legendary entity",
-    number: 644,
+    number: 622,
     effect:
       "Guardian\n" +
       "This card cannot be targeted by spells.\n" +
@@ -8679,7 +8451,7 @@ export const dataNumbers = [
     cost: 2,
     name: "Melody of Ages",
     type: "Spell",
-    number: 645,
+    number: 623,
     effect:
       "Target unit or augment loses all abilities. Then, if there is a destroyed Air tower, destroy that card.",
     capacity: 3,
@@ -8690,7 +8462,7 @@ export const dataNumbers = [
     cost: 4,
     name: "Return to Slumber",
     type: "Spell",
-    number: 646,
+    number: 624,
     effect:
       "Instacast\n" +
       "Return up to X+1 target units to the top of their owner's deck in any order. (X equals the number of destroyed Water towers.)",
@@ -8704,7 +8476,7 @@ export const dataNumbers = [
     name: "Songstress of the Cloudsea",
     type: "Unit",
     subtype: "mystic",
-    number: 647,
+    number: 625,
     effect:
       "Exhaust: Reveal the top three cards of your deck. You may add a unit among them to your hand. If two or more units have returned to your hand from the field this turn, you may put that unit into play instead. Put the rest into your discard zone.",
     capacity: 3,
@@ -8718,7 +8490,7 @@ export const dataNumbers = [
     name: "Taphael, Fallen Celestial of Rottar",
     type: "Unit",
     subtype: "legendary entity",
-    number: 648,
+    number: 626,
     effect:
       "Brawler (This card may attack active and exhausted units the turn it comes into play.)\n" +
       "Arrive - Choose one.\n" +
@@ -8732,7 +8504,7 @@ export const dataNumbers = [
     cost: 3,
     name: "The Greatest Heist",
     type: "Augment",
-    number: 649,
+    number: 627,
     effect:
       "Arrive - Expel up to X+1 target cards from your opponent's discard zone. (X equals the number of destroyed Dark towers.)\n" +
       "While this card is on the field, you may play cards expelled by this effect as if they were in your hand.",
@@ -8746,7 +8518,7 @@ export const dataNumbers = [
     name: "Thief of Valoi",
     type: "Unit",
     subtype: "thief",
-    number: 650,
+    number: 628,
     effect:
       "Exhaust, Offering 3 (Expel three units from your discard zone.): Expel target unit from your opponent's discard zone. This turn you may play that card as if it was in your hand.",
     capacity: 3,
@@ -8757,7 +8529,7 @@ export const dataNumbers = [
     cost: 8,
     name: "Voidfire Desolation",
     type: "Spell",
-    number: 651,
+    number: 629,
     effect:
       "Destroy up to one of each.\n" +
       "* Target unit.\n" +
@@ -8774,7 +8546,7 @@ export const dataNumbers = [
     name: "Voidfire Dragon",
     type: "Unit",
     subtype: "dragon",
-    number: 652,
+    number: 630,
     effect:
       "While there is a destroyed Fire tower, expel two or more Fire units from your hand whose combined cost is at least 6: Put this card from your discard zone into play. Expel it when it leaves the field.\n" +
       'Ruined - Add target expelled Fire unit you own, except "Voidfire Dragon", to your hand.',
@@ -8787,7 +8559,7 @@ export const dataNumbers = [
     name: "Vrscika, the Scorpion Hammer",
     type: "Augment",
     subtype: "gear",
-    number: 653,
+    number: 631,
     effect:
       " Equip to target unit.\n" +
       "It gets +1000.\n" +
@@ -8802,7 +8574,7 @@ export const dataNumbers = [
     name: "Warden of Vrscika",
     type: "Unit",
     subtype: "knight",
-    number: 654,
+    number: 632,
     effect:
       "Brawler (This card may attack active and exhausted units the turn it comes into play.)\n" +
       'Arrive - If there is a destroyed Light tower, search your deck for "Vrscika, the Scorpion Hammer" and equip it to this card.',
@@ -8814,7 +8586,7 @@ export const dataNumbers = [
     cost: 2,
     name: "Ariana's Resolve",
     type: "Spell",
-    number: 655,
+    number: 633,
     effect:
       'Choose one. If your champion has "Ariana" in its name, you may choose both.\n' +
       '* Search your deck for an "Ariana" or "AIRA" unit and add it to your hand.\n' +
@@ -8829,7 +8601,7 @@ export const dataNumbers = [
     name: "Ashborn Conjurer",
     type: "Unit",
     subtype: "mystic",
-    number: 656,
+    number: 634,
     effect:
       'Whenever your opponent plays a spell or uses an activated ability - You may put into play a Fire Elemental token (Unit * Elemental/Fire/1000) with "Ruined: Deal 500 to target unit."',
     capacity: 3,
@@ -8842,7 +8614,7 @@ export const dataNumbers = [
     name: "Ashborn Shaman",
     type: "Unit",
     subtype: "mystic",
-    number: 657,
+    number: 635,
     effect:
       "Whenever your opponent plays a spell or uses an activated ability - You may search your deck for a Fire spell with cost (1) or less and add it to your hand.",
     capacity: 3,
@@ -8855,7 +8627,7 @@ export const dataNumbers = [
     name: "Battle Angel of Dominion",
     type: "Unit",
     subtype: "angel",
-    number: 658,
+    number: 636,
     effect:
       "Arrive - You may reveal an Argent unit from your hand: If you do, destroy target unit.",
     capacity: 3,
@@ -8868,7 +8640,7 @@ export const dataNumbers = [
     name: "Commander of Light",
     type: "Unit",
     subtype: "knight",
-    number: 659,
+    number: 637,
     effect:
       "Exhaust: Recover all units adjacent to this card. They cannot deal damage until the end of the turn.",
     capacity: 3,
@@ -8879,7 +8651,7 @@ export const dataNumbers = [
     cost: 1,
     name: "Dance of Blades",
     type: "Spell",
-    number: 660,
+    number: 638,
     effect:
       " Instacast Deal 500 to target unit. If this destroys the unit, put a Knight token (Unit * Knight/Light/1500) into play.",
     capacity: 3,
@@ -8892,7 +8664,7 @@ export const dataNumbers = [
     name: "Deathwhisperer",
     type: "Unit",
     subtype: "demon",
-    number: 661,
+    number: 639,
     effect:
       " Arrive - You may sacrifice a unit you control with Ruined. If you do, its Ruined ability triggers twice.",
     capacity: 3,
@@ -8905,7 +8677,7 @@ export const dataNumbers = [
     name: "Expanding Elemental",
     type: "Unit",
     subtype: "elemental",
-    number: 662,
+    number: 640,
     effect:
       'Arrive - You may Shard Drain 1: If you do, search your deck for an "Expanding Elemental" and put it into play.',
     capacity: 3,
@@ -8918,7 +8690,7 @@ export const dataNumbers = [
     name: "Grove Elemental",
     type: "Unit",
     subtype: "elemental",
-    number: 663,
+    number: 641,
     effect:
       "Arrive - If you've played at least two other cards this turn, put the top card of your shard deck into play.\n" +
       "Whenever this card leaves the field - Your opponent may destroy one of your shards.",
@@ -8932,7 +8704,7 @@ export const dataNumbers = [
     name: "Isa, the Cloudmender",
     type: "Unit",
     subtype: "mystic",
-    number: 664,
+    number: 642,
     effect:
       "Ruined - You may equip this card to target unit you control (While equipped to another unit, treat this card as an augment, not a unit). If a unit equipped with this card would be destroyed, you may remove all damage from that unit, and destroy this card instead.",
     capacity: 3,
@@ -8945,7 +8717,7 @@ export const dataNumbers = [
     name: "Jacobi, the Vampire King",
     type: "Unit",
     subtype: "vampire",
-    number: 665,
+    number: 643,
     effect:
       "Sacrifice this card: Put target unit from your opponent's discard zone that was put there from the field this turn into play under your control.",
     capacity: 3,
@@ -8958,7 +8730,7 @@ export const dataNumbers = [
     name: "Lloyd, Cosmic Enigma",
     type: "Unit",
     subtype: "???",
-    number: 666,
+    number: 644,
     effect:
       "Arrive - Choose an element, and choose one of the following.\n" +
       "* This card cannot be targeted by spells or abilities of the declared element.\n" +
@@ -8972,7 +8744,7 @@ export const dataNumbers = [
     power: 1500,
     name: "Maiden of Leviathan",
     type: "Unit",
-    number: 667,
+    number: 645,
     effect:
       "Arrive - You may flip one of your towers face-up. Then if you have two or more face-up towers, draw a card.",
     capacity: 3,
@@ -8983,7 +8755,7 @@ export const dataNumbers = [
     cost: 6,
     name: "Ready for War",
     type: "Spell",
-    number: 668,
+    number: 646,
     effect:
       " Instacast\n" +
       "Reveal the top five cards of your deck. Put into play as many revealed Fire units as possible with cost (3) or less. Send the rest to the discard zone.",
@@ -8995,7 +8767,7 @@ export const dataNumbers = [
     cost: 1,
     name: "Tempest Punch",
     type: "Spell",
-    number: 669,
+    number: 647,
     effect:
       "Instacast\n" +
       `Target attacking unit you control gets +2000, and return it to its owner's hand at the end of the turn. If your champion has "Ariana" in its name, that unit also cannot be targeted by your opponent's spells or abilities this turn.`,
@@ -9008,7 +8780,7 @@ export const dataNumbers = [
     name: "True King's Greatsword",
     type: "Augment",
     subtype: "legendary gear",
-    number: 670,
+    number: 648,
     effect:
       "Equip to target unit. The equipped unit gets +500. Whenever the equipped card destroys a unit in battle - Place two counters on this card.\n" +
       "Remove a counter from this card: Deal 1000 to target unit.\n" +
@@ -9023,7 +8795,7 @@ export const dataNumbers = [
     name: "Vi, Matron of Miracles",
     type: "Unit",
     subtype: "mystic",
-    number: 671,
+    number: 649,
     effect:
       "Expel any number of Gear from your discard zone: Target unit you control with cost (X) or less cannot be targeted by spells or abilities this turn. If it's exhausted, recover it. (X equals the total cost of Gear you expelled.)",
     capacity: 3,
@@ -9037,7 +8809,7 @@ export const dataNumbers = [
     name: "Yurei, Dire Wolf of the Garden",
     type: "Unit",
     subtype: "legendary beast",
-    number: 672,
+    number: 650,
     effect:
       "Brawler\n" +
       `Arrive - If you destroyed an opponent's tower this turn, search your deck or discard zone for "True King's Greatsword" and equip it to this card.`,
