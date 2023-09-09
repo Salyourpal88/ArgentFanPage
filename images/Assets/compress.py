@@ -4,12 +4,12 @@ import numpy as np
 
 
 def convertImage(imageName):
-    im = Image.open(directory + imageName).convert("RGB")
+    im = Image.open(imageName).convert("RGB")
     im.save(f"{imageName}.png".replace(".webp", ""), "png")
     print("Successful")
 
 
-directory = "../Betrayal/"
+directory = "./"
 
 # iterate over files in
 # that directory
