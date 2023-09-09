@@ -13,11 +13,12 @@ def convertImage(filename):
     newData = []
 
     x = datas.getpixel((30, 0))
+    print(datas.getpixel((0, 0)))
 
     for item in datas:
         wi += 1
-        if (wi < 25 or width - 25 < wi) and (hi < 20 or hi > height - 25):
-            if item[3] == 0:
+        if (wi < 15 or width - 15 < wi) and (hi < 10 or hi > height - 10):
+            if item[0] > 70 and item[1] > 70 and item[2] > 70:
                 newData.append((255, 255, 255, 0))
             else:
                 newData.append(x)
@@ -33,6 +34,6 @@ def convertImage(filename):
 
 directory = "./"
 
-for filename in os.listdir(directory):
-    if ".webp" in filename:
-        convertImage(filename)
+convertImage("ArcticArbiter.webp")
+convertImage("AstralOfHope.webp")
+convertImage("AstralOfValor.webp")
