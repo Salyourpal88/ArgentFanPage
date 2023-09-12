@@ -4127,7 +4127,7 @@ export const allCards = [
     cost: 2,
     power: 0,
     name: "Cosmic Air Magic",
-    type: "",
+    type: "Spell",
     subtype: "",
     effect:
       " InstacastThis card costs (1) less to play for each face-up Air tower.The next Arrive - ability does not trigger this turn.",
