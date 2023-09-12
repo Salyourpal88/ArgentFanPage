@@ -1075,6 +1075,69 @@ export const allCards = [
     effect: "Exhaust: Produce 1.",
   },
   {
+    image: "images/Promos/shard-spider.webp",
+    element: "argent",
+    cost: 3,
+    power: 1500,
+    name: "Shard Spider",
+    type: "Unit",
+    subtype: "beast",
+    number: "014",
+    effect:
+      "If you have more destroyed towers than your opponent, and they control more units than you, this card cost (3) less to play.\n" +
+      "Arrive - Exhaust target unit your opponent controls. It does not recover during your opponent's next charge phase.",
+  },
+  {
+    image: "images/Promos/shadow-liger.webp",
+    element: "dark",
+    cost: 1,
+    power: 1000,
+    name: "Shadow Liger",
+    type: "Unit",
+    subtype: "beast",
+    number: "015",
+    effect:
+      "Whenever this card attacks or is attacked - Send the top two cards of your deck to the discard zone.",
+  },
+  {
+    image: "images/Promos/sandsea-hydra-scorpion.jpg",
+    name: "Sandsea Hydra Scorpion",
+    element: "air",
+    cost: 2,
+    power: 1000,
+    type: "Unit",
+    subtype: "dragon beast",
+    effect:
+      "Ruined – Search your deck for a Beast unit with cost (1) or less and put it into play.",
+    number: "172",
+  },
+  {
+    image: "images/Promos/gz-the-explosion-master.webp",
+    name: "G.Z. the Explosion Master",
+    cost: 2,
+    power: 1500,
+    element: "fire",
+    type: "Unit",
+    effect:
+      "Arrive – Place an Explosion counter on target Tower you own.\n" +
+      "Exhaust, remove an Explosion Counter from a Tower you own: If it's face-down, flip it face-up. Deal damage equal to double its defense to target Unit. Destroy that Tower.",
+    number: "020",
+  },
+  {
+    image: "images/Promos/nanatsu-the-pure-shinobi.webp",
+    name: "Nanatsu, the Pure Shinobi",
+    cost: 4,
+    power: 2500,
+    element: "air",
+    type: "Unit",
+    subtype: "Ninja",
+    effect:
+      "Arrive – For each destroyed Tower, place one counter on this card.\n" +
+      "Exhaust, remove one counter from this card: Exhaust Target Unit.\n" +
+      "Exhaust, remove four counters from this card: Destroy Target Unit and, if you do, switch up to two of your Shards to Active at the end of the turn.",
+    number: "021",
+  },
+  {
     image: "images/Betrayal/acid-monger.webp",
     element: "argent",
     cost: 2,
@@ -4927,7 +4990,7 @@ export const allCards = [
     image: "images/Ascension/SpiritOfUrsatovis.webp",
     element: "Fire",
     affinity: 12,
-    name: "Spirit of Serpio",
+    name: "Spirit of Ursatovis",
     type: "Spirit",
     effect:
       "Exhaust: Sacrifice a unit.Soulburst: All units get -1000 this turn.",

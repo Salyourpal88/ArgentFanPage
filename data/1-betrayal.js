@@ -1498,7 +1498,7 @@ export const betrayal = [
   {
     image: "images/Betrayal/raine-mournful-commander.webp",
     element: "fire",
-    name: "Raine, Mournful Commnader",
+    name: "Raine, Mournful Commander",
     type: "Champion",
     rarity: "Promo",
     effect:
