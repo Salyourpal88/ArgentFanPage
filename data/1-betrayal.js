@@ -1505,7 +1505,7 @@ export const betrayal = [
       "Exhaust, Expel up to two units from your hand: Deal damage to target unit equal to the number of cards expelled x500.",
   },
   {
-    image: "images/Bin/Newargent-shard.webp.webp",
+    image: "images/Bin/argent-shard.webp",
     name: "Argent Shard",
     element: "Argent",
     type: "Basic Shard",
