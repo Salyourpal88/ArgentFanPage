@@ -5,31 +5,97 @@ import os
 def convertImage(filename):
     img = Image.open(filename)
     img = img.convert("RGBA")
-
     datas = img.getdata()
-
-    wi, hi = 0, 0
     width, height = img.size
     newData = []
-    for item in datas:
-        wi += 1
-        if (wi < 30 or width - 30 < wi) and (hi < 28 or hi > height - 30):
-            if item[0] > 70 and item[1] > 70 and item[2] > 70:
+    ls = findLeftSide(datas, width, height)
+    rs = findRightSide(datas, width, height)
+    ts = findTopSide(datas, width, height)
+    bs = findBottomSide(datas, width, height)
+
+    for y in range(height):
+        for x in range(width):
+            pixel = datas.getpixel((x, y))
+            if (x < ls or x > rs or ts > y or bs < y) and (
+                pixel[0] >= 31 and pixel[1] >= 31 and pixel[2] >= 31
+            ):
                 newData.append((255, 255, 255, 0))
             else:
-                newData.append((1, 1, 1, 255))
-        else:
-            newData.append(item)
-        if wi == width:
-            wi = 0
-            hi += 1
+                newData.append(pixel)
     img.putdata(newData)
-    filename = filename.replace("../Revelations/", "")
     img.save(filename, "WEBP")
     print("Successful")
 
 
-#
-directory = "./"
+def findLeftSide(datas, wi, hi):
+    width, height = wi, hi
 
-convertImage("../Revelations/academy-of-argos.webp")
+    for x in range(width):
+        exc = 0
+        for y in range(height):
+            pixel = datas.getpixel((x, y))
+            if pixel[0] < 70 and pixel[1] < 70 and pixel[2] < 70:
+                exc += 1
+                if float(exc) / float(height - 1) * 100 > 98:
+                    ls = x
+                    return ls
+            else:
+                exc = 0
+                continue
+
+
+def findRightSide(datas, wi, hi):
+    width, height = wi, hi
+
+    for x in reversed(range(width)):
+        exc = 0
+        for y in range(height):
+            pixel = datas.getpixel((x, y))
+            if pixel[0] < 70 and pixel[1] < 70 and pixel[2] < 70:
+                exc += 1
+                if float(exc) / float(height - 1) * 100 > 98:
+                    ls = x
+                    return ls
+            else:
+                exc = 0
+                continue
+
+
+def findTopSide(datas, wi, hi):
+    width, height = wi, hi
+
+    for y in range(height):
+        exc = 0
+        for x in range(width):
+            pixel = datas.getpixel((x, y))
+            if pixel[0] < 70 and pixel[1] < 70 and pixel[2] < 70:
+                exc += 1
+                if float(exc) / float(width - 1) * 100 > 98:
+                    ls = y
+                    return ls
+            else:
+                exc = 0
+                continue
+
+
+def findBottomSide(datas, wi, hi):
+    width, height = wi, hi
+
+    for y in reversed(range(height)):
+        exc = 0
+        for x in range(width):
+            pixel = datas.getpixel((x, y))
+            if pixel[0] < 70 and pixel[1] < 70 and pixel[2] < 70:
+                exc += 1
+                if float(exc) / float(width - 1) * 100 > 98:
+                    ls = y
+                    return ls
+            else:
+                exc = 0
+                continue
+
+
+directory = "../Revelations/"
+for filename in os.listdir(directory):
+    if ".webp" in filename:
+        convertImage(directory + filename)
