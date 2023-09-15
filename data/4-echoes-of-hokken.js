@@ -1,6 +1,6 @@
 export const hokken = [
   {
-    image: "images/Hokken/ArcticArbiter.webp",
+    image: "images/Hokken/arctic-arbiter.webp",
     element: "Water",
     cost: 6,
     power: 4000,
@@ -13,7 +13,7 @@ export const hokken = [
     number: "001/136",
   },
   {
-    image: "images/Hokken/AstralOfHope.webp",
+    image: "images/Hokken/astral-of-hope.webp",
     element: "Light",
     cost: 4,
     power: 2500,
@@ -26,7 +26,7 @@ export const hokken = [
     number: "002/136",
   },
   {
-    image: "images/Hokken/AstralOfValor.webp",
+    image: "images/Hokken/astral-of-valor.webp",
     element: "Light",
     cost: 4,
     power: 2500,
@@ -39,7 +39,7 @@ export const hokken = [
     number: "003/136",
   },
   {
-    image: "images/Hokken/AstralicHerald.webp",
+    image: "images/Hokken/astralic-herald.webp",
     element: "Light",
     cost: 3,
     power: 2000,
@@ -51,7 +51,7 @@ export const hokken = [
     number: "004/136",
   },
   {
-    image: "images/Hokken/AstralicInvocation.webp",
+    image: "images/Hokken/astralic-invocation.webp",
     element: "Light",
     cost: 1,
     name: "Astralic Invocation",
@@ -63,7 +63,7 @@ export const hokken = [
     number: "005/136",
   },
   {
-    image: "images/Hokken/AstralicJudgment.webp",
+    image: "images/Hokken/astralic-judgment.webp",
     element: "Light",
     cost: 4,
     name: "Astralic Judgment",
@@ -75,7 +75,7 @@ export const hokken = [
     number: "006/136",
   },
   {
-    image: "images/Hokken/AstralicLaw.webp",
+    image: "images/Hokken/astralic-law.webp",
     element: "Light",
     cost: 1,
     name: "Astralic Law",
@@ -87,7 +87,7 @@ export const hokken = [
     number: "007/136",
   },
   {
-    image: "images/Hokken/AstralicRegalia.webp",
+    image: "images/Hokken/astralic-regalia.webp",
     element: "Light",
     cost: 1,
     name: "Astralic Regalia",
@@ -99,7 +99,7 @@ export const hokken = [
     number: "008/136",
   },
   {
-    image: "images/Hokken/AurelianUrsa.webp",
+    image: "images/Hokken/aurelian-ursa.webp",
     element: "Air",
     cost: 4,
     power: 2000,
@@ -112,7 +112,7 @@ export const hokken = [
     number: "009/136",
   },
   {
-    image: "images/Hokken/BeastkingsAwakening.webp",
+    image: "images/Hokken/beastkings-awakening.webp",
     element: "Air",
     cost: 3,
     name: "Beastking's Awakening",
@@ -124,7 +124,7 @@ export const hokken = [
     number: "010/136",
   },
   {
-    image: "images/Hokken/BlazingArbiter.webp",
+    image: "images/Hokken/blazing-arbiter.webp",
     element: "Fire",
     cost: 6,
     power: 4000,
@@ -137,7 +137,7 @@ export const hokken = [
     number: "011/136",
   },
   {
-    image: "images/Hokken/Boostersaurus.webp",
+    image: "images/Hokken/boostersaurus.webp",
     element: "Fire",
     cost: 2,
     power: 1000,
@@ -150,7 +150,7 @@ export const hokken = [
     number: "012/136",
   },
   {
-    image: "images/Hokken/BrontaurianBambino.webp",
+    image: "images/Hokken/brontaurian-bambino.webp",
     element: "Fire",
     cost: 2,
     power: 1500,
@@ -162,7 +162,7 @@ export const hokken = [
     number: "013/136",
   },
   {
-    image: "images/Hokken/BrontaurianHerdmother.webp",
+    image: "images/Hokken/brontaurian-herdmother.webp",
     element: "Fire",
     cost: 6,
     power: 3500,
@@ -175,7 +175,7 @@ export const hokken = [
     number: "014/136",
   },
   {
-    image: "images/Hokken/CrushingBeast.webp",
+    image: "images/Hokken/crushing-beast.webp",
     element: "Air",
     cost: 3,
     power: 2000,
@@ -188,7 +188,7 @@ export const hokken = [
     number: "015/136",
   },
   {
-    image: "images/Hokken/CrushingElemental.webp",
+    image: "images/Hokken/crushing-elemental.webp",
     element: "Air",
     cost: 3,
     power: 1500,
@@ -201,7 +201,7 @@ export const hokken = [
     number: "016/136",
   },
   {
-    image: "images/Hokken/CultistOfTheForgottenOne.webp",
+    image: "images/Hokken/cultist-of-the-forgotten-one.webp",
     element: "Argent",
     cost: 3,
     power: 2000,
@@ -213,7 +213,7 @@ export const hokken = [
     number: "017/136",
   },
   {
-    image: "images/Hokken/DecayedArbiter.webp",
+    image: "images/Hokken/decayed-arbiter.webp",
     element: "Dark",
     cost: 6,
     power: 4000,
@@ -239,7 +239,7 @@ export const hokken = [
     number: "019/136",
   },
   {
-    image: "images/Hokken/DiscipleOfHope.webp",
+    image: "images/Hokken/disciple-of-hope.webp",
     element: "Light",
     cost: 2,
     power: 1000,
@@ -252,7 +252,7 @@ export const hokken = [
     number: "020/136",
   },
   {
-    image: "images/Hokken/DiscipleOfValor.webp",
+    image: "images/Hokken/disciple-of-valor.webp",
     element: "Light",
     cost: 2,
     power: 1000,
@@ -265,7 +265,7 @@ export const hokken = [
     number: "021/136",
   },
   {
-    image: "images/Hokken/DriftingDiplodocus.webp",
+    image: "images/Hokken/drifting-diplodocus.webp",
     element: "Air",
     cost: 6,
     power: 3500,
@@ -278,7 +278,7 @@ export const hokken = [
     number: "022/136",
   },
   {
-    image: "images/Hokken/ElemasterAurora.webp",
+    image: "images/Hokken/elemaster-aurora.webp",
     element: "Argent",
     cost: 2,
     power: 1500,
@@ -291,7 +291,7 @@ export const hokken = [
     number: "023/136",
   },
   {
-    image: "images/Hokken/ElemasterCinder.webp",
+    image: "images/Hokken/elemaster-cinder.webp",
     element: "Argent",
     cost: 2,
     power: 1500,
@@ -304,7 +304,7 @@ export const hokken = [
     number: "024/136",
   },
   {
-    image: "images/Hokken/ElemasterCoral.webp",
+    image: "images/Hokken/elemaster-coral.webp",
     element: "Argent",
     cost: 2,
     power: 1500,
@@ -317,7 +317,7 @@ export const hokken = [
     number: "025/136",
   },
   {
-    image: "images/Hokken/ElemasterSquall.webp",
+    image: "images/Hokken/elemaster-squall.webp",
     element: "Argent",
     cost: 2,
     power: 1500,
@@ -330,7 +330,7 @@ export const hokken = [
     number: "026/136",
   },
   {
-    image: "images/Hokken/ElemasterUmbra.webp",
+    image: "images/Hokken/elemaster-umbra.webp",
     element: "Argent",
     cost: 2,
     power: 1500,
@@ -343,7 +343,7 @@ export const hokken = [
     number: "027/136",
   },
   {
-    image: "images/Hokken/EmeraldElderStag.webp",
+    image: "images/Hokken/emerald-elder-stag.webp",
     element: "Air",
     cost: 5,
     power: 3000,
@@ -356,7 +356,7 @@ export const hokken = [
     number: "028/136",
   },
   {
-    image: "images/Hokken/EmeraldElderTreant.webp",
+    image: "images/Hokken/emerald-elder-treant.webp",
     element: "Air",
     cost: 5,
     power: 2500,
@@ -369,7 +369,7 @@ export const hokken = [
     number: "029/136",
   },
   {
-    image: "images/Hokken/EvaerieBurial.webp",
+    image: "images/Hokken/evaerie-burial.webp",
     element: "Dark",
     cost: 1,
     name: "Evaerie Burial",
@@ -381,7 +381,7 @@ export const hokken = [
     number: "030/136",
   },
   {
-    image: "images/Hokken/EvaerieChangeling.webp",
+    image: "images/Hokken/evaerie-changeling.webp",
     element: "Dark",
     cost: 2,
     power: 1000,
@@ -394,7 +394,7 @@ export const hokken = [
     number: "031/136",
   },
   {
-    image: "images/Hokken/EvaerieCourt.webp",
+    image: "images/Hokken/evaerie-court.webp",
     element: "Dark",
     cost: 2,
     name: "Evaerie Court",
@@ -406,7 +406,7 @@ export const hokken = [
     number: "032/136",
   },
   {
-    image: "images/Hokken/EvaerieCrone.webp",
+    image: "images/Hokken/evaerie-crone.webp",
     element: "Dark",
     cost: 2,
     power: 1500,
@@ -419,7 +419,7 @@ export const hokken = [
     number: "033/136",
   },
   {
-    image: "images/Hokken/EvaerieGlamour.webp",
+    image: "images/Hokken/evaerie-glamour.webp",
     element: "Dark",
     cost: 2,
     name: "Evaerie Glamour",
@@ -431,7 +431,7 @@ export const hokken = [
     number: "034/136",
   },
   {
-    image: "images/Hokken/EvaerieHorde.webp",
+    image: "images/Hokken/evaerie-horde.webp",
     element: "Dark",
     cost: 1,
     power: 500,
@@ -444,7 +444,7 @@ export const hokken = [
     number: "035/136",
   },
   {
-    image: "images/Hokken/EvaerieRogue.webp",
+    image: "images/Hokken/evaerie-rogue.webp",
     element: "Dark",
     cost: 1,
     power: 500,
@@ -456,7 +456,7 @@ export const hokken = [
     number: "036/136",
   },
   {
-    image: "images/Hokken/EvaerieThroneguard.webp",
+    image: "images/Hokken/evaerie-throneguard.webp",
     element: "Dark",
     cost: 1,
     power: 1000,
@@ -469,7 +469,7 @@ export const hokken = [
     number: "037/136",
   },
   {
-    image: "images/Hokken/EvvieMelanitesArchmagus.webp",
+    image: "images/Hokken/evvie-melanites-archmagus.webp",
     element: "Dark",
     cost: 3,
     power: 1500,
@@ -482,7 +482,7 @@ export const hokken = [
     number: "038/136",
   },
   {
-    image: "images/Hokken/FragmentOfTheForgottenOne.webp",
+    image: "images/Hokken/fragment-of-the-forgotten-one.webp",
     element: "Argent",
     cost: 5,
     power: 3000,
@@ -495,7 +495,7 @@ export const hokken = [
     number: "039/136",
   },
   {
-    image: "images/Hokken/GlacialShuriken.webp",
+    image: "images/Hokken/glacial-shuriken.webp",
     element: "Water",
     cost: 2,
     name: "Glacial Shuriken",
@@ -507,7 +507,7 @@ export const hokken = [
     number: "040/136",
   },
   {
-    image: "images/Hokken/HadirBoyOfTheSacredForest.webp",
+    image: "images/Hokken/hadir-boy-of-the-sacred-forest.webp",
     element: "Air",
     name: "Hadir, Boy of the Sacred Forest",
     type: "Champion",
@@ -518,7 +518,7 @@ export const hokken = [
     number: "041/136",
   },
   {
-    image: "images/Hokken/HandOfPengiro.webp",
+    image: "images/Hokken/hand-of-pengiro.webp",
     element: "Water",
     cost: 2,
     power: 1000,
@@ -531,7 +531,7 @@ export const hokken = [
     number: "042/136",
   },
   {
-    image: "images/Hokken/HarmonizationOfHope.webp",
+    image: "images/Hokken/harmonization-of-hope.webp",
     element: "Light",
     cost: 1,
     name: "Harmonization of Hope",
@@ -543,7 +543,7 @@ export const hokken = [
     number: "043/136",
   },
   {
-    image: "images/Hokken/HeraldOfTyrantus.webp",
+    image: "images/Hokken/herald-of-tyrantus.webp",
     element: "Fire",
     cost: 5,
     power: 3000,
@@ -556,7 +556,7 @@ export const hokken = [
     number: "044/136",
   },
   {
-    image: "images/Hokken/HerdmothersFormation.webp",
+    image: "images/Hokken/herdmothers-formation.webp",
     element: "Fire",
     cost: 3,
     name: "Herdmother's Formation",
@@ -568,7 +568,7 @@ export const hokken = [
     number: "045/136",
   },
   {
-    image: "images/Hokken/HokkenAdventurer.webp",
+    image: "images/Hokken/hokken-adventurer.webp",
     element: "Argent",
     cost: 2,
     power: 1000,
@@ -581,7 +581,7 @@ export const hokken = [
     number: "046/136",
   },
   {
-    image: "images/Hokken/HokkenArchaeologist.webp",
+    image: "images/Hokken/hokken-archaeologist.webp",
     element: "Argent",
     cost: 2,
     power: 1000,
@@ -594,7 +594,7 @@ export const hokken = [
     number: "047/136",
   },
   {
-    image: "images/Hokken/HokkenFighter.webp",
+    image: "images/Hokken/hokken-fighter.webp",
     element: "Argent",
     cost: 2,
     power: 1500,
@@ -606,7 +606,7 @@ export const hokken = [
     number: "048/136",
   },
   {
-    image: "images/Hokken/HokkenHare.webp",
+    image: "images/Hokken/hokken-hare.webp",
     element: "Argent",
     cost: 1,
     power: 500,
@@ -619,7 +619,7 @@ export const hokken = [
     number: "049/136",
   },
   {
-    image: "images/Hokken/HokkenMarket.webp",
+    image: "images/Hokken/hokken-market.webp",
     element: "Argent",
     cost: 2,
     name: "Hokken Market",
@@ -630,7 +630,7 @@ export const hokken = [
     number: "050/136",
   },
   {
-    image: "images/Hokken/HokkenSprite.webp",
+    image: "images/Hokken/hokken-sprite.webp",
     element: "Argent",
     cost: 1,
     power: 1000,
@@ -642,7 +642,7 @@ export const hokken = [
     number: "051/136",
   },
   {
-    image: "images/Hokken/HokkenTinkerersAlexAndAlex.webp",
+    image: "images/Hokken/hokken-tinkerers-alex-and-alex.webp",
     element: "Argent",
     cost: 4,
     power: 2500,
@@ -655,7 +655,7 @@ export const hokken = [
     number: "052/136",
   },
   {
-    image: "images/Hokken/HokkenWardingAmulet.webp",
+    image: "images/Hokken/hokken-warding-amulet.webp",
     element: "Argent",
     cost: 2,
     name: "Hokken Warding Amulet",
@@ -667,7 +667,7 @@ export const hokken = [
     number: "053/136",
   },
   {
-    image: "images/Hokken/HornedBrontaurian.webp",
+    image: "images/Hokken/horned-brontaurian.webp",
     element: "Fire",
     cost: 4,
     power: 3000,
@@ -679,7 +679,7 @@ export const hokken = [
     number: "054/136",
   },
   {
-    image: "images/Hokken/HuntOfTheNightriders.webp",
+    image: "images/Hokken/hunt-of-the-nightriders.webp",
     element: "Dark",
     cost: 2,
     name: "Hunt of the Nightriders",
@@ -691,7 +691,7 @@ export const hokken = [
     number: "055/136",
   },
   {
-    image: "images/Hokken/HyldiaAstralicSanctum.webp",
+    image: "images/Hokken/hyldia-astralic-sanctum.webp",
     element: "Light",
     cost: 2,
     name: "Hyldia, Astralic Sanctum",
@@ -703,7 +703,7 @@ export const hokken = [
     number: "056/136",
   },
   {
-    image: "images/Hokken/HyldianTrainee.webp",
+    image: "images/Hokken/hyldian-trainee.webp",
     element: "Light",
     cost: 1,
     power: 1000,
@@ -715,7 +715,7 @@ export const hokken = [
     number: "057/136",
   },
   {
-    image: "images/Hokken/IceBreathFirstFormCryostrike.webp",
+    image: "images/Hokken/ice-breath-first-form-cryostrike.webp",
     element: "Water",
     cost: 1,
     name: "Ice Breath First Form - Cyrostrike",
@@ -727,7 +727,7 @@ export const hokken = [
     number: "058/136",
   },
   {
-    image: "images/Hokken/IceBreathSecondFormCryostorm.webp",
+    image: "images/Hokken/ice-breath-second-form-cryostorm.webp",
     element: "Water",
     cost: 3,
     name: "Ice Breath Second Form - Cyrostorm",
@@ -739,7 +739,7 @@ export const hokken = [
     number: "059/136",
   },
   {
-    image: "images/Hokken/JurassticStrength.webp",
+    image: "images/Hokken/jurasstic-strength.webp",
     element: "Fire",
     cost: 1,
     name: "Jurassic Strength",
@@ -751,7 +751,7 @@ export const hokken = [
     number: "060/136",
   },
   {
-    image: "images/Hokken/JurassticSwipe.webp",
+    image: "images/Hokken/jurasstic-swipe.webp",
     element: "Fire",
     cost: 2,
     name: "Jurasstic Swipe",
@@ -763,7 +763,7 @@ export const hokken = [
     number: "061/136",
   },
   {
-    image: "images/Hokken/KongaSacredForestBeastking.webp",
+    image: "images/Hokken/konga-sacred-forest-beastking.webp",
     element: "Air",
     cost: 6,
     power: 3000,
@@ -776,7 +776,7 @@ export const hokken = [
     number: "062/136",
   },
   {
-    image: "images/Hokken/KumakoriPengardianTutelary.webp",
+    image: "images/Hokken/kumakori-pengardian-tutelary.webp",
     element: "Water",
     cost: 5,
     power: 3500,
@@ -789,7 +789,7 @@ export const hokken = [
     number: "063/136",
   },
   {
-    image: "images/Hokken/KumakorisTotem.webp",
+    image: "images/Hokken/kumakoris-totem.webp",
     element: "Water",
     cost: 1,
     name: "Kumakori's Totem",
@@ -814,7 +814,7 @@ export const hokken = [
     number: "065/136",
   },
   {
-    image: "images/Hokken/MabEvaerieDowager.webp",
+    image: "images/Hokken/mab-evaerie-dowager.webp",
     element: "Dark",
     cost: 4,
     power: 2500,
@@ -827,7 +827,7 @@ export const hokken = [
     number: "066/136",
   },
   {
-    image: "images/Hokken/MarrowSlurper.webp",
+    image: "images/Hokken/marrow-slurper.webp",
     element: "Argent",
     cost: 2,
     power: 1500,
@@ -840,7 +840,7 @@ export const hokken = [
     number: "067/136",
   },
   {
-    image: "images/Hokken/MelaniteEvaerieNightQueen.webp",
+    image: "images/Hokken/melanite-evaerie-night-queen.webp",
     element: "Dark",
     cost: 4,
     power: 2500,
@@ -853,7 +853,7 @@ export const hokken = [
     number: "068/136",
   },
   {
-    image: "images/Hokken/MelanitesEnvoy.webp",
+    image: "images/Hokken/melanites-envoy.webp",
     element: "Dark",
     cost: 2,
     power: 1000,
@@ -866,7 +866,7 @@ export const hokken = [
     number: "069/136",
   },
   {
-    image: "images/Hokken/MelantiesGaze.webp",
+    image: "images/Hokken/melanties-gaze.webp",
     element: "Dark",
     cost: 1,
     name: "Melantie's Gaze",
@@ -878,7 +878,7 @@ export const hokken = [
     number: "070/136",
   },
   {
-    image: "images/Hokken/MelanitesManipulation.webp",
+    image: "images/Hokken/melanites-manipulation.webp",
     element: "Dark",
     cost: 5,
     name: "Melanite's Manipulation",
@@ -890,7 +890,7 @@ export const hokken = [
     number: "071/136",
   },
   {
-    image: "images/Hokken/MezoziaThePrimalCaldera.webp",
+    image: "images/Hokken/mezozia-the-primal-caldera.webp",
     element: "Fire",
     cost: 2,
     name: "Mezozia, The Primal Caldera",
@@ -902,7 +902,7 @@ export const hokken = [
     number: "072/136",
   },
   {
-    image: "images/Hokken/MezozianHatchling.webp",
+    image: "images/Hokken/mezozian-hatchling.webp",
     element: "Fire",
     cost: 1,
     power: 500,
@@ -914,7 +914,7 @@ export const hokken = [
     number: "073/136",
   },
   {
-    image: "images/Hokken/MezozianOpteryx.webp",
+    image: "images/Hokken/mezozian-opteryx.webp",
     element: "Fire",
     cost: 5,
     power: 2500,
@@ -927,7 +927,7 @@ export const hokken = [
     number: "074/136",
   },
   {
-    image: "images/Hokken/MezozianRaptor.webp",
+    image: "images/Hokken/mezozian-raptor.webp",
     element: "Fire",
     cost: 3,
     power: 1500,
@@ -940,7 +940,7 @@ export const hokken = [
     number: "075/136",
   },
   {
-    image: "images/Hokken/NarrowEscape.webp",
+    image: "images/Hokken/narrow-escape.webp",
     element: "Air",
     cost: 0,
     name: "Narrow Escape",
@@ -952,7 +952,7 @@ export const hokken = [
     number: "076/136",
   },
   {
-    image: "images/Hokken/NeferiaTheQueensAssassin.webp",
+    image: "images/Hokken/neferia-the-queens-assassin.webp",
     element: "Dark",
     name: "Neferia, the Queen's Assassin",
     type: "Champion",
@@ -963,7 +963,7 @@ export const hokken = [
     number: "077/136",
   },
   {
-    image: "images/Hokken/NightriderEmmed.webp",
+    image: "images/Hokken/nightrider-emmed.webp",
     element: "Dark",
     cost: 3,
     power: 2000,
@@ -976,7 +976,7 @@ export const hokken = [
     number: "078/136",
   },
   {
-    image: "images/Hokken/NightriderEooch.webp",
+    image: "images/Hokken/nightrider-eooch.webp",
     element: "Dark",
     cost: 3,
     power: 2000,
@@ -989,7 +989,7 @@ export const hokken = [
     number: "079/136",
   },
   {
-    image: "images/Hokken/NightriderErren.webp",
+    image: "images/Hokken/nightrider-erren.webp",
     element: "Dark",
     cost: 3,
     power: 2000,
@@ -1002,7 +1002,7 @@ export const hokken = [
     number: "080/136",
   },
   {
-    image: "images/Hokken/ObstructionOfOria.webp",
+    image: "images/Hokken/obstruction-of-oria.webp",
     element: "Light",
     cost: 3,
     name: "Obstruction of Oria",
@@ -1014,7 +1014,7 @@ export const hokken = [
     number: "081/136",
   },
   {
-    image: "images/Hokken/OriaFragmentOfGenesis.webp",
+    image: "images/Hokken/oria-fragment-of-genesis.webp",
     element: "Light",
     cost: 6,
     power: 4000,
@@ -1027,7 +1027,7 @@ export const hokken = [
     number: "082/136",
   },
   {
-    image: "images/Hokken/PengardianLegendHanzo.webp",
+    image: "images/Hokken/pengardian-legend-hanzo.webp",
     element: "Water",
     name: "Pengardian Legend, Hanzo",
     type: "Champion",
@@ -1038,7 +1038,7 @@ export const hokken = [
     number: "083/136",
   },
   {
-    image: "images/Hokken/PengardianMystic.webp",
+    image: "images/Hokken/pengardian-mystic.webp",
     element: "Water",
     cost: 2,
     power: 1000,
@@ -1051,7 +1051,7 @@ export const hokken = [
     number: "084/136",
   },
   {
-    image: "images/Hokken/PengardianPupil.webp",
+    image: "images/Hokken/pengardian-pupil.webp",
     element: "Water",
     cost: 1,
     power: 1000,
@@ -1063,7 +1063,7 @@ export const hokken = [
     number: "085/136",
   },
   {
-    image: "images/Hokken/PengiroEmperorOfPengardia.webp",
+    image: "images/Hokken/pengiro-emperor-of-pengardia.webp",
     element: "Water",
     cost: 4,
     power: 2500,
@@ -1076,7 +1076,7 @@ export const hokken = [
     number: "086/136",
   },
   {
-    image: "images/Hokken/PengirosDecree.webp",
+    image: "images/Hokken/pengiros-decree.webp",
     element: "Water",
     cost: 3,
     name: "Pengiro's Decree",
@@ -1088,7 +1088,7 @@ export const hokken = [
     number: "087/136",
   },
   {
-    image: "images/Hokken/PengobiJoninMochizuki.webp",
+    image: "images/Hokken/pengobi-jonin-mochizuki.webp",
     element: "Water",
     cost: 4,
     power: 2000,
@@ -1101,7 +1101,7 @@ export const hokken = [
     number: "088/136",
   },
   {
-    image: "images/Hokken/PengobiKishu.webp",
+    image: "images/Hokken/pengobi-kishu.webp",
     element: "Water",
     cost: 3,
     power: 1500,
@@ -1114,7 +1114,7 @@ export const hokken = [
     number: "089/136",
   },
   {
-    image: "images/Hokken/PengobiKonran.webp",
+    image: "images/Hokken/pengobi-konran.webp",
     element: "Water",
     cost: 1,
     power: 500,
@@ -1127,7 +1127,7 @@ export const hokken = [
     number: "090/136",
   },
   {
-    image: "images/Hokken/PengushiDamiyoKenshin.webp",
+    image: "images/Hokken/pengushi-damiyo-kenshin.webp",
     element: "Water",
     cost: 3,
     power: 2000,
@@ -1140,7 +1140,7 @@ export const hokken = [
     number: "091/136",
   },
   {
-    image: "images/Hokken/PengushiKyudo.webp",
+    image: "images/Hokken/pengushi-kyudo.webp",
     element: "Water",
     cost: 2,
     power: 1500,
@@ -1153,7 +1153,7 @@ export const hokken = [
     number: "092/136",
   },
   {
-    image: "images/Hokken/PengushiRonin.webp",
+    image: "images/Hokken/pengushi-ronin.webp",
     element: "Water",
     cost: 1,
     power: 1000,
@@ -1166,7 +1166,7 @@ export const hokken = [
     number: "093/136",
   },
   {
-    image: "images/Hokken/PrimevalAcidMonger.webp",
+    image: "images/Hokken/primeval-acid-monger.webp",
     element: "Argent",
     cost: 2,
     power: 1500,
@@ -1179,7 +1179,7 @@ export const hokken = [
     number: "094/136",
   },
   {
-    image: "images/Hokken/PrimevalEgg.webp",
+    image: "images/Hokken/primeval-egg.webp",
     element: "Fire",
     cost: 1,
     power: 500,
@@ -1192,7 +1192,7 @@ export const hokken = [
     number: "095/136",
   },
   {
-    image: "images/Hokken/PrimevalRoar.webp",
+    image: "images/Hokken/primeval-roar.webp",
     element: "Fire",
     cost: 2,
     name: "Primeval Roar",
@@ -1204,7 +1204,7 @@ export const hokken = [
     number: "096/136",
   },
   {
-    image: "images/Hokken/PrimevalShockwave.webp",
+    image: "images/Hokken/primeval-shockwave.webp",
     element: "Fire",
     cost: 5,
     name: "Primeval Shockwave",
@@ -1216,7 +1216,7 @@ export const hokken = [
     number: "097/136",
   },
   {
-    image: "images/Hokken/ProphetOfHope.webp",
+    image: "images/Hokken/prophet-of-hope.webp",
     element: "Light",
     cost: 1,
     power: 500,
@@ -1229,7 +1229,7 @@ export const hokken = [
     number: "098/136",
   },
   {
-    image: "images/Hokken/ProphetOfValor.webp",
+    image: "images/Hokken/prophet-of-valor.webp",
     element: "Light",
     cost: 1,
     power: 500,
@@ -1242,7 +1242,7 @@ export const hokken = [
     number: "099/136",
   },
   {
-    image: "images/Hokken/RadiantArbiter.webp",
+    image: "images/Hokken/radiant-arbiter.webp",
     element: "Light",
     cost: 6,
     power: 4000,
@@ -1255,7 +1255,7 @@ export const hokken = [
     number: "100/136",
   },
   {
-    image: "images/Hokken/RavagingRhinoceros.webp",
+    image: "images/Hokken/ravaging-rhinoceros.webp",
     element: "Air",
     cost: 1,
     power: 1000,
@@ -1268,7 +1268,7 @@ export const hokken = [
     number: "101/136",
   },
   {
-    image: "images/Hokken/RennaFeralWarrior.webp",
+    image: "images/Hokken/renna-feral-warrior.webp",
     element: "Fire",
     name: "Renna, Feral Warrior",
     type: "Champion",
@@ -1279,7 +1279,7 @@ export const hokken = [
     number: "102/136",
   },
   {
-    image: "images/Hokken/RuinedReclamation.webp",
+    image: "images/Hokken/ruined-reclamation.webp",
     element: "Dark",
     cost: 1,
     name: "Ruined Reclamation",
@@ -1291,7 +1291,7 @@ export const hokken = [
     number: "103/136",
   },
   {
-    image: "images/Hokken/SavageArbiter.webp",
+    image: "images/Hokken/savage-arbiter.webp",
     element: "Air",
     cost: 6,
     power: 4000,
@@ -1304,7 +1304,7 @@ export const hokken = [
     number: "104/136",
   },
   {
-    image: "images/Hokken/SecretPengutsuGlacialClones.webp",
+    image: "images/Hokken/secret-pengutsu-glacial-clones.webp",
     element: "Water",
     cost: 2,
     name: "Secret Pengutsu: Glacial Clones",
@@ -1316,7 +1316,7 @@ export const hokken = [
     number: "105/136",
   },
   {
-    image: "images/Hokken/ShardworkAngel.webp",
+    image: "images/Hokken/shardwork-angel.webp",
     element: "Argent",
     cost: 3,
     power: 2500,
@@ -1329,7 +1329,7 @@ export const hokken = [
     number: "106/136",
   },
   {
-    image: "images/Hokken/ShardworkArbiter.webp",
+    image: "images/Hokken/shardwork-arbiter.webp",
     element: "Argent",
     cost: 6,
     power: 5000,
@@ -1342,7 +1342,7 @@ export const hokken = [
     number: "107/136",
   },
   {
-    image: "images/Hokken/ShardworkDragon.webp",
+    image: "images/Hokken/shardwork-dragon.webp",
     element: "Argent",
     cost: 2,
     power: 2000,
@@ -1355,7 +1355,7 @@ export const hokken = [
     number: "108/136",
   },
   {
-    image: "images/Hokken/ShardworkFactory.webp",
+    image: "images/Hokken/shardwork-factory.webp",
     element: "Argent",
     cost: 1,
     name: "Shadrwork Factory",
@@ -1367,7 +1367,7 @@ export const hokken = [
     number: "109/136",
   },
   {
-    image: "images/Hokken/ShardworkHeart.webp",
+    image: "images/Hokken/shardwork-heart.webp",
     element: "Argent",
     cost: 0,
     name: "Shadrwork Heart",
@@ -1379,7 +1379,7 @@ export const hokken = [
     number: "110/136",
   },
   {
-    image: "images/Hokken/ShardworkHound.webp",
+    image: "images/Hokken/shardwork-hound.webp",
     element: "Argent",
     cost: 1,
     power: "1500",
@@ -1392,7 +1392,7 @@ export const hokken = [
     number: "111/136",
   },
   {
-    image: "images/Hokken/ShardworkKnight.webp",
+    image: "images/Hokken/shardwork-knight.webp",
     element: "Argent",
     cost: 4,
     power: 3000,
@@ -1405,7 +1405,7 @@ export const hokken = [
     number: "112/136",
   },
   {
-    image: "images/Hokken/ShardworkTitan.webp",
+    image: "images/Hokken/shardwork-titan.webp",
     element: "Argent",
     cost: 5,
     power: 3500,
@@ -1418,7 +1418,7 @@ export const hokken = [
     number: "113/136",
   },
   {
-    image: "images/Hokken/SnowtopElemental.webp",
+    image: "images/Hokken/snowtop-elemental.webp",
     element: "Water",
     cost: 2,
     power: 1000,
@@ -1431,7 +1431,7 @@ export const hokken = [
     number: "114/136",
   },
   {
-    image: "images/Hokken/SnowtopHibagon.webp",
+    image: "images/Hokken/snowtop-hibagon.webp",
     element: "Water",
     cost: 3,
     power: 2000,
@@ -1444,7 +1444,7 @@ export const hokken = [
     number: "115/136",
   },
   {
-    image: "images/Hokken/SnowtopVillagePengardia.webp",
+    image: "images/Hokken/snowtop-village-pengardia.webp",
     element: "Water",
     cost: 2,
     name: "Snowtop Village, Pengardia",
@@ -1456,7 +1456,7 @@ export const hokken = [
     number: "116/136",
   },
   {
-    image: "images/Hokken/SoulSevering.webp",
+    image: "images/Hokken/soul-severing.webp",
     element: "Dark",
     cost: 1,
     name: "Soul Severing",
@@ -1468,7 +1468,7 @@ export const hokken = [
     number: "117/136",
   },
   {
-    image: "images/Hokken/TempleOfTheForgotten.webp",
+    image: "images/Hokken/temple-of-the-forgotten.webp",
     element: "Argent",
     cost: 1,
     name: "Temple of the Forgotten",
@@ -1493,7 +1493,7 @@ export const hokken = [
     number: "119/136",
   },
   {
-    image: "images/Hokken/TyrantusPrimevalRuler.webp",
+    image: "images/Hokken/tyrantus-primeval-ruler.webp",
     element: "Fire",
     cost: 10,
     power: 5000,
@@ -1506,7 +1506,7 @@ export const hokken = [
     number: "120/136",
   },
   {
-    image: "images/Hokken/VindicationOfValor.webp",
+    image: "images/Hokken/vindication-of-valor.webp",
     element: "Light",
     cost: 2,
     name: "Vindication of Valor",
@@ -1518,7 +1518,7 @@ export const hokken = [
     number: "121/136",
   },
   {
-    image: "images/Hokken/VoidfireShadow.webp",
+    image: "images/Hokken/voidfire-shadow.webp",
     element: "Fire",
     cost: 1,
     power: 1000,
@@ -1531,7 +1531,7 @@ export const hokken = [
     number: "122/136",
   },
   {
-    image: "images/Hokken/WarriorOfHope.webp",
+    image: "images/Hokken/warrior-of-hope.webp",
     element: "Light",
     cost: 2,
     power: 1500,
@@ -1543,7 +1543,7 @@ export const hokken = [
     number: "123/136",
   },
   {
-    image: "images/Hokken/WarriorOfValor.webp",
+    image: "images/Hokken/warrior-of-valor.webp",
     element: "Light",
     cost: 3,
     power: 3000,
@@ -1555,7 +1555,7 @@ export const hokken = [
     number: "124/136",
   },
   {
-    image: "images/Hokken/ZaneHeroOfHyldia.webp",
+    image: "images/Hokken/zane-hero-of-hyldia.webp",
     element: "Light",
     name: "Zane, Hero of Hyldia",
     type: "Champion",
@@ -1566,7 +1566,7 @@ export const hokken = [
     number: "125/136",
   },
   {
-    image: "images/Hokken/ZonamaTheSacredForest.webp",
+    image: "images/Hokken/zonama-the-sacred-forest.webp",
     element: "Air",
     cost: 4,
     name: "Zonama, the Sacred Forest",
@@ -1578,7 +1578,7 @@ export const hokken = [
     number: "126/136",
   },
   {
-    image: "images/Hokken/ZonamianAmbassador.webp",
+    image: "images/Hokken/zonamian-ambassador.webp",
     element: "Air",
     cost: 2,
     power: 1000,
@@ -1590,7 +1590,7 @@ export const hokken = [
     number: "127/136",
   },
   {
-    image: "images/Hokken/ZonamianBarrier.webp",
+    image: "images/Hokken/zonamian-barrier.webp",
     element: "Air",
     cost: 1,
     name: "Zonamian Barrier",
@@ -1602,7 +1602,7 @@ export const hokken = [
     number: "128/136",
   },
   {
-    image: "images/Hokken/ZonamianCritters.webp",
+    image: "images/Hokken/zonamian-critters.webp",
     element: "Air",
     cost: 1,
     power: 500,
@@ -1615,7 +1615,7 @@ export const hokken = [
     number: "129/136",
   },
   {
-    image: "images/Hokken/ZonamianDryad.webp",
+    image: "images/Hokken/zonamian-dryad.webp",
     element: "Air",
     cost: 1,
     power: 500,
@@ -1627,7 +1627,7 @@ export const hokken = [
     number: "130/136",
   },
   {
-    image: "images/Hokken/ZonamianLookout.webp",
+    image: "images/Hokken/zonamian-lookout.webp",
     element: "Air",
     cost: 2,
     power: 1500,
@@ -1640,7 +1640,7 @@ export const hokken = [
     number: "131/136",
   },
   {
-    image: "images/Hokken/ZonamianMending.webp",
+    image: "images/Hokken/zonamian-mending.webp",
     element: "Air",
     cost: 2,
     name: "Zonamian Mending",
@@ -1652,7 +1652,7 @@ export const hokken = [
     number: "132/136",
   },
   {
-    image: "images/Hokken/ZonamianMosslurker.webp",
+    image: "images/Hokken/zonamian-mosslurker.webp",
     element: "Air",
     cost: 4,
     power: 3000,
@@ -1664,7 +1664,7 @@ export const hokken = [
     number: "133/136",
   },
   {
-    image: "images/Hokken/ZonamianRage.webp",
+    image: "images/Hokken/zonamian-rage.webp",
     element: "Air",
     cost: 1,
     name: "Zonamian Rage",
@@ -1676,7 +1676,7 @@ export const hokken = [
     number: "134/136",
   },
   {
-    image: "images/Hokken/ZonamianStampede.webp",
+    image: "images/Hokken/zonamian-stampede.webp",
     element: "Air",
     cost: 2,
     name: "Zonamian Stampede",
@@ -1688,7 +1688,7 @@ export const hokken = [
     number: "135/136",
   },
   {
-    image: "images/Hokken/ZylaSpeakerOfHyldia.webp",
+    image: "images/Hokken/zyla-speaker-of-hyldia.webp",
     element: "Light",
     cost: 3,
     power: 1500,
