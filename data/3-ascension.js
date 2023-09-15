@@ -1,6 +1,6 @@
 export const ascension = [
   {
-    image: "images/Ascension/AirCelestialCrystal.webp",
+    image: "images/Ascension/air-celestial-crystal.webp",
     element: "Argent",
     cost: 1,
     name: "Air Celestial Crystal",
@@ -11,7 +11,7 @@ export const ascension = [
     number: "001/103",
   },
   {
-    image: "images/Ascension/AiraSaviorOfArgos.webp",
+    image: "images/Ascension/aira-savior-of-argos.webp",
     element: "Argent",
     cost: 5,
     power: 6000,
@@ -24,7 +24,7 @@ export const ascension = [
     number: "002/103",
   },
   {
-    image: "images/Ascension/ArianaCelestiallyImbued.webp",
+    image: "images/Ascension/ariana-celestially-imbued.webp",
     element: "Air",
     cost: 4,
     power: 4000,
@@ -37,7 +37,7 @@ export const ascension = [
     number: "003/103",
   },
   {
-    image: "images/Ascension/ArkTheSoaringBlazewalker.webp",
+    image: "images/Ascension/ark-the-soaring-blazewalker.webp",
     element: "Fire",
     cost: 3,
     power: 2500,
@@ -50,7 +50,7 @@ export const ascension = [
     number: "004/103",
   },
   {
-    image: "images/Ascension/AshbornSprite.webp",
+    image: "images/Ascension/ashborn-sprite.webp",
     element: "Fire",
     cost: 1,
     power: 1000,
@@ -63,7 +63,7 @@ export const ascension = [
     number: "005/103",
   },
   {
-    image: "images/Ascension/AssaultFromTheDeep.webp",
+    image: "images/Ascension/assault-from-the-deep.webp",
     element: "Water",
     cost: 2,
     name: "Assault from the Deep",
@@ -74,7 +74,7 @@ export const ascension = [
     number: "006/103",
   },
   {
-    image: "images/Ascension/AssaultOfAshes.webp",
+    image: "images/Ascension/assault-of-ashes.webp",
     element: "Fire",
     cost: 1,
     name: "Assault of Ashes",
@@ -85,7 +85,7 @@ export const ascension = [
     number: "007/103",
   },
   {
-    image: "images/Ascension/AuronShiningRoseKnight.webp",
+    image: "images/Ascension/auron-shining-rose-knight.webp",
     element: "Light",
     cost: 4,
     power: 2000,
@@ -98,7 +98,7 @@ export const ascension = [
     number: "008/103",
   },
   {
-    image: "images/Ascension/BagoomTheFriendlyBeast.webp",
+    image: "images/Ascension/bagoom-the-friendly-beast.webp",
     element: "Light",
     cost: 4,
     power: 2500,
@@ -111,7 +111,7 @@ export const ascension = [
     number: "009/103",
   },
   {
-    image: "images/Ascension/BagoomsRoar.webp",
+    image: "images/Ascension/bagooms-roar.webp",
     element: "Light",
     cost: 1,
     name: "Bagoom's Roar",
@@ -122,7 +122,7 @@ export const ascension = [
     number: "010/103",
   },
   {
-    image: "images/Ascension/BlessedElemental.webp",
+    image: "images/Ascension/blessed-elemental.webp",
     element: "Light",
     cost: 3,
     power: 3000,
@@ -135,7 +135,7 @@ export const ascension = [
     number: "011/103",
   },
   {
-    image: "images/Ascension/BoreasCloudseaEnforcer.webp",
+    image: "images/Ascension/boreas-cloudsea-enforcer.webp",
     element: "Air",
     cost: 5,
     power: 4000,
@@ -148,7 +148,7 @@ export const ascension = [
     number: "012/103",
   },
   {
-    image: "images/Ascension/CarriermechaKyari.webp",
+    image: "images/Ascension/carriermecha-kyari.webp",
     element: "Argent",
     cost: 0,
     power: 500,
@@ -161,7 +161,7 @@ export const ascension = [
     number: "013/103",
   },
   {
-    image: "images/Ascension/CelestialTeamup.webp",
+    image: "images/Ascension/celestial-teamup.webp",
     element: "Air",
     cost: 4,
     name: "Celestial Team-up!",
@@ -172,7 +172,7 @@ export const ascension = [
     number: "014/103",
   },
   {
-    image: "images/Ascension/CloudseaBeastTamer.webp",
+    image: "images/Ascension/cloudsea-beast-tamer.webp",
     element: "Air",
     cost: 3,
     power: 1500,
@@ -185,7 +185,7 @@ export const ascension = [
     number: "015/103",
   },
   {
-    image: "images/Ascension/CloudseaJumper.webp",
+    image: "images/Ascension/cloudsea-jumper.webp",
     element: "Air",
     cost: 1,
     power: 500,
@@ -198,7 +198,7 @@ export const ascension = [
     number: "016/103",
   },
   {
-    image: "images/Ascension/CloudseaOffensiveFormation.webp",
+    image: "images/Ascension/cloudsea-offensive-formation.webp",
     element: "Air",
     cost: 1,
     name: "Cloudsea Offensive Formation",
@@ -209,7 +209,7 @@ export const ascension = [
     number: "017/103",
   },
   {
-    image: "images/Ascension/CloudseaPreparation.webp",
+    image: "images/Ascension/cloudsea-preparation.webp",
     element: "Air",
     cost: 4,
     name: "Cloudsea Preparation",
@@ -220,7 +220,7 @@ export const ascension = [
     number: "018/103",
   },
   {
-    image: "images/Ascension/CloudseaPteromyini.webp",
+    image: "images/Ascension/cloudsea-pteromyini.webp",
     element: "Air",
     cost: 2,
     power: 1000,
@@ -233,7 +233,7 @@ export const ascension = [
     number: "019/103",
   },
   {
-    image: "images/Ascension/CloudseaScoutship.webp",
+    image: "images/Ascension/cloudsea-scoutship.webp",
     element: "Air",
     cost: 2,
     power: 1000,
@@ -246,7 +246,7 @@ export const ascension = [
     number: "020/103",
   },
   {
-    image: "images/Ascension/CosmicAirMagic.webp",
+    image: "images/Ascension/cosmic-air-magic.webp",
     element: "Air",
     cost: 2,
     power: 0,
@@ -259,7 +259,7 @@ export const ascension = [
     number: "021/103",
   },
   {
-    image: "images/Ascension/CosmicDarkMagic.webp",
+    image: "images/Ascension/cosmic-dark-magic.webp",
     element: "Dark",
     cost: 2,
     name: "Cosmic Dark Magic",
@@ -270,7 +270,7 @@ export const ascension = [
     number: "022/103",
   },
   {
-    image: "images/Ascension/CosmicFireMagic.webp",
+    image: "images/Ascension/cosmic-fire-magic.webp",
     element: "Fire",
     cost: 2,
     name: "Cosmic Fire Magic",
@@ -281,7 +281,7 @@ export const ascension = [
     number: "023/103",
   },
   {
-    image: "images/Ascension/CosmicLightMagic.webp",
+    image: "images/Ascension/cosmic-light-magic.webp",
     element: "Light",
     cost: 2,
     name: "Cosmic Light Magic",
@@ -292,7 +292,7 @@ export const ascension = [
     number: "024/103",
   },
   {
-    image: "images/Ascension/CosmicWaterMagic.webp",
+    image: "images/Ascension/cosmic-water-magic.webp",
     element: "Water",
     cost: 2,
     name: "Cosmic Water Magic",
@@ -303,7 +303,7 @@ export const ascension = [
     number: "025/103",
   },
   {
-    image: "images/Ascension/DefenderOfRaoyenna.webp",
+    image: "images/Ascension/defender-of-raoyenna.webp",
     element: "Fire",
     cost: 2,
     power: 1500,
@@ -316,7 +316,7 @@ export const ascension = [
     number: "026/103",
   },
   {
-    image: "images/Ascension/DragonholtFuryUnleashed.webp",
+    image: "images/Ascension/dragonholt-fury-unleashed.webp",
     element: "Fire",
     cost: 5,
     power: 5000,
@@ -329,7 +329,7 @@ export const ascension = [
     number: "027/103",
   },
   {
-    image: "images/Ascension/DragonicEruption.webp",
+    image: "images/Ascension/dragonic-eruption.webp",
     element: "Fire",
     cost: 4,
     name: "Dragonic Eruption",
@@ -340,7 +340,7 @@ export const ascension = [
     number: "028/103",
   },
   {
-    image: "images/Ascension/EllaCorruptedByLove.webp",
+    image: "images/Ascension/ella-corrupted-by-love.webp",
     element: "Argent",
     cost: 3,
     power: 2000,
@@ -353,7 +353,7 @@ export const ascension = [
     number: "029/103",
   },
   {
-    image: "images/Ascension/EndowmentOfTheDragonGod.webp",
+    image: "images/Ascension/endowment-of-the-dragon-god.webp",
     element: "Fire",
     cost: 1,
     name: "Endowment of the Dragon God",
@@ -364,7 +364,7 @@ export const ascension = [
     number: "030/103",
   },
   {
-    image: "images/Ascension/EndowmentOfTheSeaGod.webp",
+    image: "images/Ascension/endowment-of-the-sea-god.webp",
     element: "Water",
     cost: 1,
     name: "Endowment of the Sea God",
@@ -375,7 +375,7 @@ export const ascension = [
     number: "031/103",
   },
   {
-    image: "images/Ascension/EnemyOfMyEnemy.webp",
+    image: "images/Ascension/enemy-of-my-enemy.webp",
     element: "Water",
     cost: 1,
     name: "Enemy of my Enemy",
@@ -386,7 +386,7 @@ export const ascension = [
     number: "032/103",
   },
   {
-    image: "images/Ascension/ErgonTheForgivenEmissary.webp",
+    image: "images/Ascension/ergon-the-forgiven-emissary.webp",
     element: "Dark",
     cost: 3,
     power: 3000,
@@ -399,7 +399,7 @@ export const ascension = [
     number: "033/103",
   },
   {
-    image: "images/Ascension/FathersBetrayal.webp",
+    image: "images/Ascension/fathers-betrayal.webp",
     element: "Water",
     cost: 1,
     name: "Father's Betrayal",
@@ -410,7 +410,7 @@ export const ascension = [
     number: "034/103",
   },
   {
-    image: "images/Ascension/FerociousAcidicMonger.webp",
+    image: "images/Ascension/ferocious-acidic-monger.webp",
     element: "Argent",
     cost: 3,
     power: 1500,
@@ -421,7 +421,7 @@ export const ascension = [
     number: "035/103",
   },
   {
-    image: "images/Ascension/FinalBattleAtTheArgentTower.webp",
+    image: "images/Ascension/final-battle-at-the-argent-tower.webp",
     element: "Air",
     cost: 6,
     name: "Final Battle at the Argent Tower",
@@ -432,7 +432,7 @@ export const ascension = [
     number: "036/103",
   },
   {
-    image: "images/Ascension/GallantSquire.webp",
+    image: "images/Ascension/gallant-squire.webp",
     element: "Light",
     cost: 1,
     power: 1000,
@@ -444,7 +444,7 @@ export const ascension = [
     number: "037/103",
   },
   {
-    image: "images/Ascension/GillianInterdimensionalWitch.webp",
+    image: "images/Ascension/gillian-interdimensional-witch.webp",
     element: "Water",
     cost: 6,
     power: 5000,
@@ -457,7 +457,7 @@ export const ascension = [
     number: "038/103",
   },
   {
-    image: "images/Ascension/GilliansGambit.webp",
+    image: "images/Ascension/gillians-gambit.webp",
     element: "Water",
     cost: 3,
     name: "Gillian's Gambit",
@@ -467,7 +467,7 @@ export const ascension = [
     number: "039/103",
   },
   {
-    image: "images/Ascension/GloomNecrolord.webp",
+    image: "images/Ascension/gloom-necrolord.webp",
     element: "Dark",
     cost: 9,
     power: 3000,
@@ -479,7 +479,7 @@ export const ascension = [
     number: "040/103",
   },
   {
-    image: "images/Ascension/GloomNeophyte.webp",
+    image: "images/Ascension/gloom-neophyte.webp",
     element: "Dark",
     cost: 3,
     power: 1500,
@@ -491,7 +491,7 @@ export const ascension = [
     number: "041/103",
   },
   {
-    image: "images/Ascension/GlowshardDragon.webp",
+    image: "images/Ascension/glowshard-dragon.webp",
     element: "Fire",
     cost: 2,
     power: 1500,
@@ -504,7 +504,7 @@ export const ascension = [
     number: "042/103",
   },
   {
-    image: "images/Ascension/GoldenRoseBlade.webp",
+    image: "images/Ascension/golden-rose-blade.webp",
     element: "Light",
     cost: 2,
     name: "Golden Rose Blade",
@@ -516,7 +516,7 @@ export const ascension = [
     number: "043/103",
   },
   {
-    image: "images/Ascension/GuardsmanOfLeviathan.webp",
+    image: "images/Ascension/guardsman-of-leviathan.webp",
     element: "Water",
     cost: 4,
     power: 2000,
@@ -529,7 +529,7 @@ export const ascension = [
     number: "044/103",
   },
   {
-    image: "images/Ascension/HandOfRaoyenna.webp",
+    image: "images/Ascension/hand-of-raoyenna.webp",
     element: "Fire",
     cost: 2,
     power: 1500,
@@ -542,7 +542,7 @@ export const ascension = [
     number: "045/103",
   },
   {
-    image: "images/Ascension/HannaReformedApprentice.webp",
+    image: "images/Ascension/hanna-reformed-apprentice.webp",
     element: "Water",
     cost: 5,
     power: 2500,
@@ -554,7 +554,7 @@ export const ascension = [
     number: "046/103",
   },
   {
-    image: "images/Ascension/HiddenDragonOfTheCloudsea.webp",
+    image: "images/Ascension/hidden-dragon-of-the-cloudsea.webp",
     element: "Air",
     cost: 7,
     power: 3500,
@@ -567,7 +567,7 @@ export const ascension = [
     number: "047/103",
   },
   {
-    image: "images/Ascension/HoennaHorrificPerfection.webp",
+    image: "images/Ascension/hoenna-horrific-perfection.webp",
     element: "Dark",
     cost: 4,
     power: 3500,
@@ -580,7 +580,7 @@ export const ascension = [
     number: "048/103",
   },
   {
-    image: "images/Ascension/HoennasInquest.webp",
+    image: "images/Ascension/hoennas-inquest.webp",
     element: "Dark",
     cost: 1,
     name: "Hoenna's Inquest",
@@ -591,7 +591,7 @@ export const ascension = [
     number: "049/103",
   },
   {
-    image: "images/Ascension/HoennasWrath.webp",
+    image: "images/Ascension/hoennas-wrath.webp",
     element: "Dark",
     cost: 6,
     name: "Hoenna's Wrath",
@@ -602,7 +602,7 @@ export const ascension = [
     number: "050/103",
   },
   {
-    image: "images/Ascension/ImbuedByAshes.webp",
+    image: "images/Ascension/imbued-by-ashes.webp",
     element: "Fire",
     cost: 1,
     name: "Imbued by Ashes",
@@ -613,7 +613,7 @@ export const ascension = [
     number: "051/103",
   },
   {
-    image: "images/Ascension/InspiringSprite.webp",
+    image: "images/Ascension/inspiring-sprite.webp",
     element: "Argent",
     cost: 1,
     power: 500,
@@ -625,7 +625,7 @@ export const ascension = [
     number: "052/103",
   },
   {
-    image: "images/Ascension/InterdimensionalHorror.webp",
+    image: "images/Ascension/interdimensional-horror.webp",
     element: "Dark",
     cost: 6,
     power: 5000,
@@ -638,7 +638,7 @@ export const ascension = [
     number: "053/103",
   },
   {
-    image: "images/Ascension/JubeiKingOfTheMagimaze.webp",
+    image: "images/Ascension/jubei-king-of-the-magimaze.webp",
     element: "Argent",
     cost: 5,
     power: 2500,
@@ -651,7 +651,7 @@ export const ascension = [
     number: "054/103",
   },
   {
-    image: "images/Ascension/JubeisCrystalBall.webp",
+    image: "images/Ascension/jubeis-crystal-ball.webp",
     element: "Argent",
     cost: 1,
     name: "Jubei's Crystal Ball",
@@ -662,7 +662,7 @@ export const ascension = [
     number: "055/103",
   },
   {
-    image: "images/Ascension/JubeisPranksters.webp",
+    image: "images/Ascension/jubeis-pranksters.webp",
     element: "Argent",
     cost: 2,
     power: 1500,
@@ -675,7 +675,7 @@ export const ascension = [
     number: "056/103",
   },
   {
-    image: "images/Ascension/JubeisServants.webp",
+    image: "images/Ascension/jubeis-servants.webp",
     element: "Argent",
     cost: 1,
     power: 1000,
@@ -687,7 +687,7 @@ export const ascension = [
     number: "057/103",
   },
   {
-    image: "images/Ascension/KalaBestFriendsForever.webp",
+    image: "images/Ascension/kala-best-friends-forever.webp",
     element: "Air",
     cost: 1,
     power: 500,
@@ -699,7 +699,7 @@ export const ascension = [
     number: "058/103",
   },
   {
-    image: "images/Ascension/KaraTheGloriousValkyrie.webp",
+    image: "images/Ascension/kara-the-glorious-valkyrie.webp",
     element: "Light",
     cost: 6,
     power: 5000,
@@ -712,7 +712,7 @@ export const ascension = [
     number: "059/103",
   },
   {
-    image: "images/Ascension/LesserShrieker.webp",
+    image: "images/Ascension/lesser-shrieker.webp",
     element: "Dark",
     cost: 1,
     power: 500,
@@ -724,7 +724,7 @@ export const ascension = [
     number: "060/103",
   },
   {
-    image: "images/Ascension/LeviathansFury.webp",
+    image: "images/Ascension/leviathans-fury.webp",
     element: "Water",
     cost: 10,
     name: "Leviathan's Fury",
@@ -735,7 +735,7 @@ export const ascension = [
     number: "061/103",
   },
   {
-    image: "images/Ascension/LiamCorruptedByMadness.webp",
+    image: "images/Ascension/liam-corrupted-by-madness.webp",
     element: "Argent",
     cost: 4,
     power: 2500,
@@ -748,7 +748,7 @@ export const ascension = [
     number: "062/103",
   },
   {
-    image: "images/Ascension/LloydTravelerOfWorlds.webp",
+    image: "images/Ascension/lloyd-traveler-of-worlds.webp",
     element: "Argent",
     cost: 4,
     power: 2000,
@@ -761,7 +761,7 @@ export const ascension = [
     number: "063/103",
   },
   {
-    image: "images/Ascension/MagimazeGatekeeper.webp",
+    image: "images/Ascension/magimaze-gatekeeper.webp",
     element: "Argent",
     cost: 3,
     power: 1500,
@@ -774,7 +774,7 @@ export const ascension = [
     number: "064/103",
   },
   {
-    image: "images/Ascension/MagimazeWorm.webp",
+    image: "images/Ascension/magimaze-worm.webp",
     element: "Argent",
     cost: 1,
     power: 500,
@@ -787,7 +787,7 @@ export const ascension = [
     number: "065/103",
   },
   {
-    image: "images/Ascension/MaidenOfTheMazeSeriah.webp",
+    image: "images/Ascension/maiden-of-the-maze-seriah.webp",
     element: "Light",
     cost: 2,
     power: 1000,
@@ -800,7 +800,7 @@ export const ascension = [
     number: "066/103",
   },
   {
-    image: "images/Ascension/MeiyuCorruptedByPower.webp",
+    image: "images/Ascension/meiyu-corrupted-by-power.webp",
     element: "Argent",
     cost: 6,
     power: 3500,
@@ -813,7 +813,7 @@ export const ascension = [
     number: "067/103",
   },
   {
-    image: "images/Ascension/MeiyusMirrorMagic.webp",
+    image: "images/Ascension/meiyus-mirror-magic.webp",
     element: "Water",
     cost: 4,
     name: "Mei-Yu's Mirror Magic",
@@ -824,7 +824,7 @@ export const ascension = [
     number: "068/103",
   },
   {
-    image: "images/Ascension/MetaialCelestialOfRuin.webp",
+    image: "images/Ascension/metaial-celestial-of-ruin.webp",
     element: "Argent",
     cost: 8,
     power: 6000,
@@ -837,7 +837,7 @@ export const ascension = [
     number: "069/103",
   },
   {
-    image: "images/Ascension/MetaialTheSilverKing.webp",
+    image: "images/Ascension/metaial-the-silver-king.webp",
     element: "Argent",
     name: "Metaial, the Silver King",
     type: "Champion",
@@ -847,7 +847,7 @@ export const ascension = [
     number: "070/103",
   },
   {
-    image: "images/Ascension/NovaKnight.webp",
+    image: "images/Ascension/nova-knight.webp",
     element: "Light",
     cost: 2,
     power: 2500,
@@ -860,7 +860,7 @@ export const ascension = [
     number: "071/103",
   },
   {
-    image: "images/Ascension/OracleOfLeviathan.webp",
+    image: "images/Ascension/oracle-of-leviathan.webp",
     element: "Water",
     cost: 3,
     power: 1500,
@@ -873,7 +873,7 @@ export const ascension = [
     number: "072/103",
   },
   {
-    image: "images/Ascension/OvergrownSabertooth.webp",
+    image: "images/Ascension/overgrown-sabertooth.webp",
     element: "Air",
     cost: 3,
     power: 3000,
@@ -886,7 +886,7 @@ export const ascension = [
     number: "073/103",
   },
   {
-    image: "images/Ascension/PhantasmalPaladin.webp",
+    image: "images/Ascension/phantasmal-paladin.webp",
     element: "Water",
     cost: 2,
     power: 2000,
@@ -899,7 +899,7 @@ export const ascension = [
     number: "074/103",
   },
   {
-    image: "images/Ascension/PlayfulImp.webp",
+    image: "images/Ascension/playful-imp.webp",
     element: "Dark",
     cost: 1,
     power: 1000,
@@ -912,7 +912,7 @@ export const ascension = [
     number: "075/103",
   },
   {
-    image: "images/Ascension/ProtectorOfTheInbetween.webp",
+    image: "images/Ascension/protector-of-the-inbetween.webp",
     element: "Argent",
     cost: 4,
     power: 2000,
@@ -923,7 +923,7 @@ export const ascension = [
     number: "076/103",
   },
   {
-    image: "images/Ascension/RaineCorruptedByGrief.webp",
+    image: "images/Ascension/raine-corrupted-by-grief.webp",
     element: "Argent",
     cost: 5,
     power: 2500,
@@ -936,7 +936,7 @@ export const ascension = [
     number: "077/103",
   },
   {
-    image: "images/Ascension/RaoyennaTheVengefulPhoenix.webp",
+    image: "images/Ascension/raoyenna-the-vengeful-phoenix.webp",
     element: "Fire",
     cost: 5,
     power: 3000,
@@ -949,7 +949,7 @@ export const ascension = [
     number: "078/103",
   },
   {
-    image: "images/Ascension/RavenousAcidicMonger.webp",
+    image: "images/Ascension/ravenous-acidic-monger.webp",
     element: "Argent",
     cost: 5,
     power: 2500,
@@ -962,7 +962,7 @@ export const ascension = [
     number: "079/103",
   },
   {
-    image: "images/Ascension/ReturnFromAshes.webp",
+    image: "images/Ascension/return-from-ashes.webp",
     element: "Fire",
     cost: 1,
     name: "Return from Ashes",
@@ -973,7 +973,7 @@ export const ascension = [
     number: "080/103",
   },
   {
-    image: "images/Ascension/RevivalOfTheSon.webp",
+    image: "images/Ascension/revival-of-the-son.webp",
     element: "Dark",
     cost: 0,
     name: "Revival of the Son",
@@ -983,7 +983,7 @@ export const ascension = [
     number: "081/103",
   },
   {
-    image: "images/Ascension/RitualOfAshes.webp",
+    image: "images/Ascension/ritual-of-ashes.webp",
     element: "Fire",
     cost: 1,
     name: "Ritual of Ashes",
@@ -994,7 +994,7 @@ export const ascension = [
     number: "082/103",
   },
   {
-    image: "images/Ascension/ScalesOfDarkness.webp",
+    image: "images/Ascension/scales-of-darkness.webp",
     element: "Dark",
     cost: 3,
     name: "Scales of Darkness",
@@ -1004,7 +1004,7 @@ export const ascension = [
     number: "083/103",
   },
   {
-    image: "images/Ascension/ShardMerchant.webp",
+    image: "images/Ascension/shard-merchant.webp",
     element: "Argent",
     cost: 5,
     power: 2500,
@@ -1015,7 +1015,7 @@ export const ascension = [
     number: "084/103",
   },
   {
-    image: "images/Ascension/ShardarmoredWyrm.webp",
+    image: "images/Ascension/shardarmored-wyrm.webp",
     element: "Light",
     cost: 5,
     power: 2500,
@@ -1028,7 +1028,7 @@ export const ascension = [
     number: "085/103",
   },
   {
-    image: "images/Ascension/SilverKingsInquisitor.webp",
+    image: "images/Ascension/silver-kings-inquisitor.webp",
     element: "Argent",
     cost: 2,
     power: 1000,
@@ -1041,7 +1041,7 @@ export const ascension = [
     number: "086/103",
   },
   {
-    image: "images/Ascension/SilverKingsPawn.webp",
+    image: "images/Ascension/silver-kings-pawn.webp",
     element: "Argent",
     cost: 1,
     power: 500,
@@ -1054,7 +1054,7 @@ export const ascension = [
     number: "087/103",
   },
   {
-    image: "images/Ascension/SkeletalGargoyle.webp",
+    image: "images/Ascension/skeletal-gargoyle.webp",
     element: "Dark",
     cost: 3,
     power: 1500,
@@ -1067,7 +1067,7 @@ export const ascension = [
     number: "088/103",
   },
   {
-    image: "images/Ascension/SpiritOfCervimini.webp",
+    image: "images/Ascension/spirit-of-cervimini.webp",
     element: "Light",
     affinity: 10,
     name: "Spirit of Cervimini",
@@ -1078,7 +1078,7 @@ export const ascension = [
     number: "089/103",
   },
   {
-    image: "images/Ascension/SpiritOfOtterius.webp",
+    image: "images/Ascension/spirit-of-otterius.webp",
     element: "Water",
     affinity: 12,
     name: "Spirit of Otterius",
@@ -1089,7 +1089,7 @@ export const ascension = [
     number: "090/103",
   },
   {
-    image: "images/Ascension/SpiritOfSerpio.webp",
+    image: "images/Ascension/spirit-of-serpio.webp",
     element: "Dark",
     affinity: 12,
     name: "Spirit of Serpio",
@@ -1100,7 +1100,7 @@ export const ascension = [
     number: "091/103",
   },
   {
-    image: "images/Ascension/SpiritOfStrigra.webp",
+    image: "images/Ascension/spirit-of-strigra.webp",
     element: "Air",
     affinity: 10,
     name: "Spirit of Strigra",
@@ -1111,7 +1111,7 @@ export const ascension = [
     number: "092/103",
   },
   {
-    image: "images/Ascension/SpiritOfUrsatovis.webp",
+    image: "images/Ascension/spirit-of-ursatovis.webp",
     element: "Fire",
     affinity: 12,
     name: "Spirit of Ursatovis",
@@ -1122,7 +1122,7 @@ export const ascension = [
     number: "093/103",
   },
   {
-    image: "images/Ascension/TheGreatMagimaze.webp",
+    image: "images/Ascension/the-great-magimaze.webp",
     element: "Argent",
     cost: 3,
     name: "The Great Magimaze",
@@ -1133,7 +1133,7 @@ export const ascension = [
     number: "094/103",
   },
   {
-    image: "images/Ascension/ThroughDangersUntold.webp",
+    image: "images/Ascension/through-dangers-untold.webp",
     element: "Light",
     cost: 4,
     name: "Through Dangers Untold",
@@ -1144,7 +1144,7 @@ export const ascension = [
     number: "095/103",
   },
   {
-    image: "images/Ascension/UnitedEmpowerment.webp",
+    image: "images/Ascension/united-empowerment.webp",
     element: "Light",
     cost: 1,
     name: "United Empowerment",
@@ -1155,7 +1155,7 @@ export const ascension = [
     number: "096/103",
   },
   {
-    image: "images/Ascension/VeteranOfTheGildedHills.webp",
+    image: "images/Ascension/veteran-of-the-gilded-hills.webp",
     element: "Argent",
     cost: 3,
     power: 1500,
@@ -1168,7 +1168,7 @@ export const ascension = [
     number: "097/103",
   },
   {
-    image: "images/Ascension/VoidfireElemental.webp",
+    image: "images/Ascension/voidfire-elemental.webp",
     element: "Fire",
     cost: 4,
     power: 3500,
@@ -1181,7 +1181,7 @@ export const ascension = [
     number: "098/103",
   },
   {
-    image: "images/Ascension/WarriorOfSol.webp",
+    image: "images/Ascension/warrior-of-sol.webp",
     element: "Light",
     cost: 1,
     power: 500,
@@ -1193,7 +1193,7 @@ export const ascension = [
     number: "099/103",
   },
   {
-    image: "images/Ascension/WaterCelestialCrystal.webp",
+    image: "images/Ascension/water-celestial-crystal.webp",
     element: "Argent",
     cost: 1,
     name: "Water Celestial Crystal",
@@ -1204,7 +1204,7 @@ export const ascension = [
     number: "100/103",
   },
   {
-    image: "images/Ascension/WickedPact.webp",
+    image: "images/Ascension/wicked-pact.webp",
     element: "Dark",
     cost: 1,
     name: "Wicked Pact",
@@ -1215,7 +1215,7 @@ export const ascension = [
     number: "101/103",
   },
   {
-    image: "images/Ascension/WitchOfTheFuture.webp",
+    image: "images/Ascension/witch-of-the-future.webp",
     element: "Water",
     cost: 3,
     power: 2500,
@@ -1228,7 +1228,7 @@ export const ascension = [
     number: "102/103",
   },
   {
-    image: "images/Ascension/WitchQueensRing.webp",
+    image: "images/Ascension/witch-queens-ring.webp",
     element: "Water",
     cost: 1,
     name: "Witch Queen's Ring",
@@ -1240,7 +1240,7 @@ export const ascension = [
     number: "103/103",
   },
   {
-    image: "images/Ascension/AzureSeer.webp",
+    image: "images/Ascension/azure-seer.webp",
     element: "Water",
     cost: 1,
     power: 1000,
@@ -1252,7 +1252,7 @@ export const ascension = [
     number: "104/103",
   },
   {
-    image: "images/Ascension/CorumSquire.webp",
+    image: "images/Ascension/corum-squire.webp",
     element: "Light",
     cost: 1,
     power: 1000,
@@ -1265,7 +1265,7 @@ export const ascension = [
     number: "105/103",
   },
   {
-    image: "images/Ascension/DerangedDragon.webp",
+    image: "images/Ascension/deranged-dragon.webp",
     element: "Fire",
     cost: 1,
     power: 1000,
@@ -1277,7 +1277,7 @@ export const ascension = [
     number: "106/103",
   },
   {
-    image: "images/Ascension/DuskStrike.webp",
+    image: "images/Ascension/dusk-strike.webp",
     element: "Dark",
     cost: 2,
     name: "Dusk Strike",
@@ -1288,7 +1288,7 @@ export const ascension = [
     number: "107/103",
   },
   {
-    image: "images/Ascension/GolemOfAllurement.webp",
+    image: "images/Ascension/golem-of-allurement.webp",
     element: "Dark",
     cost: 3,
     power: 1500,
@@ -1301,7 +1301,7 @@ export const ascension = [
     number: "108/103",
   },
   {
-    image: "images/Ascension/GreatStormfish.webp",
+    image: "images/Ascension/great-stormfish.webp",
     element: "Water",
     cost: 3,
     power: 1500,
@@ -1314,7 +1314,7 @@ export const ascension = [
     number: "109/103",
   },
   {
-    image: "images/Ascension/JuvenileDragon.webp",
+    image: "images/Ascension/juvenile-dragon.webp",
     element: "Fire",
     cost: 1,
     power: 1000,
@@ -1327,7 +1327,7 @@ export const ascension = [
     number: "110/103",
   },
   {
-    image: "images/Ascension/SkyshipEngineer.webp",
+    image: "images/Ascension/skyship-Engineer.webp",
     element: "Air",
     cost: 1,
     power: 1000,
@@ -1340,7 +1340,7 @@ export const ascension = [
     number: "111/103",
   },
   {
-    image: "images/Ascension/SkytreeSandship.webp",
+    image: "images/Ascension/skytree-sandship.webp",
     element: "Air",
     cost: 4,
     power: 2000,
@@ -1353,7 +1353,7 @@ export const ascension = [
     number: "112/103",
   },
   {
-    image: "images/Ascension/StandardShardsword.webp",
+    image: "images/Ascension/standard-shardsword.webp",
     element: "Light",
     cost: 1,
     name: "Standard Shardsword",
@@ -1487,7 +1487,7 @@ export const ascension = [
     number: "162",
   },
   {
-    image: "images/Ascension/BerserkerGolemToken.webp",
+    image: "images/Ascension/berserker-golem-token.webp",
     element: "Dark",
     cost: 0,
     power: 2000,
@@ -1496,7 +1496,7 @@ export const ascension = [
     subtype: "Golem",
   },
   {
-    image: "images/Ascension/BlobToken.webp",
+    image: "images/Ascension/blob-token.webp",
     element: "Argent",
     cost: 0,
     power: 1000,
@@ -1506,7 +1506,7 @@ export const ascension = [
     effect: "Guardian",
   },
   {
-    image: "images/Ascension/ExperimentToken.webp",
+    image: "images/Ascension/experiment-token.webp",
     element: "Argent",
     cost: 0,
     power: 1000,
@@ -1515,7 +1515,7 @@ export const ascension = [
     subtype: "Experiment",
   },
   {
-    image: "images/Ascension/FireElementalToken.webp",
+    image: "images/Ascension/fire-elemental-token.webp",
     element: "Fire",
     cost: 0,
     power: 1000,
@@ -1525,15 +1525,15 @@ export const ascension = [
     effect: "Ruined: Deal 500 to target unit.",
   },
   {
-    image: "images/Ascension/HulkingMechToken.webp",
+    image: "images/Ascension/hulking-mech-token.webp",
     element: "Argent",
     cost: 0,
     power: 4000,
-    name: "Experiment Token",
+    name: "Hulking Mech Token",
     type: "Unit",
   },
   {
-    image: "images/Ascension/IllusionToken.webp",
+    image: "images/Ascension/illusion-token.webp",
     element: "Water",
     cost: 0,
     power: 1000,
@@ -1542,7 +1542,7 @@ export const ascension = [
     subtype: "Illusion",
   },
   {
-    image: "images/Ascension/KnightToken1000.webp",
+    image: "images/Ascension/knight-token-1000.webp",
     element: "Light",
     cost: 0,
     power: 1000,
@@ -1551,7 +1551,7 @@ export const ascension = [
     subtype: "Knight",
   },
   {
-    image: "images/Ascension/KnightToken1500.webp",
+    image: "images/Ascension/knight-token-1500.webp",
     element: "Light",
     cost: 0,
     power: 1500,
@@ -1560,7 +1560,7 @@ export const ascension = [
     subtype: "Knight",
   },
   {
-    image: "images/Ascension/KnightToken1500Guardian.webp",
+    image: "images/Ascension/knight-token-1500-guardian.webp",
     element: "Light",
     cost: 0,
     power: 1500,
@@ -1570,7 +1570,7 @@ export const ascension = [
     effect: "Guardian",
   },
   {
-    image: "images/Ascension/MutationToken.webp",
+    image: "images/Ascension/mutation-token.webp",
     element: "Argent",
     cost: 0,
     power: 500,
@@ -1581,7 +1581,7 @@ export const ascension = [
       "Ruined - Search your deck for an Experiment unit and put it into play.",
   },
   {
-    image: "images/Ascension/RaoToken.webp",
+    image: "images/Ascension/rao-token.webp",
     element: "Fire",
     cost: 0,
     power: 1000,
@@ -1589,7 +1589,7 @@ export const ascension = [
     type: "Unit",
   },
   {
-    image: "images/Ascension/ScorpionToken.webp",
+    image: "images/Ascension/scorpion-token.webp",
     element: "Air",
     cost: 0,
     power: 1000,
@@ -1599,7 +1599,7 @@ export const ascension = [
     effect: "Ruined - You may give target unit -1000 this turn.",
   },
   {
-    image: "images/Ascension/SentinelToken.webp",
+    image: "images/Ascension/sentinel-token.webp",
     element: "Argent",
     cost: 0,
     power: 4000,
@@ -1608,7 +1608,7 @@ export const ascension = [
     effect: "Destroyer",
   },
   {
-    image: "images/Ascension/SulkingMechToken.webp",
+    image: "images/Ascension/sulking-mech-token.webp",
     element: "Argent",
     cost: 0,
     power: 1000,
@@ -1616,7 +1616,7 @@ export const ascension = [
     type: "Unit",
   },
   {
-    image: "images/Ascension/WaterElementalToken.webp",
+    image: "images/Ascension/water-elemental-token.webp",
     element: "Water",
     cost: 0,
     power: 500,
@@ -1626,7 +1626,7 @@ export const ascension = [
     effect: "Ruined - Return target unit to its owner's hand.",
   },
   {
-    image: "images/Ascension/WhelpToken.webp",
+    image: "images/Ascension/whelp-token.webp",
     element: "Argent",
     cost: 0,
     power: 500,
@@ -1635,7 +1635,7 @@ export const ascension = [
     subtype: "Dragon",
   },
   {
-    image: "images/Ascension/ArgentShardASC.webp",
+    image: "images/Ascension/argent-shard-asc.webp",
     element: "Argent",
     name: "Argent Shard",
     type: "Basic Shard",

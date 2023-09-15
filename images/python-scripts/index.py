@@ -95,7 +95,7 @@ def findBottomSide(datas, wi, hi):
                 continue
 
 
-directory = "../Revelations/"
+directory = "../Ascension/"
 for filename in os.listdir(directory):
     if ".webp" in filename:
         convertImage(directory + filename)
