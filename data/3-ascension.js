@@ -1327,7 +1327,7 @@ export const ascension = [
     number: "110/103",
   },
   {
-    image: "images/Ascension/skyship-Engineer.webp",
+    image: "images/Ascension/skyship-engineer.webp",
     element: "Air",
     cost: 1,
     power: 1000,

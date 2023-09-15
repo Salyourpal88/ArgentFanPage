@@ -137,7 +137,7 @@ export const hokken = [
     number: "011/136",
   },
   {
-    image: "images/Hokken/boostersaurus.webp",
+    image: "images/Hokken/Boostersaurus.webp",
     element: "Fire",
     cost: 2,
     power: 1000,
