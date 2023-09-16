@@ -121,7 +121,6 @@ def convertImage(filename):
             else:
                 newData.append(datas3.getpixel((x, y)))
 
-    filename = filename.replace("../Expansion-Pack-Generations/", "")
     im3.putdata(newData)
     im3.save(filename, "WEBP")
     print("Success")
@@ -160,3 +159,13 @@ def findBottomSide(datas, wi, hi):
 
 
 convertImage("../Expansion-Pack-Generations/amateur-witch.webp")
+convertImage("../Expansion-Pack-Generations/arbor-carbuncle.webp")
+convertImage("../Expansion-Pack-Generations/burning-blitzer.webp")
+convertImage("../Expansion-Pack-Generations/catastrophe-demon.webp")
+convertImage("../Expansion-Pack-Generations/crystal-dimensional-dragon.webp")
+convertImage("../Expansion-Pack-Generations/failed-golem-3.webp")
+
+convertImage("../Expansion-Pack-Generations/igneous-dragon.webp")
+convertImage("../Expansion-Pack-Generations/rainbow-knight.webp")
+convertImage("../Expansion-Pack-Generations/saint-of-sacred-regalia.webp")
+convertImage("../Expansion-Pack-Generations/skytree-initiate.webp")
