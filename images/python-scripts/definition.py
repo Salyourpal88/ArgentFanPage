@@ -56,6 +56,5 @@ def convertImage(filename):
     print("Successful")
 
 
-convertImage("../Intro-Deck-2019/hurricane-shot.webp")
-convertImage("../Intro-Deck-2019/tornado-shot.webp")
-convertImage("../Intro-Deck-2019/tower-of-air.webp")
+convertImage("../Intro-Deck-2019/eitan-exiled-prince.webp")
+convertImage("../Intro-Deck-2019/greathawk-of-cloudsea.webp")
