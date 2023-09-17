@@ -343,4 +343,4 @@ def findBottomSide(datas, wi, hi):
 
 directory = "../Expansion-Pack-Generations/"
 
-convertImage(directory + "raging-shardbeast.webp")
+convertImage(directory + "skytree-initiate.webp")
