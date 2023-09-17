@@ -24,44 +24,163 @@ def convertImage(filename):
     datas = img.getdata()
     width, height = img.size
 
-    lc = True
-    bc = True
-    tread = 0
-    tread1 = 0
-
     for y in range(height):
         for x in range(width):
             pixel = datas.getpixel((x, y))
             if y in range(33) and x in range(35):
-                if pixel[0] >= 125 and pixel[1] >= 125 and pixel[2] >= 125 and lc:
+                if x in range(18) and y == 0:
                     newData1.append((0, 0, 0, 255))
-                    tread1 += 1
+                elif x in range(14) and y == 1:
+                    newData1.append((0, 0, 0, 255))
+                elif x in range(11) and y == 2:
+                    newData1.append((0, 0, 0, 255))
+                elif x in range(10) and y == 3:
+                    newData1.append((0, 0, 0, 255))
+                elif x in range(8) and y == 4:
+                    newData1.append((0, 0, 0, 255))
+                elif x in range(7) and y == 5:
+                    newData1.append((0, 0, 0, 255))
+                elif x in range(6) and y == 6:
+                    newData1.append((0, 0, 0, 255))
+                elif x in range(5) and y == 7:
+                    newData1.append((0, 0, 0, 255))
+                elif x in range(4) and y == 8:
+                    newData1.append((0, 0, 0, 255))
+                elif x in range(4) and y == 9:
+                    newData1.append((0, 0, 0, 255))
+                elif x in range(3) and y == 10:
+                    newData1.append((0, 0, 0, 255))
+                elif x in range(2) and y == 11:
+                    newData1.append((0, 0, 0, 255))
+                elif x in range(2) and y == 12:
+                    newData1.append((0, 0, 0, 255))
+                elif x in range(2) and y == 13:
+                    newData1.append((0, 0, 0, 255))
+                elif x in range(1) and y == 14:
+                    newData1.append((0, 0, 0, 255))
+                elif x in range(1) and y == 15:
+                    newData1.append((0, 0, 0, 255))
+                elif x in range(1) and y == 16:
+                    newData1.append((0, 0, 0, 255))
+                elif x in range(1) and y == 17:
+                    newData1.append((0, 0, 0, 255))
                 else:
-                    lc = False
                     newData1.append(pixel)
             elif y in range(53) and x in range(width - 35, width):
-                if x in range(width - tread1, width):
+                if x in range(width - 18, width) and y == 0:
+                    newData1.append((0, 0, 0, 255))
+                elif x in range(width - 14, width) and y == 1:
+                    newData1.append((0, 0, 0, 255))
+                elif x in range(width - 11, width) and y == 2:
+                    newData1.append((0, 0, 0, 255))
+                elif x in range(width - 10, width) and y == 3:
+                    newData1.append((0, 0, 0, 255))
+                elif x in range(width - 8, width) and y == 4:
+                    newData1.append((0, 0, 0, 255))
+                elif x in range(width - 7, width) and y == 5:
+                    newData1.append((0, 0, 0, 255))
+                elif x in range(width - 6, width) and y == 6:
+                    newData1.append((0, 0, 0, 255))
+                elif x in range(width - 5, width) and y == 7:
+                    newData1.append((0, 0, 0, 255))
+                elif x in range(width - 4, width) and y == 8:
+                    newData1.append((0, 0, 0, 255))
+                elif x in range(width - 4, width) and y == 9:
+                    newData1.append((0, 0, 0, 255))
+                elif x in range(width - 3, width) and y == 10:
+                    newData1.append((0, 0, 0, 255))
+                elif x in range(width - 2, width) and y == 11:
+                    newData1.append((0, 0, 0, 255))
+                elif x in range(width - 2, width) and y == 12:
+                    newData1.append((0, 0, 0, 255))
+                elif x in range(width - 2, width) and y == 13:
+                    newData1.append((0, 0, 0, 255))
+                elif x in range(width - 1, width) and y == 14:
+                    newData1.append((0, 0, 0, 255))
+                elif x in range(width - 1, width) and y == 15:
+                    newData1.append((0, 0, 0, 255))
+                elif x in range(width - 1, width) and y == 16:
+                    newData1.append((0, 0, 0, 255))
+                elif x in range(width - 1, width) and y == 17:
                     newData1.append((0, 0, 0, 255))
                 else:
                     newData1.append(pixel)
             elif y in range(height - 31, height) and x in range(35):
-                if pixel[0] >= 175 and pixel[1] >= 175 and pixel[2] >= 175 and bc:
+                if x in range(1) and y == height - 17:
                     newData1.append((0, 0, 0, 255))
-                    tread += 1
+                elif x in range(1) and y == height - 16:
+                    newData1.append((0, 0, 0, 255))
+                elif x in range(1) and y == height - 15:
+                    newData1.append((0, 0, 0, 255))
+                elif x in range(1) and y == height - 14:
+                    newData1.append((0, 0, 0, 255))
+                elif x in range(2) and y == height - 13:
+                    newData1.append((0, 0, 0, 255))
+                elif x in range(2) and y == height - 12:
+                    newData1.append((0, 0, 0, 255))
+                elif x in range(2) and y == height - 11:
+                    newData1.append((0, 0, 0, 255))
+                elif x in range(2) and y == height - 10:
+                    newData1.append((0, 0, 0, 255))
+                elif x in range(3) and y == height - 9:
+                    newData1.append((0, 0, 0, 255))
+                elif x in range(4) and y == height - 8:
+                    newData1.append((0, 0, 0, 255))
+                elif x in range(4) and y == height - 7:
+                    newData1.append((0, 0, 0, 255))
+                elif x in range(5) and y == height - 6:
+                    newData1.append((0, 0, 0, 255))
+                elif x in range(6) and y == height - 5:
+                    newData1.append((0, 0, 0, 255))
+                elif x in range(7) and y == height - 4:
+                    newData1.append((0, 0, 0, 255))
+                elif x in range(8) and y == height - 3:
+                    newData1.append((0, 0, 0, 255))
+                elif x in range(10) and y == height - 2:
+                    newData1.append((0, 0, 0, 255))
+                elif x in range(12) and y == height - 1:
+                    newData1.append((0, 0, 0, 255))
                 else:
-                    bc = False
                     newData1.append(pixel)
             elif y in range(height - 31, height) and x in range(width - 35, width):
-                if x in range(width - tread, width):
+                if x in range(width - 1, width) and y == height - 17:
+                    newData1.append((0, 0, 0, 255))
+                elif x in range(width - 1, width) and y == height - 16:
+                    newData1.append((0, 0, 0, 255))
+                elif x in range(width - 1, width) and y == height - 15:
+                    newData1.append((0, 0, 0, 255))
+                elif x in range(width - 1, width) and y == height - 14:
+                    newData1.append((0, 0, 0, 255))
+                elif x in range(width - 2, width) and y == height - 13:
+                    newData1.append((0, 0, 0, 255))
+                elif x in range(width - 2, width) and y == height - 12:
+                    newData1.append((0, 0, 0, 255))
+                elif x in range(width - 2, width) and y == height - 11:
+                    newData1.append((0, 0, 0, 255))
+                elif x in range(width - 2, width) and y == height - 10:
+                    newData1.append((0, 0, 0, 255))
+                elif x in range(width - 3, width) and y == height - 9:
+                    newData1.append((0, 0, 0, 255))
+                elif x in range(width - 4, width) and y == height - 8:
+                    newData1.append((0, 0, 0, 255))
+                elif x in range(width - 4, width) and y == height - 7:
+                    newData1.append((0, 0, 0, 255))
+                elif x in range(width - 5, width) and y == height - 6:
+                    newData1.append((0, 0, 0, 255))
+                elif x in range(width - 6, width) and y == height - 5:
+                    newData1.append((0, 0, 0, 255))
+                elif x in range(width - 7, width) and y == height - 4:
+                    newData1.append((0, 0, 0, 255))
+                elif x in range(width - 8, width) and y == height - 3:
+                    newData1.append((0, 0, 0, 255))
+                elif x in range(width - 10, width) and y == height - 2:
+                    newData1.append((0, 0, 0, 255))
+                elif x in range(width - 12, width) and y == height - 1:
                     newData1.append((0, 0, 0, 255))
                 else:
                     newData1.append(pixel)
             else:
                 newData1.append(pixel)
-        lc = True
-        bc = True
-        tread = 0
-        tread1 = 0
 
     img.putdata(newData1)
 
@@ -122,6 +241,7 @@ def convertImage(filename):
                 newData.append(datas3.getpixel((x, y)))
 
     im3.putdata(newData)
+    filename = filename.replace("../Expansion-Pack-Genesis/", "")
     im3.save(filename, "WEBP")
     print("Success")
 
@@ -158,14 +278,8 @@ def findBottomSide(datas, wi, hi):
                 return y
 
 
-convertImage("../Expansion-Pack-Generations/amateur-witch.webp")
-convertImage("../Expansion-Pack-Generations/arbor-carbuncle.webp")
-convertImage("../Expansion-Pack-Generations/burning-blitzer.webp")
-convertImage("../Expansion-Pack-Generations/catastrophe-demon.webp")
-convertImage("../Expansion-Pack-Generations/crystal-dimensional-dragon.webp")
-convertImage("../Expansion-Pack-Generations/failed-golem-3.webp")
-
-convertImage("../Expansion-Pack-Generations/igneous-dragon.webp")
-convertImage("../Expansion-Pack-Generations/rainbow-knight.webp")
-convertImage("../Expansion-Pack-Generations/saint-of-sacred-regalia.webp")
-convertImage("../Expansion-Pack-Generations/skytree-initiate.webp")
+# directory = "../Expansion-Pack-Genesis/"
+# for filename in os.listdir(directory):
+#     if ".webp" in filename:
+#         convertImage(directory + filename)
+convertImage("../Expansion-Pack-Genesis/harbinger-of-vabriel.webp")
