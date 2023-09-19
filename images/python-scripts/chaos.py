@@ -9,17 +9,17 @@ def convertImage(filename):
     img = img.convert("RGBA")
     datas = img.getdata()
     width, height = img.size
-    newData = []
+    # newData = []
 
     # Finds where to cut the borders
-    ls = findLeftSide(datas, width, height)
-    rs = findRightSide(datas, width, height)
-    ts = findTopSide(datas, width, height)
-    bs = findBottomSide(datas, width, height)
+    # ls = findLeftSide(datas, width, height)
+    # rs = findRightSide(datas, width, height)
+    # ts = findTopSide(datas, width, height)
+    # bs = findBottomSide(datas, width, height)
 
     # Crops the image and restablishes borders
-    img = img.crop((ls, ts, rs, bs))
-    img = img.convert("RGBA")
+    # img = img.crop((ls, ts, rs, bs))
+    # img = img.convert("RGBA")
     check = img.getdata()
     datas = list(img.getdata())
     width, height = img.size
@@ -34,9 +34,9 @@ def convertImage(filename):
                 pixel_list = list(datas[y * img.width + x])
 
                 # Change the index value of the pixel in the list.
-                pixel_list[0] = 255
-                pixel_list[1] = 255
-                pixel_list[2] = 255
+                pixel_list[0] = 0
+                pixel_list[1] = 0
+                pixel_list[2] = 0
                 pixel_list[3] = 0
 
                 # Convert the list pixel value back to a tuple.
@@ -52,9 +52,9 @@ def convertImage(filename):
                 pixel_list = list(datas[y * img.width + x])
 
                 # Change the index value of the pixel in the list.
-                pixel_list[0] = 255
-                pixel_list[1] = 255
-                pixel_list[2] = 255
+                pixel_list[0] = 0
+                pixel_list[1] = 0
+                pixel_list[2] = 0
                 pixel_list[3] = 0
 
                 # Convert the list pixel value back to a tuple.
@@ -64,7 +64,6 @@ def convertImage(filename):
         tc = True
 
     img.putdata(datas)
-    filename = filename.replace("../Expansion-Pack-Generations/", "")
     img.save(filename, "WEBP")
     print("Success")
 
@@ -141,8 +140,14 @@ def findBottomSide(datas, wi, hi):
 #         convertImage(directory + filename)
 
 # convertImage("../Expansion-Pack-Generations/corona-the-spirit-ruby.webp")
-convertImage("../Expansion-Pack-Generations/198206.webp")
-convertImage("../Expansion-Pack-Generations/198207.webp")
-convertImage("../Expansion-Pack-Generations/198208.webp")
-convertImage("../Expansion-Pack-Generations/198206.webp")
-convertImage("../Expansion-Pack-Generations/198213.webp")
+# convertImage("../Expansion-Pack-Generations/198206.webp")
+# convertImage("../Expansion-Pack-Generations/198207.webp")
+# convertImage("../Expansion-Pack-Generations/198208.webp")
+# convertImage("../Expansion-Pack-Generations/198209.webp")
+# convertImage("../Expansion-Pack-Generations/198213.webp")
+
+convertImage("../Expansion-Pack-Generations/greathawk-of-cloudsea.webp")
+convertImage("../Expansion-Pack-Generations/lucient-guardian-of-vigilance.webp")
+convertImage("../Expansion-Pack-Generations/nobe-the-shadow-guardian.webp")
+convertImage("../Expansion-Pack-Generations/stormcaster-of-azure-tower.webp")
+convertImage("../Expansion-Pack-Generations/vehemont-crimson-guardian.webp")
