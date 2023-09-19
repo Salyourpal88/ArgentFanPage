@@ -149,8 +149,7 @@ export const generations = [
     number: "14/25",
   },
   {
-    image:
-      "images/Expansion-Pack-Generations/kite-kyte-the-spirit-emerald.webp",
+    image: "images/Expansion-Pack-Generations/kyte-the-spirit-emerald.webp",
     element: "argent",
     name: "Kyte, the Spirit Emerald",
     type: "Legendary Shard",
