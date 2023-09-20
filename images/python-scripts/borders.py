@@ -9,22 +9,6 @@ def convertImage(filename):
     img = img.convert("RGBA")
     datas = img.getdata()
     width, height = img.size
-    sal = []
-
-    img1 = Image.open("../Promos/wyvern-crystal.webp")
-    img1 = img1.convert("RGBA")
-    datas1 = img1.getdata()
-    width1, height1 = img.size
-    sal1 = []
-
-    for y in range(height):
-        for x in range(width):
-            pixel = datas.getpixel((x, y))
-            pixel1 = datas1.getpixel((x, y))
-            if y <= 30 or y >= height - 27 or x <= 30 or x >= width - 27:
-                sal.append(pixel1)
-            else:
-                sal.append(pixel)
 
     # Finds where to cut the borders
     # ls = findLeftSide(datas, width, height)
@@ -37,45 +21,46 @@ def convertImage(filename):
     # img = img.convert("RGBA")
     # width, height = img.size
 
-    # check = img.getdata()
-    # datas = list(img.getdata())
-    # width, height = img.size
-    # newData = []
+    check = img.getdata()
+    datas = list(img.getdata())
+    width, height = img.size
+    newData = []
 
-    # tc = True
-    # for y in range(height):
-    #     for x in range(width):
-    #         pixels = check.getpixel((x, y))
-    #         if pixels[0] >= 21 and pixels[1] >= 21 and pixels[2] >= 21 and tc:
-    #             pixel_list = list(datas[y * img.width + x])
-    #             # Change the index value of the pixel in the list.
-    #             pixel_list[0] = 255
-    #             pixel_list[1] = 255
-    #             pixel_list[2] = 255
-    #             pixel_list[3] = 0
-    #             # Convert the list pixel value back to a tuple.
-    #             datas[y * img.width + x] = tuple(pixel_list)
-    #         else:
-    #             tc = False
-    #     tc = True
+    tc = True
+    for y in range(height):
+        for x in range(width):
+            pixels = check.getpixel((x, y))
+            if pixels[0] >= 21 and pixels[1] >= 21 and pixels[2] >= 21 and tc:
+                pixel_list = list(datas[y * img.width + x])
+                # Change the index value of the pixel in the list.
+                pixel_list[0] = 255
+                pixel_list[1] = 255
+                pixel_list[2] = 255
+                pixel_list[3] = 0
+                # Convert the list pixel value back to a tuple.
+                datas[y * img.width + x] = tuple(pixel_list)
+            else:
+                tc = False
+        tc = True
 
-    # for y in range(height):
-    #     for x in reversed(range(width)):
-    #         pixels = check.getpixel((x, y))
-    #         if pixels[0] >= 21 and pixels[1] >= 21 and pixels[2] >= 21 and tc:
-    #             pixel_list = list(datas[y * img.width + x])
-    #             # Change the index value of the pixel in the list.
-    #             pixel_list[0] = 255
-    #             pixel_list[1] = 255
-    #             pixel_list[2] = 255
-    #             pixel_list[3] = 0
-    #             # Convert the list pixel value back to a tuple.
-    #             datas[y * img.width + x] = tuple(pixel_list)
-    #         else:
-    #             tc = False
-    #     tc = True
+    for y in range(height):
+        for x in reversed(range(width)):
+            pixels = check.getpixel((x, y))
+            if pixels[0] >= 21 and pixels[1] >= 21 and pixels[2] >= 21 and tc:
+                pixel_list = list(datas[y * img.width + x])
+                # Change the index value of the pixel in the list.
+                pixel_list[0] = 255
+                pixel_list[1] = 255
+                pixel_list[2] = 255
+                pixel_list[3] = 0
+                # Convert the list pixel value back to a tuple.
+                datas[y * img.width + x] = tuple(pixel_list)
+            else:
+                tc = False
+        tc = True
 
-    img.putdata(sal)
+    img.putdata(datas)
+    # filename = filename.replace("../Promos/", "")
     img.save(filename, "WEBP")
     print("Success")
 
@@ -117,8 +102,17 @@ def findBottomSide(datas, wi, hi):
 #     if ".webp" in filename:
 #         convertImage(directory + filename)
 
-convertImage("../Promos/omega-magic-yami.webp")
-convertImage("../Promos/omega-magic-kaze.webp")
-convertImage("../Promos/omega-magic-mizu.webp")
-convertImage("../Promos/omega-magic-kasai.webp")
-convertImage("../Promos/omega-magic-hikari.webp")
+convertImage("../Promos/ceremonial-harpist.webp")
+convertImage("../Promos/unrestrained-poltergeist.webp")
+convertImage("../Promos/gallant-squire.webp")
+convertImage("../Promos/bone-scavager.webp")
+convertImage("../Promos/shard-spider.webp")
+convertImage("../Promos/shadow-liger.webp")
+convertImage("../Promos/golden-rose-blade.webp")
+convertImage("../Promos/cloudsea-offensive-formation.webp")
+convertImage("../Promos/grove-elemental.webp")
+convertImage("../Promos/ritual-of-ashes.webp")
+convertImage("../Promos/ashborn-conjurer.webp")
+convertImage("../Promos/expanding-elemental.webp")
+convertImage("../Promos/witch-queens-ring.webp")
+convertImage("../Promos/linda-and-goblin-dynamic-duo-1.webp")

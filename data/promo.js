@@ -2354,7 +2354,7 @@ export const lgs2 = [
     number: "116",
   },
   {
-    image: "images/Promos/giga_shard_beast.webp",
+    image: "images/Promos/giga-shardbeast.webp",
     name: "Giga-Shardbeast",
     element: "Argent",
     cost: 2,
