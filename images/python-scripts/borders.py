@@ -81,7 +81,6 @@ def convertImage(filename):
         tc = True
 
     img.putdata(datas)
-    filename = filename.replace("../Promos/", "")
     img.save(filename, "WEBP")
     print("Success")
 
