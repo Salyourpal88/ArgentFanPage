@@ -102,6 +102,4 @@ def findBottomSide(datas, wi, hi):
 #     if ".webp" in filename:
 #         convertImage(directory + filename)
 
-convertImage("../Promos/the-great-magimaze.webp")
-convertImage("../Promos/nori-the-first-warlock.webp")
-convertImage("../Promos/unger-the-conjurers-adversary.webp")
+convertImage("../Promos/argent-shard-1.webp")
