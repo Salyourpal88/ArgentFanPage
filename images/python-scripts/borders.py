@@ -10,6 +10,17 @@ def convertImage(filename):
     datas = img.getdata()
     width, height = img.size
 
+    # Finds where to cut the borders
+    ls = findLeftSide(datas, width, height)
+    rs = findRightSide(datas, width, height)
+    ts = findTopSide(datas, width, height)
+    bs = findBottomSide(datas, width, height)
+
+    # Crops the image and restablishes borders
+    img = img.crop((ls + 1, ts, rs, bs))
+    img = img.convert("RGBA")
+    width, height = img.size
+
     check = img.getdata()
     datas = list(img.getdata())
     width, height = img.size
@@ -19,7 +30,7 @@ def convertImage(filename):
     for y in range(17):
         for x in range(17):
             pixels = check.getpixel((x, y))
-            if pixels[0] >= 100 and pixels[1] >= 100 and pixels[2] >= 100 and tc:
+            if pixels[0] >= 120 and pixels[1] >= 120 and pixels[2] >= 120 and tc:
                 pixel_list = list(datas[y * img.width + x])
                 # Change the index value of the pixel in the list.
                 pixel_list[0] = 255
@@ -34,6 +45,22 @@ def convertImage(filename):
 
     for y in range(height - 17, height):
         for x in range(17):
+            pixels = check.getpixel((x, y))
+            if pixels[0] >= 120 and pixels[1] >= 120 and pixels[2] >= 120 and tc:
+                pixel_list = list(datas[y * img.width + x])
+                # Change the index value of the pixel in the list.
+                pixel_list[0] = 255
+                pixel_list[1] = 255
+                pixel_list[2] = 255
+                pixel_list[3] = 0
+                # Convert the list pixel value back to a tuple.
+                datas[y * img.width + x] = tuple(pixel_list)
+            else:
+                tc = False
+        tc = True
+
+    for y in range(height - 17, height):
+        for x in reversed(range(width - 17, width)):
             pixels = check.getpixel((x, y))
             if pixels[0] >= 200 and pixels[1] >= 200 and pixels[2] >= 200 and tc:
                 pixel_list = list(datas[y * img.width + x])
@@ -48,26 +75,10 @@ def convertImage(filename):
                 tc = False
         tc = True
 
-    for y in range(height - 17, height):
-        for x in reversed(range(width - 17, width)):
-            pixels = check.getpixel((x, y))
-            if pixels[0] >= 100 and pixels[1] >= 100 and pixels[2] >= 100 and tc:
-                pixel_list = list(datas[y * img.width + x])
-                # Change the index value of the pixel in the list.
-                pixel_list[0] = 255
-                pixel_list[1] = 255
-                pixel_list[2] = 255
-                pixel_list[3] = 0
-                # Convert the list pixel value back to a tuple.
-                datas[y * img.width + x] = tuple(pixel_list)
-            else:
-                tc = False
-        tc = True
-
     for y in range(17):
         for x in reversed(range(width - 17, width)):
             pixels = check.getpixel((x, y))
-            if pixels[0] >= 100 and pixels[1] >= 100 and pixels[2] >= 100 and tc:
+            if pixels[0] >= 120 and pixels[1] >= 120 and pixels[2] >= 120 and tc:
                 pixel_list = list(datas[y * img.width + x])
                 # Change the index value of the pixel in the list.
                 pixel_list[0] = 255
@@ -84,12 +95,14 @@ def convertImage(filename):
     img.save(filename, "WEBP")
     print("Success")
 
+    img.show()
+
 
 def findLeftSide(datas, wi, hi):
     for x in range(wi):
         for y in range(hi):
             pixel = datas.getpixel((x, y))
-            if pixel[0] < 100 and pixel[1] < 100 and pixel[2] < 100:
+            if pixel[0] < 200 and pixel[1] < 200 and pixel[2] < 200:
                 return x
 
 
@@ -97,7 +110,7 @@ def findRightSide(datas, wi, hi):
     for x in reversed(range(wi)):
         for y in range(hi):
             pixel = datas.getpixel((x, y))
-            if pixel[0] < 100 and pixel[1] < 100 and pixel[2] < 100:
+            if pixel[0] < 200 and pixel[1] < 200 and pixel[2] < 200:
                 return x
 
 
@@ -105,7 +118,7 @@ def findTopSide(datas, wi, hi):
     for y in range(hi):
         for x in range(wi):
             pixel = datas.getpixel((x, y))
-            if pixel[0] < 100 and pixel[1] < 100 and pixel[2] < 100:
+            if pixel[0] < 200 and pixel[1] < 200 and pixel[2] < 200:
                 return y
 
 
@@ -113,7 +126,7 @@ def findBottomSide(datas, wi, hi):
     for y in reversed(range(hi)):
         for x in range(wi):
             pixel = datas.getpixel((x, y))
-            if pixel[0] < 100 and pixel[1] < 100 and pixel[2] < 100:
+            if pixel[0] < 200 and pixel[1] < 200 and pixel[2] < 200:
                 return y
 
 
@@ -122,4 +135,4 @@ def findBottomSide(datas, wi, hi):
 #     if ".webp" in filename:
 #         convertImage(directory + filename)
 
-convertImage("../Promos/ruka-pugilist-of-the-holy-flame.webp")
+convertImage("../Promos/ghostly-demise.webp")

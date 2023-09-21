@@ -10,7 +10,7 @@ def convertImage(filename):
     datas = img.getdata()
     width, height = img.size
 
-    img = img.crop((1, 3, width - 1, height - 2))
+    img = img.crop((0, 0, width - 19, height - 1))
     img = img.convert("RGBA")
     datas = img.getdata()
     width, height = img.size
@@ -19,75 +19,115 @@ def convertImage(filename):
     for y in range(height):
         for x in range(width):
             pixel = datas.getpixel((x, y))
-            if x in range(9) and y in range(10):
-                if x in range(9) and y == 0:
+            if x in range(27) and y in range(23):
+                if x in range(27) and y == 0:
                     newData.append((0, 0, 0, 255))
-                elif x in range(6) and y == 1:
+                elif x in range(26) and y == 1:
                     newData.append((0, 0, 0, 255))
-                elif x in range(5) and y == 2:
+                elif x in range(21) and y == 2:
                     newData.append((0, 0, 0, 255))
-                elif x in range(4) and y == 3:
+                elif x in range(19) and y == 3:
                     newData.append((0, 0, 0, 255))
-                elif x in range(3) and y == 4:
+                elif x in range(16) and y == 4:
                     newData.append((0, 0, 0, 255))
-                elif x in range(2) and y == 5:
+                elif x in range(14) and y == 5:
                     newData.append((0, 0, 0, 255))
-                elif x in range(2) and y == 6:
+                elif x in range(12) and y == 6:
                     newData.append((0, 0, 0, 255))
-                elif x in range(1) and y == 7:
+                elif x in range(11) and y == 7:
                     newData.append((0, 0, 0, 255))
-                elif x in range(1) and y == 8:
+                elif x in range(10) and y == 8:
+                    newData.append((0, 0, 0, 255))
+                elif x in range(9) and y == 9:
+                    newData.append((0, 0, 0, 255))
+                elif x in range(8) and y == 10:
+                    newData.append((0, 0, 0, 255))
+                elif x in range(7) and y == 11:
+                    newData.append((0, 0, 0, 255))
+                elif x in range(6) and y == 12:
+                    newData.append((0, 0, 0, 255))
+                elif x in range(6) and y == 13:
+                    newData.append((0, 0, 0, 255))
+                elif x in range(5) and y == 14:
+                    newData.append((0, 0, 0, 255))
+                elif x in range(4) and y == 15:
+                    newData.append((0, 0, 0, 255))
+                elif x in range(4) and y == 16:
+                    newData.append((0, 0, 0, 255))
+                elif x in range(3) and y == 17:
+                    newData.append((0, 0, 0, 255))
+                elif x in range(3) and y == 18:
+                    newData.append((0, 0, 0, 255))
+                elif x in range(2) and y == 19:
+                    newData.append((0, 0, 0, 255))
+                elif x in range(2) and y == 20:
+                    newData.append((0, 0, 0, 255))
+                elif x in range(1) and y == 21:
+                    newData.append((0, 0, 0, 255))
+                elif x in range(1) and y == 22:
                     newData.append((0, 0, 0, 255))
                 else:
                     newData.append(pixel)
-            elif x in range(width - 9, width) and y in range(10):
+            elif x in range(width - 9, width) and y in range(3):
                 if x in range(width - 9, width) and y == 0:
                     newData.append((0, 0, 0, 255))
                 elif x in range(width - 6, width) and y == 1:
                     newData.append((0, 0, 0, 255))
                 elif x in range(width - 5, width) and y == 2:
                     newData.append((0, 0, 0, 255))
-                elif x in range(width - 4, width) and y == 3:
+                else:
+                    newData.append(pixel)
+            elif x in range(26) and y in range(height - 21, height):
+                if x in range(26) and y == height - 1:
                     newData.append((0, 0, 0, 255))
-                elif x in range(width - 3, width) and y == 4:
+                elif x in range(21) and y == height - 2:
                     newData.append((0, 0, 0, 255))
-                elif x in range(width - 2, width) and y == 5:
+                elif x in range(19) and y == height - 3:
                     newData.append((0, 0, 0, 255))
-                elif x in range(width - 2, width) and y == 6:
+                elif x in range(17) and y == height - 4:
                     newData.append((0, 0, 0, 255))
-                elif x in range(width - 1, width) and y == 7:
+                elif x in range(15) and y == height - 5:
                     newData.append((0, 0, 0, 255))
-                elif x in range(width - 1, width) and y == 8:
+                elif x in range(13) and y == height - 6:
+                    newData.append((0, 0, 0, 255))
+                elif x in range(12) and y == height - 7:
+                    newData.append((0, 0, 0, 255))
+                elif x in range(10) and y == height - 8:
+                    newData.append((0, 0, 0, 255))
+                elif x in range(9) and y == height - 9:
+                    newData.append((0, 0, 0, 255))
+                elif x in range(8) and y == height - 10:
+                    newData.append((0, 0, 0, 255))
+                elif x in range(7) and y == height - 11:
+                    newData.append((0, 0, 0, 255))
+                elif x in range(7) and y == height - 12:
+                    newData.append((0, 0, 0, 255))
+                elif x in range(6) and y == height - 13:
+                    newData.append((0, 0, 0, 255))
+                elif x in range(5) and y == height - 14:
+                    newData.append((0, 0, 0, 255))
+                elif x in range(4) and y == height - 15:
+                    newData.append((0, 0, 0, 255))
+                elif x in range(4) and y == height - 16:
+                    newData.append((0, 0, 0, 255))
+                elif x in range(3) and y == height - 17:
+                    newData.append((0, 0, 0, 255))
+                elif x in range(3) and y == height - 18:
+                    newData.append((0, 0, 0, 255))
+                elif x in range(2) and y == height - 19:
+                    newData.append((0, 0, 0, 255))
+                elif x in range(2) and y == height - 20:
+                    newData.append((0, 0, 0, 255))
+                elif x in range(2) and y == height - 21:
                     newData.append((0, 0, 0, 255))
                 else:
                     newData.append(pixel)
-            elif x in range(4) and y in range(height - 6, height):
-                if x in range(4) and y == height - 1:
-                    newData.append((0, 0, 0, 255))
-                elif x in range(3) and y == height - 2:
-                    newData.append((0, 0, 0, 255))
-                elif x in range(2) and y == height - 3:
-                    newData.append((0, 0, 0, 255))
-                elif x in range(2) and y == height - 4:
-                    newData.append((0, 0, 0, 255))
-                elif x in range(1) and y == height - 5:
-                    newData.append((0, 0, 0, 255))
-                elif x in range(1) and y == height - 6:
-                    newData.append((0, 0, 0, 255))
-                else:
-                    newData.append(pixel)
-            elif x in range(width - 4, width) and y in range(height - 6, height):
-                if x in range(width - 4, width) and y == height - 1:
+            elif x in range(width - 9, width) and y in range(height - 6, height):
+                if x in range(width - 9, width) and y == height - 1:
                     newData.append((0, 0, 0, 255))
                 elif x in range(width - 3, width) and y == height - 2:
                     newData.append((0, 0, 0, 255))
                 elif x in range(width - 2, width) and y == height - 3:
-                    newData.append((0, 0, 0, 255))
-                elif x in range(width - 2, width) and y == height - 4:
-                    newData.append((0, 0, 0, 255))
-                elif x in range(width - 1, width) and y == height - 5:
-                    newData.append((0, 0, 0, 255))
-                elif x in range(width - 1, width) and y == height - 6:
                     newData.append((0, 0, 0, 255))
                 else:
                     newData.append(pixel)
@@ -235,4 +275,4 @@ def findBottomSide(datas, wi, hi):
 # convertImage("../Expansion-Pack-Generations/198209.webp")
 # convertImage("../Expansion-Pack-Generations/198213.webp")
 
-convertImage("../Promos/silvermist-phoenix.webp")
+convertImage("../Promos/gz-the-explosion-master-1.webp")
