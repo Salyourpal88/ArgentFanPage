@@ -11,15 +11,15 @@ def convertImage(filename):
     width, height = img.size
 
     # Finds where to cut the borders
-    # ls = findLeftSide(datas, width, height)
-    # rs = findRightSide(datas, width, height)
-    # ts = findTopSide(datas, width, height)
-    # bs = findBottomSide(datas, width, height)
+    ls = findLeftSide(datas, width, height)
+    rs = findRightSide(datas, width, height)
+    ts = findTopSide(datas, width, height)
+    bs = findBottomSide(datas, width, height)
 
     # Crops the image and restablishes borders
-    # img = img.crop((ls, ts, rs, bs))
-    # img = img.convert("RGBA")
-    # width, height = img.size
+    img = img.crop((ls, ts, rs, bs))
+    img = img.convert("RGBA")
+    width, height = img.size
 
     check = img.getdata()
     datas = list(img.getdata())
@@ -102,17 +102,8 @@ def findBottomSide(datas, wi, hi):
 #     if ".webp" in filename:
 #         convertImage(directory + filename)
 
-convertImage("../Promos/ceremonial-harpist.webp")
-convertImage("../Promos/unrestrained-poltergeist.webp")
-convertImage("../Promos/gallant-squire.webp")
-convertImage("../Promos/bone-scavager.webp")
-convertImage("../Promos/shard-spider.webp")
-convertImage("../Promos/shadow-liger.webp")
-convertImage("../Promos/golden-rose-blade.webp")
-convertImage("../Promos/cloudsea-offensive-formation.webp")
-convertImage("../Promos/grove-elemental.webp")
-convertImage("../Promos/ritual-of-ashes.webp")
-convertImage("../Promos/ashborn-conjurer.webp")
-convertImage("../Promos/expanding-elemental.webp")
-convertImage("../Promos/witch-queens-ring.webp")
-convertImage("../Promos/linda-and-goblin-dynamic-duo-1.webp")
+convertImage("../Promos/forager-of-the-fallen-leaf.webp")
+convertImage("../Promos/ash-tidemelder-squire.webp")
+convertImage("../Promos/yuki-brightveiler-squire.webp")
+convertImage("../Promos/gz-blazerusher-squire.webp")
+convertImage("../Promos/liyu-avarice-reborn-1.webp")
