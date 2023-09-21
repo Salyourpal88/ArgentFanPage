@@ -351,7 +351,7 @@ def findBottomSide(datas, wi, hi):
 # convertImage("../Promos/carriermecha-kyari.webp")
 # convertImage("../Promos/lloyd-traveler-of-worlds.webp")
 # convertImage("../Promos/metaial-celestial-of-ruin.webp")
-convertImage("../Promos/brilliant-verdure.jpg")
+convertImage("../Promos/liam-traitor-of-knights.webp")
 
 # convertImage("../Promos/tower-of-darkness.webp")
 # convertImage("../Promos/tower-of-light.webp")
