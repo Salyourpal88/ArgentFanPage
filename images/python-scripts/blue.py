@@ -154,16 +154,9 @@ def convertImage(filename):
                     newData.append(pixel)
             else:
                 newData.append(pixel)
-        if count != 0:
-            print(
-                f"if x in range({count}) and y in range(height - {height - y}, height):"
-            )
-            print("    newData.append(255, 255, 255, 0)")
-            count = 0
-        tc = True
 
     img.putdata(newData)
-    # filename = filename.replace("../Promos/", "")
+    filename = filename.replace("../Promos/", "")
     img.save(filename, "WEBP")
     print("Success")
 
