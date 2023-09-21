@@ -1306,7 +1306,7 @@ export const promos = [
     number: "118",
   },
   {
-    image: "images/Promos/azure-seer.jpg",
+    image: "images/Promos/azure-seer.webp",
     name: "Azure Seer",
     element: "water",
     cost: 1,
