@@ -3859,24 +3859,9 @@ export const allCards = [
     number: "099/100",
     effect: "Deal 500 to target unit.",
   },
+
   {
-    image: "images/Revelations/white-rose-knight.webp",
-    element: "light",
-    cost: 4,
-    power: 2000,
-    name: "White Rose Knight",
-    type: "Unit",
-    subtype: "rose knight",
-    rarity: "Rare",
-    number: "100/100",
-    effect:
-      "Arrive - Choose one for each Knight unit you control, up to three.\n" +
-      "* Search your deck for a Gear and add it to your hand.\n" +
-      "* Equip target Gear from your discard zone to this card.\n" +
-      "* Switch target Knight unit to active.",
-  },
-  {
-    image: "images/Ascension/AirCelestialCrystal.webp",
+    image: "images/Ascension/air-celestial-crystal.webp",
     element: "Argent",
     cost: 1,
     name: "Air Celestial Crystal",
@@ -3887,7 +3872,7 @@ export const allCards = [
     number: "001/103",
   },
   {
-    image: "images/Ascension/AiraSaviorOfArgos.webp",
+    image: "images/Ascension/aira-savior-of-argos.webp",
     element: "Argent",
     cost: 5,
     power: 6000,
@@ -3900,7 +3885,7 @@ export const allCards = [
     number: "002/103",
   },
   {
-    image: "images/Ascension/ArianaCelestiallyImbued.webp",
+    image: "images/Ascension/ariana-celestially-imbued.webp",
     element: "Air",
     cost: 4,
     power: 4000,
@@ -3913,7 +3898,7 @@ export const allCards = [
     number: "003/103",
   },
   {
-    image: "images/Ascension/ArkTheSoaringBlazewalker.webp",
+    image: "images/Ascension/ark-the-soaring-blazewalker.webp",
     element: "Fire",
     cost: 3,
     power: 2500,
@@ -3926,7 +3911,7 @@ export const allCards = [
     number: "004/103",
   },
   {
-    image: "images/Ascension/AshbornSprite.webp",
+    image: "images/Ascension/ashborn-sprite.webp",
     element: "Fire",
     cost: 1,
     power: 1000,
@@ -3939,7 +3924,7 @@ export const allCards = [
     number: "005/103",
   },
   {
-    image: "images/Ascension/AssaultFromTheDeep.webp",
+    image: "images/Ascension/assault-from-the-deep.webp",
     element: "Water",
     cost: 2,
     name: "Assault from the Deep",
@@ -3950,7 +3935,7 @@ export const allCards = [
     number: "006/103",
   },
   {
-    image: "images/Ascension/AssaultOfAshes.webp",
+    image: "images/Ascension/assault-of-ashes.webp",
     element: "Fire",
     cost: 1,
     name: "Assault of Ashes",
@@ -3961,7 +3946,7 @@ export const allCards = [
     number: "007/103",
   },
   {
-    image: "images/Ascension/AuronShiningRoseKnight.webp",
+    image: "images/Ascension/auron-shining-rose-knight.webp",
     element: "Light",
     cost: 4,
     power: 2000,
@@ -3974,7 +3959,7 @@ export const allCards = [
     number: "008/103",
   },
   {
-    image: "images/Ascension/BagoomTheFriendlyBeast.webp",
+    image: "images/Ascension/bagoom-the-friendly-beast.webp",
     element: "Light",
     cost: 4,
     power: 2500,
@@ -3987,7 +3972,7 @@ export const allCards = [
     number: "009/103",
   },
   {
-    image: "images/Ascension/BagoomsRoar.webp",
+    image: "images/Ascension/bagooms-roar.webp",
     element: "Light",
     cost: 1,
     name: "Bagoom's Roar",
@@ -3998,7 +3983,7 @@ export const allCards = [
     number: "010/103",
   },
   {
-    image: "images/Ascension/BlessedElemental.webp",
+    image: "images/Ascension/blessed-elemental.webp",
     element: "Light",
     cost: 3,
     power: 3000,
@@ -4011,7 +3996,7 @@ export const allCards = [
     number: "011/103",
   },
   {
-    image: "images/Ascension/BoreasCloudseaEnforcer.webp",
+    image: "images/Ascension/boreas-cloudsea-enforcer.webp",
     element: "Air",
     cost: 5,
     power: 4000,
@@ -4024,7 +4009,7 @@ export const allCards = [
     number: "012/103",
   },
   {
-    image: "images/Ascension/CarriermechaKyari.webp",
+    image: "images/Ascension/carriermecha-kyari.webp",
     element: "Argent",
     cost: 0,
     power: 500,
@@ -4037,7 +4022,7 @@ export const allCards = [
     number: "013/103",
   },
   {
-    image: "images/Ascension/CelestialTeamup.webp",
+    image: "images/Ascension/celestial-teamup.webp",
     element: "Air",
     cost: 4,
     name: "Celestial Team-up!",
@@ -4048,7 +4033,7 @@ export const allCards = [
     number: "014/103",
   },
   {
-    image: "images/Ascension/CloudseaBeastTamer.webp",
+    image: "images/Ascension/cloudsea-beast-tamer.webp",
     element: "Air",
     cost: 3,
     power: 1500,
@@ -4061,7 +4046,7 @@ export const allCards = [
     number: "015/103",
   },
   {
-    image: "images/Ascension/CloudseaJumper.webp",
+    image: "images/Ascension/cloudsea-jumper.webp",
     element: "Air",
     cost: 1,
     power: 500,
@@ -4074,7 +4059,7 @@ export const allCards = [
     number: "016/103",
   },
   {
-    image: "images/Ascension/CloudseaOffensiveFormation.webp",
+    image: "images/Ascension/cloudsea-offensive-formation.webp",
     element: "Air",
     cost: 1,
     name: "Cloudsea Offensive Formation",
@@ -4085,7 +4070,7 @@ export const allCards = [
     number: "017/103",
   },
   {
-    image: "images/Ascension/CloudseaPreparation.webp",
+    image: "images/Ascension/cloudsea-preparation.webp",
     element: "Air",
     cost: 4,
     name: "Cloudsea Preparation",
@@ -4096,7 +4081,7 @@ export const allCards = [
     number: "018/103",
   },
   {
-    image: "images/Ascension/CloudseaPteromyini.webp",
+    image: "images/Ascension/cloudsea-pteromyini.webp",
     element: "Air",
     cost: 2,
     power: 1000,
@@ -4109,7 +4094,7 @@ export const allCards = [
     number: "019/103",
   },
   {
-    image: "images/Ascension/CloudseaScoutship.webp",
+    image: "images/Ascension/cloudsea-scoutship.webp",
     element: "Air",
     cost: 2,
     power: 1000,
@@ -4122,7 +4107,7 @@ export const allCards = [
     number: "020/103",
   },
   {
-    image: "images/Ascension/CosmicAirMagic.webp",
+    image: "images/Ascension/cosmic-air-magic.webp",
     element: "Air",
     cost: 2,
     power: 0,
@@ -4135,7 +4120,7 @@ export const allCards = [
     number: "021/103",
   },
   {
-    image: "images/Ascension/CosmicDarkMagic.webp",
+    image: "images/Ascension/cosmic-dark-magic.webp",
     element: "Dark",
     cost: 2,
     name: "Cosmic Dark Magic",
@@ -4146,7 +4131,7 @@ export const allCards = [
     number: "022/103",
   },
   {
-    image: "images/Ascension/CosmicFireMagic.webp",
+    image: "images/Ascension/cosmic-fire-magic.webp",
     element: "Fire",
     cost: 2,
     name: "Cosmic Fire Magic",
@@ -4157,7 +4142,7 @@ export const allCards = [
     number: "023/103",
   },
   {
-    image: "images/Ascension/CosmicLightMagic.webp",
+    image: "images/Ascension/cosmic-light-magic.webp",
     element: "Light",
     cost: 2,
     name: "Cosmic Light Magic",
@@ -4168,7 +4153,7 @@ export const allCards = [
     number: "024/103",
   },
   {
-    image: "images/Ascension/CosmicWaterMagic.webp",
+    image: "images/Ascension/cosmic-water-magic.webp",
     element: "Water",
     cost: 2,
     name: "Cosmic Water Magic",
@@ -4179,7 +4164,7 @@ export const allCards = [
     number: "025/103",
   },
   {
-    image: "images/Ascension/DefenderOfRaoyenna.webp",
+    image: "images/Ascension/defender-of-raoyenna.webp",
     element: "Fire",
     cost: 2,
     power: 1500,
@@ -4192,7 +4177,7 @@ export const allCards = [
     number: "026/103",
   },
   {
-    image: "images/Ascension/DragonholtFuryUnleashed.webp",
+    image: "images/Ascension/dragonholt-fury-unleashed.webp",
     element: "Fire",
     cost: 5,
     power: 5000,
@@ -4205,7 +4190,7 @@ export const allCards = [
     number: "027/103",
   },
   {
-    image: "images/Ascension/DragonicEruption.webp",
+    image: "images/Ascension/dragonic-eruption.webp",
     element: "Fire",
     cost: 4,
     name: "Dragonic Eruption",
@@ -4216,7 +4201,7 @@ export const allCards = [
     number: "028/103",
   },
   {
-    image: "images/Ascension/EllaCorruptedByLove.webp",
+    image: "images/Ascension/ella-corrupted-by-love.webp",
     element: "Argent",
     cost: 3,
     power: 2000,
@@ -4229,7 +4214,7 @@ export const allCards = [
     number: "029/103",
   },
   {
-    image: "images/Ascension/EndowmentOfTheDragonGod.webp",
+    image: "images/Ascension/endowment-of-the-dragon-god.webp",
     element: "Fire",
     cost: 1,
     name: "Endowment of the Dragon God",
@@ -4240,7 +4225,7 @@ export const allCards = [
     number: "030/103",
   },
   {
-    image: "images/Ascension/EndowmentOfTheSeaGod.webp",
+    image: "images/Ascension/endowment-of-the-sea-god.webp",
     element: "Water",
     cost: 1,
     name: "Endowment of the Sea God",
@@ -4251,7 +4236,7 @@ export const allCards = [
     number: "031/103",
   },
   {
-    image: "images/Ascension/EnemyOfMyEnemy.webp",
+    image: "images/Ascension/enemy-of-my-enemy.webp",
     element: "Water",
     cost: 1,
     name: "Enemy of my Enemy",
@@ -4262,7 +4247,7 @@ export const allCards = [
     number: "032/103",
   },
   {
-    image: "images/Ascension/ErgonTheForgivenEmissary.webp",
+    image: "images/Ascension/ergon-the-forgiven-emissary.webp",
     element: "Dark",
     cost: 3,
     power: 3000,
@@ -4275,7 +4260,7 @@ export const allCards = [
     number: "033/103",
   },
   {
-    image: "images/Ascension/FathersBetrayal.webp",
+    image: "images/Ascension/fathers-betrayal.webp",
     element: "Water",
     cost: 1,
     name: "Father's Betrayal",
@@ -4286,7 +4271,7 @@ export const allCards = [
     number: "034/103",
   },
   {
-    image: "images/Ascension/FerociousAcidicMonger.webp",
+    image: "images/Ascension/ferocious-acidic-monger.webp",
     element: "Argent",
     cost: 3,
     power: 1500,
@@ -4297,7 +4282,7 @@ export const allCards = [
     number: "035/103",
   },
   {
-    image: "images/Ascension/FinalBattleAtTheArgentTower.webp",
+    image: "images/Ascension/final-battle-at-the-argent-tower.webp",
     element: "Air",
     cost: 6,
     name: "Final Battle at the Argent Tower",
@@ -4308,7 +4293,7 @@ export const allCards = [
     number: "036/103",
   },
   {
-    image: "images/Ascension/GallantSquire.webp",
+    image: "images/Ascension/gallant-squire.webp",
     element: "Light",
     cost: 1,
     power: 1000,
@@ -4320,7 +4305,7 @@ export const allCards = [
     number: "037/103",
   },
   {
-    image: "images/Ascension/GillianInterdimensionalWitch.webp",
+    image: "images/Ascension/gillian-interdimensional-witch.webp",
     element: "Water",
     cost: 6,
     power: 5000,
@@ -4333,7 +4318,7 @@ export const allCards = [
     number: "038/103",
   },
   {
-    image: "images/Ascension/GilliansGambit.webp",
+    image: "images/Ascension/gillians-gambit.webp",
     element: "Water",
     cost: 3,
     name: "Gillian's Gambit",
@@ -4343,7 +4328,7 @@ export const allCards = [
     number: "039/103",
   },
   {
-    image: "images/Ascension/GloomNecrolord.webp",
+    image: "images/Ascension/gloom-necrolord.webp",
     element: "Dark",
     cost: 9,
     power: 3000,
@@ -4355,7 +4340,7 @@ export const allCards = [
     number: "040/103",
   },
   {
-    image: "images/Ascension/GloomNeophyte.webp",
+    image: "images/Ascension/gloom-neophyte.webp",
     element: "Dark",
     cost: 3,
     power: 1500,
@@ -4367,7 +4352,7 @@ export const allCards = [
     number: "041/103",
   },
   {
-    image: "images/Ascension/GlowshardDragon.webp",
+    image: "images/Ascension/glowshard-dragon.webp",
     element: "Fire",
     cost: 2,
     power: 1500,
@@ -4380,7 +4365,7 @@ export const allCards = [
     number: "042/103",
   },
   {
-    image: "images/Ascension/GoldenRoseBlade.webp",
+    image: "images/Ascension/golden-rose-blade.webp",
     element: "Light",
     cost: 2,
     name: "Golden Rose Blade",
@@ -4392,7 +4377,7 @@ export const allCards = [
     number: "043/103",
   },
   {
-    image: "images/Ascension/GuardsmanOfLeviathan.webp",
+    image: "images/Ascension/guardsman-of-leviathan.webp",
     element: "Water",
     cost: 4,
     power: 2000,
@@ -4405,7 +4390,7 @@ export const allCards = [
     number: "044/103",
   },
   {
-    image: "images/Ascension/HandOfRaoyenna.webp",
+    image: "images/Ascension/hand-of-raoyenna.webp",
     element: "Fire",
     cost: 2,
     power: 1500,
@@ -4418,7 +4403,7 @@ export const allCards = [
     number: "045/103",
   },
   {
-    image: "images/Ascension/HannaReformedApprentice.webp",
+    image: "images/Ascension/hanna-reformed-apprentice.webp",
     element: "Water",
     cost: 5,
     power: 2500,
@@ -4430,7 +4415,7 @@ export const allCards = [
     number: "046/103",
   },
   {
-    image: "images/Ascension/HiddenDragonOfTheCloudsea.webp",
+    image: "images/Ascension/hidden-dragon-of-the-cloudsea.webp",
     element: "Air",
     cost: 7,
     power: 3500,
@@ -4443,7 +4428,7 @@ export const allCards = [
     number: "047/103",
   },
   {
-    image: "images/Ascension/HoennaHorrificPerfection.webp",
+    image: "images/Ascension/hoenna-horrific-perfection.webp",
     element: "Dark",
     cost: 4,
     power: 3500,
@@ -4456,7 +4441,7 @@ export const allCards = [
     number: "048/103",
   },
   {
-    image: "images/Ascension/HoennasInquest.webp",
+    image: "images/Ascension/hoennas-inquest.webp",
     element: "Dark",
     cost: 1,
     name: "Hoenna's Inquest",
@@ -4467,7 +4452,7 @@ export const allCards = [
     number: "049/103",
   },
   {
-    image: "images/Ascension/HoennasWrath.webp",
+    image: "images/Ascension/hoennas-wrath.webp",
     element: "Dark",
     cost: 6,
     name: "Hoenna's Wrath",
@@ -4478,7 +4463,7 @@ export const allCards = [
     number: "050/103",
   },
   {
-    image: "images/Ascension/ImbuedByAshes.webp",
+    image: "images/Ascension/imbued-by-ashes.webp",
     element: "Fire",
     cost: 1,
     name: "Imbued by Ashes",
@@ -4489,7 +4474,7 @@ export const allCards = [
     number: "051/103",
   },
   {
-    image: "images/Ascension/InspiringSprite.webp",
+    image: "images/Ascension/inspiring-sprite.webp",
     element: "Argent",
     cost: 1,
     power: 500,
@@ -4501,7 +4486,7 @@ export const allCards = [
     number: "052/103",
   },
   {
-    image: "images/Ascension/InterdimensionalHorror.webp",
+    image: "images/Ascension/interdimensional-horror.webp",
     element: "Dark",
     cost: 6,
     power: 5000,
@@ -4514,7 +4499,7 @@ export const allCards = [
     number: "053/103",
   },
   {
-    image: "images/Ascension/JubeiKingOfTheMagimaze.webp",
+    image: "images/Ascension/jubei-king-of-the-magimaze.webp",
     element: "Argent",
     cost: 5,
     power: 2500,
@@ -4527,7 +4512,7 @@ export const allCards = [
     number: "054/103",
   },
   {
-    image: "images/Ascension/JubeisCrystalBall.webp",
+    image: "images/Ascension/jubeis-crystal-ball.webp",
     element: "Argent",
     cost: 1,
     name: "Jubei's Crystal Ball",
@@ -4538,7 +4523,7 @@ export const allCards = [
     number: "055/103",
   },
   {
-    image: "images/Ascension/JubeisPranksters.webp",
+    image: "images/Ascension/jubeis-pranksters.webp",
     element: "Argent",
     cost: 2,
     power: 1500,
@@ -4551,7 +4536,7 @@ export const allCards = [
     number: "056/103",
   },
   {
-    image: "images/Ascension/JubeisServants.webp",
+    image: "images/Ascension/jubeis-servants.webp",
     element: "Argent",
     cost: 1,
     power: 1000,
@@ -4563,7 +4548,7 @@ export const allCards = [
     number: "057/103",
   },
   {
-    image: "images/Ascension/KalaBestFriendsForever.webp",
+    image: "images/Ascension/kala-best-friends-forever.webp",
     element: "Air",
     cost: 1,
     power: 500,
@@ -4575,7 +4560,7 @@ export const allCards = [
     number: "058/103",
   },
   {
-    image: "images/Ascension/KaraTheGloriousValkyrie.webp",
+    image: "images/Ascension/kara-the-glorious-valkyrie.webp",
     element: "Light",
     cost: 6,
     power: 5000,
@@ -4588,7 +4573,7 @@ export const allCards = [
     number: "059/103",
   },
   {
-    image: "images/Ascension/LesserShrieker.webp",
+    image: "images/Ascension/lesser-shrieker.webp",
     element: "Dark",
     cost: 1,
     power: 500,
@@ -4600,7 +4585,7 @@ export const allCards = [
     number: "060/103",
   },
   {
-    image: "images/Ascension/LeviathansFury.webp",
+    image: "images/Ascension/leviathans-fury.webp",
     element: "Water",
     cost: 10,
     name: "Leviathan's Fury",
@@ -4611,7 +4596,7 @@ export const allCards = [
     number: "061/103",
   },
   {
-    image: "images/Ascension/LiamCorruptedByMadness.webp",
+    image: "images/Ascension/liam-corrupted-by-madness.webp",
     element: "Argent",
     cost: 4,
     power: 2500,
@@ -4624,7 +4609,7 @@ export const allCards = [
     number: "062/103",
   },
   {
-    image: "images/Ascension/LloydTravelerOfWorlds.webp",
+    image: "images/Ascension/lloyd-traveler-of-worlds.webp",
     element: "Argent",
     cost: 4,
     power: 2000,
@@ -4637,7 +4622,7 @@ export const allCards = [
     number: "063/103",
   },
   {
-    image: "images/Ascension/MagimazeGatekeeper.webp",
+    image: "images/Ascension/magimaze-gatekeeper.webp",
     element: "Argent",
     cost: 3,
     power: 1500,
@@ -4650,7 +4635,7 @@ export const allCards = [
     number: "064/103",
   },
   {
-    image: "images/Ascension/MagimazeWorm.webp",
+    image: "images/Ascension/magimaze-worm.webp",
     element: "Argent",
     cost: 1,
     power: 500,
@@ -4663,7 +4648,7 @@ export const allCards = [
     number: "065/103",
   },
   {
-    image: "images/Ascension/MaidenOfTheMazeSeriah.webp",
+    image: "images/Ascension/maiden-of-the-maze-seriah.webp",
     element: "Light",
     cost: 2,
     power: 1000,
@@ -4676,7 +4661,7 @@ export const allCards = [
     number: "066/103",
   },
   {
-    image: "images/Ascension/MeiyuCorruptedByPower.webp",
+    image: "images/Ascension/meiyu-corrupted-by-power.webp",
     element: "Argent",
     cost: 6,
     power: 3500,
@@ -4689,7 +4674,7 @@ export const allCards = [
     number: "067/103",
   },
   {
-    image: "images/Ascension/MeiyusMirrorMagic.webp",
+    image: "images/Ascension/meiyus-mirror-magic.webp",
     element: "Water",
     cost: 4,
     name: "Mei-Yu's Mirror Magic",
@@ -4700,7 +4685,7 @@ export const allCards = [
     number: "068/103",
   },
   {
-    image: "images/Ascension/MetaialCelestialOfRuin.webp",
+    image: "images/Ascension/metaial-celestial-of-ruin.webp",
     element: "Argent",
     cost: 8,
     power: 6000,
@@ -4713,7 +4698,7 @@ export const allCards = [
     number: "069/103",
   },
   {
-    image: "images/Ascension/MetaialTheSilverKing.webp",
+    image: "images/Ascension/metaial-the-silver-king.webp",
     element: "Argent",
     name: "Metaial, the Silver King",
     type: "Champion",
@@ -4723,7 +4708,7 @@ export const allCards = [
     number: "070/103",
   },
   {
-    image: "images/Ascension/NovaKnight.webp",
+    image: "images/Ascension/nova-knight.webp",
     element: "Light",
     cost: 2,
     power: 2500,
@@ -4736,7 +4721,7 @@ export const allCards = [
     number: "071/103",
   },
   {
-    image: "images/Ascension/OracleOfLeviathan.webp",
+    image: "images/Ascension/oracle-of-leviathan.webp",
     element: "Water",
     cost: 3,
     power: 1500,
@@ -4749,7 +4734,7 @@ export const allCards = [
     number: "072/103",
   },
   {
-    image: "images/Ascension/OvergrownSabertooth.webp",
+    image: "images/Ascension/overgrown-sabertooth.webp",
     element: "Air",
     cost: 3,
     power: 3000,
@@ -4762,7 +4747,7 @@ export const allCards = [
     number: "073/103",
   },
   {
-    image: "images/Ascension/PhantasmalPaladin.webp",
+    image: "images/Ascension/phantasmal-paladin.webp",
     element: "Water",
     cost: 2,
     power: 2000,
@@ -4775,7 +4760,7 @@ export const allCards = [
     number: "074/103",
   },
   {
-    image: "images/Ascension/PlayfulImp.webp",
+    image: "images/Ascension/playful-imp.webp",
     element: "Dark",
     cost: 1,
     power: 1000,
@@ -4788,7 +4773,7 @@ export const allCards = [
     number: "075/103",
   },
   {
-    image: "images/Ascension/ProtectorOfTheInbetween.webp",
+    image: "images/Ascension/protector-of-the-inbetween.webp",
     element: "Argent",
     cost: 4,
     power: 2000,
@@ -4799,7 +4784,7 @@ export const allCards = [
     number: "076/103",
   },
   {
-    image: "images/Ascension/RaineCorruptedByGrief.webp",
+    image: "images/Ascension/raine-corrupted-by-grief.webp",
     element: "Argent",
     cost: 5,
     power: 2500,
@@ -4812,7 +4797,7 @@ export const allCards = [
     number: "077/103",
   },
   {
-    image: "images/Ascension/RaoyennaTheVengefulPhoenix.webp",
+    image: "images/Ascension/raoyenna-the-vengeful-phoenix.webp",
     element: "Fire",
     cost: 5,
     power: 3000,
@@ -4825,7 +4810,7 @@ export const allCards = [
     number: "078/103",
   },
   {
-    image: "images/Ascension/RavenousAcidicMonger.webp",
+    image: "images/Ascension/ravenous-acidic-monger.webp",
     element: "Argent",
     cost: 5,
     power: 2500,
@@ -4838,7 +4823,7 @@ export const allCards = [
     number: "079/103",
   },
   {
-    image: "images/Ascension/ReturnFromAshes.webp",
+    image: "images/Ascension/return-from-ashes.webp",
     element: "Fire",
     cost: 1,
     name: "Return from Ashes",
@@ -4849,7 +4834,7 @@ export const allCards = [
     number: "080/103",
   },
   {
-    image: "images/Ascension/RevivalOfTheSon.webp",
+    image: "images/Ascension/revival-of-the-son.webp",
     element: "Dark",
     cost: 0,
     name: "Revival of the Son",
@@ -4859,7 +4844,7 @@ export const allCards = [
     number: "081/103",
   },
   {
-    image: "images/Ascension/RitualOfAshes.webp",
+    image: "images/Ascension/ritual-of-ashes.webp",
     element: "Fire",
     cost: 1,
     name: "Ritual of Ashes",
@@ -4870,7 +4855,7 @@ export const allCards = [
     number: "082/103",
   },
   {
-    image: "images/Ascension/ScalesOfDarkness.webp",
+    image: "images/Ascension/scales-of-darkness.webp",
     element: "Dark",
     cost: 3,
     name: "Scales of Darkness",
@@ -4880,7 +4865,7 @@ export const allCards = [
     number: "083/103",
   },
   {
-    image: "images/Ascension/ShardMerchant.webp",
+    image: "images/Ascension/shard-merchant.webp",
     element: "Argent",
     cost: 5,
     power: 2500,
@@ -4891,7 +4876,7 @@ export const allCards = [
     number: "084/103",
   },
   {
-    image: "images/Ascension/ShardarmoredWyrm.webp",
+    image: "images/Ascension/shardarmored-wyrm.webp",
     element: "Light",
     cost: 5,
     power: 2500,
@@ -4904,7 +4889,7 @@ export const allCards = [
     number: "085/103",
   },
   {
-    image: "images/Ascension/SilverKingsInquisitor.webp",
+    image: "images/Ascension/silver-kings-inquisitor.webp",
     element: "Argent",
     cost: 2,
     power: 1000,
@@ -4917,7 +4902,7 @@ export const allCards = [
     number: "086/103",
   },
   {
-    image: "images/Ascension/SilverKingsPawn.webp",
+    image: "images/Ascension/silver-kings-pawn.webp",
     element: "Argent",
     cost: 1,
     power: 500,
@@ -4930,7 +4915,7 @@ export const allCards = [
     number: "087/103",
   },
   {
-    image: "images/Ascension/SkeletalGargoyle.webp",
+    image: "images/Ascension/skeletal-gargoyle.webp",
     element: "Dark",
     cost: 3,
     power: 1500,
@@ -4943,7 +4928,7 @@ export const allCards = [
     number: "088/103",
   },
   {
-    image: "images/Ascension/SpiritOfCervimini.webp",
+    image: "images/Ascension/spirit-of-cervimini.webp",
     element: "Light",
     affinity: 10,
     name: "Spirit of Cervimini",
@@ -4954,7 +4939,7 @@ export const allCards = [
     number: "089/103",
   },
   {
-    image: "images/Ascension/SpiritOfOtterius.webp",
+    image: "images/Ascension/spirit-of-otterius.webp",
     element: "Water",
     affinity: 12,
     name: "Spirit of Otterius",
@@ -4965,7 +4950,7 @@ export const allCards = [
     number: "090/103",
   },
   {
-    image: "images/Ascension/SpiritOfSerpio.webp",
+    image: "images/Ascension/spirit-of-serpio.webp",
     element: "Dark",
     affinity: 12,
     name: "Spirit of Serpio",
@@ -4976,7 +4961,7 @@ export const allCards = [
     number: "091/103",
   },
   {
-    image: "images/Ascension/SpiritOfStrigra.webp",
+    image: "images/Ascension/spirit-of-strigra.webp",
     element: "Air",
     affinity: 10,
     name: "Spirit of Strigra",
@@ -4987,7 +4972,7 @@ export const allCards = [
     number: "092/103",
   },
   {
-    image: "images/Ascension/SpiritOfUrsatovis.webp",
+    image: "images/Ascension/spirit-of-ursatovis.webp",
     element: "Fire",
     affinity: 12,
     name: "Spirit of Ursatovis",
@@ -4998,7 +4983,7 @@ export const allCards = [
     number: "093/103",
   },
   {
-    image: "images/Ascension/TheGreatMagimaze.webp",
+    image: "images/Ascension/the-great-magimaze.webp",
     element: "Argent",
     cost: 3,
     name: "The Great Magimaze",
@@ -5009,7 +4994,7 @@ export const allCards = [
     number: "094/103",
   },
   {
-    image: "images/Ascension/ThroughDangersUntold.webp",
+    image: "images/Ascension/through-dangers-untold.webp",
     element: "Light",
     cost: 4,
     name: "Through Dangers Untold",
@@ -5020,7 +5005,7 @@ export const allCards = [
     number: "095/103",
   },
   {
-    image: "images/Ascension/UnitedEmpowerment.webp",
+    image: "images/Ascension/united-empowerment.webp",
     element: "Light",
     cost: 1,
     name: "United Empowerment",
@@ -5031,7 +5016,7 @@ export const allCards = [
     number: "096/103",
   },
   {
-    image: "images/Ascension/VeteranOfTheGildedHills.webp",
+    image: "images/Ascension/veteran-of-the-gilded-hills.webp",
     element: "Argent",
     cost: 3,
     power: 1500,
@@ -5044,7 +5029,7 @@ export const allCards = [
     number: "097/103",
   },
   {
-    image: "images/Ascension/VoidfireElemental.webp",
+    image: "images/Ascension/voidfire-elemental.webp",
     element: "Fire",
     cost: 4,
     power: 3500,
@@ -5057,7 +5042,7 @@ export const allCards = [
     number: "098/103",
   },
   {
-    image: "images/Ascension/WarriorOfSol.webp",
+    image: "images/Ascension/warrior-of-sol.webp",
     element: "Light",
     cost: 1,
     power: 500,
@@ -5069,7 +5054,7 @@ export const allCards = [
     number: "099/103",
   },
   {
-    image: "images/Ascension/WaterCelestialCrystal.webp",
+    image: "images/Ascension/water-celestial-crystal.webp",
     element: "Argent",
     cost: 1,
     name: "Water Celestial Crystal",
@@ -5080,7 +5065,7 @@ export const allCards = [
     number: "100/103",
   },
   {
-    image: "images/Ascension/WickedPact.webp",
+    image: "images/Ascension/wicked-pact.webp",
     element: "Dark",
     cost: 1,
     name: "Wicked Pact",
@@ -5091,7 +5076,7 @@ export const allCards = [
     number: "101/103",
   },
   {
-    image: "images/Ascension/WitchOfTheFuture.webp",
+    image: "images/Ascension/witch-of-the-future.webp",
     element: "Water",
     cost: 3,
     power: 2500,
@@ -5104,7 +5089,7 @@ export const allCards = [
     number: "102/103",
   },
   {
-    image: "images/Ascension/WitchQueensRing.webp",
+    image: "images/Ascension/witch-queens-ring.webp",
     element: "Water",
     cost: 1,
     name: "Witch Queen's Ring",
@@ -5116,16 +5101,265 @@ export const allCards = [
     number: "103/103",
   },
   {
-    image: "images/Ascension/BerserkerGolemToken.webp",
+    image: "images/Ascension/azure-seer.webp",
+    element: "Water",
+    cost: 1,
+    power: 1000,
+    name: "Azure Seer",
+    type: "Unit",
+    effect:
+      "Arrive - Look at the top card of your deck and place it back at the top or bottom of your deck.",
+    rarity: "Common",
+    number: "104/103",
+  },
+  {
+    image: "images/Ascension/corum-squire.webp",
+    element: "Light",
+    cost: 1,
+    power: 1000,
+    name: "Azure Seer",
+    type: "Unit",
+    subtype: "Knight",
+    effect:
+      'Ruined - Add one "Gear" with cost (1) or less from your deck to your hand.',
+    rarity: "Common",
+    number: "105/103",
+  },
+  {
+    image: "images/Ascension/deranged-dragon.webp",
+    element: "Fire",
+    cost: 1,
+    power: 1000,
+    name: "Deranged Dragon",
+    type: "Unit",
+    subtype: "Dragon",
+    effect: "This unit must attack each turn if able.",
+    rarity: "Common",
+    number: "106/103",
+  },
+  {
+    image: "images/Ascension/dusk-strike.webp",
     element: "Dark",
+    cost: 2,
+    name: "Dusk Strike",
+    type: "Spell",
+    effect:
+      "Instacast You can play this card only if you control a Dark unit. Target unit gets -2500 this turn.",
+    rarity: "Common",
+    number: "107/103",
+  },
+  {
+    image: "images/Ascension/golem-of-allurement.webp",
+    element: "Dark",
+    cost: 3,
+    power: 1500,
+    name: "Golem of Allurement",
+    type: "Unit",
+    subtype: "Golem",
+    effect:
+      "Arrive - Take control of target unit with cost (1) or less. It cannot attack this turn.",
+    rarity: "Common",
+    number: "108/103",
+  },
+  {
+    image: "images/Ascension/great-stormfish.webp",
+    element: "Water",
+    cost: 3,
+    power: 1500,
+    name: "Great Stormfish",
+    type: "Unit",
+    subtype: "Fish",
+    effect:
+      "Arrive - Exhaust target unit.\nRuined - Return target unit to the top of its owner's",
+    rarity: "Common",
+    number: "109/103",
+  },
+  {
+    image: "images/Ascension/juvenile-dragon.webp",
+    element: "Fire",
+    cost: 1,
+    power: 1000,
+    name: "Juvenile Dragon",
+    type: "Unit",
+    subtype: "Dragon",
+    effect:
+      "While you control two or more other Dragon units, this card has Quickness.",
+    rarity: "Common",
+    number: "110/103",
+  },
+  {
+    image: "images/Ascension/skyship-engineer.webp",
+    element: "Air",
+    cost: 1,
+    power: 1000,
+    name: "Skyship Engineer",
+    type: "Unit",
+    subtype: "Skyraider",
+    effect:
+      "Exhaust: Return this card to its owner's hand, and, if you do, your Airship units cost (1) less to play this turn.",
+    rarity: "Common",
+    number: "111/103",
+  },
+  {
+    image: "images/Ascension/skytree-sandship.webp",
+    element: "Air",
+    cost: 4,
+    power: 2000,
+    name: "Skytree Sandship",
+    type: "Unit",
+    subtype: "Airship",
+    effect:
+      "Arrive - Exhaust target unit.\nRuined - You can put target Skyraider unit with cost (2) or less from your discard zone into play.",
+    rarity: "Common",
+    number: "112/103",
+  },
+  {
+    image: "images/Ascension/standard-shardsword.webp",
+    element: "Light",
+    cost: 1,
+    name: "Standard Shardsword",
+    type: "Augment",
+    subtype: "Gear",
+    effect: "Equip to target unit.\nIt gets +500 and Target Attack.s",
+    rarity: "Common",
+    number: "113/103",
+  },
+  {
+    image: "images/Promos/fizzy-the-water-spirit.webp",
+    name: "Fizzy, the Water Spirit",
+    element: "water",
+    type: "Spirit",
+    affinity: 8,
+    rarity: "Promo",
+    effect:
+      "Once per turn, during your turn, Shard Drain 1: Draw one card.\n" +
+      "During your turn, Soulburst: Draw one card.",
+    number: "122",
+  },
+  {
+    image: "images/Promos/luna-the-dark-spirit.webp",
+    name: "Luna, the Dark Spirit",
+    element: "dark",
+    type: "Spirit",
+    affinity: 8,
+    rarity: "Promo",
+    effect:
+      "When you destroy a tower or unit in battle - Place one counter on this card.\n" +
+      "During your turn, remove three counters from this card: Your opponent discards one card.\n" +
+      "During your turn, Soulburst: Your opponent discards one card.",
+    number: "123",
+  },
+  {
+    image: "images/Promos/corona-the-fire-spirit.webp",
+    name: "Corona, the Fire Spirit",
+    element: "fire",
+    type: "Spirit",
+    affinity: 8,
+    rarity: "Promo",
+    effect:
+      "Once per turn, during your turn, discard one Fire unit from your hand: Deal 500 to target unit.\n" +
+      "During your turn,Soulburst: Target unit gains Quickness this turn.",
+    number: "124",
+  },
+  {
+    image: "images/Promos/sola-the-light-spirit.webp",
+    name: "Sola, the Light Spirit",
+    element: "light",
+    type: "Spirit",
+    affinity: 8,
+    rarity: "Promo",
+    effect:
+      "At the end of your turn - You can switch one of your exhausted units to active.\n" +
+      "Soulburst: Put into play a Knight unit token with Guardian (Unit * Knight/Light/2000).",
+    number: "125",
+  },
+  {
+    image: "images/Promos/kyte-the-air-spirit.webp",
+    name: "Kyte, the Air Spirit",
+    element: "air",
+    type: "Spirit",
+    affinity: 8,
+    rarity: "Promo",
+    effect:
+      "Once per turn, during your turn, discard one card: Return target Air unit you control to its owner's hand and, if you do, switch one of your exhausted shards to active.\n" +
+      "Soulburst: Return target unit with cost (3) or less to its owner's hand.",
+    number: "126",
+  },
+  {
+    image: "images/Promos/metaial-the-silver-king.webp",
+    name: "Metaial, the Silver King",
+    element: "Argent",
+    type: "Champion",
+    rarity: "Promo",
+    effect:
+      "Instead of drawing for your turn you may discard a card - If you do, search your deck for a Silver General unit and add it to your hand.Pay (1), place a Silver General unit from yourdiscard zone on the bottom of your deck: Draw a card.",
+    number: "127",
+  },
+  {
+    image: "images/Promos/carriermecha-kyari.webp",
+    name: "Carriermecha: Kyari",
+    element: "Argent",
+    cost: 0,
+    power: 500,
+    type: "Omega Unit",
+    subtype: "Mecha",
+    rarity: "Promo",
+    effect:
+      'Ω (Place on one of your Mecha units.)Exhaust: Choose one.* Search your deck for a "Shard-Mecha" unit and place it under this card.* Put into play as many "Shard-Mecha" units as possible that are under this card.',
+    number: "128",
+  },
+  {
+    image: "images/Promos/lloyd-traveler-of-worlds.webp",
+    name: "Lloyd, Traveler of Worlds",
+    element: "Argent",
+    cost: 4,
+    power: 2000,
+    type: "Unit",
+    subtype: "???",
+    rarity: "Promo",
+    effect:
+      "Arrive - You may place up to three target spells from your discard zone under this card.You may play spells under this card as if they were in your hand, if you do, expel them after they are played. If this card would leave field, expel all cards under it.",
+    number: "129",
+  },
+  {
+    image: "images/Promos/metaial-celestial-of-ruin.webp",
+    name: "Metaial, Celestial of Ruin",
+    element: "Argent",
+    cost: 8,
+    power: 6000,
+    type: "Unit",
+    subtype: "Celestial",
+    rarity: "Promo",
+    effect:
+      'This card costs (1) less to play for each Silver Army and/or Silver General unit you control.If your champion has "Metaial" in its name, this card gains the following abilities.Sacrifice a unit: This card gains Immortal this turn.Sacrifice two other units: Destroy target shard and target unit.Sacrifice three other units: Destroy up to two target towers.',
+    number: "130",
+  },
+  {
+    image: "images/Promos/raoyenna-the-vengeful-phoenix.webp",
+    element: "Fire",
+    cost: 5,
+    power: 3000,
+    name: "Raoyenna, the Vengeful Phoenix",
+    type: "Unit",
+    subtype: "Phoenix",
+    rarity: "Promo",
+    effect:
+      'Discard this card from your hand: Destroy target non-token unit you control, and if you do, deal 1500 to target unit your opponent controls.At the start of your draw phase, if this card is in your discard zone because of its own ability - You may expel this card. If you do, put into play a "Raoyenna" unit from your hand or discard zone.',
+    number: "162",
+  },
+  {
+    image: "images/Ascension/berserker-golem-token.webp",
+    element: "Dark",
+    cost: 0,
     power: 2000,
     name: "Berserker Golem Token",
     type: "Unit",
     subtype: "Golem",
   },
   {
-    image: "images/Ascension/BlobToken.webp",
+    image: "images/Ascension/blob-token.webp",
     element: "Argent",
+    cost: 0,
     power: 1000,
     name: "Blob Token",
     type: "Unit",
@@ -5133,16 +5367,18 @@ export const allCards = [
     effect: "Guardian",
   },
   {
-    image: "images/Ascension/ExperimentToken.webp",
+    image: "images/Ascension/experiment-token.webp",
     element: "Argent",
+    cost: 0,
     power: 1000,
     name: "Experiment Token",
     type: "Unit",
     subtype: "Experiment",
   },
   {
-    image: "images/Ascension/FireElementalToken.webp",
+    image: "images/Ascension/fire-elemental-token.webp",
     element: "Fire",
+    cost: 0,
     power: 1000,
     name: "Fire Elemental Token",
     type: "Unit",
@@ -5150,39 +5386,44 @@ export const allCards = [
     effect: "Ruined: Deal 500 to target unit.",
   },
   {
-    image: "images/Ascension/HulkingMechToken.webp",
+    image: "images/Ascension/hulking-mech-token.webp",
     element: "Argent",
+    cost: 0,
     power: 4000,
-    name: "Experiment Token",
+    name: "Hulking Mech Token",
     type: "Unit",
   },
   {
-    image: "images/Ascension/IllusionToken.webp",
+    image: "images/Ascension/illusion-token.webp",
     element: "Water",
+    cost: 0,
     power: 1000,
     name: "Illusion Token",
     type: "Unit",
     subtype: "Illusion",
   },
   {
-    image: "images/Ascension/KnightToken1000.webp",
+    image: "images/Ascension/knight-token-1000.webp",
     element: "Light",
+    cost: 0,
     power: 1000,
     name: "Knight Token",
     type: "Unit",
     subtype: "Knight",
   },
   {
-    image: "images/Ascension/KnightToken1500.webp",
+    image: "images/Ascension/knight-token-1500.webp",
     element: "Light",
+    cost: 0,
     power: 1500,
     name: "Knight Token",
     type: "Unit",
     subtype: "Knight",
   },
   {
-    image: "images/Ascension/KnightToken1500Guardian.webp",
+    image: "images/Ascension/knight-token-1500-guardian.webp",
     element: "Light",
+    cost: 0,
     power: 1500,
     name: "Knight Token",
     type: "Unit",
@@ -5190,8 +5431,9 @@ export const allCards = [
     effect: "Guardian",
   },
   {
-    image: "images/Ascension/MutationToken.webp",
+    image: "images/Ascension/mutation-token.webp",
     element: "Argent",
+    cost: 0,
     power: 500,
     name: "Mutation Token",
     type: "Unit",
@@ -5200,15 +5442,17 @@ export const allCards = [
       "Ruined - Search your deck for an Experiment unit and put it into play.",
   },
   {
-    image: "images/Ascension/RaoToken.webp",
+    image: "images/Ascension/rao-token.webp",
     element: "Fire",
+    cost: 0,
     power: 1000,
     name: "Rao Token",
     type: "Unit",
   },
   {
-    image: "images/Ascension/ScorpionToken.webp",
+    image: "images/Ascension/scorpion-token.webp",
     element: "Air",
+    cost: 0,
     power: 1000,
     name: "Scorpion Token",
     type: "Unit",
@@ -5216,23 +5460,26 @@ export const allCards = [
     effect: "Ruined - You may give target unit -1000 this turn.",
   },
   {
-    image: "images/Ascension/SentinelToken.webp",
+    image: "images/Ascension/sentinel-token.webp",
     element: "Argent",
+    cost: 0,
     power: 4000,
     name: "Sentinel Token",
     type: "Unit",
     effect: "Destroyer",
   },
   {
-    image: "images/Ascension/SulkingMechToken.webp",
+    image: "images/Ascension/sulking-mech-token.webp",
     element: "Argent",
+    cost: 0,
     power: 1000,
     name: "Sulking Mech Token",
     type: "Unit",
   },
   {
-    image: "images/Ascension/WaterElementalToken.webp",
+    image: "images/Ascension/water-elemental-token.webp",
     element: "Water",
+    cost: 0,
     power: 500,
     name: "Water Elemental Token",
     type: "Unit",
@@ -5240,16 +5487,18 @@ export const allCards = [
     effect: "Ruined - Return target unit to its owner's hand.",
   },
   {
-    image: "images/Ascension/WhelpToken.webp",
+    image: "images/Ascension/whelp-token.webp",
     element: "Argent",
+    cost: 0,
     power: 500,
     name: "Whelp Token",
     type: "Unit",
     subtype: "Dragon",
   },
   {
-    image: "images/Hokken/ArcticArbiter.webp",
+    image: "images/Hokken/arctic-arbiter.webp",
     element: "Water",
+    cost: 6,
     power: 4000,
     name: "Arctic Arbiter",
     type: "Unit",
@@ -5260,7 +5509,7 @@ export const allCards = [
     number: "001/136",
   },
   {
-    image: "images/Hokken/AstralOfHope.webp",
+    image: "images/Hokken/astral-of-hope.webp",
     element: "Light",
     cost: 4,
     power: 2500,
@@ -5273,7 +5522,7 @@ export const allCards = [
     number: "002/136",
   },
   {
-    image: "images/Hokken/AstralOfValor.webp",
+    image: "images/Hokken/astral-of-valor.webp",
     element: "Light",
     cost: 4,
     power: 2500,
@@ -5286,7 +5535,7 @@ export const allCards = [
     number: "003/136",
   },
   {
-    image: "images/Hokken/AstralicHerald.webp",
+    image: "images/Hokken/astralic-herald.webp",
     element: "Light",
     cost: 3,
     power: 2000,
@@ -5298,7 +5547,7 @@ export const allCards = [
     number: "004/136",
   },
   {
-    image: "images/Hokken/AstralicInvocation.webp",
+    image: "images/Hokken/astralic-invocation.webp",
     element: "Light",
     cost: 1,
     name: "Astralic Invocation",
@@ -5310,7 +5559,7 @@ export const allCards = [
     number: "005/136",
   },
   {
-    image: "images/Hokken/AstralicJudgment.webp",
+    image: "images/Hokken/astralic-judgment.webp",
     element: "Light",
     cost: 4,
     name: "Astralic Judgment",
@@ -5322,7 +5571,7 @@ export const allCards = [
     number: "006/136",
   },
   {
-    image: "images/Hokken/AstralicLaw.webp",
+    image: "images/Hokken/astralic-law.webp",
     element: "Light",
     cost: 1,
     name: "Astralic Law",
@@ -5334,7 +5583,7 @@ export const allCards = [
     number: "007/136",
   },
   {
-    image: "images/Hokken/AstralicRegalia.webp",
+    image: "images/Hokken/astralic-regalia.webp",
     element: "Light",
     cost: 1,
     name: "Astralic Regalia",
@@ -5346,7 +5595,7 @@ export const allCards = [
     number: "008/136",
   },
   {
-    image: "images/Hokken/AurelianUrsa.webp",
+    image: "images/Hokken/aurelian-ursa.webp",
     element: "Air",
     cost: 4,
     power: 2000,
@@ -5359,7 +5608,7 @@ export const allCards = [
     number: "009/136",
   },
   {
-    image: "images/Hokken/BeastkingsAwakening.webp",
+    image: "images/Hokken/beastkings-awakening.webp",
     element: "Air",
     cost: 3,
     name: "Beastking's Awakening",
@@ -5371,7 +5620,7 @@ export const allCards = [
     number: "010/136",
   },
   {
-    image: "images/Hokken/BlazingArbiter.webp",
+    image: "images/Hokken/blazing-arbiter.webp",
     element: "Fire",
     cost: 6,
     power: 4000,
@@ -5397,7 +5646,7 @@ export const allCards = [
     number: "012/136",
   },
   {
-    image: "images/Hokken/BrontaurianBambino.webp",
+    image: "images/Hokken/brontaurian-bambino.webp",
     element: "Fire",
     cost: 2,
     power: 1500,
@@ -5409,7 +5658,7 @@ export const allCards = [
     number: "013/136",
   },
   {
-    image: "images/Hokken/BrontaurianHerdmother.webp",
+    image: "images/Hokken/brontaurian-herdmother.webp",
     element: "Fire",
     cost: 6,
     power: 3500,
@@ -5422,7 +5671,7 @@ export const allCards = [
     number: "014/136",
   },
   {
-    image: "images/Hokken/CrushingBeast.webp",
+    image: "images/Hokken/crushing-beast.webp",
     element: "Air",
     cost: 3,
     power: 2000,
@@ -5435,7 +5684,7 @@ export const allCards = [
     number: "015/136",
   },
   {
-    image: "images/Hokken/CrushingElemental.webp",
+    image: "images/Hokken/crushing-elemental.webp",
     element: "Air",
     cost: 3,
     power: 1500,
@@ -5448,7 +5697,7 @@ export const allCards = [
     number: "016/136",
   },
   {
-    image: "images/Hokken/CultistOfTheForgottenOne.webp",
+    image: "images/Hokken/cultist-of-the-forgotten-one.webp",
     element: "Argent",
     cost: 3,
     power: 2000,
@@ -5460,7 +5709,7 @@ export const allCards = [
     number: "017/136",
   },
   {
-    image: "images/Hokken/DecayedArbiter.webp",
+    image: "images/Hokken/decayed-arbiter.webp",
     element: "Dark",
     cost: 6,
     power: 4000,
@@ -5486,7 +5735,7 @@ export const allCards = [
     number: "019/136",
   },
   {
-    image: "images/Hokken/DiscipleOfHope.webp",
+    image: "images/Hokken/disciple-of-hope.webp",
     element: "Light",
     cost: 2,
     power: 1000,
@@ -5499,7 +5748,7 @@ export const allCards = [
     number: "020/136",
   },
   {
-    image: "images/Hokken/DiscipleOfValor.webp",
+    image: "images/Hokken/disciple-of-valor.webp",
     element: "Light",
     cost: 2,
     power: 1000,
@@ -5512,7 +5761,7 @@ export const allCards = [
     number: "021/136",
   },
   {
-    image: "images/Hokken/DriftingDiplodocus.webp",
+    image: "images/Hokken/drifting-diplodocus.webp",
     element: "Air",
     cost: 6,
     power: 3500,
@@ -5525,7 +5774,7 @@ export const allCards = [
     number: "022/136",
   },
   {
-    image: "images/Hokken/ElemasterAurora.webp",
+    image: "images/Hokken/elemaster-aurora.webp",
     element: "Argent",
     cost: 2,
     power: 1500,
@@ -5538,7 +5787,7 @@ export const allCards = [
     number: "023/136",
   },
   {
-    image: "images/Hokken/ElemasterCinder.webp",
+    image: "images/Hokken/elemaster-cinder.webp",
     element: "Argent",
     cost: 2,
     power: 1500,
@@ -5551,7 +5800,7 @@ export const allCards = [
     number: "024/136",
   },
   {
-    image: "images/Hokken/ElemasterCoral.webp",
+    image: "images/Hokken/elemaster-coral.webp",
     element: "Argent",
     cost: 2,
     power: 1500,
@@ -5564,7 +5813,7 @@ export const allCards = [
     number: "025/136",
   },
   {
-    image: "images/Hokken/ElemasterSquall.webp",
+    image: "images/Hokken/elemaster-squall.webp",
     element: "Argent",
     cost: 2,
     power: 1500,
@@ -5577,7 +5826,7 @@ export const allCards = [
     number: "026/136",
   },
   {
-    image: "images/Hokken/ElemasterUmbra.webp",
+    image: "images/Hokken/elemaster-umbra.webp",
     element: "Argent",
     cost: 2,
     power: 1500,
@@ -5590,7 +5839,7 @@ export const allCards = [
     number: "027/136",
   },
   {
-    image: "images/Hokken/EmeraldElderStag.webp",
+    image: "images/Hokken/emerald-elder-stag.webp",
     element: "Air",
     cost: 5,
     power: 3000,
@@ -5603,7 +5852,7 @@ export const allCards = [
     number: "028/136",
   },
   {
-    image: "images/Hokken/EmeraldElderTreant.webp",
+    image: "images/Hokken/emerald-elder-treant.webp",
     element: "Air",
     cost: 5,
     power: 2500,
@@ -5616,7 +5865,7 @@ export const allCards = [
     number: "029/136",
   },
   {
-    image: "images/Hokken/EvaerieBurial.webp",
+    image: "images/Hokken/evaerie-burial.webp",
     element: "Dark",
     cost: 1,
     name: "Evaerie Burial",
@@ -5628,7 +5877,7 @@ export const allCards = [
     number: "030/136",
   },
   {
-    image: "images/Hokken/EvaerieChangeling.webp",
+    image: "images/Hokken/evaerie-changeling.webp",
     element: "Dark",
     cost: 2,
     power: 1000,
@@ -5641,7 +5890,7 @@ export const allCards = [
     number: "031/136",
   },
   {
-    image: "images/Hokken/EvaerieCourt.webp",
+    image: "images/Hokken/evaerie-court.webp",
     element: "Dark",
     cost: 2,
     name: "Evaerie Court",
@@ -5653,7 +5902,7 @@ export const allCards = [
     number: "032/136",
   },
   {
-    image: "images/Hokken/EvaerieCrone.webp",
+    image: "images/Hokken/evaerie-crone.webp",
     element: "Dark",
     cost: 2,
     power: 1500,
@@ -5666,7 +5915,7 @@ export const allCards = [
     number: "033/136",
   },
   {
-    image: "images/Hokken/EvaerieGlamour.webp",
+    image: "images/Hokken/evaerie-glamour.webp",
     element: "Dark",
     cost: 2,
     name: "Evaerie Glamour",
@@ -5678,7 +5927,7 @@ export const allCards = [
     number: "034/136",
   },
   {
-    image: "images/Hokken/EvaerieHorde.webp",
+    image: "images/Hokken/evaerie-horde.webp",
     element: "Dark",
     cost: 1,
     power: 500,
@@ -5691,7 +5940,7 @@ export const allCards = [
     number: "035/136",
   },
   {
-    image: "images/Hokken/EvaerieRogue.webp",
+    image: "images/Hokken/evaerie-rogue.webp",
     element: "Dark",
     cost: 1,
     power: 500,
@@ -5703,7 +5952,7 @@ export const allCards = [
     number: "036/136",
   },
   {
-    image: "images/Hokken/EvaerieThroneguard.webp",
+    image: "images/Hokken/evaerie-throneguard.webp",
     element: "Dark",
     cost: 1,
     power: 1000,
@@ -5716,7 +5965,7 @@ export const allCards = [
     number: "037/136",
   },
   {
-    image: "images/Hokken/EvvieMelanitesArchmagus.webp",
+    image: "images/Hokken/evvie-melanites-archmagus.webp",
     element: "Dark",
     cost: 3,
     power: 1500,
@@ -5729,7 +5978,7 @@ export const allCards = [
     number: "038/136",
   },
   {
-    image: "images/Hokken/FragmentOfTheForgottenOne.webp",
+    image: "images/Hokken/fragment-of-the-forgotten-one.webp",
     element: "Argent",
     cost: 5,
     power: 3000,
@@ -5742,7 +5991,7 @@ export const allCards = [
     number: "039/136",
   },
   {
-    image: "images/Hokken/GlacialShuriken.webp",
+    image: "images/Hokken/glacial-shuriken.webp",
     element: "Water",
     cost: 2,
     name: "Glacial Shuriken",
@@ -5754,7 +6003,7 @@ export const allCards = [
     number: "040/136",
   },
   {
-    image: "images/Hokken/HadirBoyOfTheSacredForest.webp",
+    image: "images/Hokken/hadir-boy-of-the-sacred-forest.webp",
     element: "Air",
     name: "Hadir, Boy of the Sacred Forest",
     type: "Champion",
@@ -5765,7 +6014,7 @@ export const allCards = [
     number: "041/136",
   },
   {
-    image: "images/Hokken/HandOfPengiro.webp",
+    image: "images/Hokken/hand-of-pengiro.webp",
     element: "Water",
     cost: 2,
     power: 1000,
@@ -5778,7 +6027,7 @@ export const allCards = [
     number: "042/136",
   },
   {
-    image: "images/Hokken/HarmonizationOfHope.webp",
+    image: "images/Hokken/harmonization-of-hope.webp",
     element: "Light",
     cost: 1,
     name: "Harmonization of Hope",
@@ -5790,7 +6039,7 @@ export const allCards = [
     number: "043/136",
   },
   {
-    image: "images/Hokken/HeraldOfTyrantus.webp",
+    image: "images/Hokken/herald-of-tyrantus.webp",
     element: "Fire",
     cost: 5,
     power: 3000,
@@ -5803,7 +6052,7 @@ export const allCards = [
     number: "044/136",
   },
   {
-    image: "images/Hokken/HerdmothersFormation.webp",
+    image: "images/Hokken/herdmothers-formation.webp",
     element: "Fire",
     cost: 3,
     name: "Herdmother's Formation",
@@ -5815,7 +6064,7 @@ export const allCards = [
     number: "045/136",
   },
   {
-    image: "images/Hokken/HokkenAdventurer.webp",
+    image: "images/Hokken/hokken-adventurer.webp",
     element: "Argent",
     cost: 2,
     power: 1000,
@@ -5828,7 +6077,7 @@ export const allCards = [
     number: "046/136",
   },
   {
-    image: "images/Hokken/HokkenArchaeologist.webp",
+    image: "images/Hokken/hokken-archaeologist.webp",
     element: "Argent",
     cost: 2,
     power: 1000,
@@ -5841,7 +6090,7 @@ export const allCards = [
     number: "047/136",
   },
   {
-    image: "images/Hokken/HokkenFighter.webp",
+    image: "images/Hokken/hokken-fighter.webp",
     element: "Argent",
     cost: 2,
     power: 1500,
@@ -5853,7 +6102,7 @@ export const allCards = [
     number: "048/136",
   },
   {
-    image: "images/Hokken/HokkenHare.webp",
+    image: "images/Hokken/hokken-hare.webp",
     element: "Argent",
     cost: 1,
     power: 500,
@@ -5866,7 +6115,7 @@ export const allCards = [
     number: "049/136",
   },
   {
-    image: "images/Hokken/HokkenMarket.webp",
+    image: "images/Hokken/hokken-market.webp",
     element: "Argent",
     cost: 2,
     name: "Hokken Market",
@@ -5877,7 +6126,7 @@ export const allCards = [
     number: "050/136",
   },
   {
-    image: "images/Hokken/HokkenSprite.webp",
+    image: "images/Hokken/hokken-sprite.webp",
     element: "Argent",
     cost: 1,
     power: 1000,
@@ -5889,7 +6138,7 @@ export const allCards = [
     number: "051/136",
   },
   {
-    image: "images/Hokken/HokkenTinkerersAlexAndAlex.webp",
+    image: "images/Hokken/hokken-tinkerers-alex-and-alex.webp",
     element: "Argent",
     cost: 4,
     power: 2500,
@@ -5902,7 +6151,7 @@ export const allCards = [
     number: "052/136",
   },
   {
-    image: "images/Hokken/HokkenWardingAmulet.webp",
+    image: "images/Hokken/hokken-warding-amulet.webp",
     element: "Argent",
     cost: 2,
     name: "Hokken Warding Amulet",
@@ -5914,7 +6163,7 @@ export const allCards = [
     number: "053/136",
   },
   {
-    image: "images/Hokken/HornedBrontaurian.webp",
+    image: "images/Hokken/horned-brontaurian.webp",
     element: "Fire",
     cost: 4,
     power: 3000,
@@ -5926,7 +6175,7 @@ export const allCards = [
     number: "054/136",
   },
   {
-    image: "images/Hokken/HuntOfTheNightriders.webp",
+    image: "images/Hokken/hunt-of-the-nightriders.webp",
     element: "Dark",
     cost: 2,
     name: "Hunt of the Nightriders",
@@ -5938,7 +6187,7 @@ export const allCards = [
     number: "055/136",
   },
   {
-    image: "images/Hokken/HyldiaAstralicSanctum.webp",
+    image: "images/Hokken/hyldia-astralic-sanctum.webp",
     element: "Light",
     cost: 2,
     name: "Hyldia, Astralic Sanctum",
@@ -5950,7 +6199,7 @@ export const allCards = [
     number: "056/136",
   },
   {
-    image: "images/Hokken/HyldianTrainee.webp",
+    image: "images/Hokken/hyldian-trainee.webp",
     element: "Light",
     cost: 1,
     power: 1000,
@@ -5962,7 +6211,7 @@ export const allCards = [
     number: "057/136",
   },
   {
-    image: "images/Hokken/IceBreathFirstFormCryostrike.webp",
+    image: "images/Hokken/ice-breath-first-form-cryostrike.webp",
     element: "Water",
     cost: 1,
     name: "Ice Breath First Form - Cyrostrike",
@@ -5974,7 +6223,7 @@ export const allCards = [
     number: "058/136",
   },
   {
-    image: "images/Hokken/IceBreathSecondFormCryostorm.webp",
+    image: "images/Hokken/ice-breath-second-form-cryostorm.webp",
     element: "Water",
     cost: 3,
     name: "Ice Breath Second Form - Cyrostorm",
@@ -5986,7 +6235,7 @@ export const allCards = [
     number: "059/136",
   },
   {
-    image: "images/Hokken/JurassticStrength.webp",
+    image: "images/Hokken/jurasstic-strength.webp",
     element: "Fire",
     cost: 1,
     name: "Jurassic Strength",
@@ -5998,7 +6247,7 @@ export const allCards = [
     number: "060/136",
   },
   {
-    image: "images/Hokken/JurassticSwipe.webp",
+    image: "images/Hokken/jurasstic-swipe.webp",
     element: "Fire",
     cost: 2,
     name: "Jurasstic Swipe",
@@ -6010,7 +6259,7 @@ export const allCards = [
     number: "061/136",
   },
   {
-    image: "images/Hokken/KongaSacredForestBeastking.webp",
+    image: "images/Hokken/konga-sacred-forest-beastking.webp",
     element: "Air",
     cost: 6,
     power: 3000,
@@ -6023,7 +6272,7 @@ export const allCards = [
     number: "062/136",
   },
   {
-    image: "images/Hokken/KumakoriPengardianTutelary.webp",
+    image: "images/Hokken/kumakori-pengardian-tutelary.webp",
     element: "Water",
     cost: 5,
     power: 3500,
@@ -6036,7 +6285,7 @@ export const allCards = [
     number: "063/136",
   },
   {
-    image: "images/Hokken/KumakorisTotem.webp",
+    image: "images/Hokken/kumakoris-totem.webp",
     element: "Water",
     cost: 1,
     name: "Kumakori's Totem",
@@ -6061,7 +6310,7 @@ export const allCards = [
     number: "065/136",
   },
   {
-    image: "images/Hokken/MabEvaerieDowager.webp",
+    image: "images/Hokken/mab-evaerie-dowager.webp",
     element: "Dark",
     cost: 4,
     power: 2500,
@@ -6074,7 +6323,7 @@ export const allCards = [
     number: "066/136",
   },
   {
-    image: "images/Hokken/MarrowSlurper.webp",
+    image: "images/Hokken/marrow-slurper.webp",
     element: "Argent",
     cost: 2,
     power: 1500,
@@ -6087,7 +6336,7 @@ export const allCards = [
     number: "067/136",
   },
   {
-    image: "images/Hokken/MelaniteEvaerieNightQueen.webp",
+    image: "images/Hokken/melanite-evaerie-night-queen.webp",
     element: "Dark",
     cost: 4,
     power: 2500,
@@ -6100,7 +6349,7 @@ export const allCards = [
     number: "068/136",
   },
   {
-    image: "images/Hokken/MelanitesEnvoy.webp",
+    image: "images/Hokken/melanites-envoy.webp",
     element: "Dark",
     cost: 2,
     power: 1000,
@@ -6113,7 +6362,7 @@ export const allCards = [
     number: "069/136",
   },
   {
-    image: "images/Hokken/MelantiesGaze.webp",
+    image: "images/Hokken/melanties-gaze.webp",
     element: "Dark",
     cost: 1,
     name: "Melantie's Gaze",
@@ -6125,7 +6374,7 @@ export const allCards = [
     number: "070/136",
   },
   {
-    image: "images/Hokken/MelanitesManipulation.webp",
+    image: "images/Hokken/melanites-manipulation.webp",
     element: "Dark",
     cost: 5,
     name: "Melanite's Manipulation",
@@ -6137,7 +6386,7 @@ export const allCards = [
     number: "071/136",
   },
   {
-    image: "images/Hokken/MezoziaThePrimalCaldera.webp",
+    image: "images/Hokken/mezozia-the-primal-caldera.webp",
     element: "Fire",
     cost: 2,
     name: "Mezozia, The Primal Caldera",
@@ -6149,7 +6398,7 @@ export const allCards = [
     number: "072/136",
   },
   {
-    image: "images/Hokken/MezozianHatchling.webp",
+    image: "images/Hokken/mezozian-hatchling.webp",
     element: "Fire",
     cost: 1,
     power: 500,
@@ -6161,7 +6410,7 @@ export const allCards = [
     number: "073/136",
   },
   {
-    image: "images/Hokken/MezozianOpteryx.webp",
+    image: "images/Hokken/mezozian-opteryx.webp",
     element: "Fire",
     cost: 5,
     power: 2500,
@@ -6174,7 +6423,7 @@ export const allCards = [
     number: "074/136",
   },
   {
-    image: "images/Hokken/MezozianRaptor.webp",
+    image: "images/Hokken/mezozian-raptor.webp",
     element: "Fire",
     cost: 3,
     power: 1500,
@@ -6187,7 +6436,7 @@ export const allCards = [
     number: "075/136",
   },
   {
-    image: "images/Hokken/NarrowEscape.webp",
+    image: "images/Hokken/narrow-escape.webp",
     element: "Air",
     cost: 0,
     name: "Narrow Escape",
@@ -6199,7 +6448,7 @@ export const allCards = [
     number: "076/136",
   },
   {
-    image: "images/Hokken/NeferiaTheQueensAssassin.webp",
+    image: "images/Hokken/neferia-the-queens-assassin.webp",
     element: "Dark",
     name: "Neferia, the Queen's Assassin",
     type: "Champion",
@@ -6210,7 +6459,7 @@ export const allCards = [
     number: "077/136",
   },
   {
-    image: "images/Hokken/NightriderEmmed.webp",
+    image: "images/Hokken/nightrider-emmed.webp",
     element: "Dark",
     cost: 3,
     power: 2000,
@@ -6223,7 +6472,7 @@ export const allCards = [
     number: "078/136",
   },
   {
-    image: "images/Hokken/NightriderEooch.webp",
+    image: "images/Hokken/nightrider-eooch.webp",
     element: "Dark",
     cost: 3,
     power: 2000,
@@ -6236,7 +6485,7 @@ export const allCards = [
     number: "079/136",
   },
   {
-    image: "images/Hokken/NightriderErren.webp",
+    image: "images/Hokken/nightrider-erren.webp",
     element: "Dark",
     cost: 3,
     power: 2000,
@@ -6249,7 +6498,7 @@ export const allCards = [
     number: "080/136",
   },
   {
-    image: "images/Hokken/ObstructionOfOria.webp",
+    image: "images/Hokken/obstruction-of-oria.webp",
     element: "Light",
     cost: 3,
     name: "Obstruction of Oria",
@@ -6261,7 +6510,7 @@ export const allCards = [
     number: "081/136",
   },
   {
-    image: "images/Hokken/OriaFragmentOfGenesis.webp",
+    image: "images/Hokken/oria-fragment-of-genesis.webp",
     element: "Light",
     cost: 6,
     power: 4000,
@@ -6274,7 +6523,7 @@ export const allCards = [
     number: "082/136",
   },
   {
-    image: "images/Hokken/PengardianLegendHanzo.webp",
+    image: "images/Hokken/pengardian-legend-hanzo.webp",
     element: "Water",
     name: "Pengardian Legend, Hanzo",
     type: "Champion",
@@ -6285,7 +6534,7 @@ export const allCards = [
     number: "083/136",
   },
   {
-    image: "images/Hokken/PengardianMystic.webp",
+    image: "images/Hokken/pengardian-mystic.webp",
     element: "Water",
     cost: 2,
     power: 1000,
@@ -6298,7 +6547,7 @@ export const allCards = [
     number: "084/136",
   },
   {
-    image: "images/Hokken/PengardianPupil.webp",
+    image: "images/Hokken/pengardian-pupil.webp",
     element: "Water",
     cost: 1,
     power: 1000,
@@ -6310,7 +6559,7 @@ export const allCards = [
     number: "085/136",
   },
   {
-    image: "images/Hokken/PengiroEmperorOfPengardia.webp",
+    image: "images/Hokken/pengiro-emperor-of-pengardia.webp",
     element: "Water",
     cost: 4,
     power: 2500,
@@ -6323,7 +6572,7 @@ export const allCards = [
     number: "086/136",
   },
   {
-    image: "images/Hokken/PengirosDecree.webp",
+    image: "images/Hokken/pengiros-decree.webp",
     element: "Water",
     cost: 3,
     name: "Pengiro's Decree",
@@ -6335,7 +6584,7 @@ export const allCards = [
     number: "087/136",
   },
   {
-    image: "images/Hokken/PengobiJoninMochizuki.webp",
+    image: "images/Hokken/pengobi-jonin-mochizuki.webp",
     element: "Water",
     cost: 4,
     power: 2000,
@@ -6348,7 +6597,7 @@ export const allCards = [
     number: "088/136",
   },
   {
-    image: "images/Hokken/PengobiKishu.webp",
+    image: "images/Hokken/pengobi-kishu.webp",
     element: "Water",
     cost: 3,
     power: 1500,
@@ -6361,7 +6610,7 @@ export const allCards = [
     number: "089/136",
   },
   {
-    image: "images/Hokken/PengobiKonran.webp",
+    image: "images/Hokken/pengobi-konran.webp",
     element: "Water",
     cost: 1,
     power: 500,
@@ -6374,7 +6623,7 @@ export const allCards = [
     number: "090/136",
   },
   {
-    image: "images/Hokken/PengushiDamiyoKenshin.webp",
+    image: "images/Hokken/pengushi-damiyo-kenshin.webp",
     element: "Water",
     cost: 3,
     power: 2000,
@@ -6387,7 +6636,7 @@ export const allCards = [
     number: "091/136",
   },
   {
-    image: "images/Hokken/PengushiKyudo.webp",
+    image: "images/Hokken/pengushi-kyudo.webp",
     element: "Water",
     cost: 2,
     power: 1500,
@@ -6400,7 +6649,7 @@ export const allCards = [
     number: "092/136",
   },
   {
-    image: "images/Hokken/PengushiRonin.webp",
+    image: "images/Hokken/pengushi-ronin.webp",
     element: "Water",
     cost: 1,
     power: 1000,
@@ -6413,7 +6662,7 @@ export const allCards = [
     number: "093/136",
   },
   {
-    image: "images/Hokken/PrimevalAcidMonger.webp",
+    image: "images/Hokken/primeval-acid-monger.webp",
     element: "Argent",
     cost: 2,
     power: 1500,
@@ -6426,7 +6675,7 @@ export const allCards = [
     number: "094/136",
   },
   {
-    image: "images/Hokken/PrimevalEgg.webp",
+    image: "images/Hokken/primeval-egg.webp",
     element: "Fire",
     cost: 1,
     power: 500,
@@ -6439,7 +6688,7 @@ export const allCards = [
     number: "095/136",
   },
   {
-    image: "images/Hokken/PrimevalRoar.webp",
+    image: "images/Hokken/primeval-roar.webp",
     element: "Fire",
     cost: 2,
     name: "Primeval Roar",
@@ -6451,7 +6700,7 @@ export const allCards = [
     number: "096/136",
   },
   {
-    image: "images/Hokken/PrimevalShockwave.webp",
+    image: "images/Hokken/primeval-shockwave.webp",
     element: "Fire",
     cost: 5,
     name: "Primeval Shockwave",
@@ -6463,7 +6712,7 @@ export const allCards = [
     number: "097/136",
   },
   {
-    image: "images/Hokken/ProphetOfHope.webp",
+    image: "images/Hokken/prophet-of-hope.webp",
     element: "Light",
     cost: 1,
     power: 500,
@@ -6476,7 +6725,7 @@ export const allCards = [
     number: "098/136",
   },
   {
-    image: "images/Hokken/ProphetOfValor.webp",
+    image: "images/Hokken/prophet-of-valor.webp",
     element: "Light",
     cost: 1,
     power: 500,
@@ -6489,7 +6738,7 @@ export const allCards = [
     number: "099/136",
   },
   {
-    image: "images/Hokken/RadiantArbiter.webp",
+    image: "images/Hokken/radiant-arbiter.webp",
     element: "Light",
     cost: 6,
     power: 4000,
@@ -6502,7 +6751,7 @@ export const allCards = [
     number: "100/136",
   },
   {
-    image: "images/Hokken/RavagingRhinoceros.webp",
+    image: "images/Hokken/ravaging-rhinoceros.webp",
     element: "Air",
     cost: 1,
     power: 1000,
@@ -6515,7 +6764,7 @@ export const allCards = [
     number: "101/136",
   },
   {
-    image: "images/Hokken/RennaFeralWarrior.webp",
+    image: "images/Hokken/renna-feral-warrior.webp",
     element: "Fire",
     name: "Renna, Feral Warrior",
     type: "Champion",
@@ -6526,7 +6775,7 @@ export const allCards = [
     number: "102/136",
   },
   {
-    image: "images/Hokken/RuinedReclamation.webp",
+    image: "images/Hokken/ruined-reclamation.webp",
     element: "Dark",
     cost: 1,
     name: "Ruined Reclamation",
@@ -6538,7 +6787,7 @@ export const allCards = [
     number: "103/136",
   },
   {
-    image: "images/Hokken/SavageArbiter.webp",
+    image: "images/Hokken/savage-arbiter.webp",
     element: "Air",
     cost: 6,
     power: 4000,
@@ -6551,7 +6800,7 @@ export const allCards = [
     number: "104/136",
   },
   {
-    image: "images/Hokken/SecretPengutsuGlacialClones.webp",
+    image: "images/Hokken/secret-pengutsu-glacial-clones.webp",
     element: "Water",
     cost: 2,
     name: "Secret Pengutsu: Glacial Clones",
@@ -6563,7 +6812,7 @@ export const allCards = [
     number: "105/136",
   },
   {
-    image: "images/Hokken/ShardworkAngel.webp",
+    image: "images/Hokken/shardwork-angel.webp",
     element: "Argent",
     cost: 3,
     power: 2500,
@@ -6576,7 +6825,7 @@ export const allCards = [
     number: "106/136",
   },
   {
-    image: "images/Hokken/ShardworkArbiter.webp",
+    image: "images/Hokken/shardwork-arbiter.webp",
     element: "Argent",
     cost: 6,
     power: 5000,
@@ -6589,7 +6838,7 @@ export const allCards = [
     number: "107/136",
   },
   {
-    image: "images/Hokken/ShardworkDragon.webp",
+    image: "images/Hokken/shardwork-dragon.webp",
     element: "Argent",
     cost: 2,
     power: 2000,
@@ -6602,7 +6851,7 @@ export const allCards = [
     number: "108/136",
   },
   {
-    image: "images/Hokken/ShardworkFactory.webp",
+    image: "images/Hokken/shardwork-factory.webp",
     element: "Argent",
     cost: 1,
     name: "Shadrwork Factory",
@@ -6614,7 +6863,7 @@ export const allCards = [
     number: "109/136",
   },
   {
-    image: "images/Hokken/ShardworkHeart.webp",
+    image: "images/Hokken/shardwork-heart.webp",
     element: "Argent",
     cost: 0,
     name: "Shadrwork Heart",
@@ -6626,7 +6875,7 @@ export const allCards = [
     number: "110/136",
   },
   {
-    image: "images/Hokken/ShardworkHound.webp",
+    image: "images/Hokken/shardwork-hound.webp",
     element: "Argent",
     cost: 1,
     power: "1500",
@@ -6639,7 +6888,7 @@ export const allCards = [
     number: "111/136",
   },
   {
-    image: "images/Hokken/ShardworkKnight.webp",
+    image: "images/Hokken/shardwork-knight.webp",
     element: "Argent",
     cost: 4,
     power: 3000,
@@ -6652,7 +6901,7 @@ export const allCards = [
     number: "112/136",
   },
   {
-    image: "images/Hokken/ShardworkTitan.webp",
+    image: "images/Hokken/shardwork-titan.webp",
     element: "Argent",
     cost: 5,
     power: 3500,
@@ -6665,7 +6914,7 @@ export const allCards = [
     number: "113/136",
   },
   {
-    image: "images/Hokken/SnowtopElemental.webp",
+    image: "images/Hokken/snowtop-elemental.webp",
     element: "Water",
     cost: 2,
     power: 1000,
@@ -6678,7 +6927,7 @@ export const allCards = [
     number: "114/136",
   },
   {
-    image: "images/Hokken/SnowtopHibagon.webp",
+    image: "images/Hokken/snowtop-hibagon.webp",
     element: "Water",
     cost: 3,
     power: 2000,
@@ -6691,7 +6940,7 @@ export const allCards = [
     number: "115/136",
   },
   {
-    image: "images/Hokken/SnowtopVillagePengardia.webp",
+    image: "images/Hokken/snowtop-village-pengardia.webp",
     element: "Water",
     cost: 2,
     name: "Snowtop Village, Pengardia",
@@ -6703,7 +6952,7 @@ export const allCards = [
     number: "116/136",
   },
   {
-    image: "images/Hokken/SoulSevering.webp",
+    image: "images/Hokken/soul-severing.webp",
     element: "Dark",
     cost: 1,
     name: "Soul Severing",
@@ -6715,7 +6964,7 @@ export const allCards = [
     number: "117/136",
   },
   {
-    image: "images/Hokken/TempleOfTheForgotten.webp",
+    image: "images/Hokken/temple-of-the-forgotten.webp",
     element: "Argent",
     cost: 1,
     name: "Temple of the Forgotten",
@@ -6740,7 +6989,7 @@ export const allCards = [
     number: "119/136",
   },
   {
-    image: "images/Hokken/TyrantusPrimevalRuler.webp",
+    image: "images/Hokken/tyrantus-primeval-ruler.webp",
     element: "Fire",
     cost: 10,
     power: 5000,
@@ -6753,7 +7002,7 @@ export const allCards = [
     number: "120/136",
   },
   {
-    image: "images/Hokken/VindicationOfValor.webp",
+    image: "images/Hokken/vindication-of-valor.webp",
     element: "Light",
     cost: 2,
     name: "Vindication of Valor",
@@ -6765,7 +7014,7 @@ export const allCards = [
     number: "121/136",
   },
   {
-    image: "images/Hokken/VoidfireShadow.webp",
+    image: "images/Hokken/voidfire-shadow.webp",
     element: "Fire",
     cost: 1,
     power: 1000,
@@ -6778,7 +7027,7 @@ export const allCards = [
     number: "122/136",
   },
   {
-    image: "images/Hokken/WarriorOfHope.webp",
+    image: "images/Hokken/warrior-of-hope.webp",
     element: "Light",
     cost: 2,
     power: 1500,
@@ -6790,7 +7039,7 @@ export const allCards = [
     number: "123/136",
   },
   {
-    image: "images/Hokken/WarriorOfValor.webp",
+    image: "images/Hokken/warrior-of-valor.webp",
     element: "Light",
     cost: 3,
     power: 3000,
@@ -6802,7 +7051,7 @@ export const allCards = [
     number: "124/136",
   },
   {
-    image: "images/Hokken/ZaneHeroOfHyldia.webp",
+    image: "images/Hokken/zane-hero-of-hyldia.webp",
     element: "Light",
     name: "Zane, Hero of Hyldia",
     type: "Champion",
@@ -6813,7 +7062,7 @@ export const allCards = [
     number: "125/136",
   },
   {
-    image: "images/Hokken/ZonamaTheSacredForest.webp",
+    image: "images/Hokken/zonama-the-sacred-forest.webp",
     element: "Air",
     cost: 4,
     name: "Zonama, the Sacred Forest",
@@ -6825,7 +7074,7 @@ export const allCards = [
     number: "126/136",
   },
   {
-    image: "images/Hokken/ZonamianAmbassador.webp",
+    image: "images/Hokken/zonamian-ambassador.webp",
     element: "Air",
     cost: 2,
     power: 1000,
@@ -6837,7 +7086,7 @@ export const allCards = [
     number: "127/136",
   },
   {
-    image: "images/Hokken/ZonamianBarrier.webp",
+    image: "images/Hokken/zonamian-barrier.webp",
     element: "Air",
     cost: 1,
     name: "Zonamian Barrier",
@@ -6849,7 +7098,7 @@ export const allCards = [
     number: "128/136",
   },
   {
-    image: "images/Hokken/ZonamianCritters.webp",
+    image: "images/Hokken/zonamian-critters.webp",
     element: "Air",
     cost: 1,
     power: 500,
@@ -6862,7 +7111,7 @@ export const allCards = [
     number: "129/136",
   },
   {
-    image: "images/Hokken/ZonamianDryad.webp",
+    image: "images/Hokken/zonamian-dryad.webp",
     element: "Air",
     cost: 1,
     power: 500,
@@ -6874,7 +7123,7 @@ export const allCards = [
     number: "130/136",
   },
   {
-    image: "images/Hokken/ZonamianLookout.webp",
+    image: "images/Hokken/zonamian-lookout.webp",
     element: "Air",
     cost: 2,
     power: 1500,
@@ -6887,7 +7136,7 @@ export const allCards = [
     number: "131/136",
   },
   {
-    image: "images/Hokken/ZonamianMending.webp",
+    image: "images/Hokken/zonamian-mending.webp",
     element: "Air",
     cost: 2,
     name: "Zonamian Mending",
@@ -6899,7 +7148,7 @@ export const allCards = [
     number: "132/136",
   },
   {
-    image: "images/Hokken/ZonamianMosslurker.webp",
+    image: "images/Hokken/zonamian-mosslurker.webp",
     element: "Air",
     cost: 4,
     power: 3000,
@@ -6911,7 +7160,7 @@ export const allCards = [
     number: "133/136",
   },
   {
-    image: "images/Hokken/ZonamianRage.webp",
+    image: "images/Hokken/zonamian-rage.webp",
     element: "Air",
     cost: 1,
     name: "Zonamian Rage",
@@ -6923,7 +7172,7 @@ export const allCards = [
     number: "134/136",
   },
   {
-    image: "images/Hokken/ZonamianStampede.webp",
+    image: "images/Hokken/zonamian-stampede.webp",
     element: "Air",
     cost: 2,
     name: "Zonamian Stampede",
@@ -6935,7 +7184,7 @@ export const allCards = [
     number: "135/136",
   },
   {
-    image: "images/Hokken/ZylaSpeakerOfHyldia.webp",
+    image: "images/Hokken/zyla-speaker-of-hyldia.webp",
     element: "Light",
     cost: 3,
     power: 1500,
@@ -7721,7 +7970,7 @@ export const allCards = [
     number: "116",
   },
   {
-    image: "images/Promos/giga_shard_beast.webp",
+    image: "images/Promos/giga-shardbeast.webp",
     name: "Giga-Shardbeast",
     element: "Argent",
     cost: 2,
